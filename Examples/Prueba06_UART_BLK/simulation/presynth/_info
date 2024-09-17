@@ -1,0 +1,439 @@
+m255
+K4
+z2
+!s11e vcom 2023.1 2023.01, Jan 24 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/simulation
+Eclock_enable_debouncing_button
+Z1 w1700067901
+Z2 DPx4 ieee 15 std_logic_arith 0 22 B[jVX6I8iRX2o6WYW0BB>3
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 o4hn5gYc0WVo72BSL@Ta50
+Z4 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z5 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 64
+R0
+Z6 8D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/hdl/clock_enable_debouncing_button.vhd
+Z7 FD:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/hdl/clock_enable_debouncing_button.vhd
+l0
+L22 1
+VP?9h>lJ4afKA2jGNQXB=M1
+!s100 8CN1LXOaQf@JeEd<m[O1T1
+Z8 OW;C;2023.1;77
+33
+Z9 !s110 1700155031
+!i10b 1
+Z10 !s108 1700155031.000000
+Z11 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/hdl/clock_enable_debouncing_button.vhd|
+Z12 !s107 D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/hdl/clock_enable_debouncing_button.vhd|
+!i113 1
+Z13 o-2008 -explicit -work presynth -O0
+Z14 tCvgOpt 0
+Abehavioral
+R2
+R3
+R4
+R5
+Z15 DEx4 work 30 clock_enable_debouncing_button 0 22 P?9h>lJ4afKA2jGNQXB=M1
+!i122 64
+l31
+L29 14
+V6YFbQzJag^5[27^?SK>3A0
+!s100 FVdU78gR8EUQJUziUCAa_1
+R8
+33
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Ecoreuart_c0
+Z16 w1700071100
+Z17 DPx12 coreuart_lib 36 coreuart_c0_coreuart_c0_0_components 0 22 o[U1dWND^2Rn=8Tj2Me1n3
+R4
+R5
+!i122 45
+R0
+Z18 8D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/COREUART_C0/COREUART_C0.vhd
+Z19 FD:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/COREUART_C0/COREUART_C0.vhd
+l0
+L35 1
+V`eb4]lb>fE]F<1J=YE5Y_3
+!s100 ZTgTFTP6647bc4mQnR67l2
+R8
+33
+Z20 !s110 1700154247
+!i10b 1
+Z21 !s108 1700154247.000000
+Z22 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/COREUART_C0/COREUART_C0.vhd|
+Z23 !s107 D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/COREUART_C0/COREUART_C0.vhd|
+!i113 1
+R13
+R14
+Artl
+R17
+R4
+R5
+DEx4 work 11 coreuart_c0 0 22 `eb4]lb>fE]F<1J=YE5Y_3
+!i122 45
+l120
+L64 111
+V`afU1nUKa9[JDg5nHBPl33
+!s100 8JiK;71ScX7CP^?AmW>6m1
+R8
+33
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R13
+R14
+Edebouncing_button_vhdl
+R1
+R4
+R5
+!i122 65
+R0
+Z24 8D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/hdl/Debouncing_Button_VHDL.vhd
+Z25 FD:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/hdl/Debouncing_Button_VHDL.vhd
+l0
+L21 1
+V=PeKM]QFMc@aMkXbfo^]n1
+!s100 @8[73LD=J1lm1<=iVfaik1
+R8
+33
+R9
+!i10b 1
+R10
+Z26 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/hdl/Debouncing_Button_VHDL.vhd|
+Z27 !s107 D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/hdl/Debouncing_Button_VHDL.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+Z28 DEx4 work 21 dff_debouncing_button 0 22 cK0c8d:JPXWLTZeo>NR;l0
+R2
+R3
+R15
+R4
+R5
+DEx4 work 22 debouncing_button_vhdl 0 22 =PeKM]QFMc@aMkXbfo^]n1
+!i122 65
+l31
+L28 32
+VACNbV8]z_Ead4kSH2Aji]0
+!s100 Cgk0KH08LHnSGV0@0z6fM1
+R8
+33
+R9
+!i10b 1
+R10
+R26
+R27
+!i113 1
+R13
+R14
+Edff_debouncing_button
+R1
+R4
+R5
+!i122 63
+R0
+Z29 8D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/hdl/DFF_Debouncing_Button.vhd
+Z30 FD:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/hdl/DFF_Debouncing_Button.vhd
+l0
+L4 1
+VcK0c8d:JPXWLTZeo>NR;l0
+!s100 ke?OEjUQEc4^ZR[eKde[f0
+R8
+33
+R9
+!i10b 1
+R10
+Z31 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/hdl/DFF_Debouncing_Button.vhd|
+Z32 !s107 D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/hdl/DFF_Debouncing_Button.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R4
+R5
+R28
+!i122 63
+l13
+L12 11
+VIjZid?5[_Rgcki=6Y[MgT1
+!s100 i4zfZi0HM>P73JK@eTgmO1
+R8
+33
+R9
+!i10b 1
+R10
+R31
+R32
+!i113 1
+R13
+R14
+Egpio_demo
+Z33 w1700154798
+R2
+R3
+R4
+R5
+!i122 67
+R0
+Z34 8D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/hdl/GPIO_Demo.vhd
+Z35 FD:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/hdl/GPIO_Demo.vhd
+l0
+L52 1
+V[O4jDnL;VJ6HT8OA[>O^a3
+!s100 YmHdH:Fi_6kA2j8`YfS;>1
+R8
+33
+Z36 !s110 1700155032
+!i10b 1
+Z37 !s108 1700155032.000000
+Z38 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/hdl/GPIO_Demo.vhd|
+Z39 !s107 D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/hdl/GPIO_Demo.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 9 gpio_demo 0 22 [O4jDnL;VJ6HT8OA[>O^a3
+!i122 67
+l199
+L60 252
+VZzOVC;PScF?igJE[94EdN0
+!s100 `8<W^DT1JhX0?nX?GS0J43
+R8
+33
+R36
+!i10b 1
+R37
+R38
+R39
+!i113 1
+R13
+R14
+Eosc_c0
+Z40 w1700067984
+R4
+R5
+!i122 69
+R0
+Z41 8D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/OSC_C0/OSC_C0.vhd
+Z42 FD:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/OSC_C0/OSC_C0.vhd
+l0
+L39 1
+V3A__zY`<TdHC7AFX7I]F@1
+!s100 OlV:X:SjCQRgT8DRYjgaD2
+R8
+33
+R36
+!i10b 1
+R37
+Z43 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/OSC_C0/OSC_C0.vhd|
+Z44 !s107 D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/OSC_C0/OSC_C0.vhd|
+!i113 1
+R13
+R14
+Artl
+R4
+R5
+DEx4 work 6 osc_c0 0 22 3A__zY`<TdHC7AFX7I]F@1
+!i122 69
+l78
+L49 57
+VUmb6gC@eOT0VeRV1Nn;AH0
+!s100 6XKz8IN[2cUV[G5VYQgHD0
+R8
+33
+R36
+!i10b 1
+R37
+R43
+R44
+!i113 1
+R13
+R14
+Eosc_c0_osc_c0_0_osc
+R40
+R4
+R5
+!i122 68
+R0
+Z45 8D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/OSC_C0/OSC_C0_0/OSC_C0_OSC_C0_0_OSC.vhd
+Z46 FD:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/OSC_C0/OSC_C0_0/OSC_C0_OSC_C0_0_OSC.vhd
+l0
+L8 1
+VC^5YcWNA`XKb1X1O>`LnV1
+!s100 ]be@Wgi24eMM@UG2i86UC3
+R8
+33
+R36
+!i10b 1
+R37
+Z47 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/OSC_C0/OSC_C0_0/OSC_C0_OSC_C0_0_OSC.vhd|
+Z48 !s107 D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/OSC_C0/OSC_C0_0/OSC_C0_OSC_C0_0_OSC.vhd|
+!i113 1
+R13
+R14
+Adef_arch
+R4
+R5
+DEx4 work 19 osc_c0_osc_c0_0_osc 0 22 C^5YcWNA`XKb1X1O>`LnV1
+!i122 68
+l45
+L21 42
+V]Pa6JJ`Y7MKRIY4dkPBS^2
+!s100 9nK?=fGARUnhY7cNBlaaM3
+R8
+33
+R36
+!i10b 1
+R37
+R47
+R48
+!i113 1
+R13
+R14
+Esend_uart_tb
+Z49 w1700155007
+R4
+R5
+!i122 71
+R0
+Z50 8D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/stimulus/Send_UART_TB.vhd
+Z51 FD:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/stimulus/Send_UART_TB.vhd
+l0
+L23 1
+V=ji_M?T[6_BO<WFIX^PMi3
+!s100 PUKcB:TlXTT8;0_HBS]E_2
+R8
+33
+Z52 !s110 1700155033
+!i10b 1
+Z53 !s108 1700155033.000000
+Z54 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/stimulus/Send_UART_TB.vhd|
+Z55 !s107 D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/stimulus/Send_UART_TB.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R4
+R5
+Z56 DEx4 work 12 send_uart_tb 0 22 =ji_M?T[6_BO<WFIX^PMi3
+!i122 71
+l47
+L26 58
+V;Kh6XU4>GMOmWa:cf47Zl3
+!s100 7=@_fhnEj4GZ<h8T0mmjT0
+R8
+33
+R52
+!i10b 1
+R53
+R54
+R55
+!i113 1
+R13
+R14
+Etop_send
+Z57 w1700154845
+R4
+R5
+!i122 70
+R0
+Z58 8D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/Top_SEND/Top_SEND.vhd
+Z59 FD:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/Top_SEND/Top_SEND.vhd
+l0
+L17 1
+V?<Hf`PN=9J`HI]kf]FF[W1
+!s100 m]61fC2V2;@lj@>Wh?Mo03
+R8
+33
+R36
+!i10b 1
+R37
+Z60 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/Top_SEND/Top_SEND.vhd|
+Z61 !s107 D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/Top_SEND/Top_SEND.vhd|
+!i113 1
+R13
+R14
+Artl
+R4
+R5
+DEx4 work 8 top_send 0 22 ?<Hf`PN=9J`HI]kf]FF[W1
+!i122 70
+l93
+L32 126
+VmG2OJe3h`ij]zX9oVV^Ed3
+!s100 ]Qz:MLCa;=2c:iOlVR1X21
+R8
+33
+R36
+!i10b 1
+R37
+R60
+R61
+!i113 1
+R13
+R14
+Euart_tx_ctrl
+Z62 w1700154569
+R2
+R3
+R4
+R5
+!i122 66
+R0
+Z63 8D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/hdl/UART_TX_CTRL.vhd
+Z64 FD:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/hdl/UART_TX_CTRL.vhd
+l0
+L42 1
+VbA4nhLUNXMZ]kHlO0[]?o1
+!s100 _8UjQY82o8:dmCKBdNWS@2
+R8
+33
+R36
+!i10b 1
+R10
+Z65 !s90 -reportprogress|300|-2008|-explicit|-work|presynth|D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/hdl/UART_TX_CTRL.vhd|
+Z66 !s107 D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/hdl/UART_TX_CTRL.vhd|
+!i113 1
+R13
+R14
+Abehavioral
+R2
+R3
+R4
+R5
+DEx4 work 12 uart_tx_ctrl 0 22 bA4nhLUNXMZ]kHlO0[]?o1
+!i122 66
+l76
+L50 107
+V>z]I[?laV27e<3UEYOcB;1
+!s100 zBE?9iFTh;M[3UoaUYao^2
+R8
+33
+R36
+!i10b 1
+R10
+R65
+R66
+!i113 1
+R13
+R14

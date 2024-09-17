@@ -1,0 +1,16 @@
+Project Name: Prueba06_UART
+Location: D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART
+Description: 
+Preferred HDL Type: VHDL
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : M2S010-1VF256
+Family         : SmartFusion2
+Die            : M2S010
+Package        : 256 VF
+Speed          : -1
+Core Voltage   : 1.2
+Range          : COM

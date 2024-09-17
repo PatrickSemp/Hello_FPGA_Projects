@@ -1,0 +1,388 @@
+m255
+K4
+z2
+!s11e vcom 2023.1 2023.01, Jan 24 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/simulation
+Ecoreuart_c0_coreuart_c0_0_clock_gen
+Z1 w1700071100
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 o4hn5gYc0WVo72BSL@Ta50
+Z3 DPx4 ieee 15 std_logic_arith 0 22 B[jVX6I8iRX2o6WYW0BB>3
+Z4 DPx3 std 6 textio 0 22 LS[?81n5ZHWBI9JkBZTV<2
+Z5 DPx4 ieee 14 std_logic_1164 0 22 6<US`=mgl_dFdCEFF7J=m1
+!i122 37
+R0
+Z6 8D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd
+Z7 FD:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd
+l0
+L35 1
+VGX@Z80<XX;fVD]QaHKlOf2
+!s100 4@ofEWZ400TAen7MY>cGo1
+Z8 OW;C;2023.1;77
+33
+Z9 !s110 1700154246
+!i10b 1
+Z10 !s108 1700154246.000000
+Z11 !s90 -reportprogress|300|-2008|-explicit|-work|COREUART_LIB|D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd|
+Z12 !s107 D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd|
+!i113 1
+Z13 o-2008 -explicit -work COREUART_LIB -O0
+Z14 tCvgOpt 0
+Artl
+R2
+R3
+R4
+R5
+DEx4 work 35 coreuart_c0_coreuart_c0_0_clock_gen 0 22 GX@Z80<XX;fVD]QaHKlOf2
+!i122 37
+l58
+L47 221
+VINUmCzQkYn0d^Xa`kj<a53
+!s100 Cg2d8lzYzMh76UXBDC<n<2
+R8
+33
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Pcoreuart_c0_coreuart_c0_0_components
+R4
+R5
+!i122 44
+R1
+R0
+8D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/components.vhd
+FD:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/components.vhd
+l0
+L5 50
+Vo[U1dWND^2Rn=8Tj2Me1n3
+!s100 2<U:4VmMZ5I>bDO8cClo20
+R8
+33
+Z15 !s110 1700155033
+!i10b 1
+!s108 1700155032.000000
+!s90 -reportprogress|300|-2008|-explicit|-work|COREUART_LIB|D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/components.vhd|
+!s107 D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/components.vhd|
+!i113 1
+R13
+R14
+Ecoreuart_c0_coreuart_c0_0_coreuart
+R1
+Z16 DPx4 work 38 coreuart_c0_coreuart_c0_0_coreuart_pkg 0 22 eMMee7WzfIMeBJa3O4F_Q2
+R2
+R3
+R4
+R5
+!i122 40
+R0
+Z17 8D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd
+Z18 FD:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd
+l0
+L34 1
+VUkHlY;maR[_Fm5mbWMb>e1
+!s100 3YfnK9>k5H[Kl^OLR]^1>0
+R8
+33
+Z19 !s110 1700154247
+!i10b 1
+R10
+Z20 !s90 -reportprogress|300|-2008|-explicit|-work|COREUART_LIB|D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd|
+Z21 !s107 D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd|
+!i113 1
+R13
+R14
+Atranslated
+R16
+R2
+R3
+R4
+R5
+DEx4 work 34 coreuart_c0_coreuart_c0_0_coreuart 0 22 UkHlY;maR[_Fm5mbWMb>e1
+!i122 40
+l224
+L67 502
+VU:JIHlQ0S4Fc`m:?4FClE0
+!s100 Y;e3CCHfEg:bA4WNgYBiC3
+R8
+33
+R19
+!i10b 1
+R10
+R20
+R21
+!i113 1
+R13
+R14
+Pcoreuart_c0_coreuart_c0_0_coreuart_pkg
+!i122 45
+R1
+R0
+Z22 8D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/coreuart_pkg.vhd
+Z23 FD:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/coreuart_pkg.vhd
+l0
+L1 3
+VeMMee7WzfIMeBJa3O4F_Q2
+!s100 7X>`B3KPco;GYNFn1Y?jE1
+R8
+33
+b1
+R15
+!i10b 1
+Z24 !s108 1700155033.000000
+Z25 !s90 -reportprogress|300|-2008|-explicit|-work|COREUART_LIB|D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/coreuart_pkg.vhd|
+Z26 !s107 D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/coreuart_pkg.vhd|
+!i113 1
+R13
+R14
+Bbody
+R16
+!i122 45
+l0
+Z27 L5 14
+Z28 VG]H?:YDA2YcU:9eLTaE4A3
+Z29 !s100 f2<fXnXWG2o`1^<U;X9hY0
+R8
+33
+R15
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R13
+R14
+Ecoreuart_c0_coreuart_c0_0_fifo_256x8
+R1
+R2
+R3
+R4
+R5
+!i122 36
+R0
+Z30 8D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/fifo_256x8.vhd
+Z31 FD:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/fifo_256x8.vhd
+l0
+Z32 L33 1
+V4jU16dEXT_5YJ6J=Hc6971
+!s100 Eh8cZl2bEgSbEgPeP]WK<3
+R8
+33
+Z33 !s110 1700154245
+!i10b 1
+Z34 !s108 1700154245.000000
+Z35 !s90 -reportprogress|300|-2008|-explicit|-work|COREUART_LIB|D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/fifo_256x8.vhd|
+Z36 !s107 D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/fifo_256x8.vhd|
+!i113 1
+R13
+R14
+Atranslated
+R2
+R3
+R4
+R5
+DEx4 work 36 coreuart_c0_coreuart_c0_0_fifo_256x8 0 22 4jU16dEXT_5YJ6J=Hc6971
+!i122 36
+l78
+L47 52
+V4im=FjBGanGJ[CO_oSBUO3
+!s100 3`4XDa9A8jdTkbE`37BdF2
+R8
+33
+R33
+!i10b 1
+R34
+R35
+R36
+!i113 1
+R13
+R14
+Ecoreuart_c0_coreuart_c0_0_fifo_ctrl_256
+R1
+R2
+R3
+R4
+R5
+!i122 36
+R0
+R30
+R31
+l0
+L121 1
+VZzWV_`YAAjDL[ZY4ePFJ]2
+!s100 _6QF6cD8k=j42i3Vf0]LF3
+R8
+33
+R33
+!i10b 1
+R34
+R35
+R36
+!i113 1
+R13
+R14
+Atranslated
+R2
+R3
+R4
+R5
+DEx4 work 39 coreuart_c0_coreuart_c0_0_fifo_ctrl_256 0 22 ZzWV_`YAAjDL[ZY4ePFJ]2
+!i122 36
+l193
+L144 166
+VBFa9B@RAPRM;e9CH6J6IZ0
+!s100 H0iiaUNJ;5690W]31<]cD2
+R8
+33
+R33
+!i10b 1
+R34
+R35
+R36
+!i113 1
+R13
+R14
+Ecoreuart_c0_coreuart_c0_0_ram16x8
+R1
+R2
+R3
+R4
+R5
+!i122 36
+R0
+R30
+R31
+l0
+L316 1
+V0fA_QMCo_z]8gUC6KRC?23
+!s100 a8oYzMogfeWdAf9lNdbUR0
+R8
+33
+R33
+!i10b 1
+R34
+R35
+R36
+!i113 1
+R13
+R14
+Atranslated
+R2
+R3
+R4
+R5
+DEx4 work 33 coreuart_c0_coreuart_c0_0_ram16x8 0 22 0fA_QMCo_z]8gUC6KRC?23
+!i122 36
+l360
+L337 53
+VTfzihe@^7i4gaX1lUGcLB3
+!s100 0?TcgP:KikcfnT@ia6US?3
+R8
+33
+R33
+!i10b 1
+R34
+R35
+R36
+!i113 1
+R13
+R14
+Ecoreuart_c0_coreuart_c0_0_rx_async
+R1
+R2
+R3
+R4
+R5
+!i122 35
+R0
+Z37 8D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd
+Z38 FD:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd
+l0
+R32
+VD10I[iePOa_>AFC6MMEY60
+!s100 2I<FTH=0E1YOCD@3e1jKb0
+R8
+33
+R33
+!i10b 1
+R34
+Z39 !s90 -reportprogress|300|-2008|-explicit|-work|COREUART_LIB|D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd|
+Z40 !s107 D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd|
+!i113 1
+R13
+R14
+Atranslated
+R2
+R3
+R4
+R5
+DEx4 work 34 coreuart_c0_coreuart_c0_0_rx_async 0 22 D10I[iePOa_>AFC6MMEY60
+!i122 35
+l97
+L61 451
+V6[I4Qi3[=DYJQi;Q7b^`11
+!s100 jPZm`:FHGKB50aXoMBgj83
+R8
+33
+R33
+!i10b 1
+R34
+R39
+R40
+!i113 1
+R13
+R14
+Ecoreuart_c0_coreuart_c0_0_tx_async
+R1
+R2
+R3
+R4
+R5
+!i122 38
+R0
+Z41 8D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd
+Z42 FD:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd
+l0
+R32
+VLMogOBlBX@mV5V4SJLJP53
+!s100 5ac]ez4<Y4BXfQ[l`o1=g3
+R8
+33
+R9
+!i10b 1
+R10
+Z43 !s90 -reportprogress|300|-2008|-explicit|-work|COREUART_LIB|D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd|
+Z44 !s107 D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd|
+!i113 1
+R13
+R14
+Atranslated
+R2
+R3
+R4
+R5
+DEx4 work 34 coreuart_c0_coreuart_c0_0_tx_async 0 22 LMogOBlBX@mV5V4SJLJP53
+!i122 38
+l95
+L56 267
+V_7kL`m07cihhe88A5VObn3
+!s100 0O]]_XTIE8YYJ`Q3HIDTe1
+R8
+33
+R9
+!i10b 1
+R10
+R43
+R44
+!i113 1
+R13
+R14

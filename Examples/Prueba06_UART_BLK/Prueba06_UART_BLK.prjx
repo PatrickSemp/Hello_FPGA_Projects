@@ -1,0 +1,580 @@
+KEY LIBERO "2023.2"
+KEY CAPTURE "2023.2.0.8"
+KEY DEFAULT_IMPORT_LOC "C:\Actelprj\A3P_Verilog_labs\lab2"
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VHDL"
+KEY VERILOGMODE "SYSTEMVERILOG"
+KEY VHDLMODE "VHDL2008"
+KEY SYSTEMVERILOGMFCU "FALSE"
+KEY UseConstraintFlowTechnology "TRUE"
+KEY VendorTechnology_Family "SmartFusion2"
+KEY VendorTechnology_Die "PA4M1000_N"
+KEY VendorTechnology_Package "vf256"
+KEY VendorTechnology_Speed "-1"
+KEY VendorTechnology_DieVoltage "1.2"
+KEY VendorTechnology_PART_RANGE "COM"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE "100_MS"
+KEY VendorTechnology_IO_DEFT_STD "LVCMOS25"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY "PLL_SUPPLY_25"
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE "0"
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "PA4M1000_N"
+KEY VendorTechnology_TEMPR "COM"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.2_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_1.8_VOLTR "COM"
+KEY VendorTechnology_VCCI_2.5_VOLTR "COM"
+KEY VendorTechnology_VCCI_3.3_VOLTR "COM"
+KEY VendorTechnology_VOLTR "COM"
+KEY ProjectLocation "D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK"
+KEY ProjectDescription "SPI4.2"
+KEY UseRootLocationForLinkedFiles "FALSE"
+KEY RootLocationENVForLinkedFiles ""
+KEY RootLocationForLinkedFiles ""
+KEY GlobalIncludePaths ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY MemoryMapDrcSeverity "FALSE"
+KEY LossOfDataDRCSeverity "TRUE"
+KEY IdWidthMismatchDRCSeverity "TRUE"
+KEY SimulationType "VHDL"
+KEY Vendor "Actel"
+KEY ActiveRoot "Top_SEND::work"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST LIBRARIES
+COREUART_LIB
+ENDLIST
+LIST LIBRARY_COREUART_LIB
+ALIAS=COREUART_LIB
+COMPILE_OPTION=COMPILE
+CUSTOMPATH=false
+ENDLIST
+LIST GlobalIncludeFileList
+ENDLIST
+LIST FileManager
+VALUE "<project>\component\Actel\DirectCore\COREUART\5.7.100\COREUART.cxf,actgen_cxf"
+STATE="utd"
+TIME="1700071100"
+SIZE="994"
+PARENT="<project>\component\work\COREUART_C0\COREUART_C0.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREUART\5.7.100\rtl\vhdl\test\common\misc.vhd,tb_hdl"
+STATE="utd"
+TIME="1699456986"
+SIZE="13504"
+LIBRARY="COREUART_LIB"
+PARENT="<project>\component\Actel\DirectCore\COREUART\5.7.100\COREUART.cxf"
+PARENT="<project>\component\work\COREUART_C0\COREUART_C0_0\COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREUART\5.7.100\rtl\vhdl\test\common\tbpack.vhd,tb_hdl"
+STATE="utd"
+TIME="1699456986"
+SIZE="17606"
+LIBRARY="COREUART_LIB"
+PARENT="<project>\component\Actel\DirectCore\COREUART\5.7.100\COREUART.cxf"
+PARENT="<project>\component\work\COREUART_C0\COREUART_C0_0\COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREUART\5.7.100\rtl\vhdl\test\common\textio.vhd,tb_hdl"
+STATE="utd"
+TIME="1699456986"
+SIZE="24120"
+LIBRARY="COREUART_LIB"
+PARENT="<project>\component\Actel\DirectCore\COREUART\5.7.100\COREUART.cxf"
+PARENT="<project>\component\work\COREUART_C0\COREUART_C0_0\COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\OSC\2.0.101\OSC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1700067984"
+SIZE="682"
+PARENT="<project>\component\work\OSC_C0\OSC_C0.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd,hdl"
+STATE="utd"
+TIME="1699569127"
+SIZE="2164"
+PARENT="<project>\component\Actel\SgCore\OSC\2.0.101\OSC.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="SYNPLIFY7_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\SgCore\OSC\2.0.101\osc_comps_pre.vhd,hdl"
+STATE="utd"
+TIME="1699569127"
+SIZE="2108"
+PARENT="<project>\component\Actel\SgCore\OSC\2.0.101\OSC.cxf"
+BEGIN_USE_CONSTRAINT
+TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
+TOOL_CONSTRAINT_USE="PRECISION_EXT"
+END_USE_CONSTRAINT
+USE_FOR_ANY_TOOL="FALSE"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1700071101"
+SIZE="5033"
+ENDFILE
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0.vhd,hdl"
+STATE="utd"
+TIME="1700071100"
+SIZE="7078"
+PARENT="<project>\component\work\COREUART_C0\COREUART_C0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0_0\coreparameters.vhd,tb_hdl"
+STATE="utd"
+TIME="1700071100"
+SIZE="761"
+LIBRARY="COREUART_LIB"
+PARENT="<project>\component\work\COREUART_C0\COREUART_C0_0\COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0_0\COREUART_C0_COREUART_C0_0_COREUART.cxf,actgen_cxf"
+STATE="utd"
+TIME="1700071100"
+SIZE="3064"
+PARENT="<project>\component\work\COREUART_C0\COREUART_C0.cxf"
+ENDFILE
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0_0\mti\scripts\wave_vhdl.do,do"
+STATE="utd"
+TIME="1700071100"
+SIZE="651"
+PARENT="<project>\component\work\COREUART_C0\COREUART_C0_0\COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\Clock_gen.vhd,hdl"
+STATE="utd"
+TIME="1700071100"
+SIZE="12912"
+LIBRARY="COREUART_LIB"
+PARENT="<project>\component\work\COREUART_C0\COREUART_C0_0\COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\components.vhd,hdl"
+STATE="utd"
+TIME="1700071100"
+SIZE="2731"
+LIBRARY="COREUART_LIB"
+PARENT="<project>\component\work\COREUART_C0\COREUART_C0_0\COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\CoreUART.vhd,hdl"
+STATE="utd"
+TIME="1700071100"
+SIZE="22388"
+LIBRARY="COREUART_LIB"
+PARENT="<project>\component\work\COREUART_C0\COREUART_C0_0\COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\coreuart_pkg.vhd,hdl"
+STATE="utd"
+TIME="1700071100"
+SIZE="519"
+LIBRARY="COREUART_LIB"
+PARENT="<project>\component\work\COREUART_C0\COREUART_C0_0\COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\fifo_256x8.vhd,hdl"
+STATE="utd"
+TIME="1700071100"
+SIZE="15147"
+LIBRARY="COREUART_LIB"
+PARENT="<project>\component\work\COREUART_C0\COREUART_C0_0\COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\Rx_async.vhd,hdl"
+STATE="utd"
+TIME="1700071100"
+SIZE="21576"
+LIBRARY="COREUART_LIB"
+PARENT="<project>\component\work\COREUART_C0\COREUART_C0_0\COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\Tx_async.vhd,hdl"
+STATE="utd"
+TIME="1700071100"
+SIZE="11219"
+LIBRARY="COREUART_LIB"
+PARENT="<project>\component\work\COREUART_C0\COREUART_C0_0\COREUART_C0_COREUART_C0_0_COREUART.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\test\user\testbnch.vhd,tb_hdl"
+STATE="utd"
+TIME="1700071100"
+SIZE="23663"
+LIBRARY="COREUART_LIB"
+PARENT="<project>\component\work\COREUART_C0\COREUART_C0_0\COREUART_C0_COREUART_C0_0_COREUART.cxf"
+MODULE_UNDER_TEST="testbnch"
+SIMULATION_TIME="-all"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\OSC_C0\OSC_C0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1700067984"
+SIZE="2517"
+ENDFILE
+VALUE "<project>\component\work\OSC_C0\OSC_C0.vhd,hdl"
+STATE="utd"
+TIME="1700067984"
+SIZE="4151"
+PARENT="<project>\component\work\OSC_C0\OSC_C0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.cxf,actgen_cxf"
+STATE="utd"
+TIME="1700067984"
+SIZE="460"
+PARENT="<project>\component\work\OSC_C0\OSC_C0.cxf"
+ENDFILE
+VALUE "<project>\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.vhd,hdl"
+STATE="utd"
+TIME="1700067984"
+SIZE="1526"
+PARENT="<project>\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\Top_SEND\Top_SEND.cxf,actgen_cxf"
+STATE="utd"
+TIME="1715319035"
+SIZE="2377"
+ENDFILE
+VALUE "<project>\component\work\Top_SEND\Top_SEND.vhd,hdl"
+STATE="utd"
+TIME="1715319034"
+SIZE="5050"
+PARENT="<project>\component\work\Top_SEND\Top_SEND.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\constraint\io\user.pdc,io_pdc"
+STATE="utd"
+TIME="1700156288"
+SIZE="1232"
+IS_TARGET="TRUE"
+ENDFILE
+VALUE "<project>\constraint\Top_SEND_vm.sdc,sdc"
+STATE="utd"
+TIME="1700089242"
+SIZE="808"
+ENDFILE
+VALUE "<project>\hdl\clock_enable_debouncing_button.vhd,hdl"
+STATE="utd"
+TIME="1700067901"
+SIZE="1334"
+ENDFILE
+VALUE "<project>\hdl\Debouncing_Button_VHDL.vhd,hdl"
+STATE="utd"
+TIME="1700067901"
+SIZE="1673"
+ENDFILE
+VALUE "<project>\hdl\DFF_Debouncing_Button.vhd,hdl"
+STATE="utd"
+TIME="1700067901"
+SIZE="441"
+ENDFILE
+VALUE "<project>\hdl\GPIO_Demo.vhd,hdl"
+STATE="utd"
+TIME="1715319377"
+SIZE="11731"
+ENDFILE
+VALUE "<project>\hdl\UART_TX_CTRL.vhd,hdl"
+STATE="utd"
+TIME="1715319333"
+SIZE="4749"
+ENDFILE
+VALUE "<project>\simulation\run.do,do"
+STATE="utd"
+TIME="1700155018"
+SIZE="1787"
+ENDFILE
+VALUE "<project>\simulation\subsystem.bfm,sim"
+STATE="utd"
+TIME="1700155018"
+SIZE="233"
+ENDFILE
+VALUE "<project>\stimulus\Send_UART_TB.vhd,tb_hdl"
+STATE="utd"
+TIME="1700155007"
+SIZE="1904"
+ENDFILE
+VALUE "<project>\synthesis\Top_SEND.so,so"
+STATE="utd"
+TIME="1715622264"
+SIZE="257"
+ENDFILE
+VALUE "<project>\synthesis\Top_SEND.vm,syn_vm"
+STATE="utd"
+TIME="1715622263"
+SIZE="131549"
+ENDFILE
+VALUE "<project>\synthesis\Top_SEND_syn.prj,prj"
+STATE="utd"
+TIME="1715622264"
+SIZE="3643"
+ENDFILE
+VALUE "<project>\synthesis\Top_SEND_vm.sdc,syn_sdc"
+STATE="utd"
+TIME="1715622263"
+SIZE="921"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+LIST "Top_SEND::work"
+FILE "<project>\component\work\Top_SEND\Top_SEND.vhd,hdl"
+LIST AssociatedStimulus
+VALUE "<project>\stimulus\Send_UART_TB.vhd,tb_hdl"
+ENDLIST
+LIST PNRConstraints
+VALUE "<project>\constraint\io\user.pdc,io_pdc"
+ENDLIST
+LIST ProjectState5.1
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+ENDLIST
+LIST AssociatedStimulus
+LIST Top_SEND
+VALUE "<project>\stimulus\Send_UART_TB.vhd,tb_hdl"
+ENDLIST
+ENDLIST
+LIST Other_Association
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=false
+Type=max
+RunTime=1000ns
+Resolution=1fs
+VsimOpt=
+EntityName=Send_UART_TB
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=D:\smartfusion2
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=FALSE
+PeriInitStandalone=FALSE
+OnDemandBuildDH=TRUE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=TRUE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+AbortFlowOn3.3V_IO_ON=FALSE
+InstantiateInSmartDesign=FALSE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro ME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\bin\synplify_pro.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSim ME Pro"
+FUNCTION="Simulation"
+TOOL="ModelSim Pro Edition"
+LOCATION="C:\Microchip\Libero_SoC_v2023.2\ModelSimPro\win32acoem\modelsim.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="C:\Microchip\Libero_SoC_v2023.2\Identify\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+LIST "Top_SEND::work"
+LIST Impl1
+ideSTIMULUS=StateSuccess
+LIST FlowOptions
+UsePhySynth=FALSE
+UseSynth=TRUE
+UseFhbAutoInst=FALSE
+ENDLIST
+Used_File_List
+ENDUsed_File_List
+ENDLIST
+ENDLIST
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+StartPage;StartPage;0
+ACTIVEVIEW;StartPage
+ENDLIST
+LIST ModuleSubBlockList
+LIST "clock_enable_debouncing_button::work","hdl\clock_enable_debouncing_button.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREUART_C0::work","component\work\COREUART_C0\COREUART_C0.vhd","TRUE","FALSE"
+SUBBLOCK "COREUART_C0_COREUART_C0_0_COREUART::coreuart_lib","component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\CoreUART.vhd","FALSE","FALSE"
+ENDLIST
+LIST "Debouncing_Button_VHDL::work","hdl\Debouncing_Button_VHDL.vhd","FALSE","FALSE"
+SUBBLOCK "DFF_Debouncing_Button::work","hdl\DFF_Debouncing_Button.vhd","FALSE","FALSE"
+SUBBLOCK "clock_enable_debouncing_button::work","hdl\clock_enable_debouncing_button.vhd","FALSE","FALSE"
+ENDLIST
+LIST "DFF_Debouncing_Button::work","hdl\DFF_Debouncing_Button.vhd","FALSE","FALSE"
+ENDLIST
+LIST "RCOSC_25_50MHZ::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "GPIO_demo::work","hdl\GPIO_Demo.vhd","FALSE","FALSE"
+SUBBLOCK "UART_TX_CTRL::work","hdl\UART_TX_CTRL.vhd","FALSE","FALSE"
+ENDLIST
+LIST "OSC_C0::work","component\work\OSC_C0\OSC_C0.vhd","TRUE","FALSE"
+SUBBLOCK "OSC_C0_OSC_C0_0_OSC::work","component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.vhd","FALSE","FALSE"
+ENDLIST
+LIST "OSC_C0_OSC_C0_0_OSC::work","component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.vhd","FALSE","FALSE"
+SUBBLOCK "RCOSC_25_50MHZ_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+SUBBLOCK "RCOSC_25_50MHZ::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "RCOSC_1MHZ::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "RCOSC_1MHZ_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "RCOSC_25_50MHZ_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "Top_SEND::work","component\work\Top_SEND\Top_SEND.vhd","TRUE","FALSE"
+SUBBLOCK "Debouncing_Button_VHDL::work","hdl\Debouncing_Button_VHDL.vhd","FALSE","FALSE"
+SUBBLOCK "GPIO_demo::work","hdl\GPIO_Demo.vhd","FALSE","FALSE"
+SUBBLOCK "OSC_C0::work","component\work\OSC_C0\OSC_C0.vhd","TRUE","FALSE"
+ENDLIST
+LIST "UART_TX_CTRL::work","hdl\UART_TX_CTRL.vhd","FALSE","FALSE"
+ENDLIST
+LIST "XTLOSC::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "XTLOSC_FAB::work","component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd","FALSE","FALSE"
+ENDLIST
+LIST "Send_UART_TB::work","stimulus\Send_UART_TB.vhd","FALSE","TRUE"
+SUBBLOCK "Top_SEND::work","component\work\Top_SEND\Top_SEND.vhd","TRUE","FALSE"
+ENDLIST
+LIST "COREUART_C0_COREUART_C0_0_components::coreuart_lib","component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\components.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREUART_C0_COREUART_C0_0_COREUART::coreuart_lib","component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\CoreUART.vhd","FALSE","FALSE"
+SUBBLOCK "COREUART_C0_COREUART_C0_0_Rx_async::coreuart_lib","component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\Rx_async.vhd","FALSE","FALSE"
+SUBBLOCK "COREUART_C0_COREUART_C0_0_fifo_256x8::coreuart_lib","component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\fifo_256x8.vhd","FALSE","FALSE"
+SUBBLOCK "COREUART_C0_COREUART_C0_0_Clock_gen::coreuart_lib","component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\Clock_gen.vhd","FALSE","FALSE"
+SUBBLOCK "COREUART_C0_COREUART_C0_0_Tx_async::coreuart_lib","component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\Tx_async.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREUART_C0_COREUART_C0_0_coreuart_pkg::coreuart_lib","component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\coreuart_pkg.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREUART_C0_COREUART_C0_0_fifo_256x8::coreuart_lib","component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\fifo_256x8.vhd","FALSE","FALSE"
+SUBBLOCK "COREUART_C0_COREUART_C0_0_fifo_ctrl_256::coreuart_lib","component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\fifo_256x8.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREUART_C0_COREUART_C0_0_fifo_ctrl_256::coreuart_lib","component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\fifo_256x8.vhd","FALSE","FALSE"
+SUBBLOCK "COREUART_C0_COREUART_C0_0_ram16x8::coreuart_lib","component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\fifo_256x8.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREUART_C0_COREUART_C0_0_ram16x8::coreuart_lib","component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\fifo_256x8.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREUART_C0_COREUART_C0_0_Rx_async::coreuart_lib","component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\Rx_async.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREUART_C0_COREUART_C0_0_Clock_gen::coreuart_lib","component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\Clock_gen.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREUART_C0_COREUART_C0_0_Tx_async::coreuart_lib","component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\Tx_async.vhd","FALSE","FALSE"
+ENDLIST
+LIST "coreparameters::coreuart_lib","component\work\COREUART_C0\COREUART_C0_0\coreparameters.vhd","FALSE","TRUE"
+ENDLIST
+LIST "misc::coreuart_lib","component\Actel\DirectCore\COREUART\5.7.100\rtl\vhdl\test\common\misc.vhd","FALSE","TRUE"
+ENDLIST
+LIST "tbpack::coreuart_lib","component\Actel\DirectCore\COREUART\5.7.100\rtl\vhdl\test\common\tbpack.vhd","FALSE","TRUE"
+ENDLIST
+LIST "testbnch::coreuart_lib","component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\test\user\testbnch.vhd","FALSE","TRUE"
+SUBBLOCK "COREUART_C0_COREUART_C0_0_COREUART::coreuart_lib","component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\CoreUART.vhd","FALSE","FALSE"
+ENDLIST
+LIST "textio::coreuart_lib","component\Actel\DirectCore\COREUART\5.7.100\rtl\vhdl\test\common\textio.vhd","FALSE","TRUE"
+ENDLIST
+LIST "textio_test::coreuart_lib","component\Actel\DirectCore\COREUART\5.7.100\rtl\vhdl\test\common\textio.vhd","FALSE","TRUE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+ENDLIST
+LIST IOTabList
+VALUE "constraint\io\user.pdc"
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+VALUE "constraint\Top_SEND_vm.sdc"
+ENDLIST
+LIST FDCTabList
+ENDLIST
