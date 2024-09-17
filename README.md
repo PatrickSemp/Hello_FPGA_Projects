@@ -38,7 +38,7 @@ If you don't have Libero Software installed, you can check out these videos on Y
 
 See some examples of data transmission, using Microcontroller Subsystem and FPGA fabric. You will find VHDL and C code, and links to try out or edit the examples and test in your kit.
 
-For more examples check out the [Examples](https://github.com/lvgl/lvgl/tree/master/examples) folder.
+For more examples check out the [Examples](https://github.com/PatrickSemp/Hello_FPGA_Projects/tree/main/Examples) folder.
 
 ### Blik Led with FPGA fabric
 
