@@ -1,0 +1,13 @@
+Software Version: 2023.2.0.8
+Opened 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\designer\Top_SEND\Top_SEND_fp\Top_SEND.pro'
+PDB file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\designer\Top_SEND\Top_SEND.pdb' has been loaded successfully.
+DESIGN : Top_SEND;  CHECKSUM : E0C1;  PDB_VERSION : 1.9
+Info: Programming Interface selected is JTAG.
+File/Folder 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\designer\Top_SEND\export\Top_SEND02.dat' will be overwritten.
+Successfully exported DirectC file: 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\designer\Top_SEND\export\Top_SEND02.dat'; file programs Fabric.
+Fabric component bitstream digest: 4ea5fdaa79515b58b4e89afcf71a59770f5673e484f4476744b240a9bff3273a
+Entire bitstream digest: bf26e504d39056fc71c95cf476961a053eb05c477f5a990ac837b6b39274b382
+Finished: Mon May 13 12:45:21 2024 (Elapsed time 00:00:07)
+
+Project saved.
+Project closed.

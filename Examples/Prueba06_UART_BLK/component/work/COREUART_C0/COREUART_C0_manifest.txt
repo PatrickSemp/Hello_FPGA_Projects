@@ -1,0 +1,27 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2023.2 (Version 2023.2.0.8)
+
+Date      :  Wed Nov 15 12:58:21 2023
+Project   :  D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART
+Component :  COREUART_C0
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/components.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Rx_async.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Tx_async.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/CoreUART.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/Clock_gen.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/coreuart_pkg.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/core/fifo_256x8.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/COREUART_C0/COREUART_C0.vhd
+
+Stimulus files for all Simulation tools:
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/COREUART_C0/COREUART_C0_0/mti/scripts/wave_vhdl.do
+
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/COREUART_C0/COREUART_C0_0/coreparameters.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/Actel/DirectCore/COREUART/5.7.100/rtl/vhdl/test/common/misc.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/Actel/DirectCore/COREUART/5.7.100/rtl/vhdl/test/common/textio.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/Actel/DirectCore/COREUART/5.7.100/rtl/vhdl/test/common/tbpack.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/Prueba06_UART/component/work/COREUART_C0/COREUART_C0_0/rtl/vhdl/test/user/testbnch.vhd
+

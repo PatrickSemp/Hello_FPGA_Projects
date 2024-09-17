@@ -1,0 +1,20 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2023.2 (Version 2023.2.0.8)
+
+Date      :  Wed Nov 15 12:06:24 2023
+Project   :  D:\ESPE\TESIS\SOFTWARE LIBERO\PROGRAMAS\Prueba06_UART
+Component :  OSC_C0
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/ESPE/TESIS/SOFTWARE LIBERO/PROGRAMAS/Prueba06_UART/component/work/OSC_C0/OSC_C0_0/OSC_C0_OSC_C0_0_OSC.vhd
+    D:/ESPE/TESIS/SOFTWARE LIBERO/PROGRAMAS/Prueba06_UART/component/work/OSC_C0/OSC_C0.vhd
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    D:/ESPE/TESIS/SOFTWARE LIBERO/PROGRAMAS/Prueba06_UART/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd
+
+HDL source files for Mentor Precision Synthesis tool:
+    D:/ESPE/TESIS/SOFTWARE LIBERO/PROGRAMAS/Prueba06_UART/component/Actel/SgCore/OSC/2.0.101/osc_comps_pre.vhd
+
+Constraint files:
+    D:/ESPE/TESIS/SOFTWARE LIBERO/PROGRAMAS/Prueba06_UART/component/work/OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.sdc

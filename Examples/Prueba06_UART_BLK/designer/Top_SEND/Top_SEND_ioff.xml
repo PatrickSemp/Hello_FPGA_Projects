@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<title>I/O Register Combining Report</title>
+<text>Microchip Technology Inc. - Microchip Libero Software Release v2023.2 (Version 2023.2.0.8)</text>
+<text>Date: Mon May 13 12:44:51 2024
+</text>
+<section><name>I/O Register Combining Summary</name></section>
+<table>
+<header>
+</header>
+</table>
+<section><name>I/O DDR Register Combining Summary</name></section>
+<table>
+<header>
+</header>
+</table>
+</doc>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="memorymap.xsl"?>
+<datasheet>
+  <header>Top_SEND</header>
+  <project-settings>
+    <fam>SmartFusion2</fam>
+    <die>M2S010</die>
+    <package>256 VF</package>
+    <speed-grade>-1</speed-grade>
+    <voltage>1.2</voltage>
+    <hdl-type>VHDL</hdl-type>
+    <project-description>SPI4.2</project-description>
+    <location>D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba06_UART/component/work/Top_SEND</location>
+    <state>GENERATED ( Thu Mar 21 11:31:54 2024 )</state>
+    <swide-toolchain>SoftConsole workspace has not been generated</swide-toolchain>
+  </project-settings>
+  <site-map>
+  </site-map>
+  <memorysystem>
+    <title>Memory Map for Top_SEND</title>
+    <description>The SmartDesign Top_SENDdoes not contain any Initiators under its hierarchy</description>
+  </memorysystem>
+</datasheet>

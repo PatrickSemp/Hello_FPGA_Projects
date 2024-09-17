@@ -1,0 +1,163 @@
+Resource Report
+Microchip Technology Inc. - Microchip Libero Software Release v2023.2 (Version 2023.2.0.8)
+Date: Mon May 13 12:44:31 2024
+
+Device Selection
++--------------------------------+----------------+
+| Family                         | SmartFusion2   |
+| Device                         | M2S010         |
+| Package                        | 256 VF         |
+| Speed Grade                    | -1             |
+| Temp                           | 0:25:85        |
+| Voltage                        | 1.26:1.20:1.14 |
+| Core Voltage                   | 1.2V           |
+| Ramp Rate                      | 100ms Minimum  |
+| System Controller Suspend Mode | No             |
+| PLL Supply Voltage             | 2.5V           |
+| Default I/O technology         | LVCMOS 2.5V    |
+| Restrict Probe Pins            | Yes            |
+| Restrict SPI Pins              | No             |
++--------------------------------+----------------+
+
+Source Files
++---------+------------------------------------------------------------------------------------------+
+| Topcell | Top_SEND                                                                                 |
+| Format  | Verilog                                                                                  |
+| Source  | D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\synthesis\Top_SEND.vm |
++---------+------------------------------------------------------------------------------------------+
+
+Options
++----------------------------------------------------+-------+
+| Enable Single Event Transient mitigation           | false |
+| Enable Design Separation Methodology               | false |
+| Limit the number of high fanout nets to display to | 10    |
++----------------------------------------------------+-------+
+
+Resource Usage
++---------------------------+------+-------+------------+
+| Type                      | Used | Total | Percentage |
++---------------------------+------+-------+------------+
+| 4LUT                      | 342  | 12084 | 2.83       |
+| DFF                       | 180  | 12084 | 1.49       |
+| I/O Register              | 0    | 414   | 0.00       |
+| User I/O                  | 5    | 138   | 3.62       |
+| -- Single-ended I/O       | 5    | 138   | 3.62       |
+| -- Differential I/O Pairs | 0    | 65    | 0.00       |
+| RAM64x18                  | 0    | 22    | 0.00       |
+| RAM1K18                   | 0    | 21    | 0.00       |
+| MACC                      | 0    | 22    | 0.00       |
+| Chip Globals              | 1    | 8     | 12.50      |
+| CCC                       | 0    | 2     | 0.00       |
+| RCOSC_25_50MHZ            | 1    | 1     | 100.00     |
+| RCOSC_1MHZ                | 0    | 1     | 0.00       |
+| XTLOSC                    | 0    | 1     | 0.00       |
+| MSS                       | 0    | 1     | 0.00       |
++---------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++--------------------------+------+-----+
+| Type                     | 4LUT | DFF |
++--------------------------+------+-----+
+| Fabric Logic             | 342  | 180 |
+| RAM64x18 Interface Logic | 0    | 0   |
+| RAM1K18 Interface Logic  | 0    | 0   |
+| MACC Interface Logic     | 0    | 0   |
+| Total Used               | 342  | 180 |
++--------------------------+------+-----+
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 2      | 1    |
+| 14     | 1    |
+| 17     | 1    |
+| 18     | 3    |
+| 31     | 2    |
+| Total  | 8    |
++--------+------+
+
+I/O Function
++-------------------------------+--------------+-------------+-----------------+
+| Type                          | w/o register | w/ register | w/ DDR register |
++-------------------------------+--------------+-------------+-----------------+
+| Input I/O                     | 2            | 0           | 0               |
+| Output I/O                    | 3            | 0           | 0               |
+| Bidirectional I/O             | 0            | 0           | 0               |
+| Differential Input I/O Pairs  | 0            | 0           | 0               |
+| Differential Output I/O Pairs | 0            | 0           | 0               |
++-------------------------------+--------------+-------------+-----------------+
+
+I/O Technology
++--------------+--------+------+-------+--------+---------------+
+| I/O Standard | Vddi   | Vref | Input | Output | Bidirectional |
++--------------+--------+------+-------+--------+---------------+
+| LVCMOS25     |  2.50v |  N/A |  2    |  3     |  0            |
++--------------+--------+------+-------+--------+---------------+
+
+Nets assigned to chip global resources
++--------+---------+---------------------------------------------------------------+
+| Fanout | Type    | Name                                                          |
++--------+---------+---------------------------------------------------------------+
+| 180    | INT_NET | Net   : OSC_C0_0_RCOSC_25_50MHZ_O2F                           |
+|        |         | Driver: OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1 |
+|        |         | Source: NETLIST                                               |
++--------+---------+---------------------------------------------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+--------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                           |
++--------+---------+--------------------------------------------------------------------------------+
+| 50     | INT_NET | Net   : GPIO_demo_0/i1_i                                                       |
+|        |         | Driver: GPIO_demo_0/string_load_process.un40_uartstate_i_o2                    |
+| 49     | INT_NET | Net   : GPIO_demo_0/uartRdy                                                    |
+|        |         | Driver: GPIO_demo_0/Inst_UART_TX_CTRL/next_txState_process.txstate15           |
+| 36     | INT_NET | Net   : GPIO_demo_0/strIndex_Z[4]                                              |
+|        |         | Driver: GPIO_demo_0/strIndex[4]                                                |
+| 34     | INT_NET | Net   : GPIO_demo_0/strIndex_Z[3]                                              |
+|        |         | Driver: GPIO_demo_0/strIndex[3]                                                |
+| 32     | INT_NET | Net   : GPIO_demo_0/strIndex_Z[2]                                              |
+|        |         | Driver: GPIO_demo_0/strIndex[2]                                                |
+| 31     | INT_NET | Net   : GPIO_demo_0/uartState_RNIMP8D_Z[4]                                     |
+|        |         | Driver: GPIO_demo_0/uartState_RNIMP8D[4]                                       |
+| 31     | INT_NET | Net   : GPIO_demo_0/Inst_UART_TX_CTRL/txstate16_RNI1UUG                        |
+|        |         | Driver: GPIO_demo_0/Inst_UART_TX_CTRL/next_txState_process.txstate16_RNI1UUG   |
+| 22     | INT_NET | Net   : GPIO_demo_0/uartState_Z[5]                                             |
+|        |         | Driver: GPIO_demo_0/uartState[5]                                               |
+| 18     | INT_NET | Net   : Debouncing_Button_VHDL_0/clock_enable_generator/N_45_mux_i             |
+|        |         | Driver: Debouncing_Button_VHDL_0/clock_enable_generator/counter_RNIC6SJ6[12]   |
+| 18     | INT_NET | Net   : Debouncing_Button_VHDL_0_0/clock_enable_generator/N_74_i               |
+|        |         | Driver: Debouncing_Button_VHDL_0_0/clock_enable_generator/counter_RNIO1U34[12] |
++--------+---------+--------------------------------------------------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+--------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                           |
++--------+---------+--------------------------------------------------------------------------------+
+| 50     | INT_NET | Net   : GPIO_demo_0/i1_i                                                       |
+|        |         | Driver: GPIO_demo_0/string_load_process.un40_uartstate_i_o2                    |
+| 49     | INT_NET | Net   : GPIO_demo_0/uartRdy                                                    |
+|        |         | Driver: GPIO_demo_0/Inst_UART_TX_CTRL/next_txState_process.txstate15           |
+| 36     | INT_NET | Net   : GPIO_demo_0/strIndex_Z[4]                                              |
+|        |         | Driver: GPIO_demo_0/strIndex[4]                                                |
+| 34     | INT_NET | Net   : GPIO_demo_0/strIndex_Z[3]                                              |
+|        |         | Driver: GPIO_demo_0/strIndex[3]                                                |
+| 32     | INT_NET | Net   : GPIO_demo_0/strIndex_Z[2]                                              |
+|        |         | Driver: GPIO_demo_0/strIndex[2]                                                |
+| 31     | INT_NET | Net   : GPIO_demo_0/uartState_RNIMP8D_Z[4]                                     |
+|        |         | Driver: GPIO_demo_0/uartState_RNIMP8D[4]                                       |
+| 31     | INT_NET | Net   : GPIO_demo_0/Inst_UART_TX_CTRL/txstate16_RNI1UUG                        |
+|        |         | Driver: GPIO_demo_0/Inst_UART_TX_CTRL/next_txState_process.txstate16_RNI1UUG   |
+| 22     | INT_NET | Net   : GPIO_demo_0/uartState_Z[5]                                             |
+|        |         | Driver: GPIO_demo_0/uartState[5]                                               |
+| 18     | INT_NET | Net   : Debouncing_Button_VHDL_0/clock_enable_generator/N_45_mux_i             |
+|        |         | Driver: Debouncing_Button_VHDL_0/clock_enable_generator/counter_RNIC6SJ6[12]   |
+| 18     | INT_NET | Net   : Debouncing_Button_VHDL_0_0/clock_enable_generator/N_74_i               |
+|        |         | Driver: Debouncing_Button_VHDL_0_0/clock_enable_generator/counter_RNIO1U34[12] |
++--------+---------+--------------------------------------------------------------------------------+
+

@@ -1,0 +1,346 @@
+<html>
+    <head>
+        <style>
+
+            html
+            {
+            background-color:darkgray;
+            }
+
+            body
+            {
+            font-family:arial;
+            font-size: 11pt;
+            text-align:center;
+            }
+
+
+            th
+            {
+            background-color: #F0F0F0;
+            }
+
+            table.cores
+            {
+            background-color: #F0F0F0;
+            border-color: #B0B0B0;
+            border-style:solid;
+            border-width:1px;
+            }
+
+            table.cores td
+            {
+            vertical-align:top;
+            }
+
+            table.regs,
+            table.ios
+            {
+            border-color: #B0B0B0;
+            border-style:solid;
+            border-width:1px;
+            border-spacing:0px;
+            border-collapse:collapse;
+            width=75%;
+            font-family:couriernew;
+            font-size: 11pt;
+            }
+
+            table.regs th
+            table.ios th
+            {
+            border-color: #B0B0B0;
+            border-width:1px;
+            color: darkslategray;
+            font-weight:bold;
+            }
+
+
+            table.ios td
+            {
+            text-align:center;
+            }
+
+
+            table.params
+            {
+            border-color: #D0D0D0;
+            border-style:solid;
+            border-width:0px;
+            border-spacing:0px;
+            border-collapse:collapse;
+            }
+
+
+            table.params th
+            {
+            border-color: #D0D0D0;
+            border-width:1px;
+            color: black;
+            font-weight:bold;
+            }
+
+            table.params td
+            {
+            text-align:center;
+            }
+
+            b.params-name
+            {
+            color: #505050   ;
+
+            }
+
+
+            div.header
+            {
+            padding-top: 7px;
+            padding-bottom: 7px;
+            color:#003399;
+            background-color: #D0D0D0;
+            width=100%;
+            font-family:arial;
+            font-size:14pt;
+            font-weight: bold;
+            text-align: center;
+            }
+
+            div.title
+            {
+            padding-top: 30px;
+            margin: auto;
+            color:#D0D0D0;
+            background-color:#003399 ;
+
+            text-align: center;
+            width: 1000px;
+            padding-left:30px;
+            padding-right:30px;
+            }
+
+            div.dsheet
+            {
+            width: 1000px;
+            margin: auto;
+            text-align: left
+
+            color:#003399;
+            background-color: white;
+
+            padding-top: 30px;
+            padding-bottom: 30px;
+            padding-left:30px;
+            padding-right:30px;
+            }
+
+            div.content
+            {
+            padding-top: 10px;
+            padding-left:10px;
+            padding-right:10px;
+
+            text-align: left;
+            font-size: 13pt;
+            font-weight: normal;
+            }
+
+            div.copyright
+            {
+            text-align:right;
+            font-size:9pt;
+            font-style:italic;
+            font-weight:normal;
+            }
+
+            div.links
+            {
+            text-align:left;
+            }
+
+            b
+            {
+            color:darkslategray
+            }
+
+            hr
+            {
+            width=100%;
+            }
+
+            .instances
+            {
+            font-size:14pt;
+            text-align:left;
+            }
+
+            .toplinks
+            {
+            font-size:10pt;
+            text-align:left;
+            }
+
+            .register-details
+            {
+            text-indent:20px;
+            }
+
+            .mmrange
+            {
+            text-indent:10px;
+            font-size:11pt;
+            text-align: left;
+            padding-bottom: 20px;
+
+            }
+
+            .regwidth
+            {
+            text-indent:24pt;
+            font-size:11pt;
+            text-align: left;
+            padding-bottom: 20px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <a name="top"/>
+        <div>
+            <div class="title">
+                <h1>
+                Data Sheet: Top_SEND</h1>
+            </div>
+        </div>
+        <div class="dsheet">
+            <div>
+                <div class="header">Project Settings</div>
+                <div class="content">
+                    <table border="0" cellspacing="4">
+                        <tr>
+                            <td>
+                                <b>FAM: </b>
+                            </td>
+                            <td>SmartFusion2</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>Die: </b>
+                            </td>
+                            <td>M2S010</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>Package: </b>
+                            </td>
+                            <td>256 VF</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>Speed Grade: </b>
+                            </td>
+                            <td>-1</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>Voltage: </b>
+                            </td>
+                            <td>1.2</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>HDL: </b>
+                            </td>
+                            <td>VHDL</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>Project Description: </b>
+                            </td>
+                            <td>SPI4.2</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>Location: </b>
+                            </td>
+                            <td>D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba06_UART/component/work/Top_SEND</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <b>State (Time): </b>
+                            </td>
+                            <td>GENERATED ( Thu Mar 21 11:31:54 2024 )</td>
+                        </tr>
+                    </table>
+                </div>
+                <br/>
+            </div>
+            <div>
+                <div class="header">Table of Contents</div>
+                <div class="content">
+                    <a href="#generated_files">Generated Files</a>
+                    <br/>
+                    <a href="#ios">IO's</a>
+                    <br/>
+                    <a href="#cores">Hardware Instances</a>
+                    <br/>
+                    <a href="#firmware_cores">Firmware</a>
+                    <br/>
+                    <a href="#memmap">Memory Map</a>
+                </div>
+            </div>
+            <div>
+                <p>
+                    <a name="generated_files"/>
+                    <div class="header">Generated Files</div>
+                </p>
+                <div class="content"/>
+                <a href="#top">top of page</a>
+            </div>
+            <div>
+                <p>
+                    <a name="ios"/>
+                    <div class="header">IO's</div>
+                </p>
+                <i>No IO's </i>
+                <br/>
+                <br/>
+                <a href="#top">top of page</a>
+            </div>
+            <br/>
+            <div>
+                <a name="cores"/>
+                <div class="header">
+                            Cores
+                        </div>
+                <br/>
+                <i>No Instances</i>
+                <br/>
+                <br/>
+                <a href="#top">top of page</a>
+                <br/>
+                <br/>
+            </div>
+            <div>
+                <p>
+                    <a name="firmware_cores"/>
+                    <div class="header">Firmware</div>
+                </p>
+                <br/>
+                <i>No Firmware Generated.  Design may not contain any processor subsystems, or firmware have not been downloaded to your vault</i>
+                <br/>
+                <br/>
+                <a href="#top">top of page</a>
+                <br/>
+                <br/>
+            </div>
+            <div>
+                <a name="memmap"/>
+                <div class="header">
+                            Memory Map
+                        </div>
+                <div class="content">The SmartDesign Top_SENDdoes not contain any Initiators under its hierarchy</div>
+                <div/>
+            </div>
+        </div>
+    </body>
+</html>

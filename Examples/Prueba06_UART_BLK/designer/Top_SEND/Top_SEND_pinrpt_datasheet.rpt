@@ -1,0 +1,18 @@
+----------------------------------------------------------------
+-Pin Report - Date: Mon May 13 12:44:51 2024 Pinchecksum: NOT-AVAILABLE
+-Product: Designer
+-Release: v2023.2
+-Version: 2023.2.0.8
+-Design Name: Top_SEND
+-Family: SmartFusion2
+-Die: M2S010
+-Package: 256 VF
+-----------------------------------------------------------------
+
+Port       |Pin |Fixed |Function                         |Bank     |I/O Std   |Direction                      |I/O state in Flash*Freeze mode |Resistor Pull                      |I/O available in Flash*Freeze mode |Schmitt Trigger |Odt_Static    |Odt Imp (Ohm)  |Low Power Exit |Input Delay |Slew         |Pre-Emphasis      |Output Drive (mA) |Output Load (pF) |
+-----------|----|------|---------------------------------|---------|----------|-------------------------------|-------------------------------|-----------------------------------|-----------------------------------|----------------|--------------|---------------|---------------|------------|-------------|------------------|------------------|-----------------|
+BTN_MSS_IN  K1   Yes    MSIOD101NB5                       Bank5     LVCMOS25   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
+BTN_RST_IN  J2   Yes    MSIOD100NB5                       Bank5     LVCMOS25   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               
+PAD         T12  Yes    MSIO116PB4                        Bank4     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 
+PAD_0       T13  Yes    MSIO118PB4                        Bank4     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 
+TX          H12  Yes    MSIO21NB1/MMUART_1_TXD/GPIO_24_B  Bank1     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 

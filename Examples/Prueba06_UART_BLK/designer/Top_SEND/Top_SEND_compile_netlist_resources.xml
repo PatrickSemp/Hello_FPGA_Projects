@@ -1,0 +1,569 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<title>Resource Report</title>
+<text>Microchip Technology Inc. - Microchip Libero Software Release v2023.2 (Version 2023.2.0.8)</text>
+<text>Date: Mon May 13 12:44:31 2024
+</text>
+<section><name>Device Selection</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Family</cell>
+ <cell>SmartFusion2</cell>
+</row>
+<row>
+ <cell>Device</cell>
+ <cell>M2S010</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>256 VF</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>-1</cell>
+</row>
+<row>
+ <cell>Temp</cell>
+ <cell>0:25:85</cell>
+</row>
+<row>
+ <cell>Voltage</cell>
+ <cell>1.26:1.20:1.14</cell>
+</row>
+<row>
+ <cell>Core Voltage</cell>
+ <cell>1.2V</cell>
+</row>
+<row>
+ <cell>Ramp Rate</cell>
+ <cell>100ms Minimum</cell>
+</row>
+<row>
+ <cell>System Controller Suspend Mode</cell>
+ <cell>No</cell>
+</row>
+<row>
+ <cell>PLL Supply Voltage</cell>
+ <cell>2.5V</cell>
+</row>
+<row>
+ <cell>Default I/O technology</cell>
+ <cell>LVCMOS 2.5V</cell>
+</row>
+<row>
+ <cell>Restrict Probe Pins</cell>
+ <cell>Yes</cell>
+</row>
+<row>
+ <cell>Restrict SPI Pins</cell>
+ <cell>No</cell>
+</row>
+</table>
+<section><name>Source Files</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Topcell</cell>
+ <cell>Top_SEND</cell>
+</row>
+<row>
+ <cell>Format</cell>
+ <cell>Verilog</cell>
+</row>
+<row>
+ <cell>Source</cell>
+ <cell>D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\synthesis\Top_SEND.vm</cell>
+</row>
+</table>
+<section><name>Options</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Enable Single Event Transient mitigation</cell>
+ <cell>false</cell>
+</row>
+<row>
+ <cell>Enable Design Separation Methodology</cell>
+ <cell>false</cell>
+</row>
+<row>
+ <cell>Limit the number of high fanout nets to display to</cell>
+ <cell>10</cell>
+</row>
+</table>
+<section><name>Resource Usage</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>Used</cell>
+ <cell>Total</cell>
+ <cell>Percentage</cell>
+</header>
+<row>
+ <cell>4LUT</cell>
+ <cell>342</cell>
+ <cell>12084</cell>
+ <cell>2.83</cell>
+</row>
+<row>
+ <cell>DFF</cell>
+ <cell>180</cell>
+ <cell>12084</cell>
+ <cell>1.49</cell>
+</row>
+<row>
+ <cell>I/O Register</cell>
+ <cell>0</cell>
+ <cell>414</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>User I/O</cell>
+ <cell>5</cell>
+ <cell>138</cell>
+ <cell>3.62</cell>
+</row>
+<row>
+ <cell>-- Single-ended I/O</cell>
+ <cell>5</cell>
+ <cell>138</cell>
+ <cell>3.62</cell>
+</row>
+<row>
+ <cell>-- Differential I/O Pairs</cell>
+ <cell>0</cell>
+ <cell>65</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>RAM64x18</cell>
+ <cell>0</cell>
+ <cell>22</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>RAM1K18</cell>
+ <cell>0</cell>
+ <cell>21</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>MACC</cell>
+ <cell>0</cell>
+ <cell>22</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>Chip Globals</cell>
+ <cell>1</cell>
+ <cell>8</cell>
+ <cell>12.50</cell>
+</row>
+<row>
+ <cell>CCC</cell>
+ <cell>0</cell>
+ <cell>2</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>RCOSC_25_50MHZ</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+ <cell>100.00</cell>
+</row>
+<row>
+ <cell>RCOSC_1MHZ</cell>
+ <cell>0</cell>
+ <cell>1</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>XTLOSC</cell>
+ <cell>0</cell>
+ <cell>1</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>MSS</cell>
+ <cell>0</cell>
+ <cell>1</cell>
+ <cell>0.00</cell>
+</row>
+</table>
+<section><name>Detailed Logic Resource Usage</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>4LUT</cell>
+ <cell>DFF</cell>
+</header>
+<row>
+ <cell>Fabric Logic</cell>
+ <cell>342</cell>
+ <cell>180</cell>
+</row>
+<row>
+ <cell>RAM64x18 Interface Logic</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>RAM1K18 Interface Logic</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>MACC Interface Logic</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Total Used</cell>
+ <cell>342</cell>
+ <cell>180</cell>
+</row>
+</table>
+<section><name>Detailed Carry Chains Resource Usage</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Length</cell>
+ <cell>Used</cell>
+</row>
+<row>
+ <cell>2</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>14</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>17</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>18</cell>
+ <cell>3</cell>
+</row>
+<row>
+ <cell>31</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>Total</cell>
+ <cell>8</cell>
+</row>
+</table>
+<section><name>I/O Function</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>w/o register</cell>
+ <cell>w/ register</cell>
+ <cell>w/ DDR register</cell>
+</header>
+<row>
+ <cell>Input I/O</cell>
+ <cell>2</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Output I/O</cell>
+ <cell>3</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Bidirectional I/O</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Differential Input I/O Pairs</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Differential Output I/O Pairs</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+</table>
+<section><name>I/O Technology</name></section>
+<table>
+<header>
+ <cell>I/O Standard</cell>
+ <cell>Vddi</cell>
+ <cell>Vref</cell>
+ <cell>Input</cell>
+ <cell>Output</cell>
+ <cell>Bidirectional</cell>
+</header>
+<row>
+ <cell>LVCMOS25</cell>
+ <cell> 2.50v</cell>
+ <cell> N/A</cell>
+ <cell> 2</cell>
+ <cell> 3</cell>
+ <cell> 0</cell>
+</row>
+</table>
+<section><name>Nets assigned to chip global resources</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>180</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : OSC_C0_0_RCOSC_25_50MHZ_O2F</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: OSC_C0_0/OSC_C0_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+</table>
+<section><name>Nets assigned to row global resources</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+</table>
+<section><name>High fanout nets</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>50</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : GPIO_demo_0/i1_i</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: GPIO_demo_0/string_load_process.un40_uartstate_i_o2</cell>
+</row>
+<row>
+ <cell>49</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : GPIO_demo_0/uartRdy</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: GPIO_demo_0/Inst_UART_TX_CTRL/next_txState_process.txstate15</cell>
+</row>
+<row>
+ <cell>36</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : GPIO_demo_0/strIndex_Z[4]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: GPIO_demo_0/strIndex[4]</cell>
+</row>
+<row>
+ <cell>34</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : GPIO_demo_0/strIndex_Z[3]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: GPIO_demo_0/strIndex[3]</cell>
+</row>
+<row>
+ <cell>32</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : GPIO_demo_0/strIndex_Z[2]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: GPIO_demo_0/strIndex[2]</cell>
+</row>
+<row>
+ <cell>31</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : GPIO_demo_0/uartState_RNIMP8D_Z[4]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: GPIO_demo_0/uartState_RNIMP8D[4]</cell>
+</row>
+<row>
+ <cell>31</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : GPIO_demo_0/Inst_UART_TX_CTRL/txstate16_RNI1UUG</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: GPIO_demo_0/Inst_UART_TX_CTRL/next_txState_process.txstate16_RNI1UUG</cell>
+</row>
+<row>
+ <cell>22</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : GPIO_demo_0/uartState_Z[5]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: GPIO_demo_0/uartState[5]</cell>
+</row>
+<row>
+ <cell>18</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Debouncing_Button_VHDL_0/clock_enable_generator/N_45_mux_i</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Debouncing_Button_VHDL_0/clock_enable_generator/counter_RNIC6SJ6[12]</cell>
+</row>
+<row>
+ <cell>18</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Debouncing_Button_VHDL_0_0/clock_enable_generator/N_74_i</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Debouncing_Button_VHDL_0_0/clock_enable_generator/counter_RNIO1U34[12]</cell>
+</row>
+</table>
+<section><name>High fanout nets (through buffer trees)</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>50</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : GPIO_demo_0/i1_i</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: GPIO_demo_0/string_load_process.un40_uartstate_i_o2</cell>
+</row>
+<row>
+ <cell>49</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : GPIO_demo_0/uartRdy</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: GPIO_demo_0/Inst_UART_TX_CTRL/next_txState_process.txstate15</cell>
+</row>
+<row>
+ <cell>36</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : GPIO_demo_0/strIndex_Z[4]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: GPIO_demo_0/strIndex[4]</cell>
+</row>
+<row>
+ <cell>34</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : GPIO_demo_0/strIndex_Z[3]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: GPIO_demo_0/strIndex[3]</cell>
+</row>
+<row>
+ <cell>32</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : GPIO_demo_0/strIndex_Z[2]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: GPIO_demo_0/strIndex[2]</cell>
+</row>
+<row>
+ <cell>31</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : GPIO_demo_0/uartState_RNIMP8D_Z[4]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: GPIO_demo_0/uartState_RNIMP8D[4]</cell>
+</row>
+<row>
+ <cell>31</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : GPIO_demo_0/Inst_UART_TX_CTRL/txstate16_RNI1UUG</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: GPIO_demo_0/Inst_UART_TX_CTRL/next_txState_process.txstate16_RNI1UUG</cell>
+</row>
+<row>
+ <cell>22</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : GPIO_demo_0/uartState_Z[5]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: GPIO_demo_0/uartState[5]</cell>
+</row>
+<row>
+ <cell>18</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Debouncing_Button_VHDL_0/clock_enable_generator/N_45_mux_i</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Debouncing_Button_VHDL_0/clock_enable_generator/counter_RNIC6SJ6[12]</cell>
+</row>
+<row>
+ <cell>18</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : Debouncing_Button_VHDL_0_0/clock_enable_generator/N_74_i</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: Debouncing_Button_VHDL_0_0/clock_enable_generator/counter_RNIO1U34[12]</cell>
+</row>
+</table>
+</doc>

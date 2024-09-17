@@ -1,0 +1,14 @@
+Detailed Resource Usage
+Module Name,Fabric 4LUT,Fabric DFF,Single-Ended I/O,Chip Globals,RCOSC_50MHZ
+Debouncing_Button_VHDL_0/Debouncing_FF0/Primitives,6,1,0,0,0
+Debouncing_Button_VHDL_0/Debouncing_FF1/Primitives,1,1,0,0,0
+Debouncing_Button_VHDL_0/Primitives,1,0,0,0,0
+Debouncing_Button_VHDL_0/clock_enable_generator/Primitives,25,18,0,0,0
+Debouncing_Button_VHDL_0_0/Debouncing_FF0/Primitives,6,1,0,0,0
+Debouncing_Button_VHDL_0_0/Debouncing_FF1/Primitives,1,1,0,0,0
+Debouncing_Button_VHDL_0_0/Primitives,1,0,0,0,0
+Debouncing_Button_VHDL_0_0/clock_enable_generator/Primitives,25,18,0,0,0
+GPIO_demo_0/Inst_UART_TX_CTRL/Primitives,78,55,0,0,0
+GPIO_demo_0/Primitives,197,85,0,0,0
+OSC_C0_0/OSC_C0_0/Primitives,0,0,0,1,1
+Primitives/Primitives,1,0,5,0,0

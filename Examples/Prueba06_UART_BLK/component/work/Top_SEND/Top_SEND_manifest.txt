@@ -1,0 +1,11 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2023.2 (Version 2023.2.0.8)
+
+Date      :  Fri May 10 00:30:35 2024
+Project   :  D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK
+Component :  Top_SEND
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/A_VERSIONES_OK/Prueba06_UART_BLK/component/work/Top_SEND/Top_SEND.vhd
+
