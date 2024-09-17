@@ -1,0 +1,103 @@
+#--  Synopsys, Inc.
+#--  Version T-2022.09M-SP2-1
+#--  Project file D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\synthesis\Top_SEND_syn.prj
+#--  Written on Mon May 13 12:44:24 2024
+
+
+#project files
+add_file -vhdl -lib work "D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/A_VERSIONES_OK/Prueba06_UART_BLK/hdl/DFF_Debouncing_Button.vhd"
+add_file -vhdl -lib work "D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/A_VERSIONES_OK/Prueba06_UART_BLK/hdl/clock_enable_debouncing_button.vhd"
+add_file -vhdl -lib work "D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/A_VERSIONES_OK/Prueba06_UART_BLK/hdl/Debouncing_Button_VHDL.vhd"
+add_file -vhdl -lib work "D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/A_VERSIONES_OK/Prueba06_UART_BLK/hdl/UART_TX_CTRL.vhd"
+add_file -vhdl -lib work "D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/A_VERSIONES_OK/Prueba06_UART_BLK/hdl/GPIO_Demo.vhd"
+add_file -vhdl -lib work "D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/A_VERSIONES_OK/Prueba06_UART_BLK/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd"
+add_file -vhdl -lib work "D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/A_VERSIONES_OK/Prueba06_UART_BLK/component/work/OSC_C0/OSC_C0_0/OSC_C0_OSC_C0_0_OSC.vhd"
+add_file -vhdl -lib work "D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/A_VERSIONES_OK/Prueba06_UART_BLK/component/work/OSC_C0/OSC_C0.vhd"
+add_file -vhdl -lib work "D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/A_VERSIONES_OK/Prueba06_UART_BLK/component/work/Top_SEND/Top_SEND.vhd"
+add_file -fpga_constraint "D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/A_VERSIONES_OK/Prueba06_UART_BLK/designer/Top_SEND/synthesis.fdc"
+
+
+#implementation: "synthesis"
+impl -add synthesis -type fpga
+
+#device options
+set_option -technology SmartFusion2
+set_option -part M2S010
+set_option -package VF400
+set_option -speed_grade -1
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -use_fsm_explorer 0
+set_option -top_module "work.Top_SEND"
+
+# hdl_compiler_options
+set_option -distributed_compile 0
+set_option -scm2hydra 0
+set_option -hdl_strict_syntax 0
+
+# mapper_without_write_options
+set_option -frequency 100.000
+set_option -resolve_multiple_driver 1
+set_option -srs_instrumentation 1
+
+# mapper_options
+set_option -write_verilog 1
+set_option -write_structural_verilog 0
+set_option -write_vhdl 0
+
+# actel_options
+set_option -rw_check_on_ram 0
+
+# Microchip G4
+set_option -run_prop_extract 1
+set_option -maxfan 10000
+set_option -clock_globalthreshold 2
+set_option -async_globalthreshold 12
+set_option -globalthreshold 5000
+set_option -low_power_ram_decomp 0
+set_option -seqshift_to_uram 0
+set_option -disable_io_insertion 0
+set_option -opcond COMTC
+set_option -retiming 0
+set_option -report_path 4000
+set_option -update_models_cp 0
+set_option -preserve_registers 0
+set_option -disable_ramindex 0
+set_option -rep_clkint_driver 1
+set_option -microsemi_enhanced_flow 1
+set_option -ternary_adder_decomp 66
+set_option -async_clkint_removal 1
+
+# Microchip SmartFusion2
+set_option -report_preserve_cdc 1
+set_option -min_cdc_sync_flops 2
+set_option -unsafe_cdc_netlist_property 0
+set_option -pack_uram_addr_reg 1
+
+# NFilter
+set_option -no_sequential_opt 0
+
+# flow_options
+set_option -use_unified_compile 0
+set_option -use_module_idb 1
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+
+# Compiler Options
+set_option -auto_infer_blackbox 0
+
+# Compiler Options
+set_option -vhdl2008 1
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "./Top_SEND.vm"
+impl -active "synthesis"

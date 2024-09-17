@@ -1,0 +1,77 @@
+Synplify Pro (R) Job Log
+Date: 12:44:24    13-May-2024
+Install Directory: C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+
+JobFlow: synthesis
+   Run Start Time: 12:44:07
+   Runtime: 17s
+   Executable Run Time: 16 - (Sum of all child executables)
+   Current Working Directory: D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\synthesis
+
+   JobFlow: synthesis
+      Run Start Time: 12:44:07
+      Runtime: 17s
+      Executable Run Time: 16 - (Sum of all child executables)
+
+      JobFlow: compile
+         Run Start Time: 12:44:07
+         Runtime: 09s
+         Executable Run Time: 8 - (Sum of all child executables)
+
+         JobFlow: compile_flow
+            Run Start Time: 12:44:07
+            Runtime: 07s
+            Executable Run Time: 6 - (Sum of all child executables)
+
+            Job: compiler
+               executable: bin64\c_hdl.exe
+               Run Directory: D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/A_VERSIONES_OK/Prueba06_UART_BLK/synthesis
+               Run State: complete
+               Return Code: 0
+               Has Errors: no
+               Run Start Time: 12:44:07
+               Run Time: 06s
+               Executable Run Time: 5 - (Executable run time excluding UI processing)
+               Memory Usage: -
+               Up-to-date (run skipped): no
+
+            Job: multi_srs_gen
+               executable: bin64\syn_nfilter.exe
+               Run Directory: D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/A_VERSIONES_OK/Prueba06_UART_BLK/synthesis
+               Run State: complete
+               Return Code: 0
+               Has Errors: no
+               Run Start Time: 12:44:13
+               Run Time: 01s
+               Executable Run Time: 1 - (Executable run time excluding UI processing)
+               Memory Usage: -
+               Up-to-date (run skipped): no
+
+         Job: premap
+            executable: bin64\m_generic.exe
+            Run Directory: D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/A_VERSIONES_OK/Prueba06_UART_BLK/synthesis
+            Run State: complete
+            Return Code: 1
+            Has Errors: no
+            Run Start Time: 12:44:14
+            Run Time: 02s
+            Executable Run Time: 2 - (Executable run time excluding UI processing)
+            Memory Usage: -
+            Up-to-date (run skipped): no
+
+      JobFlow: map
+         Run Start Time: 12:44:16
+         Runtime: 08s
+         Executable Run Time: 8 - (Sum of all child executables)
+
+         Job: fpga_mapper
+            executable: bin64\m_generic.exe
+            Run Directory: D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/A_VERSIONES_OK/Prueba06_UART_BLK/synthesis
+            Run State: complete
+            Return Code: 1
+            Has Errors: no
+            Run Start Time: 12:44:16
+            Run Time: 08s
+            Executable Run Time: 8 - (Executable run time excluding UI processing)
+            Memory Usage: -
+            Up-to-date (run skipped): no

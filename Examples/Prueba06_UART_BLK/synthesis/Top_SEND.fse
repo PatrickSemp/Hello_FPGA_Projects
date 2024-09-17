@@ -1,0 +1,18 @@
+
+fsm_encoding {1422412241} onehot
+
+fsm_state_encoding {1422412241} rst_reg {0000000}
+
+fsm_state_encoding {1422412241} ld_init_str {0000011}
+
+fsm_state_encoding {1422412241} send_char {0000101}
+
+fsm_state_encoding {1422412241} rdy_low {0001001}
+
+fsm_state_encoding {1422412241} wait_rdy {0010001}
+
+fsm_state_encoding {1422412241} wait_btn {0100001}
+
+fsm_state_encoding {1422412241} ld_btn_str {1000001}
+
+fsm_registers {1422412241} {uartState[0]}  {uartState[1]}  {uartState[2]}  {uartState[3]}  {uartState[4]}  {uartState[5]}  {uartState_i[6]} 

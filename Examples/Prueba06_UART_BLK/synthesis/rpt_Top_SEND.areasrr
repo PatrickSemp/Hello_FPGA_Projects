@@ -1,0 +1,304 @@
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-HO2RJRQ
+
+Implementation : synthesis
+
+#### START OF AREA REPORT #####[
+
+Part:			M2S010VF400-1 (Microchip)
+
+------------------------------------------------------------------------
+########   Utilization report for  Top level view:   Top_SEND   ########
+========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      180                100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Top_SEND:	180 (32.26 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           196                100 %                
+ARI1          148                100 %                
+BLACK BOX     2                  100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block Top_SEND:	346 (62.01 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block Top_SEND:	1 (0.18 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       5                  100 %                
+=================================================
+Total IO PADS in the block Top_SEND:	5 (0.90 % Utilization)
+
+----------------------------------------------------------------------------
+########   Utilization report for  cell:   Debouncing_Button_VHDL   ########
+Instance path:   Top_SEND.Debouncing_Button_VHDL                            
+============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      20                 11.1 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Top_SEND.Debouncing_Button_VHDL:	20 (3.58 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      15                 7.65 %               
+ARI1     18                 12.2 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block Top_SEND.Debouncing_Button_VHDL:	33 (5.91 % Utilization)
+
+---------------------------------------------------------------------------
+########   Utilization report for  cell:   DFF_Debouncing_Button   ########
+Instance path:   Debouncing_Button_VHDL.DFF_Debouncing_Button              
+===========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  0.5560 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Debouncing_Button_VHDL.DFF_Debouncing_Button:	1 (0.18 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      6                  3.06 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block Debouncing_Button_VHDL.DFF_Debouncing_Button:	6 (1.08 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   DFF_Debouncing_Button_0   ########
+Instance path:   Debouncing_Button_VHDL.DFF_Debouncing_Button_0              
+=============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  0.5560 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Debouncing_Button_VHDL.DFF_Debouncing_Button_0:	1 (0.18 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1                  0.510 %              
+=================================================
+Total COMBINATIONAL LOGIC in the block Debouncing_Button_VHDL.DFF_Debouncing_Button_0:	1 (0.18 % Utilization)
+
+--------------------------------------------------------------------------------------
+########   Utilization report for  cell:   clock_enable_debouncing_button_1   ########
+Instance path:   Debouncing_Button_VHDL.clock_enable_debouncing_button_1              
+======================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      18                 10 %                 
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Debouncing_Button_VHDL.clock_enable_debouncing_button_1:	18 (3.23 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      7                  3.57 %               
+ARI1     18                 12.2 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block Debouncing_Button_VHDL.clock_enable_debouncing_button_1:	25 (4.48 % Utilization)
+
+------------------------------------------------------------------------------
+########   Utilization report for  cell:   Debouncing_Button_VHDL_1   ########
+Instance path:   Top_SEND.Debouncing_Button_VHDL_1                            
+==============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      20                 11.1 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Top_SEND.Debouncing_Button_VHDL_1:	20 (3.58 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      15                 7.65 %               
+ARI1     18                 12.2 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block Top_SEND.Debouncing_Button_VHDL_1:	33 (5.91 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   DFF_Debouncing_Button_1   ########
+Instance path:   Debouncing_Button_VHDL_1.DFF_Debouncing_Button_1            
+=============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  0.5560 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Debouncing_Button_VHDL_1.DFF_Debouncing_Button_1:	1 (0.18 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      6                  3.06 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block Debouncing_Button_VHDL_1.DFF_Debouncing_Button_1:	6 (1.08 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   DFF_Debouncing_Button_2   ########
+Instance path:   Debouncing_Button_VHDL_1.DFF_Debouncing_Button_2            
+=============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  0.5560 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Debouncing_Button_VHDL_1.DFF_Debouncing_Button_2:	1 (0.18 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1                  0.510 %              
+=================================================
+Total COMBINATIONAL LOGIC in the block Debouncing_Button_VHDL_1.DFF_Debouncing_Button_2:	1 (0.18 % Utilization)
+
+----------------------------------------------------------------------------------------
+########   Utilization report for  cell:   clock_enable_debouncing_button_1_0   ########
+Instance path:   Debouncing_Button_VHDL_1.clock_enable_debouncing_button_1_0            
+========================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      18                 10 %                 
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Debouncing_Button_VHDL_1.clock_enable_debouncing_button_1_0:	18 (3.23 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      7                  3.57 %               
+ARI1     18                 12.2 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block Debouncing_Button_VHDL_1.clock_enable_debouncing_button_1_0:	25 (4.48 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   GPIO_demo   ########
+Instance path:   Top_SEND.GPIO_demo                            
+===============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      140                77.8 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Top_SEND.GPIO_demo:	140 (25.09 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      166                84.7 %               
+ARI1     112                75.7 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block Top_SEND.GPIO_demo:	278 (49.82 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   UART_TX_CTRL   ########
+Instance path:   GPIO_demo.UART_TX_CTRL                           
+==================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      55                 30.6 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block GPIO_demo.UART_TX_CTRL:	55 (9.86 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      33                 16.8 %               
+ARI1     47                 31.8 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block GPIO_demo.UART_TX_CTRL:	80 (14.34 % Utilization)
+
+------------------------------------------------------------
+########   Utilization report for  cell:   OSC_C0   ########
+Instance path:   Top_SEND.OSC_C0                            
+============================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     2                  100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block Top_SEND.OSC_C0:	2 (0.36 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block Top_SEND.OSC_C0:	1 (0.18 % Utilization)
+
+-------------------------------------------------------------------------
+########   Utilization report for  cell:   OSC_C0_OSC_C0_0_OSC   ########
+Instance path:   OSC_C0.OSC_C0_OSC_C0_0_OSC                              
+=========================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     2                  100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block OSC_C0.OSC_C0_OSC_C0_0_OSC:	2 (0.36 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block OSC_C0.OSC_C0_OSC_C0_0_OSC:	1 (0.18 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+
