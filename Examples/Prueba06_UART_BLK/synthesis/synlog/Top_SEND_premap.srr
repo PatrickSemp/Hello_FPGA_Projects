@@ -1,0 +1,169 @@
+# Mon May 13 12:44:14 2024
+
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-HO2RJRQ
+
+Implementation : synthesis
+Synopsys Microchip Technology Pre-mapping, Version map202209actsp2, Build 145R, Built Jun 27 2023 12:06:34, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 124MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 137MB)
+
+Reading constraint file: D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\designer\Top_SEND\synthesis.fdc
+@L: D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\synthesis\Top_SEND_scck.rpt 
+See clock summary report "D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\synthesis\Top_SEND_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 137MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 137MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 137MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 137MB)
+
+NConnInternalConnection caching is on
+@W: FX1172 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\clock_enable_debouncing_button.vhd":34:0:34:1|User-specified initial value defined for instance Debouncing_Button_VHDL_0_0.clock_enable_generator.counter[17:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\dff_debouncing_button.vhd":16:1:16:2|User-specified initial value defined for instance Debouncing_Button_VHDL_0_0.Debouncing_FF1.Q is being ignored due to limitations in architecture. 
+@W: FX1172 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\uart_tx_ctrl.vhd":81:1:81:2|User-specified initial value defined for instance GPIO_demo_0.Inst_UART_TX_CTRL.txState[1:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\uart_tx_ctrl.vhd":105:1:105:2|User-specified initial value defined for instance GPIO_demo_0.Inst_UART_TX_CTRL.bitTmr[13:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\uart_tx_ctrl.vhd":143:1:143:2|User-specified initial value defined for instance GPIO_demo_0.Inst_UART_TX_CTRL.txBit is being ignored due to limitations in architecture. 
+@N: FX1171 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\uart_tx_ctrl.vhd":143:1:143:2|Found instance GPIO_demo_0.Inst_UART_TX_CTRL.txBit with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@W: FX1172 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":291:1:291:2|User-specified initial value defined for instance GPIO_demo_0.uartData[6:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":212:2:212:3|User-specified initial value defined for instance GPIO_demo_0.reset_cntr[17:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":291:1:291:2|User-specified initial value defined for instance GPIO_demo_0.uartSend is being ignored due to limitations in architecture. 
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Removing sequential instance GPIO_demo_0.sendStr_23[5] because it is equivalent to instance GPIO_demo_0.sendStr_22[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Removing sequential instance GPIO_demo_0.sendStr_22[6] because it is equivalent to instance GPIO_demo_0.sendStr_13[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Removing sequential instance GPIO_demo_0.sendStr_13[3] because it is equivalent to instance GPIO_demo_0.sendStr_0[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Removing sequential instance GPIO_demo_0.sendStr_22[2] because it is equivalent to instance GPIO_demo_0.sendStr_0[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Removing sequential instance GPIO_demo_0.sendStr_9[1] because it is equivalent to instance GPIO_demo_0.sendStr_0[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Removing sequential instance GPIO_demo_0.sendStr_22[0] because it is equivalent to instance GPIO_demo_0.sendStr_0[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Removing sequential instance GPIO_demo_0.sendStr_20[0] because it is equivalent to instance GPIO_demo_0.sendStr_0[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Removing sequential instance GPIO_demo_0.sendStr_15[0] because it is equivalent to instance GPIO_demo_0.sendStr_0[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Removing sequential instance GPIO_demo_0.sendStr_3[0] because it is equivalent to instance GPIO_demo_0.sendStr_0[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Removing sequential instance GPIO_demo_0.sendStr_17[5:4] because it is equivalent to instance GPIO_demo_0.sendStr_16[5:4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Removing sequential instance GPIO_demo_0.sendStr_16[5:4] because it is equivalent to instance GPIO_demo_0.sendStr_14[5:4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Removing sequential instance GPIO_demo_0.sendStr_5[5:4] because it is equivalent to instance GPIO_demo_0.sendStr_14[5:4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Removing sequential instance GPIO_demo_0.sendStr_2[2:1] because it is equivalent to instance GPIO_demo_0.sendStr_14[5:4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Removing sequential instance GPIO_demo_0.strEnd[0] because it is equivalent to instance GPIO_demo_0.sendStr_21[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Removing sequential instance GPIO_demo_0.sendStr_6[0] because it is equivalent to instance GPIO_demo_0.sendStr_21[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Removing sequential instance GPIO_demo_0.sendStr_5[2:0] because it is equivalent to instance GPIO_demo_0.sendStr_11[5:3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Removing sequential instance GPIO_demo_0.sendStr_18[6] because it is equivalent to instance GPIO_demo_0.sendStr_13[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Removing sequential instance GPIO_demo_0.sendStr_8[6] because it is equivalent to instance GPIO_demo_0.sendStr_13[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Removing sequential instance GPIO_demo_0.sendStr_7[6] because it is equivalent to instance GPIO_demo_0.sendStr_13[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Removing sequential instance GPIO_demo_0.sendStr_13[6] because it is equivalent to instance GPIO_demo_0.sendStr_0[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Removing sequential instance GPIO_demo_0.sendStr_20[5] because it is equivalent to instance GPIO_demo_0.sendStr_0[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Removing sequential instance GPIO_demo_0.sendStr_19[5] because it is equivalent to instance GPIO_demo_0.sendStr_0[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Removing sequential instance GPIO_demo_0.sendStr_10[5] because it is equivalent to instance GPIO_demo_0.sendStr_0[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Removing sequential instance GPIO_demo_0.sendStr_9[5] because it is equivalent to instance GPIO_demo_0.sendStr_0[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Removing sequential instance GPIO_demo_0.sendStr_18[4] because it is equivalent to instance GPIO_demo_0.sendStr_0[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Removing sequential instance GPIO_demo_0.sendStr_8[4] because it is equivalent to instance GPIO_demo_0.sendStr_0[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Removing sequential instance GPIO_demo_0.sendStr_18[2] because it is equivalent to instance GPIO_demo_0.sendStr_0[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Removing sequential instance GPIO_demo_0.sendStr_15[2] because it is equivalent to instance GPIO_demo_0.sendStr_0[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Removing sequential instance GPIO_demo_0.sendStr_3[2] because it is equivalent to instance GPIO_demo_0.sendStr_0[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Removing sequential instance GPIO_demo_0.sendStr_11[1] because it is equivalent to instance GPIO_demo_0.sendStr_0[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Removing sequential instance GPIO_demo_0.sendStr_8[1] because it is equivalent to instance GPIO_demo_0.sendStr_0[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Removing sequential instance GPIO_demo_0.sendStr_19[0] because it is equivalent to instance GPIO_demo_0.sendStr_0[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Removing sequential instance GPIO_demo_0.sendStr_3[5:4] because it is equivalent to instance GPIO_demo_0.sendStr_15[5:4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Removing sequential instance GPIO_demo_0.sendStr_2[5:4] because it is equivalent to instance GPIO_demo_0.sendStr_15[5:4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Removing sequential instance GPIO_demo_0.sendStr_23[3:2] because it is equivalent to instance GPIO_demo_0.sendStr_15[5:4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Removing sequential instance GPIO_demo_0.sendStr_15[5:4] because it is equivalent to instance GPIO_demo_0.sendStr_10[1:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Removing sequential instance GPIO_demo_0.sendStr_21[6:5] because it is equivalent to instance GPIO_demo_0.sendStr_12[6:5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: FX1171 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Found instance GPIO_demo_0.sendStr_12[6:5] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Found instance GPIO_demo_0.sendStr_6[6:4] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Found instance GPIO_demo_0.sendStr_1[6:3] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Found instance GPIO_demo_0.sendStr_0[6] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Found instance GPIO_demo_0.sendStr_14[5:4] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Found instance GPIO_demo_0.sendStr_11[5:3] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Found instance GPIO_demo_0.sendStr_4[5:2] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Found instance GPIO_demo_0.sendStr_17[2:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Found instance GPIO_demo_0.sendStr_16[2:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Found instance GPIO_demo_0.sendStr_21[2] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Found instance GPIO_demo_0.sendStr_10[1:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":264:1:264:2|Found instance GPIO_demo_0.sendStr_0[3] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 169MB peak: 169MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 169MB peak: 170MB)
+
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 169MB peak: 170MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 169MB peak: 170MB)
+
+@N: FX1184 |Applying syn_allowed_resources blockrams=21 on top level netlist Top_SEND 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 171MB)
+
+
+
+Clock Summary
+******************
+
+          Start                                                          Requested     Requested     Clock        Clock          Clock
+Level     Clock                                                          Frequency     Period        Type         Group          Load 
+--------------------------------------------------------------------------------------------------------------------------------------
+0 -       OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     100.0 MHz     10.000        inferred     (multiple)     189  
+======================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                                               Clock     Source                                                        Clock Pin                  Non-clock Pin     Non-clock Pin                                               
+Clock                                                          Load      Pin                                                           Seq Example                Seq Example       Comb Example                                                
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     189       OSC_C0_0.OSC_C0_0.I_RCOSC_25_50MHZ.CLKOUT(RCOSC_25_50MHZ)     GPIO_demo_0.uartSend.C     -                 OSC_C0_0.OSC_C0_0.I_RCOSC_25_50MHZ_FAB.A(RCOSC_25_50MHZ_FAB)
+================================================================================================================================================================================================================================================
+
+@W: MT530 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\clock_enable_debouncing_button.vhd":34:0:34:1|Found inferred clock OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock which controls 189 sequential elements including Debouncing_Button_VHDL_0.clock_enable_generator.counter[17:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\synthesis\Top_SEND.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 172MB)
+
+Encoding state machine uartState[0:6] (in view: work.GPIO_demo(behavioral))
+original code -> new code
+   0000001 -> 0000000
+   0000010 -> 0000011
+   0000100 -> 0000101
+   0001000 -> 0001001
+   0010000 -> 0010001
+   0100000 -> 0100001
+   1000000 -> 1000001
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 174MB peak: 174MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 175MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 88MB peak: 175MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Mon May 13 12:44:16 2024
+
+###########################################################]

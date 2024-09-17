@@ -1,0 +1,80 @@
+#OPTIONS:"|-layerid|0|-orig_srs|D:\\ESPE\\TESIS\\SW_LIBERO\\PROGRAMAS\\A_VERSIONES_OK\\Prueba06_UART_BLK\\synthesis\\synwork\\Top_SEND_comp.srs|-top|work.Top_SEND|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-work_is_curlib|1|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-vhdl2008|-work_is_curlib|1|-ignore_undefined_lib|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Microchip\\Libero_SoC_v2023.2\\SynplifyPro\\bin64\\c_vhdl.exe":1691490330
+#CUR:"C:\\Microchip\\Libero_SoC_v2023.2\\SynplifyPro\\lib\\vhd2008\\location.map":1691490346
+#CUR:"C:\\Microchip\\Libero_SoC_v2023.2\\SynplifyPro\\lib\\vhd2008\\std.vhd":1691490346
+#CUR:"C:\\Microchip\\Libero_SoC_v2023.2\\SynplifyPro\\lib\\vhd\\snps_haps_pkg.vhd":1691490346
+#CUR:"C:\\Microchip\\Libero_SoC_v2023.2\\SynplifyPro\\lib\\vhd2008\\std1164.vhd":1691490346
+#CUR:"C:\\Microchip\\Libero_SoC_v2023.2\\SynplifyPro\\lib\\vhd2008\\std_textio.vhd":1691490346
+#CUR:"C:\\Microchip\\Libero_SoC_v2023.2\\SynplifyPro\\lib\\vhd2008\\numeric.vhd":1691490346
+#CUR:"C:\\Microchip\\Libero_SoC_v2023.2\\SynplifyPro\\lib\\vhd\\umr_capim.vhd":1691490346
+#CUR:"C:\\Microchip\\Libero_SoC_v2023.2\\SynplifyPro\\lib\\vhd2008\\arith.vhd":1691490346
+#CUR:"C:\\Microchip\\Libero_SoC_v2023.2\\SynplifyPro\\lib\\vhd2008\\unsigned.vhd":1691490346
+#CUR:"C:\\Microchip\\Libero_SoC_v2023.2\\SynplifyPro\\lib\\vhd\\hyperents.vhd":1691490346
+#CUR:"D:\\ESPE\\TESIS\\SW_LIBERO\\PROGRAMAS\\A_VERSIONES_OK\\Prueba06_UART_BLK\\hdl\\DFF_Debouncing_Button.vhd":1700067901
+#CUR:"D:\\ESPE\\TESIS\\SW_LIBERO\\PROGRAMAS\\A_VERSIONES_OK\\Prueba06_UART_BLK\\hdl\\clock_enable_debouncing_button.vhd":1700067901
+#CUR:"D:\\ESPE\\TESIS\\SW_LIBERO\\PROGRAMAS\\A_VERSIONES_OK\\Prueba06_UART_BLK\\hdl\\UART_TX_CTRL.vhd":1715319333
+#CUR:"D:\\ESPE\\TESIS\\SW_LIBERO\\PROGRAMAS\\A_VERSIONES_OK\\Prueba06_UART_BLK\\component\\Actel\\SgCore\\OSC\\2.0.101\\osc_comps.vhd":1699569127
+#CUR:"D:\\ESPE\\TESIS\\SW_LIBERO\\PROGRAMAS\\A_VERSIONES_OK\\Prueba06_UART_BLK\\hdl\\Debouncing_Button_VHDL.vhd":1700067901
+#CUR:"D:\\ESPE\\TESIS\\SW_LIBERO\\PROGRAMAS\\A_VERSIONES_OK\\Prueba06_UART_BLK\\hdl\\GPIO_Demo.vhd":1715319377
+#CUR:"D:\\ESPE\\TESIS\\SW_LIBERO\\PROGRAMAS\\A_VERSIONES_OK\\Prueba06_UART_BLK\\component\\work\\OSC_C0\\OSC_C0_0\\OSC_C0_OSC_C0_0_OSC.vhd":1700067984
+#CUR:"C:\\Microchip\\Libero_SoC_v2023.2\\SynplifyPro\\lib\\generic\\smartfusion2.vhd":1691490345
+#CUR:"D:\\ESPE\\TESIS\\SW_LIBERO\\PROGRAMAS\\A_VERSIONES_OK\\Prueba06_UART_BLK\\component\\work\\OSC_C0\\OSC_C0.vhd":1700067984
+#CUR:"D:\\ESPE\\TESIS\\SW_LIBERO\\PROGRAMAS\\A_VERSIONES_OK\\Prueba06_UART_BLK\\component\\work\\Top_SEND\\Top_SEND.vhd":1715319034
+0			"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\DFF_Debouncing_Button.vhd" vhdl
+1			"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\clock_enable_debouncing_button.vhd" vhdl
+2			"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\Debouncing_Button_VHDL.vhd" vhdl
+3			"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\UART_TX_CTRL.vhd" vhdl
+4			"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd" vhdl
+5			"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd" vhdl
+6			"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.vhd" vhdl
+7			"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\component\work\OSC_C0\OSC_C0.vhd" vhdl
+8			"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\component\work\Top_SEND\Top_SEND.vhd" vhdl
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 0 1
+3 -1
+4 3
+5 -1
+6 5
+7 6
+8 7 4 2
+#Dependency Lists(Users Of)
+0 2
+1 2
+2 8
+3 4
+4 8
+5 6
+6 7
+7 8
+8 -1
+#Design Unit to File Association
+module work top_send 8
+arch work top_send rtl 8
+module work osc_c0 7
+arch work osc_c0 rtl 7
+module work osc_c0_osc_c0_0_osc 6
+arch work osc_c0_osc_c0_0_osc def_arch 6
+module work rcosc_1mhz 5
+arch work rcosc_1mhz def_arch 5
+module work rcosc_25_50mhz 5
+arch work rcosc_25_50mhz def_arch 5
+module work xtlosc 5
+arch work xtlosc def_arch 5
+module work rcosc_1mhz_fab 5
+arch work rcosc_1mhz_fab def_arch 5
+module work rcosc_25_50mhz_fab 5
+arch work rcosc_25_50mhz_fab def_arch 5
+module work xtlosc_fab 5
+arch work xtlosc_fab def_arch 5
+module work gpio_demo 4
+arch work gpio_demo behavioral 4
+module work uart_tx_ctrl 3
+arch work uart_tx_ctrl behavioral 3
+module work debouncing_button_vhdl 2
+arch work debouncing_button_vhdl behavioral 2
+module work clock_enable_debouncing_button 1
+arch work clock_enable_debouncing_button behavioral 1
+module work dff_debouncing_button 0
+arch work dff_debouncing_button behavioral 0

@@ -1,0 +1,13 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MO231 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\clock_enable_debouncing_button.vhd":34:0:34:1|Found counter in view:work.clock_enable_debouncing_button(behavioral) instance counter[17:0] 
+@N: MO231 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":212:2:212:3|Found counter in view:work.GPIO_demo(behavioral) instance reset_cntr[17:0] 
+@N: MO231 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":279:1:279:2|Found counter in view:work.GPIO_demo(behavioral) instance strIndex[30:0] 
+@N: FX493 |Applying initial value "0" on instance uartState_i[6].
+@N: MF179 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\gpio_demo.vhd":241:9:241:25|Found 31 by 31 bit equality operator ('==') next_uartState_process\.un3_uartrdy (in view: work.GPIO_demo(behavioral))
+@N: MO231 :"d:\espe\tesis\sw_libero\programas\a_versiones_ok\prueba06_uart_blk\hdl\uart_tx_ctrl.vhd":123:1:123:2|Found counter in view:work.UART_TX_CTRL(behavioral) instance bitIndex[30:0] 
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

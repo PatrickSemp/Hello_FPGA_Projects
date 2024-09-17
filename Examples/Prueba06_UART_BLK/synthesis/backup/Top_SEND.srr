@@ -1,0 +1,1022 @@
+#Build: Synplify Pro (R) T-2022.09M-SP2-1, Build 179R, Jun 27 2023
+#install: C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+#OS: Windows 10 or later
+#Hostname: DESKTOP-HO2RJRQ
+
+# Wed Nov 15 15:11:28 2023
+
+#Implementation: synthesis
+
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-HO2RJRQ
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp202209synp2, Build 179R, Built Jun 27 2023 09:29:56, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-HO2RJRQ
+
+Implementation : synthesis
+Synopsys VHDL Compiler, Version comp202209synp2, Build 179R, Built Jun 27 2023 09:29:56, @
+
+@N|Running in 64-bit mode
+@N:"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\Top_SEND\Top_SEND.vhd":17:7:17:14|Top entity is set to Top_SEND.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\Rx_async.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\fifo_256x8.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\Clock_gen.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\Tx_async.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\coreuart_pkg.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\components.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\DFF_Debouncing_Button.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\clock_enable_debouncing_button.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\CoreUART.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\Debouncing_Button_VHDL.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\OSC_C0\OSC_C0.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\Top_SEND\Top_SEND.vhd'.
+VHDL syntax check successful!
+@N: CD231 :"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\Top_SEND\Top_SEND.vhd":17:7:17:14|Synthesizing work.top_send.rtl.
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\OSC_C0\OSC_C0.vhd":39:7:39:12|Synthesizing work.osc_c0.rtl.
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.vhd":8:7:8:25|Synthesizing work.osc_c0_osc_c0_0_osc.def_arch.
+@N: CD630 :"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\generic\smartfusion2.vhd":562:10:562:15|Synthesizing smartfusion2.clkint.syn_black_box.
+Post processing for smartfusion2.clkint.syn_black_box
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":19:7:19:20|Synthesizing work.rcosc_25_50mhz.def_arch.
+Post processing for work.rcosc_25_50mhz.def_arch
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":79:7:79:24|Synthesizing work.rcosc_25_50mhz_fab.def_arch.
+Post processing for work.rcosc_25_50mhz_fab.def_arch
+Post processing for work.osc_c0_osc_c0_0_osc.def_arch
+Running optimization stage 1 on OSC_C0_OSC_C0_0_OSC .......
+@W: CL240 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.vhd":16:10:16:19|Signal XTLOSC_O2F is floating; a simulation mismatch is possible.
+@W: CL240 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.vhd":15:10:15:19|Signal XTLOSC_CCC is floating; a simulation mismatch is possible.
+@W: CL240 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.vhd":14:10:14:23|Signal RCOSC_1MHZ_O2F is floating; a simulation mismatch is possible.
+@W: CL240 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.vhd":13:10:13:23|Signal RCOSC_1MHZ_CCC is floating; a simulation mismatch is possible.
+@W: CL240 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.vhd":11:10:11:27|Signal RCOSC_25_50MHZ_CCC is floating; a simulation mismatch is possible.
+Finished optimization stage 1 on OSC_C0_OSC_C0_0_OSC (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
+Post processing for work.osc_c0.rtl
+Running optimization stage 1 on OSC_C0 .......
+Finished optimization stage 1 on OSC_C0 (CPU Time 0h:00m:00s, Memory Used current: 93MB peak: 94MB)
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":49:7:49:15|Synthesizing work.gpio_demo.behavioral.
+@N: CD231 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":96:21:96:22|Using onehot encoding for type uart_state_type. For example, enumeration rst_reg is mapped to "1000000".
+@N: CD604 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":250:3:250:15|OTHERS clause is not synthesized.
+@W: CD749 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":291:15:291:31|Index value of type natural (or large positive integer) could be out of prefix range 0 to 26 
+Post processing for work.gpio_demo.behavioral
+Running optimization stage 1 on GPIO_demo .......
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_24(0) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_24(1) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_24(2) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_24(3) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_24(4) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_24(5) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_24(6) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_24(7) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_25(0) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_25(1) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_25(2) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_25(3) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_25(4) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_25(5) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_25(6) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_25(7) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_26(0) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_26(1) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_26(2) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_26(3) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_26(4) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_26(5) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_26(6) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_26(7) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_0(0) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_0(1) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_0(2) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_0(4) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_0(5) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_0(7) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_1(0) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_1(1) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_1(2) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_1(7) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_2(0) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_2(3) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_2(6) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_2(7) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_3(1) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_3(3) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_3(6) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_3(7) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_4(0) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_4(1) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_4(6) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_4(7) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_5(3) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_5(6) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_5(7) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_6(2) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_6(3) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_6(7) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_7(2) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_7(3) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_7(4) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_7(5) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_7(7) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_8(0) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_8(2) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_8(3) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_8(5) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_8(7) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_9(0) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_9(2) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_9(3) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_9(4) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_9(6) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_9(7) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_10(2) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_10(3) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_10(4) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_10(6) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_10(7) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_11(0) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_11(2) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_11(6) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_11(7) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_12(4) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_12(7) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_13(2) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_13(4) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_13(5) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_13(7) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_14(0) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_14(1) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_14(2) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_14(3) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_14(6) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_14(7) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_15(1) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_15(3) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_15(6) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_15(7) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_16(3) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_16(6) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_16(7) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_17(3) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_17(6) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_17(7) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Register bit string_load_process.sendStr_18(0) is always 0.
+
+Only the first 100 messages of id 'CL189' are reported. To see all messages use 'report_messages -log D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\synthesis\synlog\Top_SEND_compiler.srr -id CL189' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CL189} -count unlimited' in the Tcl shell.
+@W: CL260 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bit 7 of sendStr_0(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bits 5 to 4 of sendStr_0(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bits 2 to 0 of sendStr_0(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bit 7 of sendStr_1(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bits 2 to 0 of sendStr_1(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bits 7 to 6 of sendStr_2(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bit 3 of sendStr_2(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bit 0 of sendStr_2(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bits 7 to 6 of sendStr_3(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bit 3 of sendStr_3(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bit 1 of sendStr_3(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bits 7 to 6 of sendStr_4(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bits 1 to 0 of sendStr_4(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bits 7 to 6 of sendStr_5(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bit 3 of sendStr_5(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bit 7 of sendStr_6(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bits 3 to 2 of sendStr_6(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bit 7 of sendStr_7(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bits 5 to 2 of sendStr_7(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bit 7 of sendStr_8(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bit 5 of sendStr_8(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bits 3 to 2 of sendStr_8(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bit 0 of sendStr_8(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bits 7 to 6 of sendStr_9(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bits 4 to 2 of sendStr_9(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bit 0 of sendStr_9(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bits 7 to 6 of sendStr_10(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bits 4 to 2 of sendStr_10(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bits 7 to 6 of sendStr_11(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bit 2 of sendStr_11(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bit 0 of sendStr_11(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bit 7 of sendStr_12(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bit 4 of sendStr_12(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bit 7 of sendStr_13(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bits 5 to 4 of sendStr_13(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bit 2 of sendStr_13(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bits 7 to 6 of sendStr_14(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bits 3 to 0 of sendStr_14(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bits 7 to 6 of sendStr_15(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bit 3 of sendStr_15(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bit 1 of sendStr_15(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bits 7 to 6 of sendStr_16(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bit 3 of sendStr_16(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bits 7 to 6 of sendStr_17(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bit 3 of sendStr_17(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bit 7 of sendStr_18(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bit 5 of sendStr_18(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bit 3 of sendStr_18(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bits 1 to 0 of sendStr_18(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bits 7 to 6 of sendStr_19(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bits 4 to 1 of sendStr_19(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bits 7 to 6 of sendStr_20(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bits 4 to 1 of sendStr_20(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bit 7 of sendStr_21(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bit 4 of sendStr_21(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bits 1 to 0 of sendStr_21(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bit 7 of sendStr_22(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bits 5 to 3 of sendStr_22(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bit 1 of sendStr_22(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bits 7 to 6 of sendStr_23(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bit 4 of sendStr_23(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bits 1 to 0 of sendStr_23(7 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bits 30 to 2 of strEnd(30 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 1 on GPIO_demo (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 97MB)
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\Debouncing_Button_VHDL.vhd":21:7:21:28|Synthesizing work.debouncing_button_vhdl.behavioral.
+@W: CD638 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\Debouncing_Button_VHDL.vhd":30:10:30:11|Signal q2 is undriven. Either assign the signal a value or remove the signal declaration.
+@W: CD638 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\Debouncing_Button_VHDL.vhd":30:13:30:18|Signal q2_bar is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\DFF_Debouncing_Button.vhd":4:7:4:27|Synthesizing work.dff_debouncing_button.behavioral.
+Post processing for work.dff_debouncing_button.behavioral
+Running optimization stage 1 on DFF_Debouncing_Button .......
+Finished optimization stage 1 on DFF_Debouncing_Button (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 97MB)
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\clock_enable_debouncing_button.vhd":22:7:22:36|Synthesizing work.clock_enable_debouncing_button.behavioral.
+Post processing for work.clock_enable_debouncing_button.behavioral
+Running optimization stage 1 on clock_enable_debouncing_button .......
+Finished optimization stage 1 on clock_enable_debouncing_button (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 97MB)
+Post processing for work.debouncing_button_vhdl.behavioral
+Running optimization stage 1 on Debouncing_Button_VHDL .......
+Finished optimization stage 1 on Debouncing_Button_VHDL (CPU Time 0h:00m:00s, Memory Used current: 97MB peak: 97MB)
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0.vhd":35:7:35:17|Synthesizing work.coreuart_c0.rtl.
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\CoreUART.vhd":34:7:34:40|Synthesizing coreuart_lib.coreuart_c0_coreuart_c0_0_coreuart.translated.
+@W: CD434 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\CoreUART.vhd":265:21:265:31|Signal rx_dout_reg in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@W: CD434 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\CoreUART.vhd":265:34:265:49|Signal parity_err_xhdl1 in the sensitivity list is not used in the process. Make sure all variables in the sensitivity list are referenced in the process.
+@N: CD604 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\CoreUART.vhd":392:9:392:22|OTHERS clause is not synthesized.
+@N: CD364 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\CoreUART.vhd":450:13:450:24|Removing redundant assignment.
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\fifo_256x8.vhd":33:7:33:42|Synthesizing coreuart_lib.coreuart_c0_coreuart_c0_0_fifo_256x8.translated.
+@W: CD638 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\fifo_256x8.vhd":75:10:75:19|Signal eqth_xhdl4 is undriven. Either assign the signal a value or remove the signal declaration.
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\fifo_256x8.vhd":121:7:121:45|Synthesizing coreuart_lib.coreuart_c0_coreuart_c0_0_fifo_ctrl_256.translated.
+@N: CD364 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\fifo_256x8.vhd":292:16:292:29|Removing redundant assignment.
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\fifo_256x8.vhd":316:7:316:39|Synthesizing coreuart_lib.coreuart_c0_coreuart_c0_0_ram16x8.translated.
+Post processing for coreuart_lib.coreuart_c0_coreuart_c0_0_ram16x8.translated
+Running optimization stage 1 on COREUART_C0_COREUART_C0_0_ram16x8 .......
+Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_ram16x8 (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 98MB)
+Post processing for coreuart_lib.coreuart_c0_coreuart_c0_0_fifo_ctrl_256.translated
+Running optimization stage 1 on COREUART_C0_COREUART_C0_0_fifo_ctrl_256 .......
+@A: CL282 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\fifo_256x8.vhd":282:6:282:7|Feedback mux created for signal data_out_xhdl1[7:0]. It is possible a set/reset assignment for this is signal missing. To improve timing and area, specify a set/reset value.
+Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_fifo_ctrl_256 (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 98MB)
+Post processing for coreuart_lib.coreuart_c0_coreuart_c0_0_fifo_256x8.translated
+Running optimization stage 1 on COREUART_C0_COREUART_C0_0_fifo_256x8 .......
+Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_fifo_256x8 (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 98MB)
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\Rx_async.vhd":33:7:33:40|Synthesizing coreuart_lib.coreuart_c0_coreuart_c0_0_rx_async.translated.
+@N: CD233 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\Rx_async.vhd":64:24:64:25|Using sequential encoding for type receive_states.
+@N: CD364 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\Rx_async.vhd":233:15:233:29|Removing redundant assignment.
+@N: CD604 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\Rx_async.vhd":253:21:253:34|OTHERS clause is not synthesized.
+@N: CD364 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\Rx_async.vhd":256:19:256:26|Removing redundant assignment.
+@N: CD604 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\Rx_async.vhd":318:19:318:33|OTHERS clause is not synthesized.
+@N: CD604 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\Rx_async.vhd":423:18:423:32|OTHERS clause is not synthesized.
+Post processing for coreuart_lib.coreuart_c0_coreuart_c0_0_rx_async.translated
+Running optimization stage 1 on COREUART_C0_COREUART_C0_0_Rx_async .......
+@W: CL177 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\Rx_async.vhd":443:6:443:7|Sharing sequential element clear_framing_error_en_i and merging clear_parity_en_xhdl3. Add a syn_preserve attribute to the element to prevent sharing.
+Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_Rx_async (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\Tx_async.vhd":33:7:33:40|Synthesizing coreuart_lib.coreuart_c0_coreuart_c0_0_tx_async.translated.
+@N: CD364 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\Tx_async.vhd":311:12:311:20|Removing redundant assignment.
+Post processing for coreuart_lib.coreuart_c0_coreuart_c0_0_tx_async.translated
+Running optimization stage 1 on COREUART_C0_COREUART_C0_0_Tx_async .......
+Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_Tx_async (CPU Time 0h:00m:00s, Memory Used current: 98MB peak: 99MB)
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\Clock_gen.vhd":35:7:35:41|Synthesizing coreuart_lib.coreuart_c0_coreuart_c0_0_clock_gen.rtl.
+@N: CD364 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\Clock_gen.vhd":109:43:109:51|Removing redundant assignment.
+@N: CD364 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\Clock_gen.vhd":122:42:122:50|Removing redundant assignment.
+@N: CD364 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\Clock_gen.vhd":135:42:135:50|Removing redundant assignment.
+@N: CD364 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\Clock_gen.vhd":148:42:148:50|Removing redundant assignment.
+@N: CD364 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\Clock_gen.vhd":161:42:161:50|Removing redundant assignment.
+@N: CD364 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\Clock_gen.vhd":174:42:174:50|Removing redundant assignment.
+@N: CD364 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\Clock_gen.vhd":187:42:187:50|Removing redundant assignment.
+@N: CD604 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\Clock_gen.vhd":198:24:198:37|OTHERS clause is not synthesized.
+Post processing for coreuart_lib.coreuart_c0_coreuart_c0_0_clock_gen.rtl
+Running optimization stage 1 on COREUART_C0_COREUART_C0_0_Clock_gen .......
+Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_Clock_gen (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 100MB)
+Post processing for coreuart_lib.coreuart_c0_coreuart_c0_0_coreuart.translated
+Running optimization stage 1 on COREUART_C0_COREUART_C0_0_COREUART .......
+@W: CL169 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\CoreUART.vhd":439:7:439:8|Pruning unused register overflow_reg_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\CoreUART.vhd":414:7:414:8|Pruning unused register rx_dout_reg_empty_5. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\CoreUART.vhd":399:6:399:7|Pruning unused register rx_dout_reg_5(7 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\CoreUART.vhd":367:6:367:7|Pruning unused register rx_state_4(1 downto 0). Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\CoreUART.vhd":350:6:350:7|Pruning unused register clear_framing_error_reg0_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\CoreUART.vhd":350:6:350:7|Pruning unused register clear_framing_error_reg_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\CoreUART.vhd":333:6:333:7|Pruning unused register clear_parity_reg0_3. Make sure that there are no unused intermediate registers.
+@W: CL169 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\CoreUART.vhd":333:6:333:7|Pruning unused register clear_parity_reg_3. Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on COREUART_C0_COREUART_C0_0_COREUART (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 100MB)
+Post processing for work.coreuart_c0.rtl
+Running optimization stage 1 on COREUART_C0 .......
+Finished optimization stage 1 on COREUART_C0 (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 100MB)
+Post processing for work.top_send.rtl
+Running optimization stage 1 on Top_SEND .......
+Finished optimization stage 1 on Top_SEND (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 100MB)
+Running optimization stage 2 on COREUART_C0_COREUART_C0_0_Clock_gen .......
+Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_Clock_gen (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 101MB)
+Running optimization stage 2 on COREUART_C0_COREUART_C0_0_Tx_async .......
+@N: CL201 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\Tx_async.vhd":134:4:134:5|Trying to extract state machine for register xmit_state.
+Extracted state machine for register xmit_state
+State machine has 7 reachable states with original encodings of:
+   00000000000000000000000000000000
+   00000000000000000000000000000001
+   00000000000000000000000000000010
+   00000000000000000000000000000011
+   00000000000000000000000000000100
+   00000000000000000000000000000101
+   00000000000000000000000000000110
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\Tx_async.vhd":43:9:43:20|Input rst_tx_empty is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\Tx_async.vhd":44:9:44:19|Input tx_hold_reg is unused.
+Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_Tx_async (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 101MB)
+Running optimization stage 2 on COREUART_C0_COREUART_C0_0_Rx_async .......
+@N: CL201 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\Rx_async.vhd":264:6:264:7|Trying to extract state machine for register rx_state.
+Extracted state machine for register rx_state
+State machine has 4 reachable states with original encodings of:
+   00
+   01
+   10
+   11
+Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_Rx_async (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 101MB)
+Running optimization stage 2 on COREUART_C0_COREUART_C0_0_ram16x8 .......
+@N: CL134 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\fifo_256x8.vhd":343:10:343:15|Found RAM memory_xhdl3, depth=16, width=8
+Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_ram16x8 (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 101MB)
+Running optimization stage 2 on COREUART_C0_COREUART_C0_0_fifo_ctrl_256 .......
+Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_fifo_ctrl_256 (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 101MB)
+Running optimization stage 2 on COREUART_C0_COREUART_C0_0_fifo_256x8 .......
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\COREUART_C0\COREUART_C0_0\rtl\vhdl\core\fifo_256x8.vhd":37:6:37:11|Input RCLOCK is unused.
+Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_fifo_256x8 (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 101MB)
+Running optimization stage 2 on COREUART_C0_COREUART_C0_0_COREUART .......
+Finished optimization stage 2 on COREUART_C0_COREUART_C0_0_COREUART (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 101MB)
+Running optimization stage 2 on COREUART_C0 .......
+Finished optimization stage 2 on COREUART_C0 (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 101MB)
+Running optimization stage 2 on clock_enable_debouncing_button .......
+@W: CL279 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\clock_enable_debouncing_button.vhd":34:0:34:1|Pruning register bits 27 to 18 of counter(27 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 2 on clock_enable_debouncing_button (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 101MB)
+Running optimization stage 2 on DFF_Debouncing_Button .......
+Finished optimization stage 2 on DFF_Debouncing_Button (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 101MB)
+Running optimization stage 2 on Debouncing_Button_VHDL .......
+Finished optimization stage 2 on Debouncing_Button_VHDL (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 101MB)
+Running optimization stage 2 on GPIO_demo .......
+@W: CL260 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":288:1:288:2|Pruning register bit 7 of uartData(7 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL201 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":221:1:221:2|Trying to extract state machine for register uartState.
+Extracted state machine for register uartState
+State machine has 7 reachable states with original encodings of:
+   0000001
+   0000010
+   0000100
+   0001000
+   0010000
+   0100000
+   1000000
+@W: CL249 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":221:1:221:2|Initial value is not supported on state machine uartState
+@W: CL260 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bit 1 of sendStr_6(1 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bit 1 of sendStr_7(1 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bit 1 of sendStr_13(1 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bit 1 of strEnd(1 downto 0). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bits 3 to 1 of sendStr_12(3 downto 0). If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Pruning register bit 3 of sendStr_21(3 downto 2). If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL177 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Sharing sequential element sendStr_7 and merging sendStr_6. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Sharing sequential element sendStr_12 and merging sendStr_6. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\hdl\GPIO_Demo.vhd":261:1:261:2|Sharing sequential element sendStr_13 and merging sendStr_6. Add a syn_preserve attribute to the element to prevent sharing.
+Finished optimization stage 2 on GPIO_demo (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 101MB)
+Running optimization stage 2 on OSC_C0_OSC_C0_0_OSC .......
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.vhd":10:10:10:12|Input XTL is unused.
+Finished optimization stage 2 on OSC_C0_OSC_C0_0_OSC (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 101MB)
+Running optimization stage 2 on OSC_C0 .......
+Finished optimization stage 2 on OSC_C0 (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 101MB)
+Running optimization stage 2 on Top_SEND .......
+Finished optimization stage 2 on Top_SEND (CPU Time 0h:00m:00s, Memory Used current: 99MB peak: 101MB)
+
+For a summary of runtime per design unit, please see file:
+==========================================================
+@L: D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\synthesis\synwork\layer0.duruntime
+
+
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 100MB peak: 101MB)
+
+Process took 0h:00m:07s realtime, 0h:00m:06s cputime
+
+Process completed successfully.
+# Wed Nov 15 15:11:35 2023
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-HO2RJRQ
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202209synp2, Build 179R, Built Jun 27 2023 09:29:56, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 91MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Nov 15 15:11:36 2023
+
+###########################################################]
+
+For a summary of runtime and memory usage for all design units, please see file:
+==========================================================
+@L: D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\synthesis\synwork\Top_SEND_comp.rt.csv
+
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 23MB peak: 23MB)
+
+Process took 0h:00m:07s realtime, 0h:00m:07s cputime
+
+Process completed successfully.
+# Wed Nov 15 15:11:36 2023
+
+###########################################################]
+###########################################################[
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-HO2RJRQ
+
+Implementation : synthesis
+Synopsys Synopsys Netlist Linker, Version comp202209synp2, Build 179R, Built Jun 27 2023 09:29:56, @
+
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 91MB peak: 92MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Wed Nov 15 15:11:37 2023
+
+###########################################################]
+Premap Report
+
+# Wed Nov 15 15:11:38 2023
+
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-HO2RJRQ
+
+Implementation : synthesis
+Synopsys Microchip Technology Pre-mapping, Version map202209actsp2, Build 145R, Built Jun 27 2023 12:06:34, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 124MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 137MB)
+
+Reading constraint file: D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\designer\Top_SEND\synthesis.fdc
+@L: D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\synthesis\Top_SEND_scck.rpt 
+See clock summary report "D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\synthesis\Top_SEND_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 137MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 137MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 137MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 134MB peak: 137MB)
+
+NConnInternalConnection caching is on
+@W: FX1172 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\clock_enable_debouncing_button.vhd":34:0:34:1|User-specified initial value defined for instance Debouncing_Button_VHDL_1.clock_enable_generator.counter[17:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\dff_debouncing_button.vhd":16:1:16:2|User-specified initial value defined for instance Debouncing_Button_VHDL_1.Debouncing_FF1.Q is being ignored due to limitations in architecture. 
+@W: FX1172 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":209:2:209:3|User-specified initial value defined for instance GPIO_demo_0.reset_cntr[17:0] is being ignored due to limitations in architecture. 
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance GPIO_demo_0.sendStr_23[5] because it is equivalent to instance GPIO_demo_0.sendStr_22[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance GPIO_demo_0.sendStr_22[6] because it is equivalent to instance GPIO_demo_0.sendStr_13[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance GPIO_demo_0.sendStr_13[3] because it is equivalent to instance GPIO_demo_0.sendStr_0[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance GPIO_demo_0.sendStr_22[2] because it is equivalent to instance GPIO_demo_0.sendStr_0[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance GPIO_demo_0.sendStr_9[1] because it is equivalent to instance GPIO_demo_0.sendStr_0[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance GPIO_demo_0.sendStr_22[0] because it is equivalent to instance GPIO_demo_0.sendStr_0[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance GPIO_demo_0.sendStr_20[0] because it is equivalent to instance GPIO_demo_0.sendStr_0[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance GPIO_demo_0.sendStr_15[0] because it is equivalent to instance GPIO_demo_0.sendStr_0[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance GPIO_demo_0.sendStr_3[0] because it is equivalent to instance GPIO_demo_0.sendStr_0[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance GPIO_demo_0.sendStr_21[6:5] because it is equivalent to instance GPIO_demo_0.sendStr_12[6:5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance GPIO_demo_0.sendStr_5[2:0] because it is equivalent to instance GPIO_demo_0.sendStr_11[5:3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance GPIO_demo_0.strEnd[0] because it is equivalent to instance GPIO_demo_0.sendStr_21[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance GPIO_demo_0.sendStr_6[0] because it is equivalent to instance GPIO_demo_0.sendStr_21[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance GPIO_demo_0.sendStr_18[6] because it is equivalent to instance GPIO_demo_0.sendStr_13[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance GPIO_demo_0.sendStr_8[6] because it is equivalent to instance GPIO_demo_0.sendStr_13[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance GPIO_demo_0.sendStr_7[6] because it is equivalent to instance GPIO_demo_0.sendStr_13[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance GPIO_demo_0.sendStr_13[6] because it is equivalent to instance GPIO_demo_0.sendStr_0[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance GPIO_demo_0.sendStr_20[5] because it is equivalent to instance GPIO_demo_0.sendStr_0[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance GPIO_demo_0.sendStr_19[5] because it is equivalent to instance GPIO_demo_0.sendStr_0[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance GPIO_demo_0.sendStr_10[5] because it is equivalent to instance GPIO_demo_0.sendStr_0[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance GPIO_demo_0.sendStr_9[5] because it is equivalent to instance GPIO_demo_0.sendStr_0[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance GPIO_demo_0.sendStr_18[4] because it is equivalent to instance GPIO_demo_0.sendStr_0[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance GPIO_demo_0.sendStr_8[4] because it is equivalent to instance GPIO_demo_0.sendStr_0[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance GPIO_demo_0.sendStr_18[2] because it is equivalent to instance GPIO_demo_0.sendStr_0[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance GPIO_demo_0.sendStr_15[2] because it is equivalent to instance GPIO_demo_0.sendStr_0[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance GPIO_demo_0.sendStr_3[2] because it is equivalent to instance GPIO_demo_0.sendStr_0[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance GPIO_demo_0.sendStr_11[1] because it is equivalent to instance GPIO_demo_0.sendStr_0[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance GPIO_demo_0.sendStr_8[1] because it is equivalent to instance GPIO_demo_0.sendStr_0[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance GPIO_demo_0.sendStr_19[0] because it is equivalent to instance GPIO_demo_0.sendStr_0[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance GPIO_demo_0.sendStr_17[5:4] because it is equivalent to instance GPIO_demo_0.sendStr_16[5:4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance GPIO_demo_0.sendStr_16[5:4] because it is equivalent to instance GPIO_demo_0.sendStr_14[5:4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance GPIO_demo_0.sendStr_5[5:4] because it is equivalent to instance GPIO_demo_0.sendStr_14[5:4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance GPIO_demo_0.sendStr_2[2:1] because it is equivalent to instance GPIO_demo_0.sendStr_14[5:4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance GPIO_demo_0.sendStr_3[5:4] because it is equivalent to instance GPIO_demo_0.sendStr_15[5:4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance GPIO_demo_0.sendStr_2[5:4] because it is equivalent to instance GPIO_demo_0.sendStr_15[5:4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance GPIO_demo_0.sendStr_23[3:2] because it is equivalent to instance GPIO_demo_0.sendStr_15[5:4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance GPIO_demo_0.sendStr_15[5:4] because it is equivalent to instance GPIO_demo_0.sendStr_10[1:0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@N: FX1171 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Found instance GPIO_demo_0.sendStr_12[6:5] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Found instance GPIO_demo_0.sendStr_6[6:4] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Found instance GPIO_demo_0.sendStr_1[6:3] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Found instance GPIO_demo_0.sendStr_0[6] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Found instance GPIO_demo_0.sendStr_14[5:4] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Found instance GPIO_demo_0.sendStr_11[5:3] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Found instance GPIO_demo_0.sendStr_4[5:2] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Found instance GPIO_demo_0.sendStr_17[2:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Found instance GPIO_demo_0.sendStr_16[2:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Found instance GPIO_demo_0.sendStr_21[2] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Found instance GPIO_demo_0.sendStr_10[1:0] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@N: FX1171 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Found instance GPIO_demo_0.sendStr_0[3] with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 170MB peak: 171MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 170MB peak: 171MB)
+
+@W: MO129 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\component\work\coreuart_c0\coreuart_c0_0\rtl\vhdl\core\coreuart.vhd":245:6:245:7|Sequential instance COREUART_C0_0.COREUART_C0_0.fifo_write_tx is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\component\work\coreuart_c0\coreuart_c0_0\rtl\vhdl\core\coreuart.vhd":311:6:311:7|Sequential instance COREUART_C0_0.COREUART_C0_0.rxrdy_xhdl4 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\component\work\coreuart_c0\coreuart_c0_0\rtl\vhdl\core\clock_gen.vhd":90:11:90:12|Sequential instance COREUART_C0_0.COREUART_C0_0.make_COREUART_C0_COREUART_C0_0_Clock_gen.baud_clock_int is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\component\work\coreuart_c0\coreuart_c0_0\rtl\vhdl\core\clock_gen.vhd":73:8:73:9|Sequential instance COREUART_C0_0.COREUART_C0_0.make_COREUART_C0_COREUART_C0_0_Clock_gen.baud_cntr_one is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\component\work\coreuart_c0\coreuart_c0_0\rtl\vhdl\core\clock_gen.vhd":243:23:243:24|Sequential instance COREUART_C0_0.COREUART_C0_0.make_COREUART_C0_COREUART_C0_0_Clock_gen.xmit_clock is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\component\work\coreuart_c0\coreuart_c0_0\rtl\vhdl\core\rx_async.vhd":443:6:443:7|Sequential instance COREUART_C0_0.COREUART_C0_0.make_RX.clear_parity_en_xhdl3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\component\work\coreuart_c0\coreuart_c0_0\rtl\vhdl\core\rx_async.vhd":443:6:443:7|Sequential instance COREUART_C0_0.COREUART_C0_0.make_RX.fifo_write_xhdl6 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\component\work\coreuart_c0\coreuart_c0_0\rtl\vhdl\core\rx_async.vhd":218:6:218:7|Sequential instance COREUART_C0_0.COREUART_C0_0.make_RX.framing_error_i is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\component\work\coreuart_c0\coreuart_c0_0\rtl\vhdl\core\rx_async.vhd":264:6:264:7|Sequential instance COREUART_C0_0.COREUART_C0_0.make_RX.framing_error_int is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\component\work\coreuart_c0\coreuart_c0_0\rtl\vhdl\core\rx_async.vhd":264:6:264:7|Sequential instance COREUART_C0_0.COREUART_C0_0.make_RX.overflow_int is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\component\work\coreuart_c0\coreuart_c0_0\rtl\vhdl\core\rx_async.vhd":194:6:194:7|Sequential instance COREUART_C0_0.COREUART_C0_0.make_RX.overflow_xhdl1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\component\work\coreuart_c0\coreuart_c0_0\rtl\vhdl\core\rx_async.vhd":399:6:399:7|Sequential instance COREUART_C0_0.COREUART_C0_0.make_RX.parity_err_xhdl2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\component\work\coreuart_c0\coreuart_c0_0\rtl\vhdl\core\rx_async.vhd":443:6:443:7|Sequential instance COREUART_C0_0.COREUART_C0_0.make_RX.receive_full_int is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\component\work\coreuart_c0\coreuart_c0_0\rtl\vhdl\core\rx_async.vhd":375:6:375:7|Sequential instance COREUART_C0_0.COREUART_C0_0.make_RX.rx_parity_calc is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\component\work\coreuart_c0\coreuart_c0_0\rtl\vhdl\core\rx_async.vhd":264:6:264:7|Sequential instance COREUART_C0_0.COREUART_C0_0.make_RX.stop_strobe_i is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\component\work\coreuart_c0\coreuart_c0_0\rtl\vhdl\core\tx_async.vhd":134:4:134:5|Sequential instance COREUART_C0_0.COREUART_C0_0.make_TX.fifo_read_en0 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\component\work\coreuart_c0\coreuart_c0_0\rtl\vhdl\core\tx_async.vhd":299:4:299:5|Sequential instance COREUART_C0_0.COREUART_C0_0.make_TX.tx_parity is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\component\work\coreuart_c0\coreuart_c0_0\rtl\vhdl\core\tx_async.vhd":257:4:257:5|Sequential instance COREUART_C0_0.COREUART_C0_0.make_TX.tx_xhdl2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\component\work\coreuart_c0\coreuart_c0_0\rtl\vhdl\core\tx_async.vhd":107:4:107:5|Sequential instance COREUART_C0_0.COREUART_C0_0.make_TX.txrdy_int is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\component\work\coreuart_c0\coreuart_c0_0\rtl\vhdl\core\fifo_256x8.vhd":282:6:282:7|Sequential instance COREUART_C0_0.COREUART_C0_0.UG06a.tx_fifo_xhdl79.fifo_ctrl_256_xhdl9.read_n_hold is reduced to a combinational gate by constant propagation.
+@W: MO156 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\component\work\coreuart_c0\coreuart_c0_0\rtl\vhdl\core\fifo_256x8.vhd":343:10:343:15|RAM memory_xhdl3[7:0] removed due to constant propagation. 
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 170MB peak: 171MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 170MB peak: 171MB)
+
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\component\work\coreuart_c0\coreuart_c0_0\rtl\vhdl\core\tx_async.vhd":238:4:238:5|Removing sequential instance xmit_bit_sel[3:0] (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Tx_async(translated)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\component\work\coreuart_c0\coreuart_c0_0\rtl\vhdl\core\rx_async.vhd":169:6:169:7|Removing sequential instance receive_count[3:0] (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async(translated)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\component\work\coreuart_c0\coreuart_c0_0\rtl\vhdl\core\rx_async.vhd":124:6:124:7|Removing sequential instance samples[2:0] (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async(translated)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\component\work\coreuart_c0\coreuart_c0_0\rtl\vhdl\core\rx_async.vhd":333:6:333:7|Removing sequential instance rx_shift[8:0] (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async(translated)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN115 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\component\work\coreuart_c0\coreuart_c0_0\rtl\vhdl\core\fifo_256x8.vhd":298:3:298:16|Removing instance ram16x8_xhdl12 (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_fifo_ctrl_256(translated)) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\component\work\coreuart_c0\coreuart_c0_0\rtl\vhdl\core\coreuart.vhd":245:6:245:7|Removing sequential instance tx_hold_reg[7:0] (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_COREUART(translated)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN115 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\component\work\coreuart_c0\coreuart_c0_0\rtl\vhdl\core\coreuart.vhd":498:6:498:12|Removing instance make_RX (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_COREUART(translated)) because it does not drive other instances.
+@N: BN115 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\component\work\coreuart_c0\coreuart_c0_0\rtl\vhdl\core\coreuart.vhd":466:6:466:45|Removing instance make_COREUART_C0_COREUART_C0_0_Clock_gen (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_COREUART(translated)) because it does not drive other instances.
+@N: BN115 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\component\work\coreuart_c0\coreuart_c0_0\rtl\vhdl\core\coreuart.vhd":478:6:478:12|Removing instance make_TX (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_COREUART(translated)) because it does not drive other instances.
+@N: BN115 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\component\work\coreuart_c0\coreuart_c0_0\rtl\vhdl\core\coreuart.vhd":525:6:525:19|Removing instance UG06a\.tx_fifo_xhdl79 (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_COREUART(translated)) because it does not drive other instances.
+@N: BN115 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\component\work\coreuart_c0\coreuart_c0.vhd":142:0:142:12|Removing instance COREUART_C0_0 (in view: work.COREUART_C0(rtl)) because it does not drive other instances.
+@N: BN115 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\component\work\top_send\top_send.vhd":135:0:135:12|Removing instance COREUART_C0_0 (in view: work.Top_SEND(rtl)) because it does not drive other instances.
+@N: BN115 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\component\work\top_send\top_send.vhd":178:0:178:10|Removing instance GPIO_demo_0 (in view: work.Top_SEND(rtl)) because it does not drive other instances.
+@N: BN115 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\component\work\coreuart_c0\coreuart_c0_0\rtl\vhdl\core\fifo_256x8.vhd":83:3:83:21|Removing instance fifo_ctrl_256_xhdl9 (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_fifo_256x8(translated)) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":288:1:288:2|Removing sequential instance uartSend (in view: work.GPIO_demo(behavioral)) of type view:PrimLib.dff(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":288:1:288:2|Removing sequential instance uartData_1[6:0] (in view: work.GPIO_demo(behavioral)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN115 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\component\work\top_send\top_send.vhd":169:0:169:23|Removing instance Debouncing_Button_VHDL_1 (in view: work.Top_SEND(rtl)) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\component\work\coreuart_c0\coreuart_c0_0\rtl\vhdl\core\rx_async.vhd":264:6:264:7|Removing sequential instance rx_state[0:3] (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async(translated)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\component\work\coreuart_c0\coreuart_c0_0\rtl\vhdl\core\tx_async.vhd":134:4:134:5|Removing sequential instance xmit_state[0:6] (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Tx_async(translated)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance sendStr_17[2:0] (in view: work.GPIO_demo(behavioral)) of type view:PrimLib.sdffpatre(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance sendStr_16[2:0] (in view: work.GPIO_demo(behavioral)) of type view:PrimLib.sdffpatre(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance sendStr_12[6:5] (in view: work.GPIO_demo(behavioral)) of type view:PrimLib.sdffpatre(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance sendStr_6[6:4] (in view: work.GPIO_demo(behavioral)) of type view:PrimLib.sdffpatre(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance sendStr_11[5:3] (in view: work.GPIO_demo(behavioral)) of type view:PrimLib.sdffpatre(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance sendStr_4[5:2] (in view: work.GPIO_demo(behavioral)) of type view:PrimLib.sdffpatre(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance sendStr_10[1:0] (in view: work.GPIO_demo(behavioral)) of type view:PrimLib.sdffrse(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance sendStr_14[5:4] (in view: work.GPIO_demo(behavioral)) of type view:PrimLib.sdffpatre(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance sendStr_1[6:3] (in view: work.GPIO_demo(behavioral)) of type view:PrimLib.sdffpatre(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance sendStr_0[6] (in view: work.GPIO_demo(behavioral)) of type view:PrimLib.sdffrse(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\gpio_demo.vhd":261:1:261:2|Removing sequential instance sendStr_0[3] (in view: work.GPIO_demo(behavioral)) of type view:PrimLib.sdffse(prim) because it does not drive other instances.
+@N: BN115 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\debouncing_button_vhdl.vhd":44:23:44:48|Removing instance Debouncing_FF1 (in view: work.Debouncing_Button_VHDL_0(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\component\work\coreuart_c0\coreuart_c0_0\rtl\vhdl\core\rx_async.vhd":241:7:241:8|Removing sequential instance last_bit[3:0] (in view: coreuart_lib.COREUART_C0_COREUART_C0_0_Rx_async(translated)) of type view:PrimLib.dffpatre(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\dff_debouncing_button.vhd":16:1:16:2|Removing sequential instance Q (in view: work.DFF_Debouncing_Button_1_1(behavioral)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN115 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\debouncing_button_vhdl.vhd":37:23:37:48|Removing instance Debouncing_FF0 (in view: work.Debouncing_Button_VHDL_0(behavioral)) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\dff_debouncing_button.vhd":16:1:16:2|Removing sequential instance Q (in view: work.DFF_Debouncing_Button_1_2(behavioral)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN115 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\debouncing_button_vhdl.vhd":33:31:33:65|Removing instance clock_enable_generator (in view: work.Debouncing_Button_VHDL_0(behavioral)) because it does not drive other instances.
+@N: FX1184 |Applying syn_allowed_resources blockrams=21 on top level netlist Top_SEND 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 172MB)
+
+
+
+Clock Summary
+******************
+
+          Start                                                          Requested     Requested     Clock        Clock          Clock
+Level     Clock                                                          Frequency     Period        Type         Group          Load 
+--------------------------------------------------------------------------------------------------------------------------------------
+0 -       OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     100.0 MHz     10.000        inferred     (multiple)     20   
+======================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                                               Clock     Source                                                        Clock Pin                                       Non-clock Pin     Non-clock Pin                                               
+Clock                                                          Load      Pin                                                           Seq Example                                     Seq Example       Comb Example                                                
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     20        OSC_C0_0.OSC_C0_0.I_RCOSC_25_50MHZ.CLKOUT(RCOSC_25_50MHZ)     Debouncing_Button_VHDL_0.Debouncing_FF1.Q.C     -                 OSC_C0_0.OSC_C0_0.I_RCOSC_25_50MHZ_FAB.A(RCOSC_25_50MHZ_FAB)
+=====================================================================================================================================================================================================================================================================
+
+@W: MT530 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\clock_enable_debouncing_button.vhd":34:0:34:1|Found inferred clock OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock which controls 20 sequential elements including Debouncing_Button_VHDL_0.clock_enable_generator.counter[17:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\synthesis\Top_SEND.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 173MB peak: 173MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 173MB peak: 174MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 174MB peak: 174MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 85MB peak: 175MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Wed Nov 15 15:11:40 2023
+
+###########################################################]
+Map & Optimize Report
+
+# Wed Nov 15 15:11:41 2023
+
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-HO2RJRQ
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202209actsp2, Build 145R, Built Jun 27 2023 12:06:34, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 124MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 137MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 137MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 137MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 137MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 167MB peak: 167MB)
+
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 171MB)
+
+@N: MO231 :"d:\espe\tesis\sw_libero\programas\prueba06_uart\hdl\clock_enable_debouncing_button.vhd":34:0:34:1|Found counter in view:work.clock_enable_debouncing_button_0(behavioral) instance counter[17:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 171MB peak: 171MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 172MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 172MB peak: 172MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 173MB peak: 173MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 173MB peak: 173MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 173MB peak: 174MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 173MB peak: 174MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 174MB peak: 174MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:02s		     4.51ns		  33 /        20
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 174MB peak: 174MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 174MB peak: 175MB)
+
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 175MB peak: 175MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 175MB peak: 175MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:02s; Memory used current: 145MB peak: 175MB)
+
+Writing Analyst data base D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\synthesis\synwork\Top_SEND_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 175MB peak: 175MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 176MB peak: 176MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 176MB peak: 176MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 175MB peak: 176MB)
+
+@W: MT420 |Found inferred clock OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock with period 10.00ns. Please declare a user-defined clock on net OSC_C0_0.OSC_C0_0.N_RCOSC_25_50MHZ_CLKOUT.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Wed Nov 15 15:11:45 2023
+#
+
+
+Top view:               Top_SEND
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\Prueba06_UART\designer\Top_SEND\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 6.230
+
+                                                               Requested     Estimated     Requested     Estimated               Clock        Clock     
+Starting Clock                                                 Frequency     Frequency     Period        Period        Slack     Type         Group     
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     100.0 MHz     265.2 MHz     10.000        3.770         6.230     inferred     (multiple)
+========================================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                                  |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                                    Ending                                                      |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock  OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock  |  10.000      6.230  |  No paths    -      |  No paths    -      |  No paths    -    
+==============================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                Starting                                                                                        Arrival          
+Instance                                                        Reference                                                      Type     Pin     Net             Time        Slack
+                                                                Clock                                                                                                            
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Debouncing_Button_VHDL_0.clock_enable_generator.counter[0]      OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       counter[0]      0.076       6.230
+Debouncing_Button_VHDL_0.clock_enable_generator.counter[9]      OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       counter[9]      0.076       6.414
+Debouncing_Button_VHDL_0.clock_enable_generator.counter[8]      OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       counter[8]      0.076       6.451
+Debouncing_Button_VHDL_0.clock_enable_generator.counter[1]      OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       counter[1]      0.076       6.505
+Debouncing_Button_VHDL_0.clock_enable_generator.counter[2]      OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       counter[2]      0.076       6.539
+Debouncing_Button_VHDL_0.clock_enable_generator.counter[10]     OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       counter[10]     0.076       6.614
+Debouncing_Button_VHDL_0.clock_enable_generator.counter[3]      OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       counter[3]      0.076       6.614
+Debouncing_Button_VHDL_0.clock_enable_generator.counter[11]     OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       counter[11]     0.076       6.701
+Debouncing_Button_VHDL_0.clock_enable_generator.counter[13]     OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       counter[13]     0.076       6.715
+Debouncing_Button_VHDL_0.clock_enable_generator.counter[4]      OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      Q       counter[4]      0.076       6.769
+=================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                               Starting                                                                                       Required          
+Instance                                                       Reference                                                      Type     Pin     Net            Time         Slack
+                                                               Clock                                                                                                            
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Debouncing_Button_VHDL_0.clock_enable_generator.counter[0]     OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      SLn     N_45_mux_i     9.707        6.230
+Debouncing_Button_VHDL_0.clock_enable_generator.counter[1]     OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      SLn     N_45_mux_i     9.707        6.230
+Debouncing_Button_VHDL_0.clock_enable_generator.counter[2]     OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      SLn     N_45_mux_i     9.707        6.230
+Debouncing_Button_VHDL_0.clock_enable_generator.counter[3]     OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      SLn     N_45_mux_i     9.707        6.230
+Debouncing_Button_VHDL_0.clock_enable_generator.counter[4]     OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      SLn     N_45_mux_i     9.707        6.230
+Debouncing_Button_VHDL_0.clock_enable_generator.counter[5]     OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      SLn     N_45_mux_i     9.707        6.230
+Debouncing_Button_VHDL_0.clock_enable_generator.counter[6]     OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      SLn     N_45_mux_i     9.707        6.230
+Debouncing_Button_VHDL_0.clock_enable_generator.counter[7]     OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      SLn     N_45_mux_i     9.707        6.230
+Debouncing_Button_VHDL_0.clock_enable_generator.counter[8]     OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      SLn     N_45_mux_i     9.707        6.230
+Debouncing_Button_VHDL_0.clock_enable_generator.counter[9]     OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock     SLE      SLn     N_45_mux_i     9.707        6.230
+================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.293
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.707
+
+    - Propagation time:                      3.477
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     6.230
+
+    Number of logic level(s):                4
+    Starting point:                          Debouncing_Button_VHDL_0.clock_enable_generator.counter[0] / Q
+    Ending point:                            Debouncing_Button_VHDL_0.clock_enable_generator.counter[0] / SLn
+    The start point is clocked by            OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            OSC_C0_OSC_C0_0_OSC|N_RCOSC_25_50MHZ_CLKOUT_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                                    Pin      Pin               Arrival     No. of    
+Name                                                                     Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------
+Debouncing_Button_VHDL_0.clock_enable_generator.counter[0]               SLE      Q        Out     0.076     0.076 r     -         
+counter[0]                                                               Net      -        -       0.648     -           3         
+Debouncing_Button_VHDL_0.clock_enable_generator.counter_RNIA8RS1[1]      CFG4     D        In      -         0.724 r     -         
+Debouncing_Button_VHDL_0.clock_enable_generator.counter_RNIA8RS1[1]      CFG4     Y        Out     0.236     0.960 r     -         
+N_36                                                                     Net      -        -       0.216     -           1         
+Debouncing_Button_VHDL_0.clock_enable_generator.counter_RNIC1GA3[4]      CFG4     D        In      -         1.176 r     -         
+Debouncing_Button_VHDL_0.clock_enable_generator.counter_RNIC1GA3[4]      CFG4     Y        Out     0.284     1.460 f     -         
+m10_1                                                                    Net      -        -       0.216     -           1         
+Debouncing_Button_VHDL_0.clock_enable_generator.counter_RNI5A1G5[7]      CFG4     C        In      -         1.676 f     -         
+Debouncing_Button_VHDL_0.clock_enable_generator.counter_RNI5A1G5[7]      CFG4     Y        Out     0.182     1.858 f     -         
+N_13_2                                                                   Net      -        -       0.432     -           2         
+Debouncing_Button_VHDL_0.clock_enable_generator.counter_RNIC6SJ6[12]     CFG4     C        In      -         2.291 f     -         
+Debouncing_Button_VHDL_0.clock_enable_generator.counter_RNIC6SJ6[12]     CFG4     Y        Out     0.182     2.473 f     -         
+N_45_mux_i                                                               Net      -        -       1.004     -           18        
+Debouncing_Button_VHDL_0.clock_enable_generator.counter[0]               SLE      SLn      In      -         3.477 f     -         
+===================================================================================================================================
+Total path delay (propagation time + setup) of 3.770 is 1.254(33.3%) logic and 2.516(66.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 176MB peak: 176MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 176MB peak: 176MB)
+
+---------------------------------------
+Resource Usage Report for Top_SEND 
+
+Mapping to part: m2s010vf400-1
+Cell usage:
+CLKINT          1 use
+RCOSC_25_50MHZ  1 use
+RCOSC_25_50MHZ_FAB  1 use
+CFG1           1 use
+CFG2           3 uses
+CFG3           3 uses
+CFG4           8 uses
+
+Carry cells:
+ARI1            18 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            20 uses
+
+DSP Blocks:    0 of 22 (0%)
+
+I/O ports: 5
+I/O primitives: 3
+INBUF          1 use
+OUTBUF         2 uses
+
+
+Global Clock Buffers: 1
+
+Total LUTs:    33
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  20 + 0 + 0 + 0 = 20;
+Total number of LUTs after P&R:  33 + 0 + 0 + 0 = 33;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 63MB peak: 176MB)
+
+Process took 0h:00m:05s realtime, 0h:00m:04s cputime
+# Wed Nov 15 15:11:46 2023
+
+###########################################################]

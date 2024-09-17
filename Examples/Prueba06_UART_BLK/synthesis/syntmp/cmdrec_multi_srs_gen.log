@@ -1,0 +1,7 @@
+C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\bin64\syn_nfilter.exe  -link  -top  work.Top_SEND  -multisrs  D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\synthesis\synwork\Top_SEND_comp.srs  -osyn  D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\synthesis\synwork\Top_SEND_mult.srs  -log  D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\synthesis\synlog\Top_SEND_multi_srs_gen.srr 
+relcom:C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\bin64\syn_nfilter.exe -link -top work.Top_SEND -multisrs ..\synwork\Top_SEND_comp.srs -osyn ..\synwork\Top_SEND_mult.srs -log ..\synlog\Top_SEND_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\Top_SEND_comp.srs|io:i|time:1715622252|size:17039|exec:0|csum:9187E60EB46DC6A76440C80B53D79A18
+file:..\synwork\Top_SEND_mult.srs|io:o|time:1715622253|size:4512|exec:0|csum:
+file:..\synlog\Top_SEND_multi_srs_gen.srr|io:o|time:1715622254|size:1198|exec:0|csum:
+file:C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\bin64\syn_nfilter.exe|io:i|time:1691490330|size:10452480|exec:1|csum:C2B49D9CC1CC5913A59BA97F5F9B52BC

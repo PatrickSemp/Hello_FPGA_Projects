@@ -1,0 +1,134 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\component\work\Top_SEND\Top_SEND.vhd":17:7:17:14|Top entity is set to Top_SEND.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\DFF_Debouncing_Button.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\clock_enable_debouncing_button.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\UART_TX_CTRL.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\Debouncing_Button_VHDL.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\component\work\OSC_C0\OSC_C0.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\component\work\Top_SEND\Top_SEND.vhd'.
+@N: CD231 :"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\component\work\Top_SEND\Top_SEND.vhd":17:7:17:14|Synthesizing work.top_send.rtl.
+@N: CD630 :"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\generic\smartfusion2.vhd":413:10:413:15|Synthesizing smartfusion2.outbuf.syn_black_box.
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\component\work\OSC_C0\OSC_C0.vhd":39:7:39:12|Synthesizing work.osc_c0.rtl.
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.vhd":8:7:8:25|Synthesizing work.osc_c0_osc_c0_0_osc.def_arch.
+@N: CD630 :"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\generic\smartfusion2.vhd":562:10:562:15|Synthesizing smartfusion2.clkint.syn_black_box.
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":19:7:19:20|Synthesizing work.rcosc_25_50mhz.def_arch.
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":79:7:79:24|Synthesizing work.rcosc_25_50mhz_fab.def_arch.
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":52:7:52:15|Synthesizing work.gpio_demo.behavioral.
+@N: CD231 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":94:21:94:22|Using onehot encoding for type uart_state_type. For example, enumeration rst_reg is mapped to "1000000".
+@N: CD604 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":253:3:253:15|OTHERS clause is not synthesized.
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\UART_TX_CTRL.vhd":42:7:42:18|Synthesizing work.uart_tx_ctrl.behavioral.
+@N: CD233 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\UART_TX_CTRL.vhd":52:19:52:20|Using sequential encoding for type tx_state_type.
+@N: CD604 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\UART_TX_CTRL.vhd":97:2:97:14|OTHERS clause is not synthesized.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_24(0) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_24(1) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_24(2) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_24(3) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_24(4) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_24(5) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_24(6) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_24(7) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_25(0) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_25(1) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_25(2) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_25(3) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_25(4) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_25(5) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_25(6) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_25(7) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_26(0) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_26(1) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_26(2) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_26(3) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_26(4) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_26(5) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_26(6) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_26(7) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_0(0) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_0(1) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_0(2) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_0(4) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_0(5) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_0(7) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_1(0) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_1(1) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_1(2) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_1(7) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_2(0) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_2(3) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_2(6) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_2(7) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_3(1) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_3(3) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_3(6) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_3(7) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_4(0) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_4(1) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_4(6) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_4(7) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_5(3) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_5(6) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_5(7) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_6(2) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_6(3) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_6(7) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_7(2) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_7(3) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_7(4) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_7(5) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_7(7) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_8(0) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_8(2) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_8(3) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_8(5) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_8(7) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_9(0) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_9(2) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_9(3) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_9(4) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_9(6) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_9(7) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_10(2) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_10(3) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_10(4) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_10(6) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_10(7) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_11(0) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_11(2) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_11(6) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_11(7) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_12(4) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_12(7) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_13(2) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_13(4) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_13(5) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_13(7) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_14(0) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_14(1) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_14(2) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_14(3) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_14(6) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_14(7) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_15(1) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_15(3) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_15(6) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_15(7) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_16(3) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_16(6) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_16(7) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_17(3) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_17(6) is always 1.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_17(7) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":264:1:264:2|Register bit string_load_process.sendStr_18(0) is always 0.
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\Debouncing_Button_VHDL.vhd":21:7:21:28|Synthesizing work.debouncing_button_vhdl.behavioral.
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\DFF_Debouncing_Button.vhd":4:7:4:27|Synthesizing work.dff_debouncing_button.behavioral.
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\clock_enable_debouncing_button.vhd":22:7:22:36|Synthesizing work.clock_enable_debouncing_button.behavioral.
+@N: CL201 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\UART_TX_CTRL.vhd":81:1:81:2|Trying to extract state machine for register txState.
+@N: CL201 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\hdl\GPIO_Demo.vhd":224:1:224:2|Trying to extract state machine for register uartState.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Prueba06_UART_BLK\component\work\OSC_C0\OSC_C0_0\OSC_C0_OSC_C0_0_OSC.vhd":10:10:10:12|Input XTL is unused.
+@N|Running in 64-bit mode
+

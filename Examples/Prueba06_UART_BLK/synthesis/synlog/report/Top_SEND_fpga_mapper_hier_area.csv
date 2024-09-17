@@ -1,0 +1,15 @@
+
+. Module name, SLE, CFG, ARI1, BUFFER, MACC, RAM1K18, RAM64X18, GLOBAL, IO
+. Top_SEND, 180, 196, 148, 0, 0, 0, 0, 1, 5
+.	. Debouncing_Button_VHDL, 20, 15, 18, 0, 0, 0, 0, 0, 0
+.	.	. DFF_Debouncing_Button, 1, 6, 0, 0, 0, 0, 0, 0, 0
+.	.	. DFF_Debouncing_Button_0, 1, 1, 0, 0, 0, 0, 0, 0, 0
+.	.	. clock_enable_debouncing_button_1, 18, 7, 18, 0, 0, 0, 0, 0, 0
+.	. Debouncing_Button_VHDL_1, 20, 15, 18, 0, 0, 0, 0, 0, 0
+.	.	. DFF_Debouncing_Button_1, 1, 6, 0, 0, 0, 0, 0, 0, 0
+.	.	. DFF_Debouncing_Button_2, 1, 1, 0, 0, 0, 0, 0, 0, 0
+.	.	. clock_enable_debouncing_button_1_0, 18, 7, 18, 0, 0, 0, 0, 0, 0
+.	. GPIO_demo, 140, 166, 112, 0, 0, 0, 0, 0, 0
+.	.	. UART_TX_CTRL, 55, 33, 47, 0, 0, 0, 0, 0, 0
+.	. OSC_C0, 0, 0, 0, 0, 0, 0, 0, 1, 0
+.	.	. OSC_C0_OSC_C0_0_OSC, 0, 0, 0, 0, 0, 0, 0, 1, 0

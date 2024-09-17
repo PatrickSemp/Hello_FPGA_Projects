@@ -1,0 +1,29 @@
+Runtime Summary:
+================
+
+	The following design units have negligible CPU times:
+	=====================================================
+		*Library: work, Entity: clock_enable_debouncing_button, Architecture: behavioral
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: DFF_Debouncing_Button, Architecture: behavioral
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: Debouncing_Button_VHDL, Architecture: behavioral
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: UART_TX_CTRL, Architecture: behavioral
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: GPIO_demo, Architecture: behavioral
+			Hardware Generation Phase, Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: OSC_C0_OSC_C0_0_OSC, Architecture: def_arch
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: OSC_C0, Architecture: rtl
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: Top_SEND, Architecture: rtl
+			Hardware Generation Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: RCOSC_25_50MHZ_FAB, Architecture: def_arch
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: work, Entity: RCOSC_25_50MHZ, Architecture: def_arch
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: smartfusion2, Entity: CLKINT, Architecture: syn_black_box
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
+		*Library: smartfusion2, Entity: OUTBUF, Architecture: syn_black_box
+			Initial Cleanup Phase, Optimization Phase: Negligible CPU time
