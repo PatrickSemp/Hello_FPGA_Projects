@@ -24,10 +24,12 @@ Each project includes:
 
 ## :arrow_forward: Get started
 
-#### 1.You need to install Libero Software
-If you don't have Libero Software installed, you can check out these videos on Youtube in [English](https://www.youtube.com/watch?v=AGqLeYmdNJk) or [Spanish](https://youtu.be/EY03gG8uqQw?si=l7iTwqHwFdsWK8VH) language to install it. 
-
+#### 1.You need to install Libero Software and License
+If you don't have Libero Software installed, you can check out these videos on Youtube 🟥 in [English](https://www.youtube.com/watch?v=AGqLeYmdNJk) or [Spanish](https://youtu.be/EY03gG8uqQw?si=l7iTwqHwFdsWK8VH) language to install it. 
 - **Only Windows Version**
+> If you have a problem with License, you can check out this video [**(4:57 min)**](https://www.youtube.com/watch?v=AGqLeYmdNJk)
+
+> If you have being problem with license,please download this [.bat file](https://github.com/PatrickSemp/Hello_FPGA_Projects/blob/e808f3c68a8018fb201765d292e3b27a38462443/Re_Install_License.bat) and next, **Run as administrator**. 
 
 #### 2. Install Hello FPGA GUI and Terminal Emulator Program
 - The Hello FPGA GUI is software for programming the board without [FLASHPRO Programmer](https://www.microchip.com/en-us/development-tool/FLASHPRO5). You can find it on [Microchip Page](https://ww1.microchip.com/downloads/aemDocuments/documents/FPGA/SOCDesignFiles/Hello_FPGA_GUI_Application.zip) in Documentation section called **Hello FPGA GUI Application**. 
