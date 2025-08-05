@@ -1,0 +1,1 @@
+smartpower_report_power -clock_breakdown "TRUE" -rail_breakdown "TRUE" -type_breakdown "TRUE" {D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04_DT2\designer\TMR_3PS\TMR_3PS_power_report.xml}

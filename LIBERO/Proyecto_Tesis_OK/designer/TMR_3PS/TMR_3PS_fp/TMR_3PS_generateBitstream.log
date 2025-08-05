@@ -1,0 +1,14 @@
+Software Version: 2024.1.0.3
+Opened 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Proyecto_Tesis_OK\designer\TMR_3PS\TMR_3PS_fp\TMR_3PS.pro'
+PDB file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Proyecto_Tesis_OK\designer\TMR_3PS\TMR_3PS.pdb' has been loaded successfully.
+DESIGN : TMR_3PS;  CHECKSUM : 5936;  PDB_VERSION : 1.9
+Info: Programming Interface selected is JTAG.
+File/Folder 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Proyecto_Tesis_OK\designer\TMR_3PS\TMR_3PS.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\A_VERSIONES_OK\Proyecto_Tesis_OK\designer\TMR_3PS\TMR_3PS.ppd'; file programs Fabric and eNVM.
+Fabric component bitstream digest: e905486453615fc9d69f64df1f15f00a94b6f2a21f8f45dca9076f1b62c1a33f
+eNVM component bitstream digest: 55c2219b07c917f766299ae9acff107372391daf1047f08e9479905fe15e4c87
+Entire bitstream digest: 0b97a20136fe90c6ec0eab7fbd8b53288c851b6137d6315fc73639a2982a60e1
+Finished: Tue Nov 05 22:01:54 2024 (Elapsed time 00:00:17)
+
+Project saved.
+Project closed.

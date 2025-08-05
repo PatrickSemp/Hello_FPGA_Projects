@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet href="rptstyle.xsl" type="text/xsl" ?>
+<doc>
+<title>Resource Report</title>
+<text>Microchip Technology Inc. - Microchip Libero Software Release v2023.2 (Version 2023.2.0.8)</text>
+<text>Date: Mon Mar 18 12:23:22 2024
+</text>
+<section><name>Device Selection</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Family</cell>
+ <cell>SmartFusion2</cell>
+</row>
+<row>
+ <cell>Device</cell>
+ <cell>M2S010</cell>
+</row>
+<row>
+ <cell>Package</cell>
+ <cell>256 VF</cell>
+</row>
+<row>
+ <cell>Speed Grade</cell>
+ <cell>-1</cell>
+</row>
+<row>
+ <cell>Temp</cell>
+ <cell>0:25:85</cell>
+</row>
+<row>
+ <cell>Voltage</cell>
+ <cell>1.26:1.20:1.14</cell>
+</row>
+<row>
+ <cell>Core Voltage</cell>
+ <cell>1.2V</cell>
+</row>
+<row>
+ <cell>Ramp Rate</cell>
+ <cell>100ms Minimum</cell>
+</row>
+<row>
+ <cell>System Controller Suspend Mode</cell>
+ <cell>No</cell>
+</row>
+<row>
+ <cell>PLL Supply Voltage</cell>
+ <cell>2.5V</cell>
+</row>
+<row>
+ <cell>Default I/O technology</cell>
+ <cell>LVCMOS 2.5V</cell>
+</row>
+<row>
+ <cell>Restrict Probe Pins</cell>
+ <cell>Yes</cell>
+</row>
+<row>
+ <cell>Restrict SPI Pins</cell>
+ <cell>No</cell>
+</row>
+</table>
+<section><name>Source Files</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Topcell</cell>
+ <cell>TMR_3PS</cell>
+</row>
+<row>
+ <cell>Format</cell>
+ <cell>Verilog</cell>
+</row>
+<row>
+ <cell>Source</cell>
+ <cell>D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04_DT2\synthesis\TMR_3PS.vm</cell>
+</row>
+</table>
+<section><name>Options</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Enable Single Event Transient mitigation</cell>
+ <cell>false</cell>
+</row>
+<row>
+ <cell>Enable Design Separation Methodology</cell>
+ <cell>false</cell>
+</row>
+<row>
+ <cell>Limit the number of high fanout nets to display to</cell>
+ <cell>10</cell>
+</row>
+</table>
+<section><name>Resource Usage</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>Used</cell>
+ <cell>Total</cell>
+ <cell>Percentage</cell>
+</header>
+<row>
+ <cell>4LUT</cell>
+ <cell>1068</cell>
+ <cell>12084</cell>
+ <cell>8.84</cell>
+</row>
+<row>
+ <cell>DFF</cell>
+ <cell>1246</cell>
+ <cell>12084</cell>
+ <cell>10.31</cell>
+</row>
+<row>
+ <cell>I/O Register</cell>
+ <cell>0</cell>
+ <cell>414</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>User I/O</cell>
+ <cell>43</cell>
+ <cell>138</cell>
+ <cell>31.16</cell>
+</row>
+<row>
+ <cell>-- Single-ended I/O</cell>
+ <cell>39</cell>
+ <cell>138</cell>
+ <cell>28.26</cell>
+</row>
+<row>
+ <cell>-- Differential I/O Pairs</cell>
+ <cell>2</cell>
+ <cell>65</cell>
+ <cell>3.08</cell>
+</row>
+<row>
+ <cell>RAM64x18</cell>
+ <cell>0</cell>
+ <cell>22</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>RAM1K18</cell>
+ <cell>16</cell>
+ <cell>21</cell>
+ <cell>76.19</cell>
+</row>
+<row>
+ <cell>MACC</cell>
+ <cell>0</cell>
+ <cell>22</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>Chip Globals</cell>
+ <cell>8</cell>
+ <cell>8</cell>
+ <cell>100.00</cell>
+</row>
+<row>
+ <cell>CCC</cell>
+ <cell>1</cell>
+ <cell>2</cell>
+ <cell>50.00</cell>
+</row>
+<row>
+ <cell>RCOSC_25_50MHZ</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+ <cell>100.00</cell>
+</row>
+<row>
+ <cell>RCOSC_1MHZ</cell>
+ <cell>0</cell>
+ <cell>1</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>XTLOSC</cell>
+ <cell>0</cell>
+ <cell>1</cell>
+ <cell>0.00</cell>
+</row>
+<row>
+ <cell>MSS</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+ <cell>100.00</cell>
+</row>
+</table>
+<section><name>Detailed Logic Resource Usage</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>4LUT</cell>
+ <cell>DFF</cell>
+</header>
+<row>
+ <cell>Fabric Logic</cell>
+ <cell>492</cell>
+ <cell>670</cell>
+</row>
+<row>
+ <cell>RAM64x18 Interface Logic</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>RAM1K18 Interface Logic</cell>
+ <cell>576</cell>
+ <cell>576</cell>
+</row>
+<row>
+ <cell>MACC Interface Logic</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Total Used</cell>
+ <cell>1068</cell>
+ <cell>1246</cell>
+</row>
+</table>
+<section><name>MSS Resource Usage</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>Used</cell>
+ <cell>Total</cell>
+</header>
+<row>
+ <cell>Cortex-M3*</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>eNVM (256KB)*</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>eSRAM*</cell>
+ <cell>2</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>TIMER*</cell>
+ <cell>2</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>CAN</cell>
+ <cell>0</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>SPI</cell>
+ <cell>0</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>I2C</cell>
+ <cell>0</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>UART</cell>
+ <cell>1</cell>
+ <cell>2</cell>
+</row>
+<row>
+ <cell>USB</cell>
+ <cell>0</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>MAC</cell>
+ <cell>0</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>MDDR</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>HPDMA</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>PDMA</cell>
+ <cell>1</cell>
+ <cell>1</cell>
+</row>
+</table>
+<text>* These resources are always marked as used when you are using the MSS</text>
+<text></text>
+<section><name>Detailed Carry Chains Resource Usage</name></section>
+<table>
+<header>
+</header>
+<row>
+ <cell>Length</cell>
+ <cell>Used</cell>
+</row>
+<row>
+ <cell>9</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>12</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>14</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>24</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>25</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>26</cell>
+ <cell>1</cell>
+</row>
+<row>
+ <cell>Total</cell>
+ <cell>6</cell>
+</row>
+</table>
+<section><name>I/O Function</name></section>
+<table>
+<header>
+ <cell>Type</cell>
+ <cell>w/o register</cell>
+ <cell>w/ register</cell>
+ <cell>w/ DDR register</cell>
+</header>
+<row>
+ <cell>Input I/O</cell>
+ <cell>2</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Output I/O</cell>
+ <cell>28</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Bidirectional I/O</cell>
+ <cell>9</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Differential Input I/O Pairs</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Differential Output I/O Pairs</cell>
+ <cell>1</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+<row>
+ <cell>Differential Bidirectional I/O Pairs</cell>
+ <cell>1</cell>
+ <cell>0</cell>
+ <cell>0</cell>
+</row>
+</table>
+<section><name>I/O Technology</name></section>
+<table>
+<header>
+ <cell>I/O Standard</cell>
+ <cell>Vddi</cell>
+ <cell>Vref</cell>
+ <cell>Input</cell>
+ <cell>Output</cell>
+ <cell>Bidirectional</cell>
+</header>
+<row>
+ <cell>LVCMOS25</cell>
+ <cell> 2.50v</cell>
+ <cell> N/A</cell>
+ <cell> 1</cell>
+ <cell> 1</cell>
+ <cell> 0</cell>
+</row>
+<row>
+ <cell>SSTL15I (Input/Bidirectional)</cell>
+ <cell> 1.50v</cell>
+ <cell> 0.75v</cell>
+ <cell> 1</cell>
+ <cell> 0</cell>
+ <cell> 11</cell>
+</row>
+<row>
+ <cell>SSTL15I (Output)</cell>
+ <cell> 1.50v</cell>
+ <cell> N/A</cell>
+ <cell> 0</cell>
+ <cell> 29</cell>
+ <cell> 0</cell>
+</row>
+</table>
+<section><name>Nets assigned to chip global resources</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>440</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : WR_MDDR_MSS_DDR_FIC_SUBSYSTEM_CLK</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: WR_MDDR/MDDR_Demo_sb_sb_0/CCC_0/GL2_INST/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>75</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : WR_MDDR/MDDR_Demo_sb_sb_0/CORECONFIGP_0_APB_S_PCLK</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: WR_MDDR/MDDR_Demo_sb_sb_0/MDDR_Demo_sb_sb_MSS_0/FIC_2_APB_M_PCLK_inferred_clock_RNII7ID/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>61</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : WR_MDDR_FIC_0_CLK</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: WR_MDDR/MDDR_Demo_sb_sb_0/CCC_0/GL0_INST/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>32</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : MANEJO_SOLICITUDES/DATA_HANDLE_FSM_V2_0/un1_fsm_4_inferred_clock_RNI2F03_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: MANEJO_SOLICITUDES/DATA_HANDLE_FSM_V2_0/un1_fsm_4_inferred_clock_RNI2F03/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>32</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : MANEJO_SOLICITUDES/DATA_HANDLE_FSM_V2_0/un1_fsm_3_inferred_clock_RNI10N8_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: MANEJO_SOLICITUDES/DATA_HANDLE_FSM_V2_0/un1_fsm_3_inferred_clock_RNI10N8/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>32</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : MANEJO_SOLICITUDES/DATA_HANDLE_FSM_V2_0/un1_fsm_2_inferred_clock_RNI0HDE_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: MANEJO_SOLICITUDES/DATA_HANDLE_FSM_V2_0/un1_fsm_2_inferred_clock_RNI0HDE/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>23</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : WR_MDDR/MDDR_Demo_sb_sb_0/FABOSC_0_RCOSC_25_50MHZ_O2F</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: WR_MDDR/MDDR_Demo_sb_sb_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+<row>
+ <cell>8</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : MANEJO_SOLICITUDES/DATA_HANDLE_FSM_V2_0/un1_fsm_1_inferred_clock_RNIV144_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: MANEJO_SOLICITUDES/DATA_HANDLE_FSM_V2_0/un1_fsm_1_inferred_clock_RNIV144/U0_RGB1</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Source: NETLIST</cell>
+</row>
+</table>
+<section><name>Nets assigned to row global resources</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+</table>
+<section><name>High fanout nets</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>300</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : WR_MDDR/MDDR_Demo_sb_sb_0/CORERESETP_0/INIT_DONE_int_rep_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: WR_MDDR/MDDR_Demo_sb_sb_0/CORERESETP_0/INIT_DONE_int_rep</cell>
+</row>
+<row>
+ <cell>108</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : MANEJO_SOLICITUDES/UART_IF_FSM_0/fsm_Z[14]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: MANEJO_SOLICITUDES/UART_IF_FSM_0/fsm[14]</cell>
+</row>
+<row>
+ <cell>104</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : MANEJO_SOLICITUDES/DATA_HANDLE_FSM_V2_0/fsm_rep_Z[4]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: MANEJO_SOLICITUDES/DATA_HANDLE_FSM_V2_0/fsm_rep[4]</cell>
+</row>
+<row>
+ <cell>77</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : WR_MDDR/MDDR_Demo_sb_sb_0/MDDR_Demo_sb_sb_MSS_0/FIC_2_APB_M_PRESET_N</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: WR_MDDR/MDDR_Demo_sb_sb_0/MDDR_Demo_sb_sb_MSS_0/MSS_ADLIB_INST</cell>
+</row>
+<row>
+ <cell>75</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : MANEJO_SOLICITUDES/uart_start_axi</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: MANEJO_SOLICITUDES/DATA_HANDLE_FSM_V2_0/uart_start_axi</cell>
+</row>
+<row>
+ <cell>64</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : WR_MDDR/AXI_IF_0/N_54_i</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: WR_MDDR/AXI_IF_0/axi_fsm_write_state_RNIF5EL[2]</cell>
+</row>
+<row>
+ <cell>52</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : MANEJO_SOLICITUDES/UART_IF_FSM_0/N_128_i</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: MANEJO_SOLICITUDES/UART_IF_FSM_0/fsm_RNI54PJ[14]</cell>
+</row>
+<row>
+ <cell>38</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : MANEJO_SOLICITUDES/UART_IF_FSM_0/N_180_i_0</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: MANEJO_SOLICITUDES/UART_IF_FSM_0/un1_fsm_28_i_a4_RNIN59G</cell>
+</row>
+<row>
+ <cell>37</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : MANEJO_SOLICITUDES/UART_IF_FSM_0/fsm_Z[10]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: MANEJO_SOLICITUDES/UART_IF_FSM_0/fsm[10]</cell>
+</row>
+<row>
+ <cell>34</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : MANEJO_SOLICITUDES/UART_IF_FSM_0/fsm_Z[4]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: MANEJO_SOLICITUDES/UART_IF_FSM_0/fsm[4]</cell>
+</row>
+</table>
+<section><name>High fanout nets (through buffer trees)</name></section>
+<table>
+<header>
+ <cell>Fanout</cell>
+ <cell>Type</cell>
+ <cell>Name</cell>
+</header>
+<row>
+ <cell>300</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : WR_MDDR/MDDR_Demo_sb_sb_0/CORERESETP_0/INIT_DONE_int_rep_Z</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: WR_MDDR/MDDR_Demo_sb_sb_0/CORERESETP_0/INIT_DONE_int_rep</cell>
+</row>
+<row>
+ <cell>108</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : MANEJO_SOLICITUDES/UART_IF_FSM_0/fsm_Z[14]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: MANEJO_SOLICITUDES/UART_IF_FSM_0/fsm[14]</cell>
+</row>
+<row>
+ <cell>104</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : MANEJO_SOLICITUDES/DATA_HANDLE_FSM_V2_0/fsm_rep_Z[4]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: MANEJO_SOLICITUDES/DATA_HANDLE_FSM_V2_0/fsm_rep[4]</cell>
+</row>
+<row>
+ <cell>77</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : WR_MDDR/MDDR_Demo_sb_sb_0/MDDR_Demo_sb_sb_MSS_0/FIC_2_APB_M_PRESET_N</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: WR_MDDR/MDDR_Demo_sb_sb_0/MDDR_Demo_sb_sb_MSS_0/MSS_ADLIB_INST</cell>
+</row>
+<row>
+ <cell>75</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : MANEJO_SOLICITUDES/uart_start_axi</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: MANEJO_SOLICITUDES/DATA_HANDLE_FSM_V2_0/uart_start_axi</cell>
+</row>
+<row>
+ <cell>64</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : WR_MDDR/AXI_IF_0/N_54_i</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: WR_MDDR/AXI_IF_0/axi_fsm_write_state_RNIF5EL[2]</cell>
+</row>
+<row>
+ <cell>52</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : MANEJO_SOLICITUDES/UART_IF_FSM_0/N_128_i</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: MANEJO_SOLICITUDES/UART_IF_FSM_0/fsm_RNI54PJ[14]</cell>
+</row>
+<row>
+ <cell>38</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : MANEJO_SOLICITUDES/UART_IF_FSM_0/N_180_i_0</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: MANEJO_SOLICITUDES/UART_IF_FSM_0/un1_fsm_28_i_a4_RNIN59G</cell>
+</row>
+<row>
+ <cell>37</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : MANEJO_SOLICITUDES/UART_IF_FSM_0/fsm_Z[10]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: MANEJO_SOLICITUDES/UART_IF_FSM_0/fsm[10]</cell>
+</row>
+<row>
+ <cell>34</cell>
+ <cell>INT_NET</cell>
+ <cell>Net   : MANEJO_SOLICITUDES/UART_IF_FSM_0/fsm_Z[4]</cell>
+</row>
+<row>
+ <cell></cell>
+ <cell></cell>
+ <cell>Driver: MANEJO_SOLICITUDES/UART_IF_FSM_0/fsm[4]</cell>
+</row>
+</table>
+</doc>

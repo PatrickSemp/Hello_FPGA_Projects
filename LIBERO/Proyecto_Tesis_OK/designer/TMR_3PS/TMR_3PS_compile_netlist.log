@@ -1,0 +1,41 @@
+
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       13 
+      Globals that cannot be demoted:      2 
+      Globals considered for demotion:     11 
+
+
+Info: List of globals that cannot be demoted: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    440    0      0      'WR_MDDR/MDDR_Demo_sb_sb_0/CCC_0/GL2_INST' 
+    61     0      0      'WR_MDDR/MDDR_Demo_sb_sb_0/CCC_0/GL0_INST' 
+
+Info: List of globals considered for demotion: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    75     0      0      'WR_MDDR/MDDR_Demo_sb_sb_0/MDDR_Demo_sb_sb_MSS_0/FIC_2_APB_M_PCLK_inferred_clock_RNII7ID' 
+    32     0      0      'MANEJO_SOLICITUDES/DATA_HANDLE_FSM_V2_0/un1_fsm_2_inferred_clock_RNI0HDE' 
+    32     0      0      'MANEJO_SOLICITUDES/DATA_HANDLE_FSM_V2_0/un1_fsm_3_inferred_clock_RNI10N8' 
+    32     0      0      'MANEJO_SOLICITUDES/DATA_HANDLE_FSM_V2_0/un1_fsm_4_inferred_clock_RNI2F03' 
+    23     0      0      'WR_MDDR/MDDR_Demo_sb_sb_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT' 
+    8      0      0      'MANEJO_SOLICITUDES/DATA_HANDLE_FSM_V2_0/un1_fsm_1_inferred_clock_RNIV144' 
+    0      300    0      'WR_MDDR/MDDR_Demo_sb_sb_0/CORERESETP_0/INIT_DONE_int_rep_RNIFAT6' 
+    0      104    0      'MANEJO_SOLICITUDES/DATA_HANDLE_FSM_V2_0/fsm_rep_RNILI[4]' 
+    0      76     0      'WR_MDDR/MDDR_Demo_sb_sb_0/MDDR_Demo_sb_sb_MSS_0/MSS_ADLIB_INST_RNIQPD9' 
+    0      27     0      'WR_MDDR/MDDR_Demo_sb_sb_0/CORERESETP_0/sm0_areset_n_clk_base_RNIPLBE' 
+    0      21     0      'WR_MDDR/MDDR_Demo_sb_sb_0/CORERESETP_0/sm0_areset_n_rcosc_RNIVK08' 
+
+Info: Demotion information: 
+      Deleted global instance 'WR_MDDR/MDDR_Demo_sb_sb_0/CORERESETP_0/INIT_DONE_int_rep_RNIFAT6'.
+      Deleted global instance 'MANEJO_SOLICITUDES/DATA_HANDLE_FSM_V2_0/fsm_rep_RNILI[4]'.
+      Deleted global instance 'WR_MDDR/MDDR_Demo_sb_sb_0/MDDR_Demo_sb_sb_MSS_0/MSS_ADLIB_INST_RNIQPD9'.
+      Deleted global instance 'WR_MDDR/MDDR_Demo_sb_sb_0/CORERESETP_0/sm0_areset_n_clk_base_RNIPLBE'.
+      Deleted global instance 'WR_MDDR/MDDR_Demo_sb_sb_0/CORERESETP_0/sm0_areset_n_rcosc_RNIVK08'.
+Info: CMPG4-302: Added 0 row global instances.
+Info: CMPG4-303: Deleted 5 global instances.
+
+===============================================================================.
+

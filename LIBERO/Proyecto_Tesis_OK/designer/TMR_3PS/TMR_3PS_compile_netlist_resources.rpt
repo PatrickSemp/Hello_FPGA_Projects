@@ -1,0 +1,209 @@
+Resource Report
+Microchip Technology Inc. - Microchip Libero Software Release v2023.2 (Version 2023.2.0.8)
+Date: Mon Mar 18 12:23:22 2024
+
+Device Selection
++--------------------------------+----------------+
+| Family                         | SmartFusion2   |
+| Device                         | M2S010         |
+| Package                        | 256 VF         |
+| Speed Grade                    | -1             |
+| Temp                           | 0:25:85        |
+| Voltage                        | 1.26:1.20:1.14 |
+| Core Voltage                   | 1.2V           |
+| Ramp Rate                      | 100ms Minimum  |
+| System Controller Suspend Mode | No             |
+| PLL Supply Voltage             | 2.5V           |
+| Default I/O technology         | LVCMOS 2.5V    |
+| Restrict Probe Pins            | Yes            |
+| Restrict SPI Pins              | No             |
++--------------------------------+----------------+
+
+Source Files
++---------+------------------------------------------------------------------------------------------+
+| Topcell | TMR_3PS                                                                                  |
+| Format  | Verilog                                                                                  |
+| Source  | D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04_DT2\synthesis\TMR_3PS.vm |
++---------+------------------------------------------------------------------------------------------+
+
+Options
++----------------------------------------------------+-------+
+| Enable Single Event Transient mitigation           | false |
+| Enable Design Separation Methodology               | false |
+| Limit the number of high fanout nets to display to | 10    |
++----------------------------------------------------+-------+
+
+Resource Usage
++---------------------------+------+-------+------------+
+| Type                      | Used | Total | Percentage |
++---------------------------+------+-------+------------+
+| 4LUT                      | 1068 | 12084 | 8.84       |
+| DFF                       | 1246 | 12084 | 10.31      |
+| I/O Register              | 0    | 414   | 0.00       |
+| User I/O                  | 43   | 138   | 31.16      |
+| -- Single-ended I/O       | 39   | 138   | 28.26      |
+| -- Differential I/O Pairs | 2    | 65    | 3.08       |
+| RAM64x18                  | 0    | 22    | 0.00       |
+| RAM1K18                   | 16   | 21    | 76.19      |
+| MACC                      | 0    | 22    | 0.00       |
+| Chip Globals              | 8    | 8     | 100.00     |
+| CCC                       | 1    | 2     | 50.00      |
+| RCOSC_25_50MHZ            | 1    | 1     | 100.00     |
+| RCOSC_1MHZ                | 0    | 1     | 0.00       |
+| XTLOSC                    | 0    | 1     | 0.00       |
+| MSS                       | 1    | 1     | 100.00     |
++---------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++--------------------------+------+------+
+| Type                     | 4LUT | DFF  |
++--------------------------+------+------+
+| Fabric Logic             | 492  | 670  |
+| RAM64x18 Interface Logic | 0    | 0    |
+| RAM1K18 Interface Logic  | 576  | 576  |
+| MACC Interface Logic     | 0    | 0    |
+| Total Used               | 1068 | 1246 |
++--------------------------+------+------+
+
+MSS Resource Usage
++---------------+------+-------+
+| Type          | Used | Total |
++---------------+------+-------+
+| Cortex-M3*    | 1    | 1     |
+| eNVM (256KB)* | 1    | 1     |
+| eSRAM*        | 2    | 2     |
+| TIMER*        | 2    | 2     |
+| CAN           | 0    | 1     |
+| SPI           | 0    | 2     |
+| I2C           | 0    | 2     |
+| UART          | 1    | 2     |
+| USB           | 0    | 1     |
+| MAC           | 0    | 1     |
+| MDDR          | 1    | 1     |
+| HPDMA         | 1    | 1     |
+| PDMA          | 1    | 1     |
++---------------+------+-------+
+
+* These resources are always marked as used when you are using the MSS
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 9      | 1    |
+| 12     | 1    |
+| 14     | 1    |
+| 24     | 1    |
+| 25     | 1    |
+| 26     | 1    |
+| Total  | 6    |
++--------+------+
+
+I/O Function
++--------------------------------------+--------------+-------------+-----------------+
+| Type                                 | w/o register | w/ register | w/ DDR register |
++--------------------------------------+--------------+-------------+-----------------+
+| Input I/O                            | 2            | 0           | 0               |
+| Output I/O                           | 28           | 0           | 0               |
+| Bidirectional I/O                    | 9            | 0           | 0               |
+| Differential Input I/O Pairs         | 0            | 0           | 0               |
+| Differential Output I/O Pairs        | 1            | 0           | 0               |
+| Differential Bidirectional I/O Pairs | 1            | 0           | 0               |
++--------------------------------------+--------------+-------------+-----------------+
+
+I/O Technology
++-------------------------------+--------+--------+-------+--------+---------------+
+| I/O Standard                  | Vddi   | Vref   | Input | Output | Bidirectional |
++-------------------------------+--------+--------+-------+--------+---------------+
+| LVCMOS25                      |  2.50v |  N/A   |  1    |  1     |  0            |
+| SSTL15I (Input/Bidirectional) |  1.50v |  0.75v |  1    |  0     |  11           |
+| SSTL15I (Output)              |  1.50v |  N/A   |  0    |  29    |  0            |
++-------------------------------+--------+--------+-------+--------+---------------+
+
+Nets assigned to chip global resources
++--------+---------+---------------------------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                                    |
++--------+---------+---------------------------------------------------------------------------------------------------------+
+| 440    | INT_NET | Net   : WR_MDDR_MSS_DDR_FIC_SUBSYSTEM_CLK                                                               |
+|        |         | Driver: WR_MDDR/MDDR_Demo_sb_sb_0/CCC_0/GL2_INST/U0_RGB1                                                |
+|        |         | Source: NETLIST                                                                                         |
+| 75     | INT_NET | Net   : WR_MDDR/MDDR_Demo_sb_sb_0/CORECONFIGP_0_APB_S_PCLK                                              |
+|        |         | Driver: WR_MDDR/MDDR_Demo_sb_sb_0/MDDR_Demo_sb_sb_MSS_0/FIC_2_APB_M_PCLK_inferred_clock_RNII7ID/U0_RGB1 |
+|        |         | Source: NETLIST                                                                                         |
+| 61     | INT_NET | Net   : WR_MDDR_FIC_0_CLK                                                                               |
+|        |         | Driver: WR_MDDR/MDDR_Demo_sb_sb_0/CCC_0/GL0_INST/U0_RGB1                                                |
+|        |         | Source: NETLIST                                                                                         |
+| 32     | INT_NET | Net   : MANEJO_SOLICITUDES/DATA_HANDLE_FSM_V2_0/un1_fsm_4_inferred_clock_RNI2F03_Z                      |
+|        |         | Driver: MANEJO_SOLICITUDES/DATA_HANDLE_FSM_V2_0/un1_fsm_4_inferred_clock_RNI2F03/U0_RGB1                |
+|        |         | Source: NETLIST                                                                                         |
+| 32     | INT_NET | Net   : MANEJO_SOLICITUDES/DATA_HANDLE_FSM_V2_0/un1_fsm_3_inferred_clock_RNI10N8_Z                      |
+|        |         | Driver: MANEJO_SOLICITUDES/DATA_HANDLE_FSM_V2_0/un1_fsm_3_inferred_clock_RNI10N8/U0_RGB1                |
+|        |         | Source: NETLIST                                                                                         |
+| 32     | INT_NET | Net   : MANEJO_SOLICITUDES/DATA_HANDLE_FSM_V2_0/un1_fsm_2_inferred_clock_RNI0HDE_Z                      |
+|        |         | Driver: MANEJO_SOLICITUDES/DATA_HANDLE_FSM_V2_0/un1_fsm_2_inferred_clock_RNI0HDE/U0_RGB1                |
+|        |         | Source: NETLIST                                                                                         |
+| 23     | INT_NET | Net   : WR_MDDR/MDDR_Demo_sb_sb_0/FABOSC_0_RCOSC_25_50MHZ_O2F                                           |
+|        |         | Driver: WR_MDDR/MDDR_Demo_sb_sb_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1                          |
+|        |         | Source: NETLIST                                                                                         |
+| 8      | INT_NET | Net   : MANEJO_SOLICITUDES/DATA_HANDLE_FSM_V2_0/un1_fsm_1_inferred_clock_RNIV144_Z                      |
+|        |         | Driver: MANEJO_SOLICITUDES/DATA_HANDLE_FSM_V2_0/un1_fsm_1_inferred_clock_RNIV144/U0_RGB1                |
+|        |         | Source: NETLIST                                                                                         |
++--------+---------+---------------------------------------------------------------------------------------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                         |
++--------+---------+------------------------------------------------------------------------------+
+| 300    | INT_NET | Net   : WR_MDDR/MDDR_Demo_sb_sb_0/CORERESETP_0/INIT_DONE_int_rep_Z           |
+|        |         | Driver: WR_MDDR/MDDR_Demo_sb_sb_0/CORERESETP_0/INIT_DONE_int_rep             |
+| 108    | INT_NET | Net   : MANEJO_SOLICITUDES/UART_IF_FSM_0/fsm_Z[14]                           |
+|        |         | Driver: MANEJO_SOLICITUDES/UART_IF_FSM_0/fsm[14]                             |
+| 104    | INT_NET | Net   : MANEJO_SOLICITUDES/DATA_HANDLE_FSM_V2_0/fsm_rep_Z[4]                 |
+|        |         | Driver: MANEJO_SOLICITUDES/DATA_HANDLE_FSM_V2_0/fsm_rep[4]                   |
+| 77     | INT_NET | Net   : WR_MDDR/MDDR_Demo_sb_sb_0/MDDR_Demo_sb_sb_MSS_0/FIC_2_APB_M_PRESET_N |
+|        |         | Driver: WR_MDDR/MDDR_Demo_sb_sb_0/MDDR_Demo_sb_sb_MSS_0/MSS_ADLIB_INST       |
+| 75     | INT_NET | Net   : MANEJO_SOLICITUDES/uart_start_axi                                    |
+|        |         | Driver: MANEJO_SOLICITUDES/DATA_HANDLE_FSM_V2_0/uart_start_axi               |
+| 64     | INT_NET | Net   : WR_MDDR/AXI_IF_0/N_54_i                                              |
+|        |         | Driver: WR_MDDR/AXI_IF_0/axi_fsm_write_state_RNIF5EL[2]                      |
+| 52     | INT_NET | Net   : MANEJO_SOLICITUDES/UART_IF_FSM_0/N_128_i                             |
+|        |         | Driver: MANEJO_SOLICITUDES/UART_IF_FSM_0/fsm_RNI54PJ[14]                     |
+| 38     | INT_NET | Net   : MANEJO_SOLICITUDES/UART_IF_FSM_0/N_180_i_0                           |
+|        |         | Driver: MANEJO_SOLICITUDES/UART_IF_FSM_0/un1_fsm_28_i_a4_RNIN59G             |
+| 37     | INT_NET | Net   : MANEJO_SOLICITUDES/UART_IF_FSM_0/fsm_Z[10]                           |
+|        |         | Driver: MANEJO_SOLICITUDES/UART_IF_FSM_0/fsm[10]                             |
+| 34     | INT_NET | Net   : MANEJO_SOLICITUDES/UART_IF_FSM_0/fsm_Z[4]                            |
+|        |         | Driver: MANEJO_SOLICITUDES/UART_IF_FSM_0/fsm[4]                              |
++--------+---------+------------------------------------------------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                         |
++--------+---------+------------------------------------------------------------------------------+
+| 300    | INT_NET | Net   : WR_MDDR/MDDR_Demo_sb_sb_0/CORERESETP_0/INIT_DONE_int_rep_Z           |
+|        |         | Driver: WR_MDDR/MDDR_Demo_sb_sb_0/CORERESETP_0/INIT_DONE_int_rep             |
+| 108    | INT_NET | Net   : MANEJO_SOLICITUDES/UART_IF_FSM_0/fsm_Z[14]                           |
+|        |         | Driver: MANEJO_SOLICITUDES/UART_IF_FSM_0/fsm[14]                             |
+| 104    | INT_NET | Net   : MANEJO_SOLICITUDES/DATA_HANDLE_FSM_V2_0/fsm_rep_Z[4]                 |
+|        |         | Driver: MANEJO_SOLICITUDES/DATA_HANDLE_FSM_V2_0/fsm_rep[4]                   |
+| 77     | INT_NET | Net   : WR_MDDR/MDDR_Demo_sb_sb_0/MDDR_Demo_sb_sb_MSS_0/FIC_2_APB_M_PRESET_N |
+|        |         | Driver: WR_MDDR/MDDR_Demo_sb_sb_0/MDDR_Demo_sb_sb_MSS_0/MSS_ADLIB_INST       |
+| 75     | INT_NET | Net   : MANEJO_SOLICITUDES/uart_start_axi                                    |
+|        |         | Driver: MANEJO_SOLICITUDES/DATA_HANDLE_FSM_V2_0/uart_start_axi               |
+| 64     | INT_NET | Net   : WR_MDDR/AXI_IF_0/N_54_i                                              |
+|        |         | Driver: WR_MDDR/AXI_IF_0/axi_fsm_write_state_RNIF5EL[2]                      |
+| 52     | INT_NET | Net   : MANEJO_SOLICITUDES/UART_IF_FSM_0/N_128_i                             |
+|        |         | Driver: MANEJO_SOLICITUDES/UART_IF_FSM_0/fsm_RNI54PJ[14]                     |
+| 38     | INT_NET | Net   : MANEJO_SOLICITUDES/UART_IF_FSM_0/N_180_i_0                           |
+|        |         | Driver: MANEJO_SOLICITUDES/UART_IF_FSM_0/un1_fsm_28_i_a4_RNIN59G             |
+| 37     | INT_NET | Net   : MANEJO_SOLICITUDES/UART_IF_FSM_0/fsm_Z[10]                           |
+|        |         | Driver: MANEJO_SOLICITUDES/UART_IF_FSM_0/fsm[10]                             |
+| 34     | INT_NET | Net   : MANEJO_SOLICITUDES/UART_IF_FSM_0/fsm_Z[4]                            |
+|        |         | Driver: MANEJO_SOLICITUDES/UART_IF_FSM_0/fsm[4]                              |
++--------+---------+------------------------------------------------------------------------------+
+
