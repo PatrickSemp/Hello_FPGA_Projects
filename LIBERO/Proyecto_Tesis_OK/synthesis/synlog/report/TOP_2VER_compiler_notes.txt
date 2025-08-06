@@ -1,0 +1,267 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\TOP_2VER\TOP_2VER.vhd":17:7:17:14|Top entity is set to TOP_2VER.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\CCC_0\MDDR_Demo_sb_sb_CCC_0_FCCC.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb_MSS\MDDR_Demo_sb_sb_MSS_syn.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreConfigP\7.1.100\rtl\vhdl\core\coreconfigp.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp_pcie_hotreset.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_pkg.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\XHDL_misc.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\XHDL_std_logic.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\components.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\hdl\COMPARADOR.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\hdl\MUX2TO1.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\TPSRAM_C1\TPSRAM_C1_0\TPSRAM_C1_TPSRAM_C1_0_TPSRAM.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\TPSRAM_C2\TPSRAM_C2_0\TPSRAM_C2_TPSRAM_C2_0_TPSRAM.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\TPSRAM_C3\TPSRAM_C3_0\TPSRAM_C3_TPSRAM_C3_0_TPSRAM.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\hdl\UART_BRIDGE_IF.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\hdl\DATA_HANDLE_FSM_V2.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\FABOSC_0\MDDR_Demo_sb_sb_FABOSC_0_OSC.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb_MSS\MDDR_Demo_sb_sb_MSS.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_rdmatrix_16Sto1M.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_rd_channel.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_wresp_channel.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_matrix_m.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_ra_arbiter.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_rdmatrix_4Mto1S_hgs_high.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_rdmatrix_4Mto1S_hgs_low.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_rdmatrix_4Mto1S.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_ra_channel.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_wa_arbiter.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_wrmatrix_4Mto1S_hgs_high.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_wrmatrix_4Mto1S_hgs_low.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_wrmatrix_4Mto1S.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_wa_channel.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_wd_channel.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_matrix_s.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_interconnect_ntom.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_master_stage.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_slave_stage.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_feedthrough.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\MDDR_Demo_sb_sb.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_TOP\MDDR_Demo_TOP.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\hdl\TMR_NFTVC.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\TPSRAM_C1\TPSRAM_C1.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\TPSRAM_C2\TPSRAM_C2.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\TPSRAM_C3\TPSRAM_C3.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MEMORY_TMR\MEMORY_TMR.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\UART_IF_SN_AUTO\UART_IF_SN_AUTO.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\TOP_2VER\TOP_2VER.vhd'.
+@N: CD231 :"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N:"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\TOP_2VER\TOP_2VER.vhd":17:7:17:14|Top entity is set to TOP_2VER.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\CCC_0\MDDR_Demo_sb_sb_CCC_0_FCCC.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb_MSS\MDDR_Demo_sb_sb_MSS_syn.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreConfigP\7.1.100\rtl\vhdl\core\coreconfigp.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp_pcie_hotreset.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_pkg.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\XHDL_misc.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\XHDL_std_logic.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\components.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\hdl\COMPARADOR.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\hdl\MUX2TO1.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\TPSRAM_C1\TPSRAM_C1_0\TPSRAM_C1_TPSRAM_C1_0_TPSRAM.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\TPSRAM_C2\TPSRAM_C2_0\TPSRAM_C2_TPSRAM_C2_0_TPSRAM.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\TPSRAM_C3\TPSRAM_C3_0\TPSRAM_C3_TPSRAM_C3_0_TPSRAM.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\hdl\UART_BRIDGE_IF.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\hdl\DATA_HANDLE_FSM_V2.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\FABOSC_0\MDDR_Demo_sb_sb_FABOSC_0_OSC.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb_MSS\MDDR_Demo_sb_sb_MSS.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_rdmatrix_16Sto1M.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_rd_channel.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_wresp_channel.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_matrix_m.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_ra_arbiter.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_rdmatrix_4Mto1S_hgs_high.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_rdmatrix_4Mto1S_hgs_low.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_rdmatrix_4Mto1S.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_ra_channel.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_wa_arbiter.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_wrmatrix_4Mto1S_hgs_high.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_wrmatrix_4Mto1S_hgs_low.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_wrmatrix_4Mto1S.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_wa_channel.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_wd_channel.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_matrix_s.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_interconnect_ntom.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_master_stage.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_slave_stage.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_feedthrough.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\MDDR_Demo_sb_sb.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_TOP\MDDR_Demo_TOP.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\hdl\TMR_NFTVC.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\TPSRAM_C1\TPSRAM_C1.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\TPSRAM_C2\TPSRAM_C2.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\TPSRAM_C3\TPSRAM_C3.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MEMORY_TMR\MEMORY_TMR.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\UART_IF_SN_AUTO\UART_IF_SN_AUTO.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\TOP_2VER\TOP_2VER.vhd'.
+@N: CD231 :"C:\Microchip\Libero_SoC_v2023.2\SynplifyPro\lib\vhd2008\std1164.vhd":889:16:889:17|Using onehot encoding for type mvl9plus. For example, enumeration 'U' is mapped to "1000000000".
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\TOP_2VER\TOP_2VER.vhd":17:7:17:14|Synthesizing work.top_2ver.rtl.
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_TOP\MDDR_Demo_TOP.vhd":17:7:17:19|Synthesizing work.mddr_demo_top.rtl.
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\MDDR_Demo_sb_sb.vhd":20:7:20:21|Synthesizing work.mddr_demo_sb_sb.rtl.
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb_MSS\MDDR_Demo_sb_sb_MSS.vhd":17:7:17:25|Synthesizing work.mddr_demo_sb_sb_mss.rtl.
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb_MSS\MDDR_Demo_sb_sb_MSS_syn.vhd":10:7:10:13|Synthesizing work.mss_010.def_arch.
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\FABOSC_0\MDDR_Demo_sb_sb_FABOSC_0_OSC.vhd":8:7:8:34|Synthesizing work.mddr_demo_sb_sb_fabosc_0_osc.def_arch.
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":19:7:19:20|Synthesizing work.rcosc_25_50mhz.def_arch.
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd":79:7:79:24|Synthesizing work.rcosc_25_50mhz_fab.def_arch.
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":27:7:27:16|Synthesizing work.coreresetp.rtl.
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreConfigP\7.1.100\rtl\vhdl\core\coreconfigp.vhd":26:7:26:17|Synthesizing work.coreconfigp.rtl.
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":36:7:36:39|Synthesizing work.mddr_demo_sb_sb_coreaxi_0_coreaxi.translated.
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_feedthrough.vhd":37:7:37:21|Synthesizing work.axi_feedthrough.translated.
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":34:7:34:14|Synthesizing coreapb3_lib.coreapb3.coreapb3_arch.
+@N: CD604 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":665:16:665:29|OTHERS clause is not synthesized.
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd":33:7:33:23|Synthesizing coreapb3_lib.coreapb3_muxptob3.coreapb3_muxptob3_arch.
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\CCC_0\MDDR_Demo_sb_sb_CCC_0_FCCC.vhd":8:7:8:32|Synthesizing work.mddr_demo_sb_sb_ccc_0_fccc.def_arch.
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MEMORY_TMR\MEMORY_TMR.vhd":17:7:17:16|Synthesizing work.memory_tmr.rtl.
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\TPSRAM_C3\TPSRAM_C3.vhd":59:7:59:15|Synthesizing work.tpsram_c3.rtl.
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\TPSRAM_C3\TPSRAM_C3_0\TPSRAM_C3_TPSRAM_C3_0_TPSRAM.vhd":8:7:8:34|Synthesizing work.tpsram_c3_tpsram_c3_0_tpsram.def_arch.
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\TPSRAM_C2\TPSRAM_C2.vhd":59:7:59:15|Synthesizing work.tpsram_c2.rtl.
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\TPSRAM_C2\TPSRAM_C2_0\TPSRAM_C2_TPSRAM_C2_0_TPSRAM.vhd":8:7:8:34|Synthesizing work.tpsram_c2_tpsram_c2_0_tpsram.def_arch.
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\TPSRAM_C1\TPSRAM_C1.vhd":59:7:59:15|Synthesizing work.tpsram_c1.rtl.
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\TPSRAM_C1\TPSRAM_C1_0\TPSRAM_C1_TPSRAM_C1_0_TPSRAM.vhd":8:7:8:34|Synthesizing work.tpsram_c1_tpsram_c1_0_tpsram.def_arch.
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\hdl\TMR_NFTVC.vhd":27:7:27:15|Synthesizing work.tmr_nftvc.architecture_tmr_nftvc.
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\hdl\MUX2TO1.vhd":23:7:23:13|Synthesizing work.mux2to1.architecture_mux2to1.
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\hdl\COMPARADOR.vhd":23:7:23:16|Synthesizing work.comparador.architecture_comparador.
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\UART_IF_SN_AUTO\UART_IF_SN_AUTO.vhd":17:7:17:21|Synthesizing work.uart_if_sn_auto.rtl.
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\hdl\UART_BRIDGE_IF.vhd":23:7:23:20|Synthesizing work.uart_bridge_if.behavioral.
+@N: CD231 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\hdl\UART_BRIDGE_IF.vhd":69:14:69:15|Using onehot encoding for type fsm_type. For example, enumeration reset is mapped to "100000000000000".
+@N: CD630 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\hdl\DATA_HANDLE_FSM_V2.vhd":31:7:31:24|Synthesizing work.data_handle_fsm_v2.behavioral.
+@N: CD233 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\hdl\DATA_HANDLE_FSM_V2.vhd":70:26:70:27|Using sequential encoding for type data_handle_type.
+@N: CD604 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\hdl\DATA_HANDLE_FSM_V2.vhd":113:12:113:24|OTHERS clause is not synthesized.
+@N: CD604 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\hdl\DATA_HANDLE_FSM_V2.vhd":165:12:165:24|OTHERS clause is not synthesized.
+@N: CL201 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\hdl\UART_BRIDGE_IF.vhd":101:4:101:5|Trying to extract state machine for register fsm.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\hdl\COMPARADOR.vhd":47:4:47:5|Register bit X(31) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\hdl\COMPARADOR.vhd":47:4:47:5|Register bit Y(31) is always 0.
+@N: CL189 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\hdl\COMPARADOR.vhd":47:4:47:5|Register bit Z(31) is always 0.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\hdl\TMR_NFTVC.vhd":33:4:33:6|Input CLK is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\hdl\TMR_NFTVC.vhd":34:4:34:6|Input REN is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":75:0:75:4|Input IADDR is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":76:0:76:6|Input PRESETN is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":77:0:77:3|Input PCLK is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":108:0:108:7|Input PRDATAS1 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":109:0:109:7|Input PRDATAS2 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":110:0:110:7|Input PRDATAS3 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":111:0:111:7|Input PRDATAS4 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":112:0:112:7|Input PRDATAS5 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":113:0:113:7|Input PRDATAS6 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":114:0:114:7|Input PRDATAS7 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":115:0:115:7|Input PRDATAS8 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":116:0:116:7|Input PRDATAS9 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":117:0:117:8|Input PRDATAS10 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":118:0:118:8|Input PRDATAS11 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":119:0:119:8|Input PRDATAS12 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":120:0:120:8|Input PRDATAS13 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":121:0:121:8|Input PRDATAS14 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":122:0:122:8|Input PRDATAS15 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":125:0:125:7|Input PREADYS1 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":126:0:126:7|Input PREADYS2 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":127:0:127:7|Input PREADYS3 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":128:0:128:7|Input PREADYS4 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":129:0:129:7|Input PREADYS5 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":130:0:130:7|Input PREADYS6 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":131:0:131:7|Input PREADYS7 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":132:0:132:7|Input PREADYS8 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":133:0:133:7|Input PREADYS9 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":134:0:134:8|Input PREADYS10 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":135:0:135:8|Input PREADYS11 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":136:0:136:8|Input PREADYS12 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":137:0:137:8|Input PREADYS13 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":138:0:138:8|Input PREADYS14 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":139:0:139:8|Input PREADYS15 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":142:0:142:8|Input PSLVERRS1 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":143:0:143:8|Input PSLVERRS2 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":144:0:144:8|Input PSLVERRS3 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":145:0:145:8|Input PSLVERRS4 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":146:0:146:8|Input PSLVERRS5 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":147:0:147:8|Input PSLVERRS6 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":148:0:148:8|Input PSLVERRS7 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":149:0:149:8|Input PSLVERRS8 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":150:0:150:8|Input PSLVERRS9 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":151:0:151:9|Input PSLVERRS10 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":152:0:152:9|Input PSLVERRS11 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":153:0:153:9|Input PSLVERRS12 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":154:0:154:9|Input PSLVERRS13 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":155:0:155:9|Input PSLVERRS14 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd":156:0:156:9|Input PSLVERRS15 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_feedthrough.vhd":147:6:147:9|Input ACLK is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_feedthrough.vhd":148:6:148:12|Input ARESETN is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":196:6:196:12|Input AWID_M1 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":197:6:197:14|Input AWADDR_M1 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":198:6:198:13|Input AWLEN_M1 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":199:6:199:14|Input AWSIZE_M1 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":200:6:200:15|Input AWBURST_M1 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":201:6:201:14|Input AWLOCK_M1 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":202:6:202:15|Input AWCACHE_M1 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":203:6:203:14|Input AWPROT_M1 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":204:6:204:15|Input AWVALID_M1 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":208:6:208:11|Input WID_M1 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":209:6:209:13|Input WDATA_M1 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":210:6:210:13|Input WSTRB_M1 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":212:6:212:13|Input WLAST_M1 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":213:6:213:14|Input WVALID_M1 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":220:6:220:14|Input BREADY_M1 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":223:6:223:12|Input ARID_M1 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":224:6:224:14|Input ARADDR_M1 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":225:6:225:13|Input ARLEN_M1 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":226:6:226:14|Input ARSIZE_M1 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":227:6:227:15|Input ARBURST_M1 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":228:6:228:14|Input ARLOCK_M1 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":229:6:229:15|Input ARCACHE_M1 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":230:6:230:14|Input ARPROT_M1 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":231:6:231:15|Input ARVALID_M1 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":240:6:240:14|Input RREADY_M1 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":244:6:244:12|Input AWID_M2 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":245:6:245:14|Input AWADDR_M2 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":246:6:246:13|Input AWLEN_M2 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":247:6:247:14|Input AWSIZE_M2 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":248:6:248:15|Input AWBURST_M2 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":249:6:249:14|Input AWLOCK_M2 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":250:6:250:15|Input AWCACHE_M2 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":251:6:251:14|Input AWPROT_M2 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":252:6:252:15|Input AWVALID_M2 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":256:6:256:11|Input WID_M2 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":257:6:257:13|Input WDATA_M2 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":258:6:258:13|Input WSTRB_M2 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":260:6:260:13|Input WLAST_M2 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":261:6:261:14|Input WVALID_M2 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":268:6:268:14|Input BREADY_M2 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":271:6:271:12|Input ARID_M2 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":272:6:272:14|Input ARADDR_M2 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":273:6:273:13|Input ARLEN_M2 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":274:6:274:14|Input ARSIZE_M2 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":275:6:275:15|Input ARBURST_M2 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":276:6:276:14|Input ARLOCK_M2 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":277:6:277:15|Input ARCACHE_M2 is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd":278:6:278:14|Input ARPROT_M2 is unused.
+@N: CL201 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreConfigP\7.1.100\rtl\vhdl\core\coreconfigp.vhd":517:8:517:9|Trying to extract state machine for register state.
+@N: CL201 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Trying to extract state machine for register sdif3_state.
+@N: CL201 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Trying to extract state machine for register sdif2_state.
+@N: CL201 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Trying to extract state machine for register sdif1_state.
+@N: CL201 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Trying to extract state machine for register sdif0_state.
+@N: CL201 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Trying to extract state machine for register sm0_state.
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG364 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\hdl\AXI_MASTER_IF.v":21:7:21:19|Synthesizing module AXI_MASTER_IF in library work.
+@N: CL201 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\hdl\AXI_MASTER_IF.v":221:0:221:5|Trying to extract state machine for register axi_fsm_read_state.
+@N: CL201 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\hdl\AXI_MASTER_IF.v":96:0:96:5|Trying to extract state machine for register axi_fsm_write_state.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\hdl\AXI_MASTER_IF.v":55:22:55:24|Input BID is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\hdl\AXI_MASTER_IF.v":56:21:56:25|Input BRESP is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\hdl\AXI_MASTER_IF.v":69:23:69:25|Input RID is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\hdl\AXI_MASTER_IF.v":70:23:70:27|Input RDATA is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\hdl\AXI_MASTER_IF.v":71:23:71:27|Input RRESP is unused.
+@N: CL159 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\hdl\AXI_MASTER_IF.v":72:23:72:27|Input RLAST is unused.
+@N|Running in 64-bit mode
+

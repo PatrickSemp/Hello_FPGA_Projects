@@ -1,0 +1,1503 @@
+# Tue Jan 30 19:15:56 2024
+
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-HO2RJRQ
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202209actsp2, Build 145R, Built Jun 27 2023 12:06:34, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 124MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 137MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 137MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 137MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 137MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 175MB peak: 175MB)
+
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr02\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":894:8:894:9|Removing sequential instance MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.sdif3_areset_n_rcosc_q1 because it is equivalent to instance MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.sdif2_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr02\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":883:8:883:9|Removing sequential instance MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.sdif2_areset_n_rcosc_q1 because it is equivalent to instance MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.sdif1_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr02\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":872:8:872:9|Removing sequential instance MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.sdif1_areset_n_rcosc_q1 because it is equivalent to instance MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr02\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":850:8:850:9|Removing sequential instance MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.sm0_areset_n_rcosc_q1 because it is equivalent to instance MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr02\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":883:8:883:9|Removing sequential instance MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.sdif2_areset_n_rcosc because it is equivalent to instance MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.sm0_areset_n_rcosc. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr02\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":894:8:894:9|Removing sequential instance MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.sdif3_areset_n_rcosc because it is equivalent to instance MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.sm0_areset_n_rcosc. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr02\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":872:8:872:9|Removing sequential instance MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.sdif1_areset_n_rcosc because it is equivalent to instance MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.sm0_areset_n_rcosc. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr02\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":861:8:861:9|Removing sequential instance MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.sdif0_areset_n_rcosc because it is equivalent to instance MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.sm0_areset_n_rcosc. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 180MB peak: 180MB)
+
+Encoding state machine state[0:2] (in view: work.CoreConfigP_work_top_rtl_0layer0(rtl))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+@W: MO160 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr02\component\actel\directcore\coreconfigp\7.1.100\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Register bit paddr[16] (in view view:work.CoreConfigP_work_top_rtl_0layer0(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr02\component\actel\directcore\coreconfigp\7.1.100\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[31] (in view view:work.CoreConfigP_work_top_rtl_0layer0(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr02\component\actel\directcore\coreconfigp\7.1.100\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[30] (in view view:work.CoreConfigP_work_top_rtl_0layer0(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr02\component\actel\directcore\coreconfigp\7.1.100\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[29] (in view view:work.CoreConfigP_work_top_rtl_0layer0(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr02\component\actel\directcore\coreconfigp\7.1.100\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[28] (in view view:work.CoreConfigP_work_top_rtl_0layer0(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr02\component\actel\directcore\coreconfigp\7.1.100\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[27] (in view view:work.CoreConfigP_work_top_rtl_0layer0(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr02\component\actel\directcore\coreconfigp\7.1.100\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[26] (in view view:work.CoreConfigP_work_top_rtl_0layer0(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr02\component\actel\directcore\coreconfigp\7.1.100\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[25] (in view view:work.CoreConfigP_work_top_rtl_0layer0(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr02\component\actel\directcore\coreconfigp\7.1.100\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[24] (in view view:work.CoreConfigP_work_top_rtl_0layer0(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr02\component\actel\directcore\coreconfigp\7.1.100\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[23] (in view view:work.CoreConfigP_work_top_rtl_0layer0(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr02\component\actel\directcore\coreconfigp\7.1.100\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[22] (in view view:work.CoreConfigP_work_top_rtl_0layer0(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr02\component\actel\directcore\coreconfigp\7.1.100\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[21] (in view view:work.CoreConfigP_work_top_rtl_0layer0(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr02\component\actel\directcore\coreconfigp\7.1.100\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[20] (in view view:work.CoreConfigP_work_top_rtl_0layer0(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr02\component\actel\directcore\coreconfigp\7.1.100\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[19] (in view view:work.CoreConfigP_work_top_rtl_0layer0(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr02\component\actel\directcore\coreconfigp\7.1.100\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Removing instance MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[18] because it is equivalent to instance MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[17]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+Encoding state machine sm0_state[0:6] (in view: work.CoreResetP_work_top_rtl_0layer0(rtl))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+@N: MO231 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr02\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1519:8:1519:9|Found counter in view:work.CoreResetP_work_top_rtl_0layer0(rtl) instance count_ddr[13:0] 
+Encoding state machine axi_fsm_read_state[3:0] (in view: work.AXI_MASTER_IF_0s_1s_2s_3s_4294967292s_4294967293s_0s_1s_4294967294s_4294967295s_1_layer1(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr02\hdl\axi_master_if.v":221:0:221:5|There are no possible illegal states for state machine axi_fsm_read_state[3:0] (in view: work.AXI_MASTER_IF_0s_1s_2s_3s_4294967292s_4294967293s_0s_1s_4294967294s_4294967295s_1_layer1(verilog)); safe FSM implementation is not required.
+Encoding state machine axi_fsm_write_state[5:0] (in view: work.AXI_MASTER_IF_0s_1s_2s_3s_4294967292s_4294967293s_0s_1s_4294967294s_4294967295s_1_layer1(verilog))
+original code -> new code
+   000 -> 000001
+   001 -> 000010
+   010 -> 000100
+   011 -> 001000
+   100 -> 010000
+   101 -> 100000
+@W: MO160 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr02\hdl\axi_master_if.v":221:0:221:5|Register bit ARBURST[1] (in view view:work.AXI_MASTER_IF_0s_1s_2s_3s_4294967292s_4294967293s_0s_1s_4294967294s_4294967295s_1_layer1(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO161 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr02\hdl\axi_master_if.v":221:0:221:5|Register bit ARBURST[0] (in view view:work.AXI_MASTER_IF_0s_1s_2s_3s_4294967292s_4294967293s_0s_1s_4294967294s_4294967295s_1_layer1(verilog)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr02\hdl\axi_master_if.v":96:0:96:5|Register bit AWBURST[1] (in view view:work.AXI_MASTER_IF_0s_1s_2s_3s_4294967292s_4294967293s_0s_1s_4294967294s_4294967295s_1_layer1(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO161 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr02\hdl\axi_master_if.v":96:0:96:5|Register bit AWBURST[0] (in view view:work.AXI_MASTER_IF_0s_1s_2s_3s_4294967292s_4294967293s_0s_1s_4294967294s_4294967295s_1_layer1(verilog)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
+Encoding state machine WR_fsm[0:3] (in view: work.AUTO_HANDLER_TMR_work_top_rtl_0layer0(behavioral))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr02\hdl\auto_handler_tmr.vhd":74:4:74:5|There are no possible illegal states for state machine WR_fsm[0:3] (in view: work.AUTO_HANDLER_TMR_work_top_rtl_0layer0(behavioral)); safe FSM implementation is not required.
+Encoding state machine RD_fsm[0:3] (in view: work.AUTO_HANDLER_TMR_work_top_rtl_0layer0(behavioral))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr02\hdl\auto_handler_tmr.vhd":119:4:119:5|There are no possible illegal states for state machine RD_fsm[0:3] (in view: work.AUTO_HANDLER_TMR_work_top_rtl_0layer0(behavioral)); safe FSM implementation is not required.
+Encoding state machine fsm[0:13] (in view: work.UART_BRIDGE_IF(behavioral))
+original code -> new code
+   000000000000010 -> 00000000000001
+   000000000000100 -> 00000000000010
+   000000000001000 -> 00000000000100
+   000000000010000 -> 00000000001000
+   000000000100000 -> 00000000010000
+   000000001000000 -> 00000000100000
+   000000010000000 -> 00000001000000
+   000000100000000 -> 00000010000000
+   000001000000000 -> 00000100000000
+   000010000000000 -> 00001000000000
+   000100000000000 -> 00010000000000
+   001000000000000 -> 00100000000000
+   010000000000000 -> 01000000000000
+   100000000000000 -> 10000000000000
+@N: MO231 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr02\hdl\uart_bridge_if.vhd":92:4:92:5|Found counter in view:work.UART_BRIDGE_IF(behavioral) instance TPSRAM_WADDR[7:0] 
+@N: MO231 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr02\hdl\uart_bridge_if.vhd":92:4:92:5|Found counter in view:work.UART_BRIDGE_IF(behavioral) instance cnt_burst[4:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 184MB peak: 184MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 192MB peak: 192MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 188MB peak: 193MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 189MB peak: 193MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 189MB peak: 193MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 189MB peak: 193MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 189MB peak: 193MB)
+
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr02\component\actel\directcore\coreconfigp\7.1.100\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORECONFIGP_0.paddr[14] (in view: work.TOP(rtl)) because it does not drive other instances.
+
+Finished technology mapping (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 192MB peak: 193MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:07s		    -3.04ns		 812 /       686
+   2		0h:00m:07s		    -3.04ns		 812 /       686
+
+   3		0h:00m:07s		    -3.04ns		 812 /       686
+
+
+   4		0h:00m:07s		    -3.04ns		 812 /       686
+@N: FP130 |Promoting Net INIT_DONE_int_arst on CLKINT  I_304 
+@N: FP130 |Promoting Net UART_IF_0.DATA_HANDLE_FSM_V2_0.machine_states\.fsm13_arst on CLKINT  I_305 
+@N: FP130 |Promoting Net MSS_CORTEXM3.MDDR_Demo_sb_sb_0.FIC_2_APB_M_PRESET_N_arst on CLKINT  I_306 
+@N: FP130 |Promoting Net MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORECONFIGP_0_APB_S_PCLK on CLKINT  I_307 
+@N: FP130 |Promoting Net UART_IF_0.AUTO_HANDLER_TMR_0.dt_hndl_option_1_arst on CLKINT  I_308 
+@N: FP130 |Promoting Net UART_IF_0.DATA_HANDLE_FSM_V2_0.un1_paddr_2 on CLKINT  I_309 
+@N: FP130 |Promoting Net UART_IF_0.DATA_HANDLE_FSM_V2_0.un1_paddr_3 on CLKINT  I_310 
+@N: FP130 |Promoting Net UART_IF_0.DATA_HANDLE_FSM_V2_0.un1_fsm_2 on CLKINT  I_311 
+@N: FP130 |Promoting Net MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.sm0_areset_n_clk_base on CLKINT  I_312 
+@N: FP130 |Promoting Net MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_arst on CLKINT  I_313 
+@N: FP130 |Promoting Net UART_IF_0.DATA_HANDLE_FSM_V2_0.un1_paddr_1 on CLKINT  I_314 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 193MB peak: 193MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 194MB peak: 194MB)
+
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 194MB peak: 194MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:08s; Memory used current: 194MB peak: 195MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:09s; CPU Time elapsed 0h:00m:09s; Memory used current: 156MB peak: 195MB)
+
+Writing Analyst data base D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR02\synthesis\synwork\TOP_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:10s; Memory used current: 192MB peak: 195MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:11s; Memory used current: 193MB peak: 195MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:11s; Memory used current: 193MB peak: 195MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:13s; CPU Time elapsed 0h:00m:12s; Memory used current: 190MB peak: 195MB)
+
+@W: MT246 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr02\component\work\mddr_demo_sb_sb\ccc_0\mddr_demo_sb_sb_ccc_0_fccc.vhd":110:4:110:11|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT420 |Found inferred clock MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on net MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CCC_0.GL2_net.
+@W: MT420 |Found inferred clock MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on net MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CCC_0.GL0_net.
+@W: MT420 |Found inferred clock MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock with period 10.00ns. Please declare a user-defined clock on net MSS_CORTEXM3.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.FIC_2_APB_M_PCLK.
+@W: MT420 |Found inferred clock MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock with period 10.00ns. Please declare a user-defined clock on net MSS_CORTEXM3.MDDR_Demo_sb_sb_0.FABOSC_0.FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC.
+@W: MT420 |Found inferred clock DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_1_inferred_clock with period 10.00ns. Please declare a user-defined clock on net UART_IF_0.DATA_HANDLE_FSM_V2_0.un1_paddr_1.
+@W: MT420 |Found inferred clock DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_2_inferred_clock with period 10.00ns. Please declare a user-defined clock on net UART_IF_0.DATA_HANDLE_FSM_V2_0.un1_paddr_2.
+@W: MT420 |Found inferred clock DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_3_inferred_clock with period 10.00ns. Please declare a user-defined clock on net UART_IF_0.DATA_HANDLE_FSM_V2_0.un1_paddr_3.
+@W: MT420 |Found inferred clock DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_2_inferred_clock with period 10.00ns. Please declare a user-defined clock on net UART_IF_0.DATA_HANDLE_FSM_V2_0.un1_fsm_2.
+@W: MT420 |Found inferred clock AUTO_HANDLER_TMR_work_top_rtl_0layer0|next_process_1_sqmuxa_inferred_clock with period 10.00ns. Please declare a user-defined clock on net UART_IF_0.AUTO_HANDLER_TMR_0.next_process_1_sqmuxa.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Tue Jan 30 19:16:09 2024
+#
+
+
+Top view:               TOP
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR02\designer\TOP\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -2.719
+
+                                                                               Requested     Estimated     Requested     Estimated                Clock        Clock          
+Starting Clock                                                                 Frequency     Frequency     Period        Period        Slack      Type         Group          
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+AUTO_HANDLER_TMR_work_top_rtl_0layer0|next_process_1_sqmuxa_inferred_clock     100.0 MHz     NA            10.000        NA            NA         inferred     (multiple)     
+DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_2_inferred_clock                         100.0 MHz     607.7 MHz     10.000        1.646         8.354      inferred     (multiple)     
+DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_1_inferred_clock                       100.0 MHz     184.7 MHz     10.000        5.415         4.585      inferred     (multiple)     
+DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_2_inferred_clock                       100.0 MHz     607.7 MHz     10.000        1.646         8.354      inferred     (multiple)     
+DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_3_inferred_clock                       100.0 MHz     607.7 MHz     10.000        1.646         8.354      inferred     (multiple)     
+MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                              100.0 MHz     78.6 MHz      10.000        12.719        -2.719     inferred     (multiple)     
+MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock                              100.0 MHz     153.2 MHz     10.000        6.527         3.473      inferred     (multiple)     
+MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock                 100.0 MHz     270.2 MHz     10.000        3.700         6.300      inferred     (multiple)     
+MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock                            100.0 MHz     144.4 MHz     10.000        6.924         1.578      inferred     (multiple)     
+System                                                                         100.0 MHz     419.6 MHz     10.000        2.383         7.617      system       system_clkgroup
+==============================================================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                                                                  |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                                                    Ending                                                                      |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                                                      MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock                           |  10.000      8.315   |  No paths    -      |  No paths    -      |  No paths    -    
+System                                                                      MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                           |  10.000      7.617   |  No paths    -      |  No paths    -      |  No paths    -    
+MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock                           MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock                           |  10.000      3.473   |  No paths    -      |  No paths    -      |  No paths    -    
+MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock                           MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                           |  Diff grp    -       |  No paths    -      |  No paths    -      |  No paths    -    
+MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock                           AUTO_HANDLER_TMR_work_top_rtl_0layer0|next_process_1_sqmuxa_inferred_clock  |  No paths    -       |  No paths    -      |  Diff grp    -      |  No paths    -    
+MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                           System                                                                      |  10.000      2.355   |  No paths    -      |  10.000      2.356  |  No paths    -    
+MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                           MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock                           |  Diff grp    -       |  No paths    -      |  No paths    -      |  No paths    -    
+MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                           MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                           |  10.000      -2.719  |  No paths    -      |  No paths    -      |  No paths    -    
+MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                           MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock                         |  Diff grp    -       |  No paths    -      |  No paths    -      |  No paths    -    
+MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                           MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock              |  Diff grp    -       |  No paths    -      |  No paths    -      |  No paths    -    
+MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                           DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_1_inferred_clock                    |  Diff grp    -       |  No paths    -      |  Diff grp    -      |  No paths    -    
+MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                           DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_2_inferred_clock                    |  Diff grp    -       |  No paths    -      |  Diff grp    -      |  No paths    -    
+MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                           DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_3_inferred_clock                    |  Diff grp    -       |  No paths    -      |  Diff grp    -      |  No paths    -    
+MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                           DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_2_inferred_clock                      |  Diff grp    -       |  No paths    -      |  Diff grp    -      |  No paths    -    
+MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                           AUTO_HANDLER_TMR_work_top_rtl_0layer0|next_process_1_sqmuxa_inferred_clock  |  No paths    -       |  No paths    -      |  Diff grp    -      |  No paths    -    
+MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock                         MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                           |  Diff grp    -       |  No paths    -      |  No paths    -      |  No paths    -    
+MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock                         MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock                         |  10.000      3.076   |  No paths    -      |  5.000       3.233  |  5.000       1.578
+MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock              MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                           |  Diff grp    -       |  No paths    -      |  No paths    -      |  No paths    -    
+MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock              MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock              |  10.000      6.300   |  No paths    -      |  No paths    -      |  No paths    -    
+DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_1_inferred_clock                    System                                                                      |  10.000      4.585   |  No paths    -      |  10.000      4.585  |  No paths    -    
+DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_1_inferred_clock                    MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock                           |  Diff grp    -       |  No paths    -      |  No paths    -      |  No paths    -    
+DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_1_inferred_clock                    MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                           |  Diff grp    -       |  No paths    -      |  No paths    -      |  No paths    -    
+DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_2_inferred_clock                    System                                                                      |  10.000      8.354   |  No paths    -      |  10.000      8.354  |  No paths    -    
+DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_2_inferred_clock                    MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock                           |  Diff grp    -       |  No paths    -      |  No paths    -      |  No paths    -    
+DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_3_inferred_clock                    System                                                                      |  10.000      8.354   |  No paths    -      |  10.000      8.354  |  No paths    -    
+DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_3_inferred_clock                    MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock                           |  Diff grp    -       |  No paths    -      |  No paths    -      |  No paths    -    
+DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_2_inferred_clock                      System                                                                      |  10.000      8.354   |  No paths    -      |  10.000      8.354  |  No paths    -    
+DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_2_inferred_clock                      MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock                           |  Diff grp    -       |  No paths    -      |  No paths    -      |  No paths    -    
+AUTO_HANDLER_TMR_work_top_rtl_0layer0|next_process_1_sqmuxa_inferred_clock  MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock                           |  No paths    -       |  No paths    -      |  No paths    -      |  Diff grp    -    
+AUTO_HANDLER_TMR_work_top_rtl_0layer0|next_process_1_sqmuxa_inferred_clock  MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                           |  No paths    -       |  No paths    -      |  No paths    -      |  Diff grp    -    
+===============================================================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_2_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                      Starting                                                                                                                Arrival          
+Instance                                              Reference                                                  Type     Pin     Net                                         Time        Slack
+                                                      Clock                                                                                                                                    
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_data2[0]     DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_2_inferred_clock     SLE      Q       DATA_HANDLE_FSM_V2_0_uart_user_data2[0]     0.094       8.354
+UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_data2[1]     DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_2_inferred_clock     SLE      Q       DATA_HANDLE_FSM_V2_0_uart_user_data2[1]     0.094       8.354
+UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_data2[2]     DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_2_inferred_clock     SLE      Q       DATA_HANDLE_FSM_V2_0_uart_user_data2[2]     0.094       8.354
+UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_data2[3]     DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_2_inferred_clock     SLE      Q       DATA_HANDLE_FSM_V2_0_uart_user_data2[3]     0.094       8.354
+UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_data2[4]     DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_2_inferred_clock     SLE      Q       DATA_HANDLE_FSM_V2_0_uart_user_data2[4]     0.094       8.354
+UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_data2[5]     DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_2_inferred_clock     SLE      Q       DATA_HANDLE_FSM_V2_0_uart_user_data2[5]     0.094       8.354
+UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_data2[6]     DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_2_inferred_clock     SLE      Q       DATA_HANDLE_FSM_V2_0_uart_user_data2[6]     0.094       8.354
+UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_data2[7]     DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_2_inferred_clock     SLE      Q       DATA_HANDLE_FSM_V2_0_uart_user_data2[7]     0.094       8.354
+UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_data2[8]     DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_2_inferred_clock     SLE      Q       DATA_HANDLE_FSM_V2_0_uart_user_data2[8]     0.094       8.354
+UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_data2[9]     DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_2_inferred_clock     SLE      Q       DATA_HANDLE_FSM_V2_0_uart_user_data2[9]     0.094       8.354
+===============================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                         Starting                                                                                               Required          
+Instance                                                 Reference                                                  Type     Pin     Net                        Time         Slack
+                                                         Clock                                                                                                                    
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_data2_64_rs     DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_2_inferred_clock     SLE      ALn     un1_dt_hndl_data2_64_i     10.000       8.354
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_data2_66_rs     DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_2_inferred_clock     SLE      ALn     un1_dt_hndl_data2_66_i     10.000       8.354
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_data2_68_rs     DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_2_inferred_clock     SLE      ALn     un1_dt_hndl_data2_68_i     10.000       8.354
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_data2_70_rs     DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_2_inferred_clock     SLE      ALn     un1_dt_hndl_data2_70_i     10.000       8.354
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_data2_72_rs     DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_2_inferred_clock     SLE      ALn     un1_dt_hndl_data2_72_i     10.000       8.354
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_data2_74_rs     DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_2_inferred_clock     SLE      ALn     un1_dt_hndl_data2_74_i     10.000       8.354
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_data2_76_rs     DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_2_inferred_clock     SLE      ALn     un1_dt_hndl_data2_76_i     10.000       8.354
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_data2_77_rs     DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_2_inferred_clock     SLE      ALn     un1_dt_hndl_data2_77_i     10.000       8.354
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_data2_79_rs     DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_2_inferred_clock     SLE      ALn     un1_dt_hndl_data2_79_i     10.000       8.354
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_data2_82_rs     DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_2_inferred_clock     SLE      ALn     un1_dt_hndl_data2_82_i     10.000       8.354
+==================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         10.000
+
+    - Propagation time:                      1.646
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 8.354
+
+    Number of logic level(s):                1
+    Starting point:                          UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_data2[0] / Q
+    Ending point:                            UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_data2_103_rs / ALn
+    The start point is clocked by            DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_2_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            System [falling] on pin CLK
+
+Instance / Net                                                     Pin      Pin               Arrival     No. of    
+Name                                                      Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------
+UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_data2[0]         SLE      Q        Out     0.094     0.094 f     -         
+DATA_HANDLE_FSM_V2_0_uart_user_data2[0]                   Net      -        -       0.432     -           2         
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_data2_103        CFG3     B        In      -         0.526 f     -         
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_data2_103        CFG3     Y        Out     0.143     0.669 f     -         
+un1_dt_hndl_data2_103_i                                   Net      -        -       0.977     -           2         
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_data2_103_rs     SLE      ALn      In      -         1.646 f     -         
+====================================================================================================================
+Total path delay (propagation time + setup) of 1.646 is 0.237(14.4%) logic and 1.409(85.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_1_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                       Starting                                                                                              Arrival          
+Instance                                               Reference                                                    Type     Pin     Net                     Time        Slack
+                                                       Clock                                                                                                                  
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_option[1]     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_1_inferred_clock     SLE      Q       uart_user_option[1]     0.094       4.585
+UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_option[4]     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_1_inferred_clock     SLE      Q       uart_user_option[4]     0.094       4.624
+UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_option[7]     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_1_inferred_clock     SLE      Q       uart_user_option[7]     0.076       4.805
+UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_option[0]     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_1_inferred_clock     SLE      Q       uart_user_option[0]     0.076       4.830
+UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_option[6]     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_1_inferred_clock     SLE      Q       uart_user_option[6]     0.076       5.026
+UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_option[2]     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_1_inferred_clock     SLE      Q       uart_user_option[2]     0.094       5.579
+UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_option[5]     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_1_inferred_clock     SLE      Q       uart_user_option[5]     0.094       5.685
+UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_option[3]     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_1_inferred_clock     SLE      Q       uart_user_option[3]     0.094       5.835
+==============================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                           Starting                                                                                                   Required          
+Instance                                                   Reference                                                    Type     Pin     Net                          Time         Slack
+                                                           Clock                                                                                                                        
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_address_66_rs     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_1_inferred_clock     SLE      ALn     un1_dt_hndl_address_66_i     10.000       4.585
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_address_68_rs     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_1_inferred_clock     SLE      ALn     un1_dt_hndl_address_68_i     10.000       4.585
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_address_70_rs     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_1_inferred_clock     SLE      ALn     un1_dt_hndl_address_70_i     10.000       4.585
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_address_72_rs     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_1_inferred_clock     SLE      ALn     un1_dt_hndl_address_72_i     10.000       4.585
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_address_74_rs     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_1_inferred_clock     SLE      ALn     un1_dt_hndl_address_74_i     10.000       4.585
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_address_76_rs     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_1_inferred_clock     SLE      ALn     un1_dt_hndl_address_76_i     10.000       4.585
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_address_77_rs     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_1_inferred_clock     SLE      ALn     un1_dt_hndl_address_77_i     10.000       4.585
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_address_79_rs     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_1_inferred_clock     SLE      ALn     un1_dt_hndl_address_79_i     10.000       4.585
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_address_81_rs     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_1_inferred_clock     SLE      ALn     un1_dt_hndl_address_81_i     10.000       4.585
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_address_83_rs     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_1_inferred_clock     SLE      ALn     un1_dt_hndl_address_83_i     10.000       4.585
+========================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         10.000
+
+    - Propagation time:                      5.415
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 4.585
+
+    Number of logic level(s):                3
+    Starting point:                          UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_option[1] / Q
+    Ending point:                            UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_address_66_rs / ALn
+    The start point is clocked by            DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_1_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            System [falling] on pin CLK
+
+Instance / Net                                                        Pin      Pin               Arrival     No. of    
+Name                                                         Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------
+UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_option[1]           SLE      Q        Out     0.094     0.094 f     -         
+uart_user_option[1]                                          Net      -        -       0.977     -           4         
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_option_142_0_a2     CFG4     C        In      -         1.071 f     -         
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_option_142_0_a2     CFG4     Y        Out     0.182     1.253 f     -         
+N_116                                                        Net      -        -       0.744     -           5         
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_option_142_0_a3     CFG4     D        In      -         1.996 f     -         
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_option_142_0_a3     CFG4     Y        Out     0.250     2.247 f     -         
+un1_dt_hndl_option_142                                       Net      -        -       2.010     -           214       
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_address_66          CFG3     C        In      -         4.256 f     -         
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_address_66          CFG3     Y        Out     0.182     4.439 f     -         
+un1_dt_hndl_address_66_i                                     Net      -        -       0.977     -           2         
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_address_66_rs       SLE      ALn      In      -         5.415 f     -         
+=======================================================================================================================
+Total path delay (propagation time + setup) of 5.415 is 0.709(13.1%) logic and 4.706(86.9%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_2_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                        Starting                                                                                                                      Arrival          
+Instance                                                Reference                                                    Type     Pin     Net                                             Time        Slack
+                                                        Clock                                                                                                                                          
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_address[0]     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_2_inferred_clock     SLE      Q       DATA_HANDLE_FSM_V2_0_uart_user_address_0[0]     0.094       8.354
+UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_address[1]     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_2_inferred_clock     SLE      Q       DATA_HANDLE_FSM_V2_0_uart_user_address_0[1]     0.094       8.354
+UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_address[2]     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_2_inferred_clock     SLE      Q       DATA_HANDLE_FSM_V2_0_uart_user_address_0[2]     0.094       8.354
+UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_address[3]     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_2_inferred_clock     SLE      Q       DATA_HANDLE_FSM_V2_0_uart_user_address_0[3]     0.094       8.354
+UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_address[4]     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_2_inferred_clock     SLE      Q       DATA_HANDLE_FSM_V2_0_uart_user_address_0[4]     0.094       8.354
+UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_address[5]     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_2_inferred_clock     SLE      Q       DATA_HANDLE_FSM_V2_0_uart_user_address_0[5]     0.094       8.354
+UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_address[6]     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_2_inferred_clock     SLE      Q       DATA_HANDLE_FSM_V2_0_uart_user_address_0[6]     0.094       8.354
+UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_address[7]     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_2_inferred_clock     SLE      Q       DATA_HANDLE_FSM_V2_0_uart_user_address_0[7]     0.094       8.354
+UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_address[8]     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_2_inferred_clock     SLE      Q       DATA_HANDLE_FSM_V2_0_uart_user_address_0[8]     0.094       8.354
+UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_address[9]     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_2_inferred_clock     SLE      Q       DATA_HANDLE_FSM_V2_0_uart_user_address_0[9]     0.094       8.354
+=======================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                           Starting                                                                                                   Required          
+Instance                                                   Reference                                                    Type     Pin     Net                          Time         Slack
+                                                           Clock                                                                                                                        
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_address_66_rs     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_2_inferred_clock     SLE      ALn     un1_dt_hndl_address_66_i     10.000       8.354
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_address_68_rs     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_2_inferred_clock     SLE      ALn     un1_dt_hndl_address_68_i     10.000       8.354
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_address_70_rs     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_2_inferred_clock     SLE      ALn     un1_dt_hndl_address_70_i     10.000       8.354
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_address_72_rs     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_2_inferred_clock     SLE      ALn     un1_dt_hndl_address_72_i     10.000       8.354
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_address_74_rs     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_2_inferred_clock     SLE      ALn     un1_dt_hndl_address_74_i     10.000       8.354
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_address_76_rs     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_2_inferred_clock     SLE      ALn     un1_dt_hndl_address_76_i     10.000       8.354
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_address_77_rs     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_2_inferred_clock     SLE      ALn     un1_dt_hndl_address_77_i     10.000       8.354
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_address_79_rs     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_2_inferred_clock     SLE      ALn     un1_dt_hndl_address_79_i     10.000       8.354
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_address_81_rs     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_2_inferred_clock     SLE      ALn     un1_dt_hndl_address_81_i     10.000       8.354
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_address_83_rs     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_2_inferred_clock     SLE      ALn     un1_dt_hndl_address_83_i     10.000       8.354
+========================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         10.000
+
+    - Propagation time:                      1.646
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 8.354
+
+    Number of logic level(s):                1
+    Starting point:                          UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_address[0] / Q
+    Ending point:                            UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_address_84_rs / ALn
+    The start point is clocked by            DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_2_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            System [falling] on pin CLK
+
+Instance / Net                                                      Pin      Pin               Arrival     No. of    
+Name                                                       Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------
+UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_address[0]        SLE      Q        Out     0.094     0.094 f     -         
+DATA_HANDLE_FSM_V2_0_uart_user_address_0[0]                Net      -        -       0.432     -           2         
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_address_84        CFG3     B        In      -         0.526 f     -         
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_address_84        CFG3     Y        Out     0.143     0.669 f     -         
+un1_dt_hndl_address_84_i                                   Net      -        -       0.977     -           2         
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_address_84_rs     SLE      ALn      In      -         1.646 f     -         
+=====================================================================================================================
+Total path delay (propagation time + setup) of 1.646 is 0.237(14.4%) logic and 1.409(85.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_3_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                      Starting                                                                                                                    Arrival          
+Instance                                              Reference                                                    Type     Pin     Net                                           Time        Slack
+                                                      Clock                                                                                                                                        
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_data1[0]     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_3_inferred_clock     SLE      Q       DATA_HANDLE_FSM_V2_0_uart_user_data1_0[0]     0.094       8.354
+UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_data1[1]     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_3_inferred_clock     SLE      Q       DATA_HANDLE_FSM_V2_0_uart_user_data1_0[1]     0.094       8.354
+UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_data1[2]     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_3_inferred_clock     SLE      Q       DATA_HANDLE_FSM_V2_0_uart_user_data1_0[2]     0.094       8.354
+UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_data1[3]     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_3_inferred_clock     SLE      Q       DATA_HANDLE_FSM_V2_0_uart_user_data1_0[3]     0.094       8.354
+UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_data1[4]     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_3_inferred_clock     SLE      Q       DATA_HANDLE_FSM_V2_0_uart_user_data1_0[4]     0.094       8.354
+UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_data1[5]     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_3_inferred_clock     SLE      Q       DATA_HANDLE_FSM_V2_0_uart_user_data1_0[5]     0.094       8.354
+UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_data1[6]     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_3_inferred_clock     SLE      Q       DATA_HANDLE_FSM_V2_0_uart_user_data1_0[6]     0.094       8.354
+UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_data1[7]     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_3_inferred_clock     SLE      Q       DATA_HANDLE_FSM_V2_0_uart_user_data1_0[7]     0.094       8.354
+UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_data1[8]     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_3_inferred_clock     SLE      Q       DATA_HANDLE_FSM_V2_0_uart_user_data1_0[8]     0.094       8.354
+UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_data1[9]     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_3_inferred_clock     SLE      Q       DATA_HANDLE_FSM_V2_0_uart_user_data1_0[9]     0.094       8.354
+===================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                         Starting                                                                                                 Required          
+Instance                                                 Reference                                                    Type     Pin     Net                        Time         Slack
+                                                         Clock                                                                                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_data1_67_rs     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_3_inferred_clock     SLE      ALn     un1_dt_hndl_data1_67_i     10.000       8.354
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_data1_68_rs     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_3_inferred_clock     SLE      ALn     un1_dt_hndl_data1_68_i     10.000       8.354
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_data1_70_rs     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_3_inferred_clock     SLE      ALn     un1_dt_hndl_data1_70_i     10.000       8.354
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_data1_73_rs     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_3_inferred_clock     SLE      ALn     un1_dt_hndl_data1_73_i     10.000       8.354
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_data1_75_rs     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_3_inferred_clock     SLE      ALn     un1_dt_hndl_data1_75_i     10.000       8.354
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_data1_77_rs     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_3_inferred_clock     SLE      ALn     un1_dt_hndl_data1_77_i     10.000       8.354
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_data1_79_rs     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_3_inferred_clock     SLE      ALn     un1_dt_hndl_data1_79_i     10.000       8.354
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_data1_80_rs     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_3_inferred_clock     SLE      ALn     un1_dt_hndl_data1_80_i     10.000       8.354
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_data1_82_rs     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_3_inferred_clock     SLE      ALn     un1_dt_hndl_data1_82_i     10.000       8.354
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_data1_83_rs     DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_3_inferred_clock     SLE      ALn     un1_dt_hndl_data1_83_i     10.000       8.354
+====================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         10.000
+
+    - Propagation time:                      1.646
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 8.354
+
+    Number of logic level(s):                1
+    Starting point:                          UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_data1[0] / Q
+    Ending point:                            UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_data1_117_rs / ALn
+    The start point is clocked by            DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_3_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            System [falling] on pin CLK
+
+Instance / Net                                                     Pin      Pin               Arrival     No. of    
+Name                                                      Type     Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------------------------------------------
+UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_data1[0]         SLE      Q        Out     0.094     0.094 f     -         
+DATA_HANDLE_FSM_V2_0_uart_user_data1_0[0]                 Net      -        -       0.432     -           2         
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_data1_117        CFG3     B        In      -         0.526 f     -         
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_data1_117        CFG3     Y        Out     0.143     0.669 f     -         
+un1_dt_hndl_data1_117_i                                   Net      -        -       0.977     -           2         
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_data1_117_rs     SLE      ALn      In      -         1.646 f     -         
+====================================================================================================================
+Total path delay (propagation time + setup) of 1.646 is 0.237(14.4%) logic and 1.409(85.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                           Starting                                                                                                        Arrival           
+Instance                                                                   Reference                                             Type        Pin           Net                             Time        Slack 
+                                                                           Clock                                                                                                                             
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+MEMORY_TMR_0.TPSRAM_C2_0.TPSRAM_C2_0.TPSRAM_C2_TPSRAM_C2_0_TPSRAM_R0C0     MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock     RAM1K18     A_DOUT[1]     TPSRAM_C2_0_RD_1[1]             1.968       -2.719
+MEMORY_TMR_0.TPSRAM_C1_0.TPSRAM_C1_0.TPSRAM_C1_TPSRAM_C1_0_TPSRAM_R0C0     MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock     RAM1K18     A_DOUT[1]     MEMORY_TMR_0_DATA_1MEM_0[1]     1.968       -2.708
+MEMORY_TMR_0.TPSRAM_C2_0.TPSRAM_C2_0.TPSRAM_C2_TPSRAM_C2_0_TPSRAM_R0C0     MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock     RAM1K18     A_DOUT[0]     TPSRAM_C2_0_RD_1[0]             1.968       -2.652
+MEMORY_TMR_0.TPSRAM_C1_0.TPSRAM_C1_0.TPSRAM_C1_TPSRAM_C1_0_TPSRAM_R0C0     MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock     RAM1K18     A_DOUT[0]     MEMORY_TMR_0_DATA_1MEM_0[0]     1.968       -2.641
+MEMORY_TMR_0.TPSRAM_C3_0.TPSRAM_C3_0.TPSRAM_C3_TPSRAM_C3_0_TPSRAM_R0C0     MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock     RAM1K18     A_DOUT[1]     TPSRAM_C3_0_RD_1[1]             1.968       -2.559
+MEMORY_TMR_0.TPSRAM_C3_0.TPSRAM_C3_0.TPSRAM_C3_TPSRAM_C3_0_TPSRAM_R0C0     MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock     RAM1K18     A_DOUT[0]     TPSRAM_C3_0_RD_1[0]             1.968       -2.492
+MEMORY_TMR_0.TPSRAM_C2_0.TPSRAM_C2_0.TPSRAM_C2_TPSRAM_C2_0_TPSRAM_R0C1     MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock     RAM1K18     A_DOUT[0]     TPSRAM_C2_0_RD_1[2]             1.968       -1.672
+MEMORY_TMR_0.TPSRAM_C1_0.TPSRAM_C1_0.TPSRAM_C1_TPSRAM_C1_0_TPSRAM_R0C1     MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock     RAM1K18     A_DOUT[0]     MEMORY_TMR_0_DATA_1MEM_0[2]     1.968       -1.661
+MEMORY_TMR_0.TPSRAM_C3_0.TPSRAM_C3_0.TPSRAM_C3_TPSRAM_C3_0_TPSRAM_R0C1     MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock     RAM1K18     A_DOUT[0]     TPSRAM_C3_0_RD_1[2]             1.968       -1.512
+MEMORY_TMR_0.TPSRAM_C2_0.TPSRAM_C2_0.TPSRAM_C2_TPSRAM_C2_0_TPSRAM_R0C1     MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock     RAM1K18     A_DOUT[1]     TPSRAM_C2_0_RD_1[3]             1.968       -0.625
+=============================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                        Starting                                                                                                          Required           
+Instance                                                                Reference                                             Type        Pin                  Net                        Time         Slack 
+                                                                        Clock                                                                                                                                
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST     MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     MGPIO0A_F2H_GPIN     MEMORY_TMR_0_error         9.250        -2.719
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_raddr_25_set                   MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         ALn                  un1_dt_hndl_raddr_25_i     10.000       2.052 
+UART_IF_0.AUTO_HANDLER_TMR_0.tpsram_RADDR_1[10]                         MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         ALn                  un1_dt_hndl_raddr_24_i     10.000       2.355 
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_raddr_24_rs                    MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         ALn                  un1_dt_hndl_raddr_24_i     10.000       2.355 
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST     MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_READY          MSS_ADLIB_INST_RNO         8.713        2.730 
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_raddr_40_set                   MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         ALn                  un1_dt_hndl_raddr_40_i     10.000       2.766 
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_raddr_42_set                   MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         ALn                  un1_dt_hndl_raddr_42_i     10.000       2.766 
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_raddr_38_set                   MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         ALn                  un1_dt_hndl_raddr_38_i     10.000       2.805 
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_raddr_22_set                   MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         ALn                  un1_dt_hndl_raddr_22_i     10.000       2.939 
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_raddr_26_set                   MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         ALn                  un1_dt_hndl_raddr_26_i     10.000       2.954 
+=============================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.750
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.250
+
+    - Propagation time:                      11.969
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -2.719
+
+    Number of logic level(s):                9
+    Starting point:                          MEMORY_TMR_0.TPSRAM_C2_0.TPSRAM_C2_0.TPSRAM_C2_TPSRAM_C2_0_TPSRAM_R0C0 / A_DOUT[1]
+    Ending point:                            MSS_CORTEXM3.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST / MGPIO0A_F2H_GPIN
+    The start point is clocked by            MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin A_CLK
+    The end   point is clocked by            MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK_BASE
+
+Instance / Net                                                                         Pin                  Pin               Arrival      No. of    
+Name                                                                       Type        Name                 Dir     Delay     Time         Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+MEMORY_TMR_0.TPSRAM_C2_0.TPSRAM_C2_0.TPSRAM_C2_TPSRAM_C2_0_TPSRAM_R0C0     RAM1K18     A_DOUT[1]            Out     1.968     1.968 r      -         
+TPSRAM_C2_0_RD_1[1]                                                        Net         -                    -       0.432     -            2         
+MEMORY_TMR_0.TMR_NFTVC_0.S2[1]                                             CFG2        A                    In      -         2.400 r      -         
+MEMORY_TMR_0.TMR_NFTVC_0.S2[1]                                             CFG2        Y                    Out     0.087     2.487 f      -         
+S2[1]                                                                      Net         -                    -       0.971     -            2         
+MEMORY_TMR_0.TMR_NFTVC_0.EP2\.0\.EP2_0\.ES2                                OR2         B                    In      -         3.458 f      -         
+MEMORY_TMR_0.TMR_NFTVC_0.EP2\.0\.EP2_0\.ES2                                OR2         Y                    Out     0.143     3.601 f      -         
+e_S2[0]                                                                    Net         -                    -       0.971     -            1         
+MEMORY_TMR_0.TMR_NFTVC_0.EP2\.1\.EP2_1\.ES2                                OR2         A                    In      -         4.573 f      -         
+MEMORY_TMR_0.TMR_NFTVC_0.EP2\.1\.EP2_1\.ES2                                OR2         Y                    Out     0.076     4.648 f      -         
+e_S2[1]                                                                    Net         -                    -       0.971     -            1         
+MEMORY_TMR_0.TMR_NFTVC_0.EP2\.2\.EP2_1\.ES2                                OR2         A                    In      -         5.620 f      -         
+MEMORY_TMR_0.TMR_NFTVC_0.EP2\.2\.EP2_1\.ES2                                OR2         Y                    Out     0.076     5.695 f      -         
+e_S2[2]                                                                    Net         -                    -       0.971     -            1         
+MEMORY_TMR_0.TMR_NFTVC_0.EP2\.3\.EP2_1\.ES2                                OR2         A                    In      -         6.667 f      -         
+MEMORY_TMR_0.TMR_NFTVC_0.EP2\.3\.EP2_1\.ES2                                OR2         Y                    Out     0.076     6.742 f      -         
+e_S2[3]                                                                    Net         -                    -       0.971     -            1         
+MEMORY_TMR_0.TMR_NFTVC_0.EP2\.4\.EP2_1\.ES2                                OR2         A                    In      -         7.714 f      -         
+MEMORY_TMR_0.TMR_NFTVC_0.EP2\.4\.EP2_1\.ES2                                OR2         Y                    Out     0.076     7.790 f      -         
+e_S2[4]                                                                    Net         -                    -       0.971     -            1         
+MEMORY_TMR_0.TMR_NFTVC_0.EP2\.5\.EP2_1\.ES2                                OR2         A                    In      -         8.761 f      -         
+MEMORY_TMR_0.TMR_NFTVC_0.EP2\.5\.EP2_1\.ES2                                OR2         Y                    Out     0.076     8.837 f      -         
+e_S2[5]                                                                    Net         -                    -       0.971     -            1         
+MEMORY_TMR_0.TMR_NFTVC_0.EP2\.6\.EP2_1\.ES2                                OR2         A                    In      -         9.808 f      -         
+MEMORY_TMR_0.TMR_NFTVC_0.EP2\.6\.EP2_1\.ES2                                OR2         Y                    Out     0.076     9.884 f      -         
+e_S2[6]                                                                    Net         -                    -       0.971     -            1         
+MEMORY_TMR_0.TMR_NFTVC_0.ERR                                               AND2        B                    In      -         10.855 f     -         
+MEMORY_TMR_0.TMR_NFTVC_0.ERR                                               AND2        Y                    Out     0.143     10.998 f     -         
+MEMORY_TMR_0_error                                                         Net         -                    -       0.971     -            1         
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST        MSS_010     MGPIO0A_F2H_GPIN     In      -         11.969 f     -         
+=====================================================================================================================================================
+Total path delay (propagation time + setup) of 12.719 is 3.545(27.9%) logic and 9.175(72.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      10.000
+    - Setup time:                            0.750
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.250
+
+    - Propagation time:                      11.958
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -2.708
+
+    Number of logic level(s):                9
+    Starting point:                          MEMORY_TMR_0.TPSRAM_C1_0.TPSRAM_C1_0.TPSRAM_C1_TPSRAM_C1_0_TPSRAM_R0C0 / A_DOUT[1]
+    Ending point:                            MSS_CORTEXM3.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST / MGPIO0A_F2H_GPIN
+    The start point is clocked by            MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin A_CLK
+    The end   point is clocked by            MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK_BASE
+
+Instance / Net                                                                         Pin                  Pin               Arrival      No. of    
+Name                                                                       Type        Name                 Dir     Delay     Time         Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+MEMORY_TMR_0.TPSRAM_C1_0.TPSRAM_C1_0.TPSRAM_C1_TPSRAM_C1_0_TPSRAM_R0C0     RAM1K18     A_DOUT[1]            Out     1.968     1.968 r      -         
+MEMORY_TMR_0_DATA_1MEM_0[1]                                                Net         -                    -       0.432     -            2         
+MEMORY_TMR_0.TMR_NFTVC_0.S1[1]                                             CFG2        B                    In      -         2.400 r      -         
+MEMORY_TMR_0.TMR_NFTVC_0.S1[1]                                             CFG2        Y                    Out     0.143     2.543 f      -         
+S1[1]                                                                      Net         -                    -       0.971     -            2         
+MEMORY_TMR_0.TMR_NFTVC_0.EP1\.0\.EP1_0\.ES1                                OR2         B                    In      -         3.514 f      -         
+MEMORY_TMR_0.TMR_NFTVC_0.EP1\.0\.EP1_0\.ES1                                OR2         Y                    Out     0.143     3.657 f      -         
+e_S1[0]                                                                    Net         -                    -       0.971     -            1         
+MEMORY_TMR_0.TMR_NFTVC_0.EP1\.1\.EP1_1\.ES1                                OR2         A                    In      -         4.628 f      -         
+MEMORY_TMR_0.TMR_NFTVC_0.EP1\.1\.EP1_1\.ES1                                OR2         Y                    Out     0.076     4.704 f      -         
+e_S1[1]                                                                    Net         -                    -       0.971     -            1         
+MEMORY_TMR_0.TMR_NFTVC_0.EP1\.2\.EP1_1\.ES1                                OR2         A                    In      -         5.676 f      -         
+MEMORY_TMR_0.TMR_NFTVC_0.EP1\.2\.EP1_1\.ES1                                OR2         Y                    Out     0.076     5.751 f      -         
+e_S1[2]                                                                    Net         -                    -       0.971     -            1         
+MEMORY_TMR_0.TMR_NFTVC_0.EP1\.3\.EP1_1\.ES1                                OR2         A                    In      -         6.723 f      -         
+MEMORY_TMR_0.TMR_NFTVC_0.EP1\.3\.EP1_1\.ES1                                OR2         Y                    Out     0.076     6.798 f      -         
+e_S1[3]                                                                    Net         -                    -       0.971     -            1         
+MEMORY_TMR_0.TMR_NFTVC_0.EP1\.4\.EP1_1\.ES1                                OR2         A                    In      -         7.770 f      -         
+MEMORY_TMR_0.TMR_NFTVC_0.EP1\.4\.EP1_1\.ES1                                OR2         Y                    Out     0.076     7.845 f      -         
+e_S1[4]                                                                    Net         -                    -       0.971     -            1         
+MEMORY_TMR_0.TMR_NFTVC_0.EP1\.5\.EP1_1\.ES1                                OR2         A                    In      -         8.817 f      -         
+MEMORY_TMR_0.TMR_NFTVC_0.EP1\.5\.EP1_1\.ES1                                OR2         Y                    Out     0.076     8.893 f      -         
+e_S1[5]                                                                    Net         -                    -       0.971     -            1         
+MEMORY_TMR_0.TMR_NFTVC_0.EP1\.6\.EP1_1\.ES1                                OR2         A                    In      -         9.864 f      -         
+MEMORY_TMR_0.TMR_NFTVC_0.EP1\.6\.EP1_1\.ES1                                OR2         Y                    Out     0.076     9.940 f      -         
+e_S1[6]                                                                    Net         -                    -       0.971     -            1         
+MEMORY_TMR_0.TMR_NFTVC_0.ERR                                               AND2        A                    In      -         10.911 f     -         
+MEMORY_TMR_0.TMR_NFTVC_0.ERR                                               AND2        Y                    Out     0.076     10.987 f     -         
+MEMORY_TMR_0_error                                                         Net         -                    -       0.971     -            1         
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST        MSS_010     MGPIO0A_F2H_GPIN     In      -         11.958 f     -         
+=====================================================================================================================================================
+Total path delay (propagation time + setup) of 12.708 is 3.533(27.8%) logic and 9.175(72.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      10.000
+    - Setup time:                            0.750
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.250
+
+    - Propagation time:                      11.902
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -2.652
+
+    Number of logic level(s):                9
+    Starting point:                          MEMORY_TMR_0.TPSRAM_C2_0.TPSRAM_C2_0.TPSRAM_C2_TPSRAM_C2_0_TPSRAM_R0C0 / A_DOUT[0]
+    Ending point:                            MSS_CORTEXM3.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST / MGPIO0A_F2H_GPIN
+    The start point is clocked by            MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin A_CLK
+    The end   point is clocked by            MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK_BASE
+
+Instance / Net                                                                         Pin                  Pin               Arrival      No. of    
+Name                                                                       Type        Name                 Dir     Delay     Time         Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+MEMORY_TMR_0.TPSRAM_C2_0.TPSRAM_C2_0.TPSRAM_C2_TPSRAM_C2_0_TPSRAM_R0C0     RAM1K18     A_DOUT[0]            Out     1.968     1.968 r      -         
+TPSRAM_C2_0_RD_1[0]                                                        Net         -                    -       0.432     -            2         
+MEMORY_TMR_0.TMR_NFTVC_0.S2[0]                                             CFG2        A                    In      -         2.400 r      -         
+MEMORY_TMR_0.TMR_NFTVC_0.S2[0]                                             CFG2        Y                    Out     0.087     2.487 f      -         
+S2[0]                                                                      Net         -                    -       0.971     -            2         
+MEMORY_TMR_0.TMR_NFTVC_0.EP2\.0\.EP2_0\.ES2                                OR2         A                    In      -         3.458 f      -         
+MEMORY_TMR_0.TMR_NFTVC_0.EP2\.0\.EP2_0\.ES2                                OR2         Y                    Out     0.076     3.534 f      -         
+e_S2[0]                                                                    Net         -                    -       0.971     -            1         
+MEMORY_TMR_0.TMR_NFTVC_0.EP2\.1\.EP2_1\.ES2                                OR2         A                    In      -         4.505 f      -         
+MEMORY_TMR_0.TMR_NFTVC_0.EP2\.1\.EP2_1\.ES2                                OR2         Y                    Out     0.076     4.581 f      -         
+e_S2[1]                                                                    Net         -                    -       0.971     -            1         
+MEMORY_TMR_0.TMR_NFTVC_0.EP2\.2\.EP2_1\.ES2                                OR2         A                    In      -         5.553 f      -         
+MEMORY_TMR_0.TMR_NFTVC_0.EP2\.2\.EP2_1\.ES2                                OR2         Y                    Out     0.076     5.628 f      -         
+e_S2[2]                                                                    Net         -                    -       0.971     -            1         
+MEMORY_TMR_0.TMR_NFTVC_0.EP2\.3\.EP2_1\.ES2                                OR2         A                    In      -         6.600 f      -         
+MEMORY_TMR_0.TMR_NFTVC_0.EP2\.3\.EP2_1\.ES2                                OR2         Y                    Out     0.076     6.675 f      -         
+e_S2[3]                                                                    Net         -                    -       0.971     -            1         
+MEMORY_TMR_0.TMR_NFTVC_0.EP2\.4\.EP2_1\.ES2                                OR2         A                    In      -         7.647 f      -         
+MEMORY_TMR_0.TMR_NFTVC_0.EP2\.4\.EP2_1\.ES2                                OR2         Y                    Out     0.076     7.723 f      -         
+e_S2[4]                                                                    Net         -                    -       0.971     -            1         
+MEMORY_TMR_0.TMR_NFTVC_0.EP2\.5\.EP2_1\.ES2                                OR2         A                    In      -         8.694 f      -         
+MEMORY_TMR_0.TMR_NFTVC_0.EP2\.5\.EP2_1\.ES2                                OR2         Y                    Out     0.076     8.770 f      -         
+e_S2[5]                                                                    Net         -                    -       0.971     -            1         
+MEMORY_TMR_0.TMR_NFTVC_0.EP2\.6\.EP2_1\.ES2                                OR2         A                    In      -         9.741 f      -         
+MEMORY_TMR_0.TMR_NFTVC_0.EP2\.6\.EP2_1\.ES2                                OR2         Y                    Out     0.076     9.817 f      -         
+e_S2[6]                                                                    Net         -                    -       0.971     -            1         
+MEMORY_TMR_0.TMR_NFTVC_0.ERR                                               AND2        B                    In      -         10.788 f     -         
+MEMORY_TMR_0.TMR_NFTVC_0.ERR                                               AND2        Y                    Out     0.143     10.931 f     -         
+MEMORY_TMR_0_error                                                         Net         -                    -       0.971     -            1         
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST        MSS_010     MGPIO0A_F2H_GPIN     In      -         11.902 f     -         
+=====================================================================================================================================================
+Total path delay (propagation time + setup) of 12.652 is 3.478(27.5%) logic and 9.175(72.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      10.000
+    - Setup time:                            0.750
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.250
+
+    - Propagation time:                      11.902
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -2.652
+
+    Number of logic level(s):                9
+    Starting point:                          MEMORY_TMR_0.TPSRAM_C2_0.TPSRAM_C2_0.TPSRAM_C2_TPSRAM_C2_0_TPSRAM_R0C0 / A_DOUT[1]
+    Ending point:                            MSS_CORTEXM3.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST / MGPIO0A_F2H_GPIN
+    The start point is clocked by            MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin A_CLK
+    The end   point is clocked by            MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK_BASE
+
+Instance / Net                                                                         Pin                  Pin               Arrival      No. of    
+Name                                                                       Type        Name                 Dir     Delay     Time         Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+MEMORY_TMR_0.TPSRAM_C2_0.TPSRAM_C2_0.TPSRAM_C2_TPSRAM_C2_0_TPSRAM_R0C0     RAM1K18     A_DOUT[1]            Out     1.968     1.968 r      -         
+TPSRAM_C2_0_RD_1[1]                                                        Net         -                    -       0.432     -            2         
+MEMORY_TMR_0.TMR_NFTVC_0.S1[1]                                             CFG2        A                    In      -         2.400 r      -         
+MEMORY_TMR_0.TMR_NFTVC_0.S1[1]                                             CFG2        Y                    Out     0.087     2.487 f      -         
+S1[1]                                                                      Net         -                    -       0.971     -            2         
+MEMORY_TMR_0.TMR_NFTVC_0.EP1\.0\.EP1_0\.ES1                                OR2         B                    In      -         3.458 f      -         
+MEMORY_TMR_0.TMR_NFTVC_0.EP1\.0\.EP1_0\.ES1                                OR2         Y                    Out     0.143     3.601 f      -         
+e_S1[0]                                                                    Net         -                    -       0.971     -            1         
+MEMORY_TMR_0.TMR_NFTVC_0.EP1\.1\.EP1_1\.ES1                                OR2         A                    In      -         4.573 f      -         
+MEMORY_TMR_0.TMR_NFTVC_0.EP1\.1\.EP1_1\.ES1                                OR2         Y                    Out     0.076     4.648 f      -         
+e_S1[1]                                                                    Net         -                    -       0.971     -            1         
+MEMORY_TMR_0.TMR_NFTVC_0.EP1\.2\.EP1_1\.ES1                                OR2         A                    In      -         5.620 f      -         
+MEMORY_TMR_0.TMR_NFTVC_0.EP1\.2\.EP1_1\.ES1                                OR2         Y                    Out     0.076     5.695 f      -         
+e_S1[2]                                                                    Net         -                    -       0.971     -            1         
+MEMORY_TMR_0.TMR_NFTVC_0.EP1\.3\.EP1_1\.ES1                                OR2         A                    In      -         6.667 f      -         
+MEMORY_TMR_0.TMR_NFTVC_0.EP1\.3\.EP1_1\.ES1                                OR2         Y                    Out     0.076     6.742 f      -         
+e_S1[3]                                                                    Net         -                    -       0.971     -            1         
+MEMORY_TMR_0.TMR_NFTVC_0.EP1\.4\.EP1_1\.ES1                                OR2         A                    In      -         7.714 f      -         
+MEMORY_TMR_0.TMR_NFTVC_0.EP1\.4\.EP1_1\.ES1                                OR2         Y                    Out     0.076     7.790 f      -         
+e_S1[4]                                                                    Net         -                    -       0.971     -            1         
+MEMORY_TMR_0.TMR_NFTVC_0.EP1\.5\.EP1_1\.ES1                                OR2         A                    In      -         8.761 f      -         
+MEMORY_TMR_0.TMR_NFTVC_0.EP1\.5\.EP1_1\.ES1                                OR2         Y                    Out     0.076     8.837 f      -         
+e_S1[5]                                                                    Net         -                    -       0.971     -            1         
+MEMORY_TMR_0.TMR_NFTVC_0.EP1\.6\.EP1_1\.ES1                                OR2         A                    In      -         9.808 f      -         
+MEMORY_TMR_0.TMR_NFTVC_0.EP1\.6\.EP1_1\.ES1                                OR2         Y                    Out     0.076     9.884 f      -         
+e_S1[6]                                                                    Net         -                    -       0.971     -            1         
+MEMORY_TMR_0.TMR_NFTVC_0.ERR                                               AND2        A                    In      -         10.855 f     -         
+MEMORY_TMR_0.TMR_NFTVC_0.ERR                                               AND2        Y                    Out     0.076     10.931 f     -         
+MEMORY_TMR_0_error                                                         Net         -                    -       0.971     -            1         
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST        MSS_010     MGPIO0A_F2H_GPIN     In      -         11.902 f     -         
+=====================================================================================================================================================
+Total path delay (propagation time + setup) of 12.652 is 3.478(27.5%) logic and 9.175(72.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      10.000
+    - Setup time:                            0.750
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.250
+
+    - Propagation time:                      11.891
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -2.641
+
+    Number of logic level(s):                9
+    Starting point:                          MEMORY_TMR_0.TPSRAM_C1_0.TPSRAM_C1_0.TPSRAM_C1_TPSRAM_C1_0_TPSRAM_R0C0 / A_DOUT[0]
+    Ending point:                            MSS_CORTEXM3.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST / MGPIO0A_F2H_GPIN
+    The start point is clocked by            MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin A_CLK
+    The end   point is clocked by            MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK_BASE
+
+Instance / Net                                                                         Pin                  Pin               Arrival      No. of    
+Name                                                                       Type        Name                 Dir     Delay     Time         Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+MEMORY_TMR_0.TPSRAM_C1_0.TPSRAM_C1_0.TPSRAM_C1_TPSRAM_C1_0_TPSRAM_R0C0     RAM1K18     A_DOUT[0]            Out     1.968     1.968 r      -         
+MEMORY_TMR_0_DATA_1MEM_0[0]                                                Net         -                    -       0.432     -            2         
+MEMORY_TMR_0.TMR_NFTVC_0.S1[0]                                             CFG2        B                    In      -         2.400 r      -         
+MEMORY_TMR_0.TMR_NFTVC_0.S1[0]                                             CFG2        Y                    Out     0.143     2.543 f      -         
+S1[0]                                                                      Net         -                    -       0.971     -            2         
+MEMORY_TMR_0.TMR_NFTVC_0.EP1\.0\.EP1_0\.ES1                                OR2         A                    In      -         3.514 f      -         
+MEMORY_TMR_0.TMR_NFTVC_0.EP1\.0\.EP1_0\.ES1                                OR2         Y                    Out     0.076     3.590 f      -         
+e_S1[0]                                                                    Net         -                    -       0.971     -            1         
+MEMORY_TMR_0.TMR_NFTVC_0.EP1\.1\.EP1_1\.ES1                                OR2         A                    In      -         4.561 f      -         
+MEMORY_TMR_0.TMR_NFTVC_0.EP1\.1\.EP1_1\.ES1                                OR2         Y                    Out     0.076     4.637 f      -         
+e_S1[1]                                                                    Net         -                    -       0.971     -            1         
+MEMORY_TMR_0.TMR_NFTVC_0.EP1\.2\.EP1_1\.ES1                                OR2         A                    In      -         5.608 f      -         
+MEMORY_TMR_0.TMR_NFTVC_0.EP1\.2\.EP1_1\.ES1                                OR2         Y                    Out     0.076     5.684 f      -         
+e_S1[2]                                                                    Net         -                    -       0.971     -            1         
+MEMORY_TMR_0.TMR_NFTVC_0.EP1\.3\.EP1_1\.ES1                                OR2         A                    In      -         6.655 f      -         
+MEMORY_TMR_0.TMR_NFTVC_0.EP1\.3\.EP1_1\.ES1                                OR2         Y                    Out     0.076     6.731 f      -         
+e_S1[3]                                                                    Net         -                    -       0.971     -            1         
+MEMORY_TMR_0.TMR_NFTVC_0.EP1\.4\.EP1_1\.ES1                                OR2         A                    In      -         7.703 f      -         
+MEMORY_TMR_0.TMR_NFTVC_0.EP1\.4\.EP1_1\.ES1                                OR2         Y                    Out     0.076     7.778 f      -         
+e_S1[4]                                                                    Net         -                    -       0.971     -            1         
+MEMORY_TMR_0.TMR_NFTVC_0.EP1\.5\.EP1_1\.ES1                                OR2         A                    In      -         8.750 f      -         
+MEMORY_TMR_0.TMR_NFTVC_0.EP1\.5\.EP1_1\.ES1                                OR2         Y                    Out     0.076     8.825 f      -         
+e_S1[5]                                                                    Net         -                    -       0.971     -            1         
+MEMORY_TMR_0.TMR_NFTVC_0.EP1\.6\.EP1_1\.ES1                                OR2         A                    In      -         9.797 f      -         
+MEMORY_TMR_0.TMR_NFTVC_0.EP1\.6\.EP1_1\.ES1                                OR2         Y                    Out     0.076     9.873 f      -         
+e_S1[6]                                                                    Net         -                    -       0.971     -            1         
+MEMORY_TMR_0.TMR_NFTVC_0.ERR                                               AND2        A                    In      -         10.844 f     -         
+MEMORY_TMR_0.TMR_NFTVC_0.ERR                                               AND2        Y                    Out     0.076     10.920 f     -         
+MEMORY_TMR_0_error                                                         Net         -                    -       0.971     -            1         
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST        MSS_010     MGPIO0A_F2H_GPIN     In      -         11.891 f     -         
+=====================================================================================================================================================
+Total path delay (propagation time + setup) of 12.641 is 3.466(27.4%) logic and 9.175(72.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                           Starting                                                                                Arrival          
+Instance                                   Reference                                             Type     Pin     Net              Time        Slack
+                                           Clock                                                                                                    
+----------------------------------------------------------------------------------------------------------------------------------------------------
+UART_IF_0.AUTO_HANDLER_TMR_0.WR_fsm[1]     MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      Q       WR_fsm[1]        0.094       3.473
+UART_IF_0.AUTO_HANDLER_TMR_0.WR_fsm[0]     MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      Q       WR_fsm[0]        0.094       3.515
+UART_IF_0.UART_IF_FSM_0.limit_cnt[0]       MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      Q       limit_cnt[0]     0.094       4.920
+UART_IF_0.UART_IF_FSM_0.cnt_burst[1]       MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      Q       cnt_burst[1]     0.094       4.937
+UART_IF_0.UART_IF_FSM_0.cnt_burst[0]       MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      Q       cnt_burst[0]     0.094       5.011
+UART_IF_0.UART_IF_FSM_0.fsm[13]            MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      Q       fsm[13]          0.076       5.177
+UART_IF_0.UART_IF_FSM_0.cnt_burst[2]       MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      Q       cnt_burst[2]     0.076       5.199
+UART_IF_0.AUTO_HANDLER_TMR_0.cnt_2k[5]     MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      Q       cnt_2k[5]        0.094       5.211
+UART_IF_0.AUTO_HANDLER_TMR_0.cnt_2k[4]     MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      Q       cnt_2k[4]        0.094       5.218
+UART_IF_0.UART_IF_FSM_0.cnt_burst[3]       MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      Q       cnt_burst[3]     0.076       5.275
+====================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                        Starting                                                                                 Required          
+Instance                                Reference                                             Type     Pin     Net               Time         Slack
+                                        Clock                                                                                                      
+---------------------------------------------------------------------------------------------------------------------------------------------------
+UART_IF_0.UART_IF_FSM_0.sg_PAGE[31]     MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      D       sg_PAGE_5[31]     9.778        3.473
+UART_IF_0.UART_IF_FSM_0.sg_PAGE[30]     MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      D       sg_PAGE_5[30]     9.778        3.487
+UART_IF_0.UART_IF_FSM_0.sg_PAGE[29]     MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      D       sg_PAGE_5[29]     9.778        3.501
+UART_IF_0.UART_IF_FSM_0.sg_PAGE[28]     MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      D       sg_PAGE_5[28]     9.778        3.516
+UART_IF_0.UART_IF_FSM_0.sg_PAGE[27]     MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      D       sg_PAGE_5[27]     9.778        3.530
+UART_IF_0.UART_IF_FSM_0.sg_PAGE[26]     MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      D       sg_PAGE_5[26]     9.778        3.544
+UART_IF_0.UART_IF_FSM_0.sg_PAGE[25]     MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      D       sg_PAGE_5[25]     9.778        3.558
+UART_IF_0.UART_IF_FSM_0.sg_PAGE[24]     MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      D       sg_PAGE_5[24]     9.778        3.572
+UART_IF_0.UART_IF_FSM_0.sg_PAGE[23]     MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      D       sg_PAGE_5[23]     9.778        3.587
+UART_IF_0.UART_IF_FSM_0.sg_PAGE[22]     MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      D       sg_PAGE_5[22]     9.778        3.601
+===================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.222
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.778
+
+    - Propagation time:                      6.305
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 3.473
+
+    Number of logic level(s):                25
+    Starting point:                          UART_IF_0.AUTO_HANDLER_TMR_0.WR_fsm[1] / Q
+    Ending point:                            UART_IF_0.UART_IF_FSM_0.sg_PAGE[31] / D
+    The start point is clocked by            MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                         Pin      Pin               Arrival     No. of    
+Name                                                          Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------
+UART_IF_0.AUTO_HANDLER_TMR_0.WR_fsm[1]                        SLE      Q        Out     0.094     0.094 f     -         
+WR_fsm[1]                                                     Net      -        -       0.708     -           4         
+UART_IF_0.AUTO_HANDLER_TMR_0.WR_fsm_s3_i_o3_0                 CFG2     B        In      -         0.802 f     -         
+UART_IF_0.AUTO_HANDLER_TMR_0.WR_fsm_s3_i_o3_0                 CFG2     Y        Out     0.129     0.932 r     -         
+N_55_i                                                        Net      -        -       0.708     -           4         
+UART_IF_0.AUTO_HANDLER_TMR_0.uart_start_axi_iv_0_m2           CFG3     C        In      -         1.640 r     -         
+UART_IF_0.AUTO_HANDLER_TMR_0.uart_start_axi_iv_0_m2           CFG3     Y        Out     0.196     1.836 f     -         
+uart_start_axi_iv_0_m2                                        Net      -        -       1.684     -           74        
+UART_IF_0.UART_IF_FSM_0.Next_Address_1_sqmuxa_0_a3            CFG2     A        In      -         3.520 f     -         
+UART_IF_0.UART_IF_FSM_0.Next_Address_1_sqmuxa_0_a3            CFG2     Y        Out     0.087     3.607 r     -         
+Next_Address_1_sqmuxa_0_a3                                    Net      -        -       0.885     -           9         
+UART_IF_0.UART_IF_FSM_0.Next_Address_1_sqmuxa_0_a3_RNI7MF     CFG1     A        In      -         4.492 r     -         
+UART_IF_0.UART_IF_FSM_0.Next_Address_1_sqmuxa_0_a3_RNI7MF     CFG1     Y        Out     0.087     4.579 f     -         
+N_255_i                                                       Net      -        -       1.002     -           17        
+UART_IF_0.UART_IF_FSM_0.sg_PAGE_5_cry_3                       ARI1     B        In      -         5.581 f     -         
+UART_IF_0.UART_IF_FSM_0.sg_PAGE_5_cry_3                       ARI1     FCO      Out     0.174     5.756 f     -         
+sg_PAGE_5_cry_3                                               Net      -        -       0.000     -           1         
+UART_IF_0.UART_IF_FSM_0.sg_PAGE_5_cry_4_0                     ARI1     FCI      In      -         5.756 f     -         
+UART_IF_0.UART_IF_FSM_0.sg_PAGE_5_cry_4_0                     ARI1     FCO      Out     0.014     5.770 f     -         
+sg_PAGE_5_cry_4                                               Net      -        -       0.000     -           1         
+UART_IF_0.UART_IF_FSM_0.sg_PAGE_5_cry_5                       ARI1     FCI      In      -         5.770 f     -         
+UART_IF_0.UART_IF_FSM_0.sg_PAGE_5_cry_5                       ARI1     FCO      Out     0.014     5.784 f     -         
+sg_PAGE_5_cry_5                                               Net      -        -       0.000     -           1         
+UART_IF_0.UART_IF_FSM_0.sg_PAGE_5_cry_6_0                     ARI1     FCI      In      -         5.784 f     -         
+UART_IF_0.UART_IF_FSM_0.sg_PAGE_5_cry_6_0                     ARI1     FCO      Out     0.014     5.798 f     -         
+sg_PAGE_5_cry_6                                               Net      -        -       0.000     -           1         
+UART_IF_0.UART_IF_FSM_0.sg_PAGE_5_cry_7                       ARI1     FCI      In      -         5.798 f     -         
+UART_IF_0.UART_IF_FSM_0.sg_PAGE_5_cry_7                       ARI1     FCO      Out     0.014     5.812 f     -         
+sg_PAGE_5_cry_7                                               Net      -        -       0.000     -           1         
+UART_IF_0.UART_IF_FSM_0.sg_PAGE_5_cry_8_0                     ARI1     FCI      In      -         5.812 f     -         
+UART_IF_0.UART_IF_FSM_0.sg_PAGE_5_cry_8_0                     ARI1     FCO      Out     0.014     5.827 f     -         
+sg_PAGE_5_cry_8                                               Net      -        -       0.000     -           1         
+UART_IF_0.UART_IF_FSM_0.sg_PAGE_5_cry_9                       ARI1     FCI      In      -         5.827 f     -         
+UART_IF_0.UART_IF_FSM_0.sg_PAGE_5_cry_9                       ARI1     FCO      Out     0.014     5.841 f     -         
+sg_PAGE_5_cry_9                                               Net      -        -       0.000     -           1         
+UART_IF_0.UART_IF_FSM_0.sg_PAGE_5_cry_10_0                    ARI1     FCI      In      -         5.841 f     -         
+UART_IF_0.UART_IF_FSM_0.sg_PAGE_5_cry_10_0                    ARI1     FCO      Out     0.014     5.855 f     -         
+sg_PAGE_5_cry_10                                              Net      -        -       0.000     -           1         
+UART_IF_0.UART_IF_FSM_0.sg_PAGE_5_cry_11                      ARI1     FCI      In      -         5.855 f     -         
+UART_IF_0.UART_IF_FSM_0.sg_PAGE_5_cry_11                      ARI1     FCO      Out     0.014     5.869 f     -         
+sg_PAGE_5_cry_11                                              Net      -        -       0.000     -           1         
+UART_IF_0.UART_IF_FSM_0.sg_PAGE_5_cry_12                      ARI1     FCI      In      -         5.869 f     -         
+UART_IF_0.UART_IF_FSM_0.sg_PAGE_5_cry_12                      ARI1     FCO      Out     0.014     5.883 f     -         
+sg_PAGE_5_cry_12                                              Net      -        -       0.000     -           1         
+UART_IF_0.UART_IF_FSM_0.sg_PAGE_5_cry_13                      ARI1     FCI      In      -         5.883 f     -         
+UART_IF_0.UART_IF_FSM_0.sg_PAGE_5_cry_13                      ARI1     FCO      Out     0.014     5.898 f     -         
+sg_PAGE_5_cry_13                                              Net      -        -       0.000     -           1         
+UART_IF_0.UART_IF_FSM_0.sg_PAGE_5_cry_14                      ARI1     FCI      In      -         5.898 f     -         
+UART_IF_0.UART_IF_FSM_0.sg_PAGE_5_cry_14                      ARI1     FCO      Out     0.014     5.912 f     -         
+sg_PAGE_5_cry_14                                              Net      -        -       0.000     -           1         
+UART_IF_0.UART_IF_FSM_0.sg_PAGE_5_cry_15                      ARI1     FCI      In      -         5.912 f     -         
+UART_IF_0.UART_IF_FSM_0.sg_PAGE_5_cry_15                      ARI1     FCO      Out     0.014     5.926 f     -         
+sg_PAGE_5_cry_15                                              Net      -        -       0.000     -           1         
+UART_IF_0.UART_IF_FSM_0.sg_PAGE_5_cry_16                      ARI1     FCI      In      -         5.926 f     -         
+UART_IF_0.UART_IF_FSM_0.sg_PAGE_5_cry_16                      ARI1     FCO      Out     0.014     5.940 f     -         
+sg_PAGE_5_cry_16                                              Net      -        -       0.000     -           1         
+UART_IF_0.UART_IF_FSM_0.sg_PAGE_5_cry_17                      ARI1     FCI      In      -         5.940 f     -         
+UART_IF_0.UART_IF_FSM_0.sg_PAGE_5_cry_17                      ARI1     FCO      Out     0.014     5.955 f     -         
+sg_PAGE_5_cry_17                                              Net      -        -       0.000     -           1         
+UART_IF_0.UART_IF_FSM_0.sg_PAGE_5_cry_18                      ARI1     FCI      In      -         5.955 f     -         
+UART_IF_0.UART_IF_FSM_0.sg_PAGE_5_cry_18                      ARI1     FCO      Out     0.014     5.969 f     -         
+sg_PAGE_5_cry_18                                              Net      -        -       0.000     -           1         
+UART_IF_0.UART_IF_FSM_0.sg_PAGE_5_cry_19                      ARI1     FCI      In      -         5.969 f     -         
+UART_IF_0.UART_IF_FSM_0.sg_PAGE_5_cry_19                      ARI1     FCO      Out     0.014     5.983 f     -         
+sg_PAGE_5_cry_19                                              Net      -        -       0.000     -           1         
+UART_IF_0.UART_IF_FSM_0.sg_PAGE_5_cry_20                      ARI1     FCI      In      -         5.983 f     -         
+UART_IF_0.UART_IF_FSM_0.sg_PAGE_5_cry_20                      ARI1     FCO      Out     0.014     5.997 f     -         
+sg_PAGE_5_cry_20                                              Net      -        -       0.000     -           1         
+UART_IF_0.UART_IF_FSM_0.sg_PAGE_5_cry_21                      ARI1     FCI      In      -         5.997 f     -         
+UART_IF_0.UART_IF_FSM_0.sg_PAGE_5_cry_21                      ARI1     FCO      Out     0.014     6.011 f     -         
+sg_PAGE_5_cry_21                                              Net      -        -       0.000     -           1         
+UART_IF_0.UART_IF_FSM_0.sg_PAGE_5_cry_22                      ARI1     FCI      In      -         6.011 f     -         
+UART_IF_0.UART_IF_FSM_0.sg_PAGE_5_cry_22                      ARI1     FCO      Out     0.014     6.026 f     -         
+sg_PAGE_5_cry_22                                              Net      -        -       0.000     -           1         
+UART_IF_0.UART_IF_FSM_0.sg_PAGE_5_s_23                        ARI1     FCI      In      -         6.026 f     -         
+UART_IF_0.UART_IF_FSM_0.sg_PAGE_5_s_23                        ARI1     S        Out     0.063     6.089 r     -         
+sg_PAGE_5[31]                                                 Net      -        -       0.216     -           1         
+UART_IF_0.UART_IF_FSM_0.sg_PAGE[31]                           SLE      D        In      -         6.305 r     -         
+========================================================================================================================
+Total path delay (propagation time + setup) of 6.527 is 1.323(20.3%) logic and 5.204(79.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                   Starting                                                                                                   Arrival          
+Instance                                                           Reference                                                          Type     Pin     Net                    Time        Slack
+                                                                   Clock                                                                                                                       
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.sm0_areset_n_rcosc     MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       sm0_areset_n_rcosc     0.094       6.300
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr[3]           MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       count_ddr[3]           0.076       8.227
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr[0]           MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       count_ddr[0]           0.076       8.275
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr[5]           MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       count_ddr[5]           0.076       8.314
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr[4]           MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       count_ddr[4]           0.094       8.350
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr[6]           MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       count_ddr[6]           0.076       8.386
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr[1]           MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       count_ddr[1]           0.076       8.401
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr[8]           MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       count_ddr[8]           0.094       8.418
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr[13]          MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       count_ddr[13]          0.094       8.418
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr[7]           MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       count_ddr[7]           0.076       8.423
+===============================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                             Starting                                                                                                          Required          
+Instance                                                     Reference                                                          Type     Pin     Net                           Time         Slack
+                                                             Clock                                                                                                                               
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr[0]     MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      ALn     sdif0_areset_n_rcosc_arst     10.000       6.300
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr[1]     MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      ALn     sdif0_areset_n_rcosc_arst     10.000       6.300
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr[2]     MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      ALn     sdif0_areset_n_rcosc_arst     10.000       6.300
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr[3]     MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      ALn     sdif0_areset_n_rcosc_arst     10.000       6.300
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr[4]     MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      ALn     sdif0_areset_n_rcosc_arst     10.000       6.300
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr[5]     MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      ALn     sdif0_areset_n_rcosc_arst     10.000       6.300
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr[6]     MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      ALn     sdif0_areset_n_rcosc_arst     10.000       6.300
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr[7]     MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      ALn     sdif0_areset_n_rcosc_arst     10.000       6.300
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr[8]     MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      ALn     sdif0_areset_n_rcosc_arst     10.000       6.300
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr[9]     MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      ALn     sdif0_areset_n_rcosc_arst     10.000       6.300
+=================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.000
+
+    - Propagation time:                      3.700
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 6.300
+
+    Number of logic level(s):                1
+    Starting point:                          MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.sm0_areset_n_rcosc / Q
+    Ending point:                            MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr[0] / ALn
+    The start point is clocked by            MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                                        Pin      Pin               Arrival     No. of    
+Name                                                                       Type       Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------------------------------
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.sm0_areset_n_rcosc             SLE        Q        Out     0.094     0.094 f     -         
+sm0_areset_n_rcosc                                                         Net        -        -       1.830     -           1         
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.sm0_areset_n_rcosc_RNINIB4     CLKINT     A        In      -         1.924 f     -         
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.sm0_areset_n_rcosc_RNINIB4     CLKINT     Y        Out     0.326     2.251 f     -         
+sdif0_areset_n_rcosc_arst                                                  Net        -        -       1.450     -           21        
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr[0]                   SLE        ALn      In      -         3.700 f     -         
+=======================================================================================================================================
+Total path delay (propagation time + setup) of 3.700 is 0.420(11.4%) logic and 3.280(88.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                        Starting                                                                                                                                   Arrival          
+Instance                                                                Reference                                               Type        Pin                        Net                                         Time        Slack
+                                                                        Clock                                                                                                                                                       
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORECONFIGP_0.psel                       MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE         Q                          psel                                        0.076       1.578
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST     MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     MSS_010     MDDR_FABRIC_PREADY         CORECONFIGP_0_MDDR_APBmslave_PREADY         5.435       3.076
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORECONFIGP_0.state[1]                   MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE         Q                          state[1]                                    0.076       3.233
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST     MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     MSS_010     MDDR_FABRIC_PRDATA[12]     CORECONFIGP_0_MDDR_APBmslave_PRDATA[12]     5.461       3.365
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST     MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     MSS_010     MDDR_FABRIC_PRDATA[10]     CORECONFIGP_0_MDDR_APBmslave_PRDATA[10]     5.432       3.394
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORECONFIGP_0.paddr[15]                  MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE         Q                          paddr[15]                                   0.094       3.424
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST     MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     MSS_010     MDDR_FABRIC_PRDATA[6]      CORECONFIGP_0_MDDR_APBmslave_PRDATA[6]      5.390       3.437
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST     MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     MSS_010     MDDR_FABRIC_PRDATA[15]     CORECONFIGP_0_MDDR_APBmslave_PRDATA[15]     5.366       3.461
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST     MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     MSS_010     MDDR_FABRIC_PRDATA[4]      CORECONFIGP_0_MDDR_APBmslave_PRDATA[4]      5.335       3.491
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST     MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     MSS_010     MDDR_FABRIC_PRDATA[11]     CORECONFIGP_0_MDDR_APBmslave_PRDATA[11]     5.329       3.498
+====================================================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                          Starting                                                                                              Required          
+Instance                                                                  Reference                                               Type     Pin     Net                          Time         Slack
+                                                                          Clock                                                                                                                   
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORECONFIGP_0.FIC_2_APB_M_PREADY_0         MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      EN      FIC_2_APB_M_PREADY_0_RNO     4.707        1.578
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[16]     MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[16]                   4.778        1.674
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORECONFIGP_0.state[1]                     MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       state_ns[1]                  4.778        1.775
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[0]      MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[0]                    4.778        1.866
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[4]      MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[4]                    4.778        1.866
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[6]      MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[6]                    4.778        1.866
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[7]      MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[7]                    4.778        1.866
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[8]      MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[8]                    4.778        1.866
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[9]      MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[9]                    4.778        1.866
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[10]     MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[10]                   4.778        1.866
+==================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.293
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.707
+
+    - Propagation time:                      3.129
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 1.578
+
+    Number of logic level(s):                3
+    Starting point:                          MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORECONFIGP_0.psel / Q
+    Ending point:                            MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORECONFIGP_0.FIC_2_APB_M_PREADY_0 / EN
+    The start point is clocked by            MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock [falling] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                                     Pin      Pin               Arrival     No. of    
+Name                                                                      Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------------------------------------
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORECONFIGP_0.psel                         SLE      Q        Out     0.076     0.076 r     -         
+psel                                                                      Net      -        -       0.779     -           6         
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORECONFIGP_0.MDDR_PSEL_0                  CFG4     D        In      -         0.855 r     -         
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORECONFIGP_0.MDDR_PSEL_0                  CFG4     Y        Out     0.236     1.091 r     -         
+CORECONFIGP_0_MDDR_APBmslave_PSELx                                        Net      -        -       1.010     -           19        
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORECONFIGP_0.MDDR_PSEL_0_RNICV4L          CFG2     B        In      -         2.101 r     -         
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORECONFIGP_0.MDDR_PSEL_0_RNICV4L          CFG2     Y        Out     0.125     2.225 f     -         
+pready                                                                    Net      -        -       0.432     -           2         
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORECONFIGP_0.FIC_2_APB_M_PREADY_0_RNO     CFG4     D        In      -         2.657 f     -         
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORECONFIGP_0.FIC_2_APB_M_PREADY_0_RNO     CFG4     Y        Out     0.250     2.908 f     -         
+FIC_2_APB_M_PREADY_0_RNO                                                  Net      -        -       0.221     -           1         
+MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORECONFIGP_0.FIC_2_APB_M_PREADY_0         SLE      EN       In      -         3.129 f     -         
+====================================================================================================================================
+Total path delay (propagation time + setup) of 3.422 is 0.980(28.6%) logic and 2.442(71.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                         Starting                                                   Arrival          
+Instance                                                 Reference     Type     Pin     Net                         Time        Slack
+                                                         Clock                                                                       
+-------------------------------------------------------------------------------------------------------------------------------------
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_raddr_41_rs     System        SLE      Q       un1_dt_hndl_raddr_41_rs     0.094       7.617
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_raddr_39_rs     System        SLE      Q       un1_dt_hndl_raddr_39_rs     0.094       7.631
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_raddr_43_rs     System        SLE      Q       un1_dt_hndl_raddr_43_rs     0.094       7.640
+N_62_i_rs                                                System        SLE      Q       N_62_i_rs                   0.094       7.645
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_raddr_35_rs     System        SLE      Q       un1_dt_hndl_raddr_35_rs     0.094       7.659
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_raddr_33_rs     System        SLE      Q       un1_dt_hndl_raddr_33_rs     0.094       7.674
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_raddr_23_rs     System        SLE      Q       un1_dt_hndl_raddr_23_rs     0.094       7.685
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_raddr_24_rs     System        SLE      Q       un1_dt_hndl_raddr_24_rs     0.094       7.685
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_raddr_27_rs     System        SLE      Q       un1_dt_hndl_raddr_27_rs     0.094       7.685
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_raddr_29_rs     System        SLE      Q       un1_dt_hndl_raddr_29_rs     0.094       7.685
+=====================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                    Starting                                              Required          
+Instance                                            Reference     Type     Pin     Net                    Time         Slack
+                                                    Clock                                                                   
+----------------------------------------------------------------------------------------------------------------------------
+UART_IF_0.AUTO_HANDLER_TMR_0.tpsram_RADDR_1[10]     System        SLE      D       tpsram_RADDR_6[10]     9.778        7.617
+UART_IF_0.AUTO_HANDLER_TMR_0.tpsram_RADDR_1[9]      System        SLE      D       tpsram_RADDR_6[9]      9.778        7.631
+UART_IF_0.AUTO_HANDLER_TMR_0.tpsram_RADDR_1[8]      System        SLE      D       tpsram_RADDR_6[8]      9.778        7.645
+UART_IF_0.AUTO_HANDLER_TMR_0.tpsram_RADDR_1[7]      System        SLE      D       tpsram_RADDR_6[7]      9.778        7.659
+UART_IF_0.AUTO_HANDLER_TMR_0.tpsram_RADDR_1[6]      System        SLE      D       tpsram_RADDR_6[6]      9.778        7.674
+UART_IF_0.AUTO_HANDLER_TMR_0.tpsram_RADDR_1[1]      System        SLE      D       tpsram_RADDR_6[1]      9.778        7.685
+UART_IF_0.AUTO_HANDLER_TMR_0.tpsram_RADDR_1[2]      System        SLE      D       tpsram_RADDR_6[2]      9.778        7.685
+UART_IF_0.AUTO_HANDLER_TMR_0.tpsram_RADDR_1[3]      System        SLE      D       tpsram_RADDR_6[3]      9.778        7.685
+UART_IF_0.AUTO_HANDLER_TMR_0.tpsram_RADDR_1[4]      System        SLE      D       tpsram_RADDR_6[4]      9.778        7.685
+UART_IF_0.AUTO_HANDLER_TMR_0.tpsram_RADDR_1[5]      System        SLE      D       tpsram_RADDR_6[5]      9.778        7.685
+============================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.222
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.778
+
+    - Propagation time:                      2.161
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 7.617
+
+    Number of logic level(s):                11
+    Starting point:                          UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_raddr_41_rs / Q
+    Ending point:                            UART_IF_0.AUTO_HANDLER_TMR_0.tpsram_RADDR_1[10] / D
+    The start point is clocked by            System [rising] on pin CLK
+    The end   point is clocked by            MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                             Pin      Pin               Arrival     No. of    
+Name                                                              Type     Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_raddr_41_rs              SLE      Q        Out     0.094     0.094 f     -         
+un1_dt_hndl_raddr_41_rs                                           Net      -        -       0.216     -           1         
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_raddr_40_set_RNIE9UJ     CFG3     B        In      -         0.310 f     -         
+UART_IF_0.AUTO_HANDLER_TMR_0.un1_dt_hndl_raddr_40_set_RNIE9UJ     CFG3     Y        Out     0.143     0.453 f     -         
+UART_IF_0_tpsram_RADDR_0[1]                                       Net      -        -       1.103     -           13        
+UART_IF_0.AUTO_HANDLER_TMR_0.tpsram_RADDR_6_cry_1                 ARI1     C        In      -         1.557 f     -         
+UART_IF_0.AUTO_HANDLER_TMR_0.tpsram_RADDR_6_cry_1                 ARI1     FCO      Out     0.211     1.768 f     -         
+tpsram_RADDR_6_cry_1                                              Net      -        -       0.000     -           1         
+UART_IF_0.AUTO_HANDLER_TMR_0.tpsram_RADDR_6_cry_2                 ARI1     FCI      In      -         1.768 f     -         
+UART_IF_0.AUTO_HANDLER_TMR_0.tpsram_RADDR_6_cry_2                 ARI1     FCO      Out     0.014     1.782 f     -         
+tpsram_RADDR_6_cry_2                                              Net      -        -       0.000     -           1         
+UART_IF_0.AUTO_HANDLER_TMR_0.tpsram_RADDR_6_cry_3                 ARI1     FCI      In      -         1.782 f     -         
+UART_IF_0.AUTO_HANDLER_TMR_0.tpsram_RADDR_6_cry_3                 ARI1     FCO      Out     0.014     1.796 f     -         
+tpsram_RADDR_6_cry_3                                              Net      -        -       0.000     -           1         
+UART_IF_0.AUTO_HANDLER_TMR_0.tpsram_RADDR_6_cry_4                 ARI1     FCI      In      -         1.796 f     -         
+UART_IF_0.AUTO_HANDLER_TMR_0.tpsram_RADDR_6_cry_4                 ARI1     FCO      Out     0.014     1.811 f     -         
+tpsram_RADDR_6_cry_4                                              Net      -        -       0.000     -           1         
+UART_IF_0.AUTO_HANDLER_TMR_0.tpsram_RADDR_6_cry_5                 ARI1     FCI      In      -         1.811 f     -         
+UART_IF_0.AUTO_HANDLER_TMR_0.tpsram_RADDR_6_cry_5                 ARI1     FCO      Out     0.014     1.825 f     -         
+tpsram_RADDR_6_cry_5                                              Net      -        -       0.000     -           1         
+UART_IF_0.AUTO_HANDLER_TMR_0.tpsram_RADDR_6_cry_6                 ARI1     FCI      In      -         1.825 f     -         
+UART_IF_0.AUTO_HANDLER_TMR_0.tpsram_RADDR_6_cry_6                 ARI1     FCO      Out     0.014     1.839 f     -         
+tpsram_RADDR_6_cry_6                                              Net      -        -       0.000     -           1         
+UART_IF_0.AUTO_HANDLER_TMR_0.tpsram_RADDR_6_cry_7                 ARI1     FCI      In      -         1.839 f     -         
+UART_IF_0.AUTO_HANDLER_TMR_0.tpsram_RADDR_6_cry_7                 ARI1     FCO      Out     0.014     1.853 f     -         
+tpsram_RADDR_6_cry_7                                              Net      -        -       0.000     -           1         
+UART_IF_0.AUTO_HANDLER_TMR_0.tpsram_RADDR_6_cry_8                 ARI1     FCI      In      -         1.853 f     -         
+UART_IF_0.AUTO_HANDLER_TMR_0.tpsram_RADDR_6_cry_8                 ARI1     FCO      Out     0.014     1.867 f     -         
+tpsram_RADDR_6_cry_8                                              Net      -        -       0.000     -           1         
+UART_IF_0.AUTO_HANDLER_TMR_0.tpsram_RADDR_6_cry_9                 ARI1     FCI      In      -         1.867 f     -         
+UART_IF_0.AUTO_HANDLER_TMR_0.tpsram_RADDR_6_cry_9                 ARI1     FCO      Out     0.014     1.882 f     -         
+tpsram_RADDR_6_cry_9                                              Net      -        -       0.000     -           1         
+UART_IF_0.AUTO_HANDLER_TMR_0.tpsram_RADDR_6_s_10                  ARI1     FCI      In      -         1.882 f     -         
+UART_IF_0.AUTO_HANDLER_TMR_0.tpsram_RADDR_6_s_10                  ARI1     S        Out     0.063     1.945 r     -         
+tpsram_RADDR_6[10]                                                Net      -        -       0.216     -           1         
+UART_IF_0.AUTO_HANDLER_TMR_0.tpsram_RADDR_1[10]                   SLE      D        In      -         2.161 r     -         
+============================================================================================================================
+Total path delay (propagation time + setup) of 2.383 is 0.847(35.6%) logic and 1.536(64.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:12s; Memory used current: 192MB peak: 195MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:12s; Memory used current: 192MB peak: 195MB)
+
+---------------------------------------
+Resource Usage Report for TOP 
+
+Mapping to part: m2s010vf400-1
+Cell usage:
+AND2            1 use
+CCC             1 use
+CLKINT          14 uses
+MSS_010         1 use
+OR2             14 uses
+RCOSC_25_50MHZ  1 use
+RCOSC_25_50MHZ_FAB  1 use
+SYSRESET        1 use
+CFG1           129 uses
+CFG2           97 uses
+CFG3           437 uses
+CFG4           153 uses
+
+Carry cells:
+ARI1            134 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            1024 uses
+
+DSP Blocks:    0 of 22 (0%)
+
+I/O ports: 46
+I/O primitives: 43
+BIBUF          9 uses
+BIBUF_DIFF     1 use
+INBUF          2 uses
+OUTBUF         30 uses
+OUTBUF_DIFF    1 use
+
+
+Global Clock Buffers: 14
+
+RAM/ROM usage summary
+Total Block RAMs (RAM1K18) : 12 of 21 (57%)
+
+Total LUTs:    950
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 432; LUTs = 432;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  1024 + 0 + 432 + 0 = 1456;
+Total number of LUTs after P&R:  950 + 0 + 432 + 0 = 1382;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:14s; CPU Time elapsed 0h:00m:13s; Memory used current: 69MB peak: 195MB)
+
+Process took 0h:00m:14s realtime, 0h:00m:13s cputime
+# Tue Jan 30 19:16:11 2024
+
+###########################################################]

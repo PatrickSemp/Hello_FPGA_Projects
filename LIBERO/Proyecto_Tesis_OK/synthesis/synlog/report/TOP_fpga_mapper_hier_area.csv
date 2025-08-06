@@ -1,0 +1,25 @@
+
+. Module name, SLE, CFG, ARI1, BUFFER, MACC, RAM1K18, RAM64X18, GLOBAL, IO
+. TOP, 1024, 816, 134, 0, 0, 12, 0, 14, 43
+.	. MDDR_Demo_TOP, 290, 135, 14, 0, 0, 0, 0, 8, 39
+.	.	. AXI_MASTER_IF_0s_1s_2s_3s_4294967292s_4294967293s_0s_1s_4294967294s_4294967295s_1_layer1, 155, 46, 0, 0, 0, 0, 0, 0, 0
+.	.	. MDDR_Demo_sb_sb, 135, 89, 14, 0, 0, 0, 0, 8, 39
+.	.	.	. CoreAPB3_32_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_16_3_19, 0, 10, 0, 0, 0, 0, 0, 0, 0
+.	.	.	.	. COREAPB3_MUXPTOB3, 0, 8, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. CoreConfigP_work_top_rtl_0layer0, 74, 58, 0, 0, 0, 0, 0, 0, 0
+.	.	.	. CoreResetP_work_top_rtl_0layer0, 61, 19, 14, 0, 0, 0, 0, 3, 0
+.	.	.	. MDDR_Demo_sb_sb_CCC_0_FCCC, 0, 0, 0, 0, 0, 0, 0, 2, 0
+.	.	.	. MDDR_Demo_sb_sb_FABOSC_0_OSC, 0, 0, 0, 0, 0, 0, 0, 1, 0
+.	.	.	. MDDR_Demo_sb_sb_MSS, 0, 2, 0, 0, 0, 0, 0, 2, 39
+.	. MEMORY_TMR, 0, 16, 0, 0, 0, 12, 0, 0, 0
+.	.	. TMR_NFTVC_8, 0, 16, 0, 0, 0, 0, 0, 0, 0
+.	.	. TPSRAM_C1, 0, 0, 0, 0, 0, 4, 0, 0, 0
+.	.	.	. TPSRAM_C1_TPSRAM_C1_0_TPSRAM, 0, 0, 0, 0, 0, 4, 0, 0, 0
+.	.	. TPSRAM_C2, 0, 0, 0, 0, 0, 4, 0, 0, 0
+.	.	.	. TPSRAM_C2_TPSRAM_C2_0_TPSRAM, 0, 0, 0, 0, 0, 4, 0, 0, 0
+.	.	. TPSRAM_C3, 0, 0, 0, 0, 0, 4, 0, 0, 0
+.	.	.	. TPSRAM_C3_TPSRAM_C3_0_TPSRAM, 0, 0, 0, 0, 0, 4, 0, 0, 0
+.	. UART_IF, 723, 665, 120, 0, 0, 0, 0, 6, 0
+.	.	. AUTO_HANDLER_TMR_work_top_rtl_0layer0, 378, 509, 49, 0, 0, 0, 0, 1, 0
+.	.	. DATA_HANDLE_FSM_V2_32_32_8_11, 107, 25, 9, 0, 0, 0, 0, 5, 0
+.	.	. UART_BRIDGE_IF, 230, 131, 62, 0, 0, 0, 0, 0, 0

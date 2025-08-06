@@ -1,0 +1,109 @@
+#Build: Synplify Pro (R) T-2022.09M-SP2-1, Build 179R, Jun 27 2023
+#install: C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+#OS: Windows 10 or later
+#Hostname: DESKTOP-HO2RJRQ
+
+# Thu Feb 29 21:43:12 2024
+
+#Implementation: synthesis
+
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-HO2RJRQ
+
+Implementation : synthesis
+Synopsys HDL Compiler, Version comp202209synp2, Build 179R, Built Jun 27 2023 09:29:56, @
+
+@N|Running in 64-bit mode
+###########################################################[
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-HO2RJRQ
+
+Implementation : synthesis
+Synopsys VHDL Compiler, Version comp202209synp2, Build 179R, Built Jun 27 2023 09:29:56, @
+
+@N|Running in 64-bit mode
+@N:"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\TMR_3PS\TMR_3PS.vhd":17:7:17:13|Top entity is set to TMR_3PS.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\CCC_0\MDDR_Demo_sb_sb_CCC_0_FCCC.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\SgCore\OSC\2.0.101\osc_comps.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb_MSS\MDDR_Demo_sb_sb_MSS_syn.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreConfigP\7.1.100\rtl\vhdl\core\coreconfigp.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp_pcie_hotreset.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_pkg.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\XHDL_misc.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\XHDL_std_logic.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_muxptob3.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3_iaddr_reg.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\components.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\hdl\MUX2TO1.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\TPSRAM_C1\TPSRAM_C1_0\TPSRAM_C1_TPSRAM_C1_0_TPSRAM.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\TPSRAM_C2\TPSRAM_C2_0\TPSRAM_C2_TPSRAM_C2_0_TPSRAM.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\TPSRAM_C3\TPSRAM_C3_0\TPSRAM_C3_TPSRAM_C3_0_TPSRAM.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\hdl\UART_BRIDGE_IF.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\hdl\DATA_HANDLE_FSM_V2.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\FABOSC_0\MDDR_Demo_sb_sb_FABOSC_0_OSC.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb_MSS\MDDR_Demo_sb_sb_MSS.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreResetP\7.1.100\rtl\vhdl\core\coreresetp.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_rdmatrix_16Sto1M.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_rd_channel.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_wresp_channel.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_matrix_m.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_ra_arbiter.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_rdmatrix_4Mto1S_hgs_high.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_rdmatrix_4Mto1S_hgs_low.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_rdmatrix_4Mto1S.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_ra_channel.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_wa_arbiter.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_wrmatrix_4Mto1S_hgs_high.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_wrmatrix_4Mto1S_hgs_low.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_wrmatrix_4Mto1S.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_wa_channel.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_wd_channel.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_matrix_s.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_interconnect_ntom.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_master_stage.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_slave_stage.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\COREAXI\3.1.100\rtl\vhdl\core\axi_feedthrough.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\COREAXI_0\rtl\vhdl\core\coreaxi.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\Actel\DirectCore\CoreAPB3\4.1.100\rtl\vhdl\core\coreapb3.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_sb_sb\MDDR_Demo_sb_sb.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MDDR_Demo_TOP\MDDR_Demo_TOP.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\hdl\TMR_NFTVC.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\TPSRAM_C1\TPSRAM_C1.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\TPSRAM_C2\TPSRAM_C2.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\TPSRAM_C3\TPSRAM_C3.vhd'.
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MEMORY_TMR\MEMORY_TMR.vhd'.
+@E: CD590 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MEMORY_TMR\MEMORY_TMR.vhd":121:22:121:36|Instantiated entity comparador has not been analyzed.
+@E: CD415 :"D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MEMORY_TMR\MEMORY_TMR.vhd":136:25:136:25|Expecting keyword 'is'
+2 errors parsing file D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\MEMORY_TMR\MEMORY_TMR.vhd
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\REQUEST_WR\REQUEST_WR.vhd'.
+2 errors parsing file D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\REQUEST_WR\REQUEST_WR.vhd
+@N: CD140 :	| Using the VHDL 2008 Standard for file 'D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\TMR_3PS\TMR_3PS.vhd'.
+2 errors parsing file D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\component\work\TMR_3PS\TMR_3PS.vhd
+@E: Parse errors encountered - exiting
+# Thu Feb 29 21:43:13 2024
+
+###########################################################]
+@E::VHDL compiler failed
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Feb 29 21:43:13 2024
+
+###########################################################]

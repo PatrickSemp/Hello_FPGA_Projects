@@ -1,0 +1,25 @@
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MO231 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr02\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1519:8:1519:9|Found counter in view:work.CoreResetP_work_top_rtl_0layer0(rtl) instance count_ddr[13:0] 
+@N: MO225 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr02\hdl\axi_master_if.v":221:0:221:5|There are no possible illegal states for state machine axi_fsm_read_state[3:0] (in view: work.AXI_MASTER_IF_0s_1s_2s_3s_4294967292s_4294967293s_0s_1s_4294967294s_4294967295s_1_layer1(verilog)); safe FSM implementation is not required.
+@N: MO225 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr02\hdl\auto_handler_tmr.vhd":74:4:74:5|There are no possible illegal states for state machine WR_fsm[0:3] (in view: work.AUTO_HANDLER_TMR_work_top_rtl_0layer0(behavioral)); safe FSM implementation is not required.
+@N: MO225 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr02\hdl\auto_handler_tmr.vhd":119:4:119:5|There are no possible illegal states for state machine RD_fsm[0:3] (in view: work.AUTO_HANDLER_TMR_work_top_rtl_0layer0(behavioral)); safe FSM implementation is not required.
+@N: MO231 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr02\hdl\uart_bridge_if.vhd":92:4:92:5|Found counter in view:work.UART_BRIDGE_IF(behavioral) instance TPSRAM_WADDR[7:0] 
+@N: MO231 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr02\hdl\uart_bridge_if.vhd":92:4:92:5|Found counter in view:work.UART_BRIDGE_IF(behavioral) instance cnt_burst[4:0] 
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr02\component\actel\directcore\coreconfigp\7.1.100\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORECONFIGP_0.paddr[14] (in view: work.TOP(rtl)) because it does not drive other instances.
+@N: FP130 |Promoting Net INIT_DONE_int_arst on CLKINT  I_304 
+@N: FP130 |Promoting Net UART_IF_0.DATA_HANDLE_FSM_V2_0.machine_states\.fsm13_arst on CLKINT  I_305 
+@N: FP130 |Promoting Net MSS_CORTEXM3.MDDR_Demo_sb_sb_0.FIC_2_APB_M_PRESET_N_arst on CLKINT  I_306 
+@N: FP130 |Promoting Net MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORECONFIGP_0_APB_S_PCLK on CLKINT  I_307 
+@N: FP130 |Promoting Net UART_IF_0.AUTO_HANDLER_TMR_0.dt_hndl_option_1_arst on CLKINT  I_308 
+@N: FP130 |Promoting Net UART_IF_0.DATA_HANDLE_FSM_V2_0.un1_paddr_2 on CLKINT  I_309 
+@N: FP130 |Promoting Net UART_IF_0.DATA_HANDLE_FSM_V2_0.un1_paddr_3 on CLKINT  I_310 
+@N: FP130 |Promoting Net UART_IF_0.DATA_HANDLE_FSM_V2_0.un1_fsm_2 on CLKINT  I_311 
+@N: FP130 |Promoting Net MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.sm0_areset_n_clk_base on CLKINT  I_312 
+@N: FP130 |Promoting Net MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_arst on CLKINT  I_313 
+@N: FP130 |Promoting Net UART_IF_0.DATA_HANDLE_FSM_V2_0.un1_paddr_1 on CLKINT  I_314 
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

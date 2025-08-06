@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR02\synthesis\synlog\TOP_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>AUTO_HANDLER_TMR_work_top_rtl_0layer0|next_process_1_sqmuxa_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_2_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>607.7 MHz</data>
+<data>8.354</data>
+</row>
+<row>
+<data>DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_1_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>184.7 MHz</data>
+<data>4.585</data>
+</row>
+<row>
+<data>DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_2_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>607.7 MHz</data>
+<data>8.354</data>
+</row>
+<row>
+<data>DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_3_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>607.7 MHz</data>
+<data>8.354</data>
+</row>
+<row>
+<data>MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>78.6 MHz</data>
+<data>-2.719</data>
+</row>
+<row>
+<data>MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>153.2 MHz</data>
+<data>3.473</data>
+</row>
+<row>
+<data>MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>270.2 MHz</data>
+<data>6.300</data>
+</row>
+<row>
+<data>MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>144.4 MHz</data>
+<data>1.578</data>
+</row>
+<row>
+<data>System</data>
+<data>100.0 MHz</data>
+<data>419.6 MHz</data>
+<data>7.617</data>
+</row>
+</report_table>

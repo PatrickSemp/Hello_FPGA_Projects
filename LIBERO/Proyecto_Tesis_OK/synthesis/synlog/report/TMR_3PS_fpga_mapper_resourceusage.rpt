@@ -1,0 +1,46 @@
+Resource Usage Report for TMR_3PS 
+
+Mapping to part: m2s010vf400-1
+Cell usage:
+CCC             1 use
+CLKINT          13 uses
+MSS_010         1 use
+RCOSC_25_50MHZ  1 use
+RCOSC_25_50MHZ_FAB  1 use
+SYSRESET        1 use
+CFG1           6 uses
+CFG2           91 uses
+CFG3           74 uses
+CFG4           212 uses
+
+Carry cells:
+ARI1            110 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            670 uses
+
+DSP Blocks:    0 of 22 (0%)
+
+I/O ports: 44
+I/O primitives: 41
+BIBUF          9 uses
+BIBUF_DIFF     1 use
+INBUF          2 uses
+OUTBUF         28 uses
+OUTBUF_DIFF    1 use
+
+
+Global Clock Buffers: 13
+
+Total LUTs:    493
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 576; LUTs = 576;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  670 + 0 + 576 + 0 = 1246;
+Total number of LUTs after P&R:  493 + 0 + 576 + 0 = 1069;
+

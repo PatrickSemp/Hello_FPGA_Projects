@@ -1,0 +1,249 @@
+# Thu Feb 29 15:54:25 2024
+
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-HO2RJRQ
+
+Implementation : synthesis
+Synopsys Microchip Technology Pre-mapping, Version map202209actsp2, Build 145R, Built Jun 27 2023 12:06:34, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 124MB)
+
+
+Done reading skeleton netlist (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 136MB peak: 137MB)
+
+Reading constraint file: D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\designer\TOP_2VER\synthesis.fdc
+@L: D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\synthesis\TOP_2VER_scck.rpt 
+See clock summary report "D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\synthesis\TOP_2VER_scck.rpt"
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:01s; Memory used current: 151MB peak: 151MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:10s; CPU Time elapsed 0h:00m:01s; Memory used current: 151MB peak: 152MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:11s; CPU Time elapsed 0h:00m:02s; Memory used current: 151MB peak: 152MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:02s; Memory used current: 152MB peak: 154MB)
+
+NConnInternalConnection caching is on
+@W: FX1172 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\hdl\data_handle_fsm_v2.vhd":150:8:150:9|User-specified initial value defined for instance MANEJO_SOLICITUDES.DATA_HANDLE_FSM_V2_0.uart_user_data2[31:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\hdl\data_handle_fsm_v2.vhd":150:8:150:9|User-specified initial value defined for instance MANEJO_SOLICITUDES.DATA_HANDLE_FSM_V2_0.uart_user_data1[31:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\hdl\data_handle_fsm_v2.vhd":150:8:150:9|User-specified initial value defined for instance MANEJO_SOLICITUDES.DATA_HANDLE_FSM_V2_0.uart_user_address[31:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\hdl\data_handle_fsm_v2.vhd":150:8:150:9|User-specified initial value defined for instance MANEJO_SOLICITUDES.DATA_HANDLE_FSM_V2_0.uart_user_option[7:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\hdl\data_handle_fsm_v2.vhd":93:4:93:5|User-specified initial value defined for instance MANEJO_SOLICITUDES.DATA_HANDLE_FSM_V2_0.fsm[1:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\hdl\data_handle_fsm_v2.vhd":135:4:135:5|User-specified initial value defined for instance MANEJO_SOLICITUDES.DATA_HANDLE_FSM_V2_0.uart_start_axi is being ignored due to limitations in architecture. 
+@N: FX1171 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\hdl\data_handle_fsm_v2.vhd":135:4:135:5|Found instance MANEJO_SOLICITUDES.DATA_HANDLE_FSM_V2_0.uart_start_axi with reset/set having higher priority than enable. Selected technology supports register with enable having higher priority than reset/set. Adding glue logic to resolve priority. 
+@W: FX1172 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\hdl\uart_bridge_if.vhd":101:4:101:5|User-specified initial value defined for instance MANEJO_SOLICITUDES.UART_IF_FSM_0.sg_PAGE[31:8] is being ignored due to limitations in architecture. 
+@W: FX1172 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\hdl\uart_bridge_if.vhd":101:4:101:5|User-specified initial value defined for instance MANEJO_SOLICITUDES.UART_IF_FSM_0.sg_ADDR[31:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\hdl\uart_bridge_if.vhd":101:4:101:5|User-specified initial value defined for instance MANEJO_SOLICITUDES.UART_IF_FSM_0.enable_count[1:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\hdl\uart_bridge_if.vhd":101:4:101:5|User-specified initial value defined for instance MANEJO_SOLICITUDES.UART_IF_FSM_0.cnt_burst[11:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\hdl\uart_bridge_if.vhd":101:4:101:5|User-specified initial value defined for instance MANEJO_SOLICITUDES.UART_IF_FSM_0.cnt_page[1:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\hdl\uart_bridge_if.vhd":101:4:101:5|User-specified initial value defined for instance MANEJO_SOLICITUDES.UART_IF_FSM_0.limit_cnt[4] is being ignored due to limitations in architecture. 
+@W: FX1172 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\hdl\uart_bridge_if.vhd":101:4:101:5|User-specified initial value defined for instance MANEJO_SOLICITUDES.UART_IF_FSM_0.limit_cnt[0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\hdl\uart_bridge_if.vhd":101:4:101:5|User-specified initial value defined for instance MANEJO_SOLICITUDES.UART_IF_FSM_0.End_Write is being ignored due to limitations in architecture. 
+@W: FX1172 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\hdl\uart_bridge_if.vhd":101:4:101:5|User-specified initial value defined for instance MANEJO_SOLICITUDES.UART_IF_FSM_0.Next_Address is being ignored due to limitations in architecture. 
+@W: FX1172 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\hdl\uart_bridge_if.vhd":101:4:101:5|User-specified initial value defined for instance MANEJO_SOLICITUDES.UART_IF_FSM_0.sg_DATA_IN[63:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\hdl\uart_bridge_if.vhd":101:4:101:5|User-specified initial value defined for instance MANEJO_SOLICITUDES.UART_IF_FSM_0.sg_option[7:0] is being ignored due to limitations in architecture. 
+@W: FX1172 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\hdl\comparador.vhd":47:4:47:5|User-specified initial value defined for instance REDUNDANCIA.COMPARADOR_0.er_sg is being ignored due to limitations in architecture. 
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.MDDR_DDR_AXI_S_CORE_RESET_N_int because it is equivalent to instance WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.FDDR_CORE_RESET_N_int. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Starting HSTDM IP insertion (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:03s; Memory used current: 189MB peak: 189MB)
+
+
+Finished HSTDM IP insertion (Real Time elapsed 0h:00m:15s; CPU Time elapsed 0h:00m:03s; Memory used current: 189MB peak: 190MB)
+
+@W: MO129 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":703:8:703:9|Sequential instance WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.SDIF0_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":719:8:719:9|Sequential instance WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.SDIF1_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":735:8:735:9|Sequential instance WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.SDIF2_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":751:8:751:9|Sequential instance WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.SDIF3_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":781:8:781:9|Sequential instance WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.sm1_areset_n_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":703:8:703:9|Sequential instance WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.SDIF0_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":719:8:719:9|Sequential instance WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.SDIF1_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":735:8:735:9|Sequential instance WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.SDIF2_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":751:8:751:9|Sequential instance WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.SDIF3_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":781:8:781:9|Sequential instance WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.sm1_areset_n_clk_base is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":703:8:703:9|Sequential instance WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.SDIF0_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":719:8:719:9|Sequential instance WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.SDIF1_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":735:8:735:9|Sequential instance WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.SDIF2_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":751:8:751:9|Sequential instance WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.SDIF3_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1331:8:1331:9|Sequential instance WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.RESET_N_F2M_int is reduced to a combinational gate by constant propagation.
+
+Started DisTri Cleanup (Real Time elapsed 0h:00m:16s; CPU Time elapsed 0h:00m:03s; Memory used current: 190MB peak: 190MB)
+
+
+Finished DisTri Cleanup (Real Time elapsed 0h:00m:17s; CPU Time elapsed 0h:00m:03s; Memory used current: 190MB peak: 190MB)
+
+@N: BN115 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\work\mddr_demo_sb_sb\coreaxi_0\rtl\vhdl\core\coreaxi.vhd":5481:6:5481:22|Removing instance L1\.u_axi_feedthrough (in view: work.MDDR_Demo_sb_sb_COREAXI_0_COREAXI_19_64_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_4_1_3_1_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_1_1_1_4(translated)) because it does not drive other instances.
+@N: BN115 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\work\mddr_demo_sb_sb\mddr_demo_sb_sb.vhd":2114:0:2114:8|Removing instance COREAXI_0 (in view: work.MDDR_Demo_sb_sb(rtl)) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreconfigp\7.1.100\rtl\vhdl\core\coreconfigp.vhd":528:8:528:9|Removing sequential instance FDDR_PENABLE_0 (in view: work.CoreConfigP_work_top_2ver_rtl_0layer0(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreconfigp\7.1.100\rtl\vhdl\core\coreconfigp.vhd":528:8:528:9|Removing sequential instance SDIF0_PENABLE_0 (in view: work.CoreConfigP_work_top_2ver_rtl_0layer0(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreconfigp\7.1.100\rtl\vhdl\core\coreconfigp.vhd":528:8:528:9|Removing sequential instance SDIF1_PENABLE_0 (in view: work.CoreConfigP_work_top_2ver_rtl_0layer0(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreconfigp\7.1.100\rtl\vhdl\core\coreconfigp.vhd":528:8:528:9|Removing sequential instance SDIF2_PENABLE_0 (in view: work.CoreConfigP_work_top_2ver_rtl_0layer0(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreconfigp\7.1.100\rtl\vhdl\core\coreconfigp.vhd":528:8:528:9|Removing sequential instance SDIF3_PENABLE_0 (in view: work.CoreConfigP_work_top_2ver_rtl_0layer0(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance SDIF_READY_int (in view: work.CoreResetP_work_top_2ver_rtl_0layer0(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance SDIF_RELEASED_int (in view: work.CoreResetP_work_top_2ver_rtl_0layer0(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Removing sequential instance SDIF0_PHY_RESET_N_int (in view: work.CoreResetP_work_top_2ver_rtl_0layer0(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Removing sequential instance SDIF0_CORE_RESET_N_0 (in view: work.CoreResetP_work_top_2ver_rtl_0layer0(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Removing sequential instance SDIF1_PHY_RESET_N_int (in view: work.CoreResetP_work_top_2ver_rtl_0layer0(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Removing sequential instance SDIF1_CORE_RESET_N_0 (in view: work.CoreResetP_work_top_2ver_rtl_0layer0(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Removing sequential instance SDIF2_PHY_RESET_N_int (in view: work.CoreResetP_work_top_2ver_rtl_0layer0(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Removing sequential instance SDIF2_CORE_RESET_N_0 (in view: work.CoreResetP_work_top_2ver_rtl_0layer0(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Removing sequential instance SDIF3_PHY_RESET_N_int (in view: work.CoreResetP_work_top_2ver_rtl_0layer0(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Removing sequential instance SDIF3_CORE_RESET_N_0 (in view: work.CoreResetP_work_top_2ver_rtl_0layer0(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\hdl\axi_master_if.v":96:0:96:5|Removing sequential instance Next_DATA_IN (in view: work.AXI_MASTER_IF_0s_1s_2s_3s_4294967292s_4294967293s_0s_1s_4294967294s_4294967295s_1_layer1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1059:8:1059:9|Removing sequential instance DDR_READY_int (in view: work.CoreResetP_work_top_2ver_rtl_0layer0(rtl)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\hdl\uart_bridge_if.vhd":101:4:101:5|Removing sequential instance Next_Address (in view: work.UART_BRIDGE_IF(behavioral)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1134:8:1134:9|Removing sequential instance sdif0_state[0:3] (in view: work.CoreResetP_work_top_2ver_rtl_0layer0(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1193:8:1193:9|Removing sequential instance sdif1_state[0:3] (in view: work.CoreResetP_work_top_2ver_rtl_0layer0(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1252:8:1252:9|Removing sequential instance sdif2_state[0:3] (in view: work.CoreResetP_work_top_2ver_rtl_0layer0(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1311:8:1311:9|Removing sequential instance sdif3_state[0:3] (in view: work.CoreResetP_work_top_2ver_rtl_0layer0(rtl)) of type view:PrimLib.statemachine(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":803:8:803:9|Removing sequential instance sdif0_areset_n_clk_base (in view: work.CoreResetP_work_top_2ver_rtl_0layer0(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":814:8:814:9|Removing sequential instance sdif1_areset_n_clk_base (in view: work.CoreResetP_work_top_2ver_rtl_0layer0(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":825:8:825:9|Removing sequential instance sdif2_areset_n_clk_base (in view: work.CoreResetP_work_top_2ver_rtl_0layer0(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":836:8:836:9|Removing sequential instance sdif3_areset_n_clk_base (in view: work.CoreResetP_work_top_2ver_rtl_0layer0(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":803:8:803:9|Removing sequential instance sdif0_areset_n_q1 (in view: work.CoreResetP_work_top_2ver_rtl_0layer0(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":814:8:814:9|Removing sequential instance sdif1_areset_n_q1 (in view: work.CoreResetP_work_top_2ver_rtl_0layer0(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":825:8:825:9|Removing sequential instance sdif2_areset_n_q1 (in view: work.CoreResetP_work_top_2ver_rtl_0layer0(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":836:8:836:9|Removing sequential instance sdif3_areset_n_q1 (in view: work.CoreResetP_work_top_2ver_rtl_0layer0(rtl)) of type view:PrimLib.dffr(prim) because it does not drive other instances.
+@N: FX1184 |Applying syn_allowed_resources blockrams=21 on top level netlist TOP_2VER 
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:04s; Memory used current: 192MB peak: 192MB)
+
+
+
+Clock Summary
+******************
+
+          Start                                                              Requested     Requested     Clock        Clock          Clock
+Level     Clock                                                              Frequency     Period        Type         Group          Load 
+------------------------------------------------------------------------------------------------------------------------------------------
+0 -       MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock                  100.0 MHz     10.000        inferred     (multiple)     410  
+                                                                                                                                          
+0 -       MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                  100.0 MHz     10.000        inferred     (multiple)     147  
+                                                                                                                                          
+0 -       MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock                100.0 MHz     10.000        inferred     (multiple)     109  
+                                                                                                                                          
+0 -       DATA_HANDLE_FSM_V2_32_32_32_9|un1_fsm_2_inferred_clock             100.0 MHz     10.000        inferred     (multiple)     32   
+                                                                                                                                          
+0 -       DATA_HANDLE_FSM_V2_32_32_32_9|un1_paddr_2_inferred_clock           100.0 MHz     10.000        inferred     (multiple)     32   
+                                                                                                                                          
+0 -       DATA_HANDLE_FSM_V2_32_32_32_9|un1_paddr_3_inferred_clock           100.0 MHz     10.000        inferred     (multiple)     32   
+                                                                                                                                          
+0 -       MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     100.0 MHz     10.000        inferred     (multiple)     31   
+                                                                                                                                          
+0 -       DATA_HANDLE_FSM_V2_32_32_32_9|un1_paddr_1_inferred_clock           100.0 MHz     10.000        inferred     (multiple)     8    
+==========================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                                                   Clock     Source                                                                                     Clock Pin                                                                       Non-clock Pin     Non-clock Pin                                                                
+Clock                                                              Load      Pin                                                                                        Seq Example                                                                     Seq Example       Comb Example                                                                 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock                  410       WR_MDDR.MDDR_Demo_sb_sb_0.CCC_0.CCC_INST.GL2(CCC)                                          WR_MDDR.AXI_IF_0.ARSIZE_1[0].C                                                  -                 WR_MDDR.MDDR_Demo_sb_sb_0.CCC_0.GL2_INST.I(BUFG)                             
+                                                                                                                                                                                                                                                                                                                                                       
+MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                  147       WR_MDDR.MDDR_Demo_sb_sb_0.CCC_0.CCC_INST.GL0(CCC)                                          WR_MDDR.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST.CLK_BASE         -                 WR_MDDR.MDDR_Demo_sb_sb_0.CCC_0.GL0_INST.I(BUFG)                             
+                                                                                                                                                                                                                                                                                                                                                       
+MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock                109       WR_MDDR.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST.CLK_CONFIG_APB(MSS_010)     WR_MDDR.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST.CLK_MDDR_APB     -                 WR_MDDR.MDDR_Demo_sb_sb_0.CORECONFIGP_0.un1_fic_2_apb_m_pclk.I[0](inv)       
+                                                                                                                                                                                                                                                                                                                                                       
+DATA_HANDLE_FSM_V2_32_32_32_9|un1_fsm_2_inferred_clock             32        MANEJO_SOLICITUDES.DATA_HANDLE_FSM_V2_0.un1_fsm_2.OUT(and)                                 MANEJO_SOLICITUDES.DATA_HANDLE_FSM_V2_0.uart_user_data2[31:0].C                 -                 -                                                                            
+                                                                                                                                                                                                                                                                                                                                                       
+DATA_HANDLE_FSM_V2_32_32_32_9|un1_paddr_2_inferred_clock           32        MANEJO_SOLICITUDES.DATA_HANDLE_FSM_V2_0.un1_paddr_2.OUT(and)                               MANEJO_SOLICITUDES.DATA_HANDLE_FSM_V2_0.uart_user_address[31:0].C               -                 -                                                                            
+                                                                                                                                                                                                                                                                                                                                                       
+DATA_HANDLE_FSM_V2_32_32_32_9|un1_paddr_3_inferred_clock           32        MANEJO_SOLICITUDES.DATA_HANDLE_FSM_V2_0.un1_paddr_3.OUT(and)                               MANEJO_SOLICITUDES.DATA_HANDLE_FSM_V2_0.uart_user_data1[31:0].C                 -                 -                                                                            
+                                                                                                                                                                                                                                                                                                                                                       
+MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     31        WR_MDDR.MDDR_Demo_sb_sb_0.FABOSC_0.I_RCOSC_25_50MHZ.CLKOUT(RCOSC_25_50MHZ)                 WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr_enable_q1.C                    -                 WR_MDDR.MDDR_Demo_sb_sb_0.FABOSC_0.I_RCOSC_25_50MHZ_FAB.A(RCOSC_25_50MHZ_FAB)
+                                                                                                                                                                                                                                                                                                                                                       
+DATA_HANDLE_FSM_V2_32_32_32_9|un1_paddr_1_inferred_clock           8         MANEJO_SOLICITUDES.DATA_HANDLE_FSM_V2_0.un1_paddr_1.OUT(and)                               MANEJO_SOLICITUDES.DATA_HANDLE_FSM_V2_0.uart_user_option[7:0].C                 -                 -                                                                            
+=======================================================================================================================================================================================================================================================================================================================================================
+
+@W: MT530 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\hdl\uart_bridge_if.vhd":101:4:101:5|Found inferred clock MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock which controls 410 sequential elements including MANEJO_SOLICITUDES.UART_IF_FSM_0.sg_PAGE[31:8]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreconfigp\7.1.100\rtl\vhdl\core\coreconfigp.vhd":517:8:517:9|Found inferred clock MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock which controls 109 sequential elements including WR_MDDR.MDDR_Demo_sb_sb_0.CORECONFIGP_0.FIC_2_APB_M_PREADY_0. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\hdl\data_handle_fsm_v2.vhd":93:4:93:5|Found inferred clock MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock which controls 147 sequential elements including MANEJO_SOLICITUDES.DATA_HANDLE_FSM_V2_0.fsm[1:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1519:8:1519:9|Found inferred clock MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock which controls 31 sequential elements including WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr[13:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\hdl\data_handle_fsm_v2.vhd":150:8:150:9|Found inferred clock DATA_HANDLE_FSM_V2_32_32_32_9|un1_paddr_1_inferred_clock which controls 8 sequential elements including MANEJO_SOLICITUDES.DATA_HANDLE_FSM_V2_0.uart_user_option[7:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\hdl\data_handle_fsm_v2.vhd":150:8:150:9|Found inferred clock DATA_HANDLE_FSM_V2_32_32_32_9|un1_paddr_2_inferred_clock which controls 32 sequential elements including MANEJO_SOLICITUDES.DATA_HANDLE_FSM_V2_0.uart_user_address[31:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\hdl\data_handle_fsm_v2.vhd":150:8:150:9|Found inferred clock DATA_HANDLE_FSM_V2_32_32_32_9|un1_paddr_3_inferred_clock which controls 32 sequential elements including MANEJO_SOLICITUDES.DATA_HANDLE_FSM_V2_0.uart_user_data1[31:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\hdl\data_handle_fsm_v2.vhd":150:8:150:9|Found inferred clock DATA_HANDLE_FSM_V2_32_32_32_9|un1_fsm_2_inferred_clock which controls 32 sequential elements including MANEJO_SOLICITUDES.DATA_HANDLE_FSM_V2_0.uart_user_data2[31:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\synthesis\TOP_2VER.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:25s; CPU Time elapsed 0h:00m:06s; Memory used current: 189MB peak: 192MB)
+
+Encoding state machine fsm[0:13] (in view: work.UART_BRIDGE_IF(behavioral))
+original code -> new code
+   000000000000010 -> 00000000000001
+   000000000000100 -> 00000000000010
+   000000000001000 -> 00000000000100
+   000000000010000 -> 00000000001000
+   000000000100000 -> 00000000010000
+   000000001000000 -> 00000000100000
+   000000010000000 -> 00000001000000
+   000000100000000 -> 00000010000000
+   000001000000000 -> 00000100000000
+   000010000000000 -> 00001000000000
+   000100000000000 -> 00010000000000
+   001000000000000 -> 00100000000000
+   010000000000000 -> 01000000000000
+   100000000000000 -> 10000000000000
+Encoding state machine state[0:2] (in view: work.CoreConfigP_work_top_2ver_rtl_0layer0(rtl))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+Encoding state machine sm0_state[0:6] (in view: work.CoreResetP_work_top_2ver_rtl_0layer0(rtl))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+Encoding state machine axi_fsm_read_state[3:0] (in view: work.AXI_MASTER_IF_0s_1s_2s_3s_4294967292s_4294967293s_0s_1s_4294967294s_4294967295s_1_layer1(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04\hdl\axi_master_if.v":221:0:221:5|There are no possible illegal states for state machine axi_fsm_read_state[3:0] (in view: work.AXI_MASTER_IF_0s_1s_2s_3s_4294967292s_4294967293s_0s_1s_4294967294s_4294967295s_1_layer1(verilog)); safe FSM implementation is not required.
+Encoding state machine axi_fsm_write_state[5:0] (in view: work.AXI_MASTER_IF_0s_1s_2s_3s_4294967292s_4294967293s_0s_1s_4294967294s_4294967295s_1_layer1(verilog))
+original code -> new code
+   000 -> 000001
+   001 -> 000010
+   010 -> 000100
+   011 -> 001000
+   100 -> 010000
+   101 -> 100000
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:29s; CPU Time elapsed 0h:00m:06s; Memory used current: 192MB peak: 192MB)
+
+
+Finished constraint checker (Real Time elapsed 0h:00m:30s; CPU Time elapsed 0h:00m:07s; Memory used current: 193MB peak: 193MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:30s; CPU Time elapsed 0h:00m:07s; Memory used current: 98MB peak: 194MB)
+
+Process took 0h:00m:31s realtime, 0h:00m:07s cputime
+# Thu Feb 29 15:54:56 2024
+
+###########################################################]

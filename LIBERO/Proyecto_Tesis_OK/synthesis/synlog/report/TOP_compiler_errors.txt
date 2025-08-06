@@ -1,0 +1,2 @@
+@E: CH100 :	| Encountered multiple top-level candidates in design; compilation stopped.
+

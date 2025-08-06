@@ -1,0 +1,48 @@
+Resource Usage Report for TOP 
+
+Mapping to part: m2s010vf400-1
+Cell usage:
+AND2            1 use
+CCC             1 use
+CLKINT          14 uses
+MSS_010         1 use
+OR2             14 uses
+RCOSC_25_50MHZ  1 use
+RCOSC_25_50MHZ_FAB  1 use
+SYSRESET        1 use
+CFG1           129 uses
+CFG2           97 uses
+CFG3           437 uses
+CFG4           153 uses
+
+Carry cells:
+ARI1            134 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            1024 uses
+
+DSP Blocks:    0 of 22 (0%)
+
+I/O ports: 46
+I/O primitives: 43
+BIBUF          9 uses
+BIBUF_DIFF     1 use
+INBUF          2 uses
+OUTBUF         30 uses
+OUTBUF_DIFF    1 use
+
+
+Global Clock Buffers: 14
+
+Total LUTs:    950
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 432; LUTs = 432;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  1024 + 0 + 432 + 0 = 1456;
+Total number of LUTs after P&R:  950 + 0 + 432 + 0 = 1382;
+

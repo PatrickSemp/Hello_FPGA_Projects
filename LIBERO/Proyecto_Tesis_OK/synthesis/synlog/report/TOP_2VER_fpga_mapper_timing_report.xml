@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04\synthesis\synlog\TOP_2VER_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>DATA_HANDLE_FSM_V2_32_32_32_9|un1_fsm_2_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>DATA_HANDLE_FSM_V2_32_32_32_9|un1_paddr_1_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>DATA_HANDLE_FSM_V2_32_32_32_9|un1_paddr_2_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>DATA_HANDLE_FSM_V2_32_32_32_9|un1_paddr_3_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>132.8 MHz</data>
+<data>2.470</data>
+</row>
+<row>
+<data>MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>196.6 MHz</data>
+<data>4.912</data>
+</row>
+<row>
+<data>MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>270.2 MHz</data>
+<data>6.300</data>
+</row>
+<row>
+<data>MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock</data>
+<data>100.0 MHz</data>
+<data>144.4 MHz</data>
+<data>1.578</data>
+</row>
+</report_table>

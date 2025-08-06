@@ -1,0 +1,716 @@
+# Mon Mar 18 12:23:05 2024
+
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-HO2RJRQ
+
+Implementation : synthesis
+Synopsys Microchip Technology Mapper, Version map202209actsp2, Build 145R, Built Jun 27 2023 12:06:34, @
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 124MB peak: 124MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 137MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 126MB peak: 137MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 128MB peak: 137MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 137MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:01s; Memory used current: 173MB peak: 174MB)
+
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04_dt2\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":894:8:894:9|Removing sequential instance WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.sdif3_areset_n_rcosc_q1 because it is equivalent to instance WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.sdif2_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04_dt2\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":883:8:883:9|Removing sequential instance WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.sdif2_areset_n_rcosc_q1 because it is equivalent to instance WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.sdif1_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04_dt2\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":872:8:872:9|Removing sequential instance WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.sdif1_areset_n_rcosc_q1 because it is equivalent to instance WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04_dt2\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":850:8:850:9|Removing sequential instance WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.sm0_areset_n_rcosc_q1 because it is equivalent to instance WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04_dt2\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":883:8:883:9|Removing sequential instance WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.sdif2_areset_n_rcosc because it is equivalent to instance WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.sm0_areset_n_rcosc. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04_dt2\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":894:8:894:9|Removing sequential instance WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.sdif3_areset_n_rcosc because it is equivalent to instance WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.sm0_areset_n_rcosc. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04_dt2\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":872:8:872:9|Removing sequential instance WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.sdif1_areset_n_rcosc because it is equivalent to instance WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.sm0_areset_n_rcosc. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04_dt2\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":861:8:861:9|Removing sequential instance WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.sdif0_areset_n_rcosc because it is equivalent to instance WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.sm0_areset_n_rcosc. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 179MB peak: 179MB)
+
+Encoding state machine fsm[0:14] (in view: work.UART_BRIDGE_IF(behavioral))
+original code -> new code
+   0000000000000010 -> 000000000000001
+   0000000000000100 -> 000000000000010
+   0000000000001000 -> 000000000000100
+   0000000000010000 -> 000000000001000
+   0000000000100000 -> 000000000010000
+   0000000001000000 -> 000000000100000
+   0000000010000000 -> 000000001000000
+   0000000100000000 -> 000000010000000
+   0000001000000000 -> 000000100000000
+   0000010000000000 -> 000001000000000
+   0000100000000000 -> 000010000000000
+   0001000000000000 -> 000100000000000
+   0010000000000000 -> 001000000000000
+   0100000000000000 -> 010000000000000
+   1000000000000000 -> 100000000000000
+@N: MO231 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04_dt2\hdl\uart_bridge_if.vhd":104:4:104:5|Found counter in view:work.UART_BRIDGE_IF(behavioral) instance cnt_burst[11:0] 
+@N: MO231 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04_dt2\hdl\uart_bridge_if.vhd":104:4:104:5|Found counter in view:work.UART_BRIDGE_IF(behavioral) instance TPSRAM_WADDR[7:0] 
+Encoding state machine state[0:2] (in view: work.CoreConfigP_work_tmr_3ps_rtl_0layer0(rtl))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+@W: MO160 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04_dt2\component\actel\directcore\coreconfigp\7.1.100\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Register bit paddr[16] (in view view:work.CoreConfigP_work_tmr_3ps_rtl_0layer0(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04_dt2\component\actel\directcore\coreconfigp\7.1.100\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[31] (in view view:work.CoreConfigP_work_tmr_3ps_rtl_0layer0(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04_dt2\component\actel\directcore\coreconfigp\7.1.100\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[30] (in view view:work.CoreConfigP_work_tmr_3ps_rtl_0layer0(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04_dt2\component\actel\directcore\coreconfigp\7.1.100\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[29] (in view view:work.CoreConfigP_work_tmr_3ps_rtl_0layer0(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04_dt2\component\actel\directcore\coreconfigp\7.1.100\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[28] (in view view:work.CoreConfigP_work_tmr_3ps_rtl_0layer0(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04_dt2\component\actel\directcore\coreconfigp\7.1.100\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[27] (in view view:work.CoreConfigP_work_tmr_3ps_rtl_0layer0(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04_dt2\component\actel\directcore\coreconfigp\7.1.100\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[26] (in view view:work.CoreConfigP_work_tmr_3ps_rtl_0layer0(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04_dt2\component\actel\directcore\coreconfigp\7.1.100\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[25] (in view view:work.CoreConfigP_work_tmr_3ps_rtl_0layer0(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04_dt2\component\actel\directcore\coreconfigp\7.1.100\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[24] (in view view:work.CoreConfigP_work_tmr_3ps_rtl_0layer0(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04_dt2\component\actel\directcore\coreconfigp\7.1.100\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[23] (in view view:work.CoreConfigP_work_tmr_3ps_rtl_0layer0(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04_dt2\component\actel\directcore\coreconfigp\7.1.100\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[22] (in view view:work.CoreConfigP_work_tmr_3ps_rtl_0layer0(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04_dt2\component\actel\directcore\coreconfigp\7.1.100\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[21] (in view view:work.CoreConfigP_work_tmr_3ps_rtl_0layer0(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04_dt2\component\actel\directcore\coreconfigp\7.1.100\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[20] (in view view:work.CoreConfigP_work_tmr_3ps_rtl_0layer0(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04_dt2\component\actel\directcore\coreconfigp\7.1.100\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Register bit FIC_2_APB_M_PRDATA_0[19] (in view view:work.CoreConfigP_work_tmr_3ps_rtl_0layer0(rtl)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: BN132 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04_dt2\component\actel\directcore\coreconfigp\7.1.100\rtl\vhdl\core\coreconfigp.vhd":622:8:622:9|Removing instance WR_MDDR.MDDR_Demo_sb_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[18] because it is equivalent to instance WR_MDDR.MDDR_Demo_sb_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[17]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+Encoding state machine sm0_state[0:6] (in view: work.CoreResetP_work_tmr_3ps_rtl_0layer0(rtl))
+original code -> new code
+   000 -> 0000001
+   001 -> 0000010
+   010 -> 0000100
+   011 -> 0001000
+   100 -> 0010000
+   101 -> 0100000
+   110 -> 1000000
+@N: MO231 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04_dt2\component\actel\directcore\coreresetp\7.1.100\rtl\vhdl\core\coreresetp.vhd":1519:8:1519:9|Found counter in view:work.CoreResetP_work_tmr_3ps_rtl_0layer0(rtl) instance count_ddr[13:0] 
+Encoding state machine axi_fsm_read_state[3:0] (in view: work.AXI_MASTER_IF_0s_1s_2s_3s_4294967292s_4294967293s_0s_1s_4294967294s_4294967295s_1_layer1(verilog))
+original code -> new code
+   00 -> 00
+   01 -> 01
+   10 -> 10
+   11 -> 11
+@N: MO225 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04_dt2\hdl\axi_master_if.v":221:0:221:5|There are no possible illegal states for state machine axi_fsm_read_state[3:0] (in view: work.AXI_MASTER_IF_0s_1s_2s_3s_4294967292s_4294967293s_0s_1s_4294967294s_4294967295s_1_layer1(verilog)); safe FSM implementation is not required.
+Encoding state machine axi_fsm_write_state[5:0] (in view: work.AXI_MASTER_IF_0s_1s_2s_3s_4294967292s_4294967293s_0s_1s_4294967294s_4294967295s_1_layer1(verilog))
+original code -> new code
+   000 -> 000001
+   001 -> 000010
+   010 -> 000100
+   011 -> 001000
+   100 -> 010000
+   101 -> 100000
+@W: MO160 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04_dt2\hdl\axi_master_if.v":221:0:221:5|Register bit ARBURST[1] (in view view:work.AXI_MASTER_IF_0s_1s_2s_3s_4294967292s_4294967293s_0s_1s_4294967294s_4294967295s_1_layer1(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO161 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04_dt2\hdl\axi_master_if.v":221:0:221:5|Register bit ARBURST[0] (in view view:work.AXI_MASTER_IF_0s_1s_2s_3s_4294967292s_4294967293s_0s_1s_4294967294s_4294967295s_1_layer1(verilog)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO160 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04_dt2\hdl\axi_master_if.v":96:0:96:5|Register bit AWBURST[1] (in view view:work.AXI_MASTER_IF_0s_1s_2s_3s_4294967292s_4294967293s_0s_1s_4294967294s_4294967295s_1_layer1(verilog)) is always 0. To keep the instance, apply syn_preserve=1 on the instance.
+@W: MO161 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04_dt2\hdl\axi_master_if.v":96:0:96:5|Register bit AWBURST[0] (in view view:work.AXI_MASTER_IF_0s_1s_2s_3s_4294967292s_4294967293s_0s_1s_4294967294s_4294967295s_1_layer1(verilog)) is always 1. To keep the instance, apply syn_preserve=1 on the instance.
+
+Starting factoring (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 182MB peak: 182MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 189MB peak: 189MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+NConnInternalConnection caching is on
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 188MB peak: 190MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 189MB peak: 190MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 189MB peak: 190MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 189MB peak: 190MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:03s; CPU Time elapsed 0h:00m:03s; Memory used current: 189MB peak: 190MB)
+
+@N: BN362 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04_dt2\component\actel\directcore\coreconfigp\7.1.100\rtl\vhdl\core\coreconfigp.vhd":341:8:341:9|Removing sequential instance WR_MDDR.MDDR_Demo_sb_sb_0.CORECONFIGP_0.paddr[14] (in view: work.TMR_3PS(rtl)) because it does not drive other instances.
+
+Finished technology mapping (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:03s; Memory used current: 193MB peak: 193MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:04s		     0.94ns		 597 /       563
+   2		0h:00m:04s		     0.94ns		 596 /       563
+@N: FP130 |Promoting Net INIT_DONE_int_arst on CLKINT  I_309 
+@N: FP130 |Promoting Net MANEJO_SOLICITUDES.DATA_HANDLE_FSM_V2_0.fsm_arst[4] on CLKINT  I_310 
+@N: FP130 |Promoting Net WR_MDDR.MDDR_Demo_sb_sb_0.FIC_2_APB_M_PRESET_N_arst on CLKINT  I_311 
+@N: FP130 |Promoting Net WR_MDDR.MDDR_Demo_sb_sb_0.CORECONFIGP_0_APB_S_PCLK on CLKINT  I_312 
+@N: FP130 |Promoting Net MANEJO_SOLICITUDES.DATA_HANDLE_FSM_V2_0.un1_fsm_2 on CLKINT  I_313 
+@N: FP130 |Promoting Net MANEJO_SOLICITUDES.DATA_HANDLE_FSM_V2_0.un1_fsm_3 on CLKINT  I_314 
+@N: FP130 |Promoting Net MANEJO_SOLICITUDES.DATA_HANDLE_FSM_V2_0.un1_fsm_4 on CLKINT  I_315 
+@N: FP130 |Promoting Net WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.sm0_areset_n_clk_base on CLKINT  I_316 
+@N: FP130 |Promoting Net WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_arst on CLKINT  I_317 
+@N: FP130 |Promoting Net MANEJO_SOLICITUDES.DATA_HANDLE_FSM_V2_0.un1_fsm_1 on CLKINT  I_318 
+
+Added 0 Buffers
+Added 0 Cells via replication
+	Added 0 Sequential Cells via replication
+	Added 0 Combinational Cells via replication
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 194MB peak: 194MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 194MB peak: 194MB)
+
+
+Starting CDBProcessSetClockGroups... (Real Time elapsed 0h:00m:04s; CPU Time elapsed 0h:00m:04s; Memory used current: 194MB peak: 195MB)
+
+
+Finished with CDBProcessSetClockGroups (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:04s; Memory used current: 194MB peak: 195MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 158MB peak: 195MB)
+
+Writing Analyst data base D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04_DT2\synthesis\synwork\TMR_3PS_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:05s; CPU Time elapsed 0h:00m:05s; Memory used current: 192MB peak: 195MB)
+
+Writing Verilog Simulation files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+@W: BW156 :|Option "-name" of set_clock_groups cannot be forward-annotated; there is no equivalent option in your place-and-route tool.
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 193MB peak: 195MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 193MB peak: 195MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:06s; CPU Time elapsed 0h:00m:06s; Memory used current: 191MB peak: 195MB)
+
+@W: MT246 :"d:\espe\tesis\sw_libero\programas\b_pruebas\prueba37_16kb_tmr04_dt2\component\work\mddr_demo_sb_sb\ccc_0\mddr_demo_sb_sb_ccc_0_fccc.vhd":110:4:110:11|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results)
+@W: MT420 |Found inferred clock MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on net WR_MDDR.MDDR_Demo_sb_sb_0.CCC_0.GL2_net.
+@W: MT420 |Found inferred clock MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock with period 10.00ns. Please declare a user-defined clock on net WR_MDDR.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.FIC_2_APB_M_PCLK.
+@W: MT420 |Found inferred clock MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on net WR_MDDR.MDDR_Demo_sb_sb_0.CCC_0.GL0_net.
+@W: MT420 |Found inferred clock MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock with period 10.00ns. Please declare a user-defined clock on net WR_MDDR.MDDR_Demo_sb_sb_0.FABOSC_0.FABOSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC.
+@W: MT420 |Found inferred clock DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_1_inferred_clock with period 10.00ns. Please declare a user-defined clock on net MANEJO_SOLICITUDES.DATA_HANDLE_FSM_V2_0.un1_fsm_1.
+@W: MT420 |Found inferred clock DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_2_inferred_clock with period 10.00ns. Please declare a user-defined clock on net MANEJO_SOLICITUDES.DATA_HANDLE_FSM_V2_0.un1_fsm_2.
+@W: MT420 |Found inferred clock DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_3_inferred_clock with period 10.00ns. Please declare a user-defined clock on net MANEJO_SOLICITUDES.DATA_HANDLE_FSM_V2_0.un1_fsm_3.
+@W: MT420 |Found inferred clock DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_4_inferred_clock with period 10.00ns. Please declare a user-defined clock on net MANEJO_SOLICITUDES.DATA_HANDLE_FSM_V2_0.un1_fsm_4.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Mon Mar 18 12:23:12 2024
+#
+
+
+Top view:               TMR_3PS
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04_DT2\designer\TMR_3PS\synthesis.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: 1.578
+
+                                                                   Requested     Estimated     Requested     Estimated               Clock        Clock     
+Starting Clock                                                     Frequency     Frequency     Period        Period        Slack     Type         Group     
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_1_inferred_clock             100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)
+DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_2_inferred_clock             100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)
+DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_3_inferred_clock             100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)
+DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_4_inferred_clock             100.0 MHz     NA            10.000        NA            NA        inferred     (multiple)
+MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                  100.0 MHz     126.0 MHz     10.000        7.938         2.062     inferred     (multiple)
+MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock                  100.0 MHz     193.8 MHz     10.000        5.160         4.840     inferred     (multiple)
+MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     100.0 MHz     270.2 MHz     10.000        3.700         6.300     inferred     (multiple)
+MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock                100.0 MHz     144.4 MHz     10.000        6.924         1.578     inferred     (multiple)
+============================================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                                          |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                                        Ending                                                          |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock               MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock               |  10.000      4.840  |  No paths    -      |  No paths    -      |  No paths    -    
+MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock               MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock               |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock             MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock             |  10.000      3.076  |  No paths    -      |  5.000       3.233  |  5.000       1.578
+MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock             MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock               |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock               MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock               |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock               MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock             |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock               MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock               |  10.000      2.062  |  No paths    -      |  No paths    -      |  No paths    -    
+MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock               MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock  |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock               DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_1_inferred_clock          |  Diff grp    -      |  No paths    -      |  Diff grp    -      |  No paths    -    
+MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock               DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_2_inferred_clock          |  Diff grp    -      |  No paths    -      |  Diff grp    -      |  No paths    -    
+MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock               DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_3_inferred_clock          |  Diff grp    -      |  No paths    -      |  Diff grp    -      |  No paths    -    
+MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock               DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_4_inferred_clock          |  Diff grp    -      |  No paths    -      |  Diff grp    -      |  No paths    -    
+MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock  MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock               |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock  MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock  |  10.000      6.300  |  No paths    -      |  No paths    -      |  No paths    -    
+DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_1_inferred_clock          MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock               |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_1_inferred_clock          MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock               |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_2_inferred_clock          MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock               |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_3_inferred_clock          MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock               |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_4_inferred_clock          MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock               |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+======================================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                   Starting                                                                                                                                  Arrival          
+Instance                                                           Reference                                             Type        Pin                Net                                                  Time        Slack
+                                                                   Clock                                                                                                                                                      
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+WR_MDDR.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST     MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[12]     MANEJO_SOLICITUDES_tpsram_RADDR[10]                  3.126       2.062
+WR_MDDR.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST     MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[13]     AMBA_SLAVE_0_PADDRS[13]                              3.101       2.734
+WR_MDDR.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST     MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[14]     AMBA_SLAVE_0_PADDRS[14]                              3.105       2.768
+WR_MDDR.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST     MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[15]     AMBA_SLAVE_0_PADDRS[15]                              3.044       3.183
+WR_MDDR.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST     MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_SEL          MDDR_Demo_sb_sb_MSS_TMP_0_FIC_0_APB_MASTER_PSELx     2.965       3.318
+WR_MDDR.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST     MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_WRITE        MDDR_Demo_TOP_0_AMBA_SLAVE_0_PWRITE                  3.131       4.475
+WR_MDDR.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST     MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[10]     MANEJO_SOLICITUDES_tpsram_RADDR[8]                   3.357       5.028
+WR_MDDR.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST     MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[8]      MANEJO_SOLICITUDES_tpsram_RADDR[6]                   3.354       5.031
+WR_MDDR.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST     MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[6]      MANEJO_SOLICITUDES_tpsram_RADDR[4]                   3.185       5.200
+WR_MDDR.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST     MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_ADDR[9]      MANEJO_SOLICITUDES_tpsram_RADDR[7]                   3.175       5.210
+==============================================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                   Starting                                                                                                                                      Required          
+Instance                                                           Reference                                             Type        Pin                Net                                                      Time         Slack
+                                                                   Clock                                                                                                                                                           
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+WR_MDDR.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST     MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_READY        AMBA_SLAVE_0_PREADYS0_i_m_i                              8.713        2.062
+WR_MDDR.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST     MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_RDATA[3]     MDDR_Demo_sb_sb_MSS_TMP_0_FIC_0_APB_MASTER_PRDATA[3]     9.553        2.953
+WR_MDDR.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST     MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_RDATA[4]     MDDR_Demo_sb_sb_MSS_TMP_0_FIC_0_APB_MASTER_PRDATA[4]     9.609        3.009
+WR_MDDR.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST     MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_RDATA[0]     MDDR_Demo_sb_sb_MSS_TMP_0_FIC_0_APB_MASTER_PRDATA[0]     9.687        3.087
+WR_MDDR.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST     MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_RDATA[6]     MDDR_Demo_sb_sb_MSS_TMP_0_FIC_0_APB_MASTER_PRDATA[6]     9.721        3.121
+WR_MDDR.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST     MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_RDATA[5]     MDDR_Demo_sb_sb_MSS_TMP_0_FIC_0_APB_MASTER_PRDATA[5]     9.742        3.142
+WR_MDDR.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST     MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_RDATA[1]     MDDR_Demo_sb_sb_MSS_TMP_0_FIC_0_APB_MASTER_PRDATA[1]     9.754        3.154
+WR_MDDR.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST     MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_RDATA[2]     MDDR_Demo_sb_sb_MSS_TMP_0_FIC_0_APB_MASTER_PRDATA[2]     9.776        3.176
+WR_MDDR.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST     MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock     MSS_010     F_HM0_RDATA[7]     MDDR_Demo_sb_sb_MSS_TMP_0_FIC_0_APB_MASTER_PRDATA[7]     9.833        3.233
+MANEJO_SOLICITUDES.DATA_HANDLE_FSM_V2_0.fsm[0]                     MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE         EN                 fsm_1_sqmuxa_1_i                                         9.707        3.340
+===================================================================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            1.287
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         8.713
+
+    - Propagation time:                      6.651
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 2.062
+
+    Number of logic level(s):                2
+    Starting point:                          WR_MDDR.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST / F_HM0_ADDR[12]
+    Ending point:                            WR_MDDR.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST / F_HM0_READY
+    The start point is clocked by            MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK_BASE
+    The end   point is clocked by            MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK_BASE
+
+Instance / Net                                                                     Pin                Pin               Arrival     No. of    
+Name                                                                   Type        Name               Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------------------
+WR_MDDR.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST         MSS_010     F_HM0_ADDR[12]     Out     3.126     3.126 r     -         
+MANEJO_SOLICITUDES_tpsram_RADDR[10]                                    Net         -                  -       1.103     -           13        
+WR_MDDR.MDDR_Demo_sb_sb_0.CoreAPB3_0.iPSELS_raw[0]                     CFG4        D                  In      -         4.229 r     -         
+WR_MDDR.MDDR_Demo_sb_sb_0.CoreAPB3_0.iPSELS_raw[0]                     CFG4        Y                  Out     0.284     4.513 f     -         
+MDDR_Demo_TOP_0_AMBA_SLAVE_0_PSELx                                     Net         -                  -       0.973     -           13        
+WR_MDDR.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST_RNO     CFG3        C                  In      -         5.486 f     -         
+WR_MDDR.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST_RNO     CFG3        Y                  Out     0.194     5.680 r     -         
+AMBA_SLAVE_0_PREADYS0_i_m_i                                            Net         -                  -       0.971     -           1         
+WR_MDDR.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST         MSS_010     F_HM0_READY        In      -         6.651 r     -         
+==============================================================================================================================================
+Total path delay (propagation time + setup) of 7.938 is 4.891(61.6%) logic and 3.048(38.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                   Starting                                                                                 Arrival          
+Instance                                           Reference                                             Type     Pin     Net               Time        Slack
+                                                   Clock                                                                                                     
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+MANEJO_SOLICITUDES.UART_IF_FSM_0.cnt_burst[1]      MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      Q       cnt_burst[1]      0.076       4.840
+MANEJO_SOLICITUDES.UART_IF_FSM_0.cnt_burst[7]      MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      Q       cnt_burst[7]      0.076       4.900
+MANEJO_SOLICITUDES.UART_IF_FSM_0.fsm[14]           MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      Q       fsm[14]           0.076       4.911
+MANEJO_SOLICITUDES.UART_IF_FSM_0.cnt_burst[9]      MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      Q       cnt_burst[9]      0.076       4.933
+MANEJO_SOLICITUDES.UART_IF_FSM_0.fsm[5]            MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      Q       fsm[5]            0.094       4.934
+MANEJO_SOLICITUDES.UART_IF_FSM_0.cnt_burst[0]      MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      Q       cnt_burst[0]      0.076       4.983
+MANEJO_SOLICITUDES.UART_IF_FSM_0.cnt_burst[11]     MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      Q       cnt_burst[11]     0.076       5.009
+MANEJO_SOLICITUDES.UART_IF_FSM_0.cnt_page[1]       MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      Q       cnt_page[1]       0.076       5.029
+MANEJO_SOLICITUDES.UART_IF_FSM_0.cnt_page[0]       MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      Q       cnt_page[0]       0.076       5.078
+MANEJO_SOLICITUDES.UART_IF_FSM_0.cnt_burst[4]      MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      Q       cnt_burst[4]      0.094       5.141
+=============================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                     Starting                                                                                 Required          
+Instance                                             Reference                                             Type     Pin     Net               Time         Slack
+                                                     Clock                                                                                                      
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+MANEJO_SOLICITUDES.UART_IF_FSM_0.TPSRAM_WADDR[0]     MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      EN      TPSRAM_WADDRe     9.707        4.840
+MANEJO_SOLICITUDES.UART_IF_FSM_0.TPSRAM_WADDR[1]     MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      EN      TPSRAM_WADDRe     9.707        4.840
+MANEJO_SOLICITUDES.UART_IF_FSM_0.TPSRAM_WADDR[2]     MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      EN      TPSRAM_WADDRe     9.707        4.840
+MANEJO_SOLICITUDES.UART_IF_FSM_0.TPSRAM_WADDR[3]     MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      EN      TPSRAM_WADDRe     9.707        4.840
+MANEJO_SOLICITUDES.UART_IF_FSM_0.TPSRAM_WADDR[4]     MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      EN      TPSRAM_WADDRe     9.707        4.840
+MANEJO_SOLICITUDES.UART_IF_FSM_0.TPSRAM_WADDR[5]     MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      EN      TPSRAM_WADDRe     9.707        4.840
+MANEJO_SOLICITUDES.UART_IF_FSM_0.TPSRAM_WADDR[6]     MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      EN      TPSRAM_WADDRe     9.707        4.840
+MANEJO_SOLICITUDES.UART_IF_FSM_0.TPSRAM_WADDR[7]     MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      EN      TPSRAM_WADDRe     9.707        4.840
+MANEJO_SOLICITUDES.UART_IF_FSM_0.cnt_burst[0]        MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      EN      cnt_burste        9.707        4.868
+MANEJO_SOLICITUDES.UART_IF_FSM_0.cnt_burst[1]        MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock     SLE      EN      cnt_burste        9.707        4.868
+================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.293
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         9.707
+
+    - Propagation time:                      4.866
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 4.840
+
+    Number of logic level(s):                5
+    Starting point:                          MANEJO_SOLICITUDES.UART_IF_FSM_0.cnt_burst[1] / Q
+    Ending point:                            MANEJO_SOLICITUDES.UART_IF_FSM_0.TPSRAM_WADDR[0] / EN
+    The start point is clocked by            MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                        Pin      Pin               Arrival     No. of    
+Name                                                         Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------------------------
+MANEJO_SOLICITUDES.UART_IF_FSM_0.cnt_burst[1]                SLE      Q        Out     0.076     0.076 r     -         
+cnt_burst[1]                                                 Net      -        -       0.648     -           3         
+MANEJO_SOLICITUDES.UART_IF_FSM_0.fsm_ns_i_o2_4[11]           CFG4     D        In      -         0.724 r     -         
+MANEJO_SOLICITUDES.UART_IF_FSM_0.fsm_ns_i_o2_4[11]           CFG4     Y        Out     0.236     0.960 r     -         
+fsm_ns_i_o2_4[11]                                            Net      -        -       0.216     -           1         
+MANEJO_SOLICITUDES.UART_IF_FSM_0.fsm_ns_i_o2_5[11]           CFG4     B        In      -         1.176 r     -         
+MANEJO_SOLICITUDES.UART_IF_FSM_0.fsm_ns_i_o2_5[11]           CFG4     Y        Out     0.143     1.319 r     -         
+fsm_ns_i_o2_5[11]                                            Net      -        -       0.216     -           1         
+MANEJO_SOLICITUDES.UART_IF_FSM_0.fsm_ns_i_o2[11]             CFG4     C        In      -         1.536 r     -         
+MANEJO_SOLICITUDES.UART_IF_FSM_0.fsm_ns_i_o2[11]             CFG4     Y        Out     0.177     1.712 r     -         
+N_238                                                        Net      -        -       0.980     -           14        
+MANEJO_SOLICITUDES.UART_IF_FSM_0.fsm_ns_i_o2_RNID0PL[11]     CFG2     A        In      -         2.692 r     -         
+MANEJO_SOLICITUDES.UART_IF_FSM_0.fsm_ns_i_o2_RNID0PL[11]     CFG2     Y        Out     0.087     2.779 f     -         
+N_75_i                                                       Net      -        -       0.987     -           15        
+MANEJO_SOLICITUDES.UART_IF_FSM_0.un1_rvalid_RNI6JNK1         CFG4     D        In      -         3.767 f     -         
+MANEJO_SOLICITUDES.UART_IF_FSM_0.un1_rvalid_RNI6JNK1         CFG4     Y        Out     0.250     4.017 f     -         
+TPSRAM_WADDRe                                                Net      -        -       0.849     -           8         
+MANEJO_SOLICITUDES.UART_IF_FSM_0.TPSRAM_WADDR[0]             SLE      EN       In      -         4.866 f     -         
+=======================================================================================================================
+Total path delay (propagation time + setup) of 5.160 is 1.263(24.5%) logic and 3.897(75.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                              Starting                                                                                                   Arrival          
+Instance                                                      Reference                                                          Type     Pin     Net                    Time        Slack
+                                                              Clock                                                                                                                       
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.sm0_areset_n_rcosc     MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       sm0_areset_n_rcosc     0.094       6.300
+WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr[3]           MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       count_ddr[3]           0.076       8.227
+WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr[0]           MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       count_ddr[0]           0.076       8.275
+WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr[5]           MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       count_ddr[5]           0.076       8.314
+WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr[4]           MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       count_ddr[4]           0.094       8.350
+WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr[6]           MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       count_ddr[6]           0.076       8.386
+WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr[1]           MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       count_ddr[1]           0.076       8.401
+WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr[8]           MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       count_ddr[8]           0.094       8.418
+WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr[13]          MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       count_ddr[13]          0.094       8.418
+WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr[7]           MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       count_ddr[7]           0.076       8.423
+==========================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                        Starting                                                                                                          Required          
+Instance                                                Reference                                                          Type     Pin     Net                           Time         Slack
+                                                        Clock                                                                                                                               
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr[0]     MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      ALn     sdif0_areset_n_rcosc_arst     10.000       6.300
+WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr[1]     MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      ALn     sdif0_areset_n_rcosc_arst     10.000       6.300
+WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr[2]     MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      ALn     sdif0_areset_n_rcosc_arst     10.000       6.300
+WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr[3]     MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      ALn     sdif0_areset_n_rcosc_arst     10.000       6.300
+WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr[4]     MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      ALn     sdif0_areset_n_rcosc_arst     10.000       6.300
+WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr[5]     MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      ALn     sdif0_areset_n_rcosc_arst     10.000       6.300
+WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr[6]     MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      ALn     sdif0_areset_n_rcosc_arst     10.000       6.300
+WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr[7]     MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      ALn     sdif0_areset_n_rcosc_arst     10.000       6.300
+WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr[8]     MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      ALn     sdif0_areset_n_rcosc_arst     10.000       6.300
+WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr[9]     MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      ALn     sdif0_areset_n_rcosc_arst     10.000       6.300
+============================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      10.000
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         10.000
+
+    - Propagation time:                      3.700
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 6.300
+
+    Number of logic level(s):                1
+    Starting point:                          WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.sm0_areset_n_rcosc / Q
+    Ending point:                            WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr[0] / ALn
+    The start point is clocked by            MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                                   Pin      Pin               Arrival     No. of    
+Name                                                                  Type       Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------
+WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.sm0_areset_n_rcosc             SLE        Q        Out     0.094     0.094 f     -         
+sm0_areset_n_rcosc                                                    Net        -        -       1.830     -           1         
+WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.sm0_areset_n_rcosc_RNIVK08     CLKINT     A        In      -         1.924 f     -         
+WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.sm0_areset_n_rcosc_RNIVK08     CLKINT     Y        Out     0.326     2.251 f     -         
+sdif0_areset_n_rcosc_arst                                             Net        -        -       1.450     -           21        
+WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr[0]                   SLE        ALn      In      -         3.700 f     -         
+==================================================================================================================================
+Total path delay (propagation time + setup) of 3.700 is 0.420(11.4%) logic and 3.280(88.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                   Starting                                                                                                                                   Arrival          
+Instance                                                           Reference                                               Type        Pin                        Net                                         Time        Slack
+                                                                   Clock                                                                                                                                                       
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+WR_MDDR.MDDR_Demo_sb_sb_0.CORECONFIGP_0.psel                       MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE         Q                          psel                                        0.076       1.578
+WR_MDDR.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST     MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     MSS_010     MDDR_FABRIC_PREADY         CORECONFIGP_0_MDDR_APBmslave_PREADY         5.435       3.076
+WR_MDDR.MDDR_Demo_sb_sb_0.CORECONFIGP_0.state[1]                   MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE         Q                          state[1]                                    0.076       3.233
+WR_MDDR.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST     MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     MSS_010     MDDR_FABRIC_PRDATA[12]     CORECONFIGP_0_MDDR_APBmslave_PRDATA[12]     5.461       3.365
+WR_MDDR.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST     MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     MSS_010     MDDR_FABRIC_PRDATA[10]     CORECONFIGP_0_MDDR_APBmslave_PRDATA[10]     5.432       3.394
+WR_MDDR.MDDR_Demo_sb_sb_0.CORECONFIGP_0.paddr[15]                  MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE         Q                          paddr[15]                                   0.094       3.424
+WR_MDDR.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST     MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     MSS_010     MDDR_FABRIC_PRDATA[6]      CORECONFIGP_0_MDDR_APBmslave_PRDATA[6]      5.390       3.437
+WR_MDDR.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST     MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     MSS_010     MDDR_FABRIC_PRDATA[15]     CORECONFIGP_0_MDDR_APBmslave_PRDATA[15]     5.366       3.461
+WR_MDDR.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST     MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     MSS_010     MDDR_FABRIC_PRDATA[4]      CORECONFIGP_0_MDDR_APBmslave_PRDATA[4]      5.335       3.491
+WR_MDDR.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST     MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     MSS_010     MDDR_FABRIC_PRDATA[11]     CORECONFIGP_0_MDDR_APBmslave_PRDATA[11]     5.329       3.498
+===============================================================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                     Starting                                                                                              Required          
+Instance                                                             Reference                                               Type     Pin     Net                          Time         Slack
+                                                                     Clock                                                                                                                   
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+WR_MDDR.MDDR_Demo_sb_sb_0.CORECONFIGP_0.FIC_2_APB_M_PREADY_0         MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      EN      FIC_2_APB_M_PREADY_0_RNO     4.707        1.578
+WR_MDDR.MDDR_Demo_sb_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[16]     MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[16]                   4.778        1.674
+WR_MDDR.MDDR_Demo_sb_sb_0.CORECONFIGP_0.state[1]                     MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       state_ns[1]                  4.778        1.775
+WR_MDDR.MDDR_Demo_sb_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[0]      MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[0]                    4.778        1.866
+WR_MDDR.MDDR_Demo_sb_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[4]      MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[4]                    4.778        1.866
+WR_MDDR.MDDR_Demo_sb_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[6]      MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[6]                    4.778        1.866
+WR_MDDR.MDDR_Demo_sb_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[7]      MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[7]                    4.778        1.866
+WR_MDDR.MDDR_Demo_sb_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[8]      MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[8]                    4.778        1.866
+WR_MDDR.MDDR_Demo_sb_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[9]      MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[9]                    4.778        1.866
+WR_MDDR.MDDR_Demo_sb_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA_0[10]     MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[10]                   4.778        1.866
+=============================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      5.000
+    - Setup time:                            0.293
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         4.707
+
+    - Propagation time:                      3.129
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     1.578
+
+    Number of logic level(s):                3
+    Starting point:                          WR_MDDR.MDDR_Demo_sb_sb_0.CORECONFIGP_0.psel / Q
+    Ending point:                            WR_MDDR.MDDR_Demo_sb_sb_0.CORECONFIGP_0.FIC_2_APB_M_PREADY_0 / EN
+    The start point is clocked by            MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock [falling] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+    The end   point is clocked by            MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
+
+Instance / Net                                                                Pin      Pin               Arrival     No. of    
+Name                                                                 Type     Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------
+WR_MDDR.MDDR_Demo_sb_sb_0.CORECONFIGP_0.psel                         SLE      Q        Out     0.076     0.076 r     -         
+psel                                                                 Net      -        -       0.779     -           6         
+WR_MDDR.MDDR_Demo_sb_sb_0.CORECONFIGP_0.MDDR_PSEL_0                  CFG4     D        In      -         0.855 r     -         
+WR_MDDR.MDDR_Demo_sb_sb_0.CORECONFIGP_0.MDDR_PSEL_0                  CFG4     Y        Out     0.236     1.091 r     -         
+CORECONFIGP_0_MDDR_APBmslave_PSELx                                   Net      -        -       1.010     -           19        
+WR_MDDR.MDDR_Demo_sb_sb_0.CORECONFIGP_0.MDDR_PSEL_0_RNISR4D          CFG2     B        In      -         2.101 r     -         
+WR_MDDR.MDDR_Demo_sb_sb_0.CORECONFIGP_0.MDDR_PSEL_0_RNISR4D          CFG2     Y        Out     0.125     2.225 f     -         
+pready                                                               Net      -        -       0.432     -           2         
+WR_MDDR.MDDR_Demo_sb_sb_0.CORECONFIGP_0.FIC_2_APB_M_PREADY_0_RNO     CFG4     D        In      -         2.657 f     -         
+WR_MDDR.MDDR_Demo_sb_sb_0.CORECONFIGP_0.FIC_2_APB_M_PREADY_0_RNO     CFG4     Y        Out     0.250     2.908 f     -         
+FIC_2_APB_M_PREADY_0_RNO                                             Net      -        -       0.221     -           1         
+WR_MDDR.MDDR_Demo_sb_sb_0.CORECONFIGP_0.FIC_2_APB_M_PREADY_0         SLE      EN       In      -         3.129 f     -         
+===============================================================================================================================
+Total path delay (propagation time + setup) of 3.422 is 0.980(28.6%) logic and 2.442(71.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+
+Finished final timing analysis (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 192MB peak: 195MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 192MB peak: 195MB)
+
+---------------------------------------
+Resource Usage Report for TMR_3PS 
+
+Mapping to part: m2s010vf400-1
+Cell usage:
+CCC             1 use
+CLKINT          13 uses
+MSS_010         1 use
+RCOSC_25_50MHZ  1 use
+RCOSC_25_50MHZ_FAB  1 use
+SYSRESET        1 use
+CFG1           6 uses
+CFG2           91 uses
+CFG3           74 uses
+CFG4           212 uses
+
+Carry cells:
+ARI1            110 uses - used for arithmetic functions
+
+
+Sequential Cells: 
+SLE            670 uses
+
+DSP Blocks:    0 of 22 (0%)
+
+I/O ports: 44
+I/O primitives: 41
+BIBUF          9 uses
+BIBUF_DIFF     1 use
+INBUF          2 uses
+OUTBUF         28 uses
+OUTBUF_DIFF    1 use
+
+
+Global Clock Buffers: 13
+
+RAM/ROM usage summary
+Total Block RAMs (RAM1K18) : 16 of 21 (76%)
+
+Total LUTs:    493
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 576; LUTs = 576;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  670 + 0 + 576 + 0 = 1246;
+Total number of LUTs after P&R:  493 + 0 + 576 + 0 = 1069;
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:07s; Memory used current: 66MB peak: 195MB)
+
+Process took 0h:00m:07s realtime, 0h:00m:07s cputime
+# Mon Mar 18 12:23:13 2024
+
+###########################################################]
