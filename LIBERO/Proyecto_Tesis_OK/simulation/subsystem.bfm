@@ -1,0 +1,35 @@
+#===========================================================
+# Created by Microsemi SmartDesign Sat Mar  9 23:09:15 2024
+#
+# Syntax: 
+# ------- 
+#
+# memmap    resource_name base_address;
+#
+# write     width resource_name byte_offset data;
+# read      width resource_name byte_offset;
+# readcheck width resource_name byte_offset data;
+#
+#===========================================================
+
+#-----------------------------------------------------------
+# Memory Map
+# Define name and base address of each resource.
+#-----------------------------------------------------------
+
+memmap MANEJO_SOLICITUDES 0x5000_0000;
+memmap WR_MDDR/MDDR_Demo_sb_sb_0/MDDR_Demo_sb_sb_MSS_0 0x4002_0800;
+#-----------------------------------------------------------
+# Include resource scriptlets
+#-----------------------------------------------------------
+
+
+
+#-----------------------------------------------------------
+# Secondary subsystems.  To test this subsystem, uncomment the following code.
+#-----------------------------------------------------------
+# memmap WR_MDDR/MDDR_Demo_sb_sb_0/MDDR_Demo_sb_sb_MSS_0_MDDR_DDR_AXI_SLAVE 0x0000_0000;
+#-----------------------------------------------------------
+# Include resource scriptlets
+#-----------------------------------------------------------
+
