@@ -1,0 +1,526 @@
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-HO2RJRQ
+
+Implementation : synthesis
+
+#### START OF AREA REPORT #####[
+
+Part:			M2S010VF400-1 (Microchip)
+
+-----------------------------------------------------------------------
+########   Utilization report for  Top level view:   TMR_3PS   ########
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      670                100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block TMR_3PS:	670 (52.10 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           383                100 %                
+ARI1          110                100 %                
+BLACK BOX     5                  100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block TMR_3PS:	498 (38.72 % Utilization)
+
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     16                 100 %                
+====================================================
+Total MEMORY ELEMENTS in the block TMR_3PS:	16 (1.24 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     13                 100 %                
+===================================================
+Total GLOBAL BUFFERS in the block TMR_3PS:	13 (1.01 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       41                 100 %                
+=================================================
+Total IO PADS in the block TMR_3PS:	41 (3.19 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   MDDR_Demo_TOP   ########
+Instance path:   TMR_3PS.MDDR_Demo_TOP                             
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      290                43.3 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block TMR_3PS.MDDR_Demo_TOP:	290 (22.55 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           136                35.5 %               
+ARI1          14                 12.7 %               
+BLACK BOX     5                  100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block TMR_3PS.MDDR_Demo_TOP:	155 (12.05 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     8                  61.5 %               
+===================================================
+Total GLOBAL BUFFERS in the block TMR_3PS.MDDR_Demo_TOP:	8 (0.62 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       39                 95.1 %               
+=================================================
+Total IO PADS in the block TMR_3PS.MDDR_Demo_TOP:	39 (3.03 % Utilization)
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   AXI_MASTER_IF_0s_1s_2s_3s_4294967292s_4294967293s_0s_1s_4294967294s_4294967295s_1_layer1   ########
+Instance path:   MDDR_Demo_TOP.AXI_MASTER_IF_0s_1s_2s_3s_4294967292s_4294967293s_0s_1s_4294967294s_4294967295s_1_layer1                       
+==============================================================================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      155                23.1 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block MDDR_Demo_TOP.AXI_MASTER_IF_0s_1s_2s_3s_4294967292s_4294967293s_0s_1s_4294967294s_4294967295s_1_layer1:	155 (12.05 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      47                 12.3 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block MDDR_Demo_TOP.AXI_MASTER_IF_0s_1s_2s_3s_4294967292s_4294967293s_0s_1s_4294967294s_4294967295s_1_layer1:	47 (3.65 % Utilization)
+
+---------------------------------------------------------------------
+########   Utilization report for  cell:   MDDR_Demo_sb_sb   ########
+Instance path:   MDDR_Demo_TOP.MDDR_Demo_sb_sb                       
+=====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      135                20.1 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block MDDR_Demo_TOP.MDDR_Demo_sb_sb:	135 (10.50 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           89                 23.2 %               
+ARI1          14                 12.7 %               
+BLACK BOX     5                  100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block MDDR_Demo_TOP.MDDR_Demo_sb_sb:	108 (8.40 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     8                  61.5 %               
+===================================================
+Total GLOBAL BUFFERS in the block MDDR_Demo_TOP.MDDR_Demo_sb_sb:	8 (0.62 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       39                 95.1 %               
+=================================================
+Total IO PADS in the block MDDR_Demo_TOP.MDDR_Demo_sb_sb:	39 (3.03 % Utilization)
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   CoreAPB3_32_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_16_3_19   ########
+Instance path:   MDDR_Demo_sb_sb.CoreAPB3_32_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_16_3_19                     
+===========================================================================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      10                 2.61 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block MDDR_Demo_sb_sb.CoreAPB3_32_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_16_3_19:	10 (0.78 % Utilization)
+
+------------------------------------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   COREAPB3_MUXPTOB3   ########                                                 
+Instance path:   CoreAPB3_32_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_16_3_19.COREAPB3_MUXPTOB3
+========================================================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      8                  2.09 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block CoreAPB3_32_0_1_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_0_16_3_19.COREAPB3_MUXPTOB3:	8 (0.62 % Utilization)
+
+------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   CoreConfigP_work_tmr_3ps_rtl_0layer0   ########
+Instance path:   MDDR_Demo_sb_sb.CoreConfigP_work_tmr_3ps_rtl_0layer0                     
+==========================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      74                 11 %                 
+=================================================
+Total SEQUENTIAL ELEMENTS in the block MDDR_Demo_sb_sb.CoreConfigP_work_tmr_3ps_rtl_0layer0:	74 (5.75 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      58                 15.1 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block MDDR_Demo_sb_sb.CoreConfigP_work_tmr_3ps_rtl_0layer0:	58 (4.51 % Utilization)
+
+-----------------------------------------------------------------------------------------
+########   Utilization report for  cell:   CoreResetP_work_tmr_3ps_rtl_0layer0   ########
+Instance path:   MDDR_Demo_sb_sb.CoreResetP_work_tmr_3ps_rtl_0layer0                     
+=========================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      61                 9.1 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block MDDR_Demo_sb_sb.CoreResetP_work_tmr_3ps_rtl_0layer0:	61 (4.74 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      19                 4.96 %               
+ARI1     14                 12.7 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block MDDR_Demo_sb_sb.CoreResetP_work_tmr_3ps_rtl_0layer0:	33 (2.57 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     3                  23.1 %               
+===================================================
+Total GLOBAL BUFFERS in the block MDDR_Demo_sb_sb.CoreResetP_work_tmr_3ps_rtl_0layer0:	3 (0.23 % Utilization)
+
+--------------------------------------------------------------------------------
+########   Utilization report for  cell:   MDDR_Demo_sb_sb_CCC_0_FCCC   ########
+Instance path:   MDDR_Demo_sb_sb.MDDR_Demo_sb_sb_CCC_0_FCCC                     
+================================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  20 %                 
+======================================================
+Total COMBINATIONAL LOGIC in the block MDDR_Demo_sb_sb.MDDR_Demo_sb_sb_CCC_0_FCCC:	1 (0.08 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  15.4 %               
+===================================================
+Total GLOBAL BUFFERS in the block MDDR_Demo_sb_sb.MDDR_Demo_sb_sb_CCC_0_FCCC:	2 (0.16 % Utilization)
+
+----------------------------------------------------------------------------------
+########   Utilization report for  cell:   MDDR_Demo_sb_sb_FABOSC_0_OSC   ########
+Instance path:   MDDR_Demo_sb_sb.MDDR_Demo_sb_sb_FABOSC_0_OSC                     
+==================================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     2                  40 %                 
+======================================================
+Total COMBINATIONAL LOGIC in the block MDDR_Demo_sb_sb.MDDR_Demo_sb_sb_FABOSC_0_OSC:	2 (0.16 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  7.69 %               
+===================================================
+Total GLOBAL BUFFERS in the block MDDR_Demo_sb_sb.MDDR_Demo_sb_sb_FABOSC_0_OSC:	1 (0.08 % Utilization)
+
+-------------------------------------------------------------------------
+########   Utilization report for  cell:   MDDR_Demo_sb_sb_MSS   ########
+Instance path:   MDDR_Demo_sb_sb.MDDR_Demo_sb_sb_MSS                     
+=========================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           2                  0.5220 %             
+BLACK BOX     1                  20 %                 
+======================================================
+Total COMBINATIONAL LOGIC in the block MDDR_Demo_sb_sb.MDDR_Demo_sb_sb_MSS:	3 (0.23 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  15.4 %               
+===================================================
+Total GLOBAL BUFFERS in the block MDDR_Demo_sb_sb.MDDR_Demo_sb_sb_MSS:	2 (0.16 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       39                 95.1 %               
+=================================================
+Total IO PADS in the block MDDR_Demo_sb_sb.MDDR_Demo_sb_sb_MSS:	39 (3.03 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   MEMORY_TMR   ########
+Instance path:   TMR_3PS.MEMORY_TMR                             
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  0.1490 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block TMR_3PS.MEMORY_TMR:	1 (0.08 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      16                 4.18 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block TMR_3PS.MEMORY_TMR:	16 (1.24 % Utilization)
+
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     12                 75 %                 
+====================================================
+Total MEMORY ELEMENTS in the block TMR_3PS.MEMORY_TMR:	12 (0.93 % Utilization)
+
+------------------------------------------------------------------
+########   Utilization report for  cell:   COMPARADOR_8   ########
+Instance path:   MEMORY_TMR.COMPARADOR_8                          
+==================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      1                  0.1490 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block MEMORY_TMR.COMPARADOR_8:	1 (0.08 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      16                 4.18 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block MEMORY_TMR.COMPARADOR_8:	16 (1.24 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   TPSRAM_C1   ########
+Instance path:   MEMORY_TMR.TPSRAM_C1                          
+===============================================================
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     4                  25 %                 
+====================================================
+Total MEMORY ELEMENTS in the block MEMORY_TMR.TPSRAM_C1:	4 (0.31 % Utilization)
+
+----------------------------------------------------------------------------------
+########   Utilization report for  cell:   TPSRAM_C1_TPSRAM_C1_0_TPSRAM   ########
+Instance path:   TPSRAM_C1.TPSRAM_C1_TPSRAM_C1_0_TPSRAM                           
+==================================================================================
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     4                  25 %                 
+====================================================
+Total MEMORY ELEMENTS in the block TPSRAM_C1.TPSRAM_C1_TPSRAM_C1_0_TPSRAM:	4 (0.31 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   TPSRAM_C2   ########
+Instance path:   MEMORY_TMR.TPSRAM_C2                          
+===============================================================
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     4                  25 %                 
+====================================================
+Total MEMORY ELEMENTS in the block MEMORY_TMR.TPSRAM_C2:	4 (0.31 % Utilization)
+
+----------------------------------------------------------------------------------
+########   Utilization report for  cell:   TPSRAM_C2_TPSRAM_C2_0_TPSRAM   ########
+Instance path:   TPSRAM_C2.TPSRAM_C2_TPSRAM_C2_0_TPSRAM                           
+==================================================================================
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     4                  25 %                 
+====================================================
+Total MEMORY ELEMENTS in the block TPSRAM_C2.TPSRAM_C2_TPSRAM_C2_0_TPSRAM:	4 (0.31 % Utilization)
+
+---------------------------------------------------------------
+########   Utilization report for  cell:   TPSRAM_C3   ########
+Instance path:   MEMORY_TMR.TPSRAM_C3                          
+===============================================================
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     4                  25 %                 
+====================================================
+Total MEMORY ELEMENTS in the block MEMORY_TMR.TPSRAM_C3:	4 (0.31 % Utilization)
+
+----------------------------------------------------------------------------------
+########   Utilization report for  cell:   TPSRAM_C3_TPSRAM_C3_0_TPSRAM   ########
+Instance path:   TPSRAM_C3.TPSRAM_C3_TPSRAM_C3_0_TPSRAM                           
+==================================================================================
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     4                  25 %                 
+====================================================
+Total MEMORY ELEMENTS in the block TPSRAM_C3.TPSRAM_C3_TPSRAM_C3_0_TPSRAM:	4 (0.31 % Utilization)
+
+------------------------------------------------------------
+########   Utilization report for  cell:   MEM_FI   ########
+Instance path:   TMR_3PS.MEM_FI                             
+============================================================
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     4                  25 %                 
+====================================================
+Total MEMORY ELEMENTS in the block TMR_3PS.MEM_FI:	4 (0.31 % Utilization)
+
+----------------------------------------------------------------------------
+########   Utilization report for  cell:   MEM_FI_MEM_FI_0_TPSRAM   ########
+Instance path:   MEM_FI.MEM_FI_MEM_FI_0_TPSRAM                              
+============================================================================
+
+MEMORY ELEMENTS
+Name        Total elements     Utilization     Notes
+----------------------------------------------------
+RAM1K18     4                  25 %                 
+====================================================
+Total MEMORY ELEMENTS in the block MEM_FI.MEM_FI_MEM_FI_0_TPSRAM:	4 (0.31 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   REQUEST_WR   ########
+Instance path:   TMR_3PS.REQUEST_WR                             
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      379                56.6 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block TMR_3PS.REQUEST_WR:	379 (29.47 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      231                60.3 %               
+ARI1     96                 87.3 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block TMR_3PS.REQUEST_WR:	327 (25.43 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     5                  38.5 %               
+===================================================
+Total GLOBAL BUFFERS in the block TMR_3PS.REQUEST_WR:	5 (0.39 % Utilization)
+
+-----------------------------------------------------------------------------------
+########   Utilization report for  cell:   DATA_HANDLE_FSM_V2_32_32_8_11   ########
+Instance path:   REQUEST_WR.DATA_HANDLE_FSM_V2_32_32_8_11                          
+===================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      110                16.4 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block REQUEST_WR.DATA_HANDLE_FSM_V2_32_32_8_11:	110 (8.55 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      23                 6.01 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block REQUEST_WR.DATA_HANDLE_FSM_V2_32_32_8_11:	23 (1.79 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     5                  38.5 %               
+===================================================
+Total GLOBAL BUFFERS in the block REQUEST_WR.DATA_HANDLE_FSM_V2_32_32_8_11:	5 (0.39 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   UART_BRIDGE_IF   ########
+Instance path:   REQUEST_WR.UART_BRIDGE_IF                          
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      269                40.1 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block REQUEST_WR.UART_BRIDGE_IF:	269 (20.92 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      208                54.3 %               
+ARI1     96                 87.3 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block REQUEST_WR.UART_BRIDGE_IF:	304 (23.64 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

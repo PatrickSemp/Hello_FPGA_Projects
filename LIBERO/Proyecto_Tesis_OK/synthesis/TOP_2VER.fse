@@ -1,0 +1,88 @@
+
+fsm_encoding {2610141011} onehot
+
+fsm_state_encoding {2610141011} start {00000000000001}
+
+fsm_state_encoding {2610141011} sel {00000000000010}
+
+fsm_state_encoding {2610141011} wsingle {00000000000100}
+
+fsm_state_encoding {2610141011} wsingle1 {00000000001000}
+
+fsm_state_encoding {2610141011} rsingle {00000000010000}
+
+fsm_state_encoding {2610141011} rsingle1 {00000000100000}
+
+fsm_state_encoding {2610141011} wburst {00000001000000}
+
+fsm_state_encoding {2610141011} wburst01 {00000010000000}
+
+fsm_state_encoding {2610141011} wburst02 {00000100000000}
+
+fsm_state_encoding {2610141011} wburst03 {00001000000000}
+
+fsm_state_encoding {2610141011} rburst {00010000000000}
+
+fsm_state_encoding {2610141011} rburst01 {00100000000000}
+
+fsm_state_encoding {2610141011} rburst02 {01000000000000}
+
+fsm_state_encoding {2610141011} rburst03 {10000000000000}
+
+fsm_registers {2610141011} {fsm[0]}  {fsm[1]}  {fsm[2]}  {fsm[3]}  {fsm[4]}  {fsm[5]}  {fsm[6]}  {fsm[7]}  {fsm[8]}  {fsm[9]}  {fsm[10]}  {fsm[11]}  {fsm[12]}  {fsm[13]} 
+
+fsm_encoding {1351785172} sequential
+
+fsm_state_encoding {1351785172} s0 {00}
+
+fsm_state_encoding {1351785172} s1 {01}
+
+fsm_state_encoding {1351785172} s2 {10}
+
+fsm_registers {1351785172} {state[1]}  {state[0]} 
+
+fsm_encoding {301059810597} onehot
+
+fsm_state_encoding {301059810597} s0 {0000001}
+
+fsm_state_encoding {301059810597} s1 {0000010}
+
+fsm_state_encoding {301059810597} s2 {0000100}
+
+fsm_state_encoding {301059810597} s3 {0001000}
+
+fsm_state_encoding {301059810597} s4 {0010000}
+
+fsm_state_encoding {301059810597} s5 {0100000}
+
+fsm_state_encoding {301059810597} s6 {1000000}
+
+fsm_registers {301059810597} {sm0_state[0]}  {sm0_state[1]}  {sm0_state[2]}  {sm0_state[3]}  {sm0_state[4]}  {sm0_state[5]}  {sm0_state[6]} 
+
+fsm_encoding {522102211} sequential
+
+fsm_state_encoding {522102211} Read_0 {00}
+
+fsm_state_encoding {522102211} Read_1 {01}
+
+fsm_state_encoding {522102211} Read_2 {10}
+
+fsm_state_encoding {522102211} Read_3 {11}
+
+fsm_registers {522102211} {axi_fsm_read_state[1]}  {axi_fsm_read_state[0]} 
+
+fsm_encoding {5960962} onehot
+
+fsm_state_encoding {5960962} Idle_0 {000001}
+
+fsm_state_encoding {5960962} Idle_1 {000010}
+
+fsm_state_encoding {5960962} Write_0 {000100}
+
+fsm_state_encoding {5960962} Write_1 {001000}
+
+fsm_state_encoding {5960962} Write_2 {010000}
+
+fsm_state_encoding {5960962} Bresp_0 {100000}
+
+fsm_registers {5960962} {axi_fsm_write_state[5]}  {axi_fsm_write_state[4]}  {axi_fsm_write_state[3]}  {axi_fsm_write_state[2]}  {axi_fsm_write_state[1]}  {axi_fsm_write_state[0]} 

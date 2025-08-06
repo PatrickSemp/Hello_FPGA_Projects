@@ -1,0 +1,78 @@
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-HO2RJRQ
+
+Implementation : synthesis
+
+# Written on Tue Jan 30 19:15:52 2024
+
+##### FILES SYNTAX CHECKED ##############################################
+Constraint File(s):      "D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR02\designer\TOP\synthesis.fdc"
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+          Start                                                                          Requested     Requested     Clock        Clock          Clock
+Level     Clock                                                                          Frequency     Period        Type         Group          Load 
+------------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock                              100.0 MHz     10.000        inferred     (multiple)     544  
+                                                                                                                                                      
+0 -       MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock                            100.0 MHz     10.000        inferred     (multiple)     109  
+                                                                                                                                                      
+0 -       MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                              100.0 MHz     10.000        inferred     (multiple)     80   
+                                                                                                                                                      
+0 -       DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_2_inferred_clock                         100.0 MHz     10.000        inferred     (multiple)     32   
+                                                                                                                                                      
+0 -       DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_2_inferred_clock                       100.0 MHz     10.000        inferred     (multiple)     32   
+                                                                                                                                                      
+0 -       DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_3_inferred_clock                       100.0 MHz     10.000        inferred     (multiple)     32   
+                                                                                                                                                      
+0 -       MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock                 100.0 MHz     10.000        inferred     (multiple)     31   
+                                                                                                                                                      
+0 -       DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_1_inferred_clock                       100.0 MHz     10.000        inferred     (multiple)     8    
+                                                                                                                                                      
+0 -       AUTO_HANDLER_TMR_work_top_rtl_0layer0|next_process_1_sqmuxa_inferred_clock     100.0 MHz     10.000        inferred     (multiple)     1    
+======================================================================================================================================================
+
+
+Clock Load Summary
+******************
+
+                                                                               Clock     Source                                                                                          Clock Pin                                                                            Non-clock Pin     Non-clock Pin                                                                     
+Clock                                                                          Load      Pin                                                                                             Seq Example                                                                          Seq Example       Comb Example                                                                      
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock                              544       MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CCC_0.CCC_INST.GL2(CCC)                                          UART_IF_0.UART_IF_FSM_0.Next_Address.C                                               -                 MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CCC_0.GL2_INST.I(BUFG)                             
+                                                                                                                                                                                                                                                                                                                                                                                  
+MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock                            109       MSS_CORTEXM3.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST.CLK_CONFIG_APB(MSS_010)     MSS_CORTEXM3.MDDR_Demo_sb_sb_0.MDDR_Demo_sb_sb_MSS_0.MSS_ADLIB_INST.CLK_MDDR_APB     -                 MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORECONFIGP_0.un1_fic_2_apb_m_pclk.I[0](inv)       
+                                                                                                                                                                                                                                                                                                                                                                                  
+MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                              80        MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CCC_0.CCC_INST.GL0(CCC)                                          UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_start_axi.C                                      -                 MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CCC_0.GL0_INST.I(BUFG)                             
+                                                                                                                                                                                                                                                                                                                                                                                  
+DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_2_inferred_clock                         32        UART_IF_0.DATA_HANDLE_FSM_V2_0.un1_fsm_2.OUT(and)                                               UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_data2[31:0].C                               -                 -                                                                                 
+                                                                                                                                                                                                                                                                                                                                                                                  
+DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_2_inferred_clock                       32        UART_IF_0.DATA_HANDLE_FSM_V2_0.un1_paddr_2.OUT(and)                                             UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_address[31:0].C                             -                 -                                                                                 
+                                                                                                                                                                                                                                                                                                                                                                                  
+DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_3_inferred_clock                       32        UART_IF_0.DATA_HANDLE_FSM_V2_0.un1_paddr_3.OUT(and)                                             UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_data1[31:0].C                               -                 -                                                                                 
+                                                                                                                                                                                                                                                                                                                                                                                  
+MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock                 31        MSS_CORTEXM3.MDDR_Demo_sb_sb_0.FABOSC_0.I_RCOSC_25_50MHZ.CLKOUT(RCOSC_25_50MHZ)                 MSS_CORTEXM3.MDDR_Demo_sb_sb_0.CORERESETP_0.count_ddr_enable_q1.C                    -                 MSS_CORTEXM3.MDDR_Demo_sb_sb_0.FABOSC_0.I_RCOSC_25_50MHZ_FAB.A(RCOSC_25_50MHZ_FAB)
+                                                                                                                                                                                                                                                                                                                                                                                  
+DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_1_inferred_clock                       8         UART_IF_0.DATA_HANDLE_FSM_V2_0.un1_paddr_1.OUT(and)                                             UART_IF_0.DATA_HANDLE_FSM_V2_0.uart_user_option[7:0].C                               -                 -                                                                                 
+                                                                                                                                                                                                                                                                                                                                                                                  
+AUTO_HANDLER_TMR_work_top_rtl_0layer0|next_process_1_sqmuxa_inferred_clock     1         UART_IF_0.AUTO_HANDLER_TMR_0.next_process_1_sqmuxa.OUT(and)                                     UART_IF_0.AUTO_HANDLER_TMR_0.next_process.C                                          -                 UART_IF_0.AUTO_HANDLER_TMR_0.un1_next_process_1_sqmuxa.I[0](inv)                  
+==================================================================================================================================================================================================================================================================================================================================================================================

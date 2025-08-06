@@ -1,0 +1,151 @@
+
+Copyright (C) 1994-2022 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: T-2022.09M-SP2-1
+Install: C:\Microchip\Libero_SoC_v2023.2\SynplifyPro
+OS: Windows 10 or later
+Hostname: DESKTOP-HO2RJRQ
+
+Implementation : synthesis
+
+# Written on Tue Jan 30 19:15:55 2024
+
+##### DESIGN INFO #######################################################
+
+Top View:                "TOP"
+Constraint File(s):      "D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR02\designer\TOP\synthesis.fdc"
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 0 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting                                                                       Ending                                                                         |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock                              MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock                              |     10.000           |     No paths         |     No paths         |     No paths                         
+MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock                              MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                              |     Diff grp         |     No paths         |     No paths         |     No paths                         
+MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock                              AUTO_HANDLER_TMR_work_top_rtl_0layer0|next_process_1_sqmuxa_inferred_clock     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                              MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock                              |     Diff grp         |     No paths         |     No paths         |     No paths                         
+MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                              MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                              |     10.000           |     No paths         |     No paths         |     No paths                         
+MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                              MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock                            |     Diff grp         |     No paths         |     No paths         |     No paths                         
+MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                              MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock                 |     Diff grp         |     No paths         |     No paths         |     No paths                         
+MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                              DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_1_inferred_clock                       |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                              DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_2_inferred_clock                       |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                              DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_3_inferred_clock                       |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                              DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_2_inferred_clock                         |     Diff grp         |     No paths         |     Diff grp         |     No paths                         
+MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                              AUTO_HANDLER_TMR_work_top_rtl_0layer0|next_process_1_sqmuxa_inferred_clock     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock                            MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                              |     Diff grp         |     No paths         |     No paths         |     No paths                         
+MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock                            MDDR_Demo_sb_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock                            |     10.000           |     No paths         |     5.000            |     5.000                            
+MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock                 MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                              |     Diff grp         |     No paths         |     No paths         |     No paths                         
+MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock                 MDDR_Demo_sb_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock                 |     10.000           |     No paths         |     No paths         |     No paths                         
+DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_1_inferred_clock                       MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock                              |     No paths         |     No paths         |     No paths         |     Diff grp                         
+DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_1_inferred_clock                       MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                              |     No paths         |     No paths         |     No paths         |     Diff grp                         
+DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_2_inferred_clock                       MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock                              |     No paths         |     No paths         |     No paths         |     Diff grp                         
+DATA_HANDLE_FSM_V2_32_32_8_11|un1_paddr_3_inferred_clock                       MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock                              |     No paths         |     No paths         |     No paths         |     Diff grp                         
+DATA_HANDLE_FSM_V2_32_32_8_11|un1_fsm_2_inferred_clock                         MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock                              |     No paths         |     No paths         |     No paths         |     Diff grp                         
+AUTO_HANDLER_TMR_work_top_rtl_0layer0|next_process_1_sqmuxa_inferred_clock     MDDR_Demo_sb_sb_CCC_0_FCCC|GL2_net_inferred_clock                              |     Diff grp         |     No paths         |     No paths         |     No paths                         
+AUTO_HANDLER_TMR_work_top_rtl_0layer0|next_process_1_sqmuxa_inferred_clock     MDDR_Demo_sb_sb_CCC_0_FCCC|GL0_net_inferred_clock                              |     Diff grp         |     No paths         |     No paths         |     No paths                         
+=========================================================================================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:DEVRST_N_0
+p:MDDR_ADDR_0[0]
+p:MDDR_ADDR_0[1]
+p:MDDR_ADDR_0[2]
+p:MDDR_ADDR_0[3]
+p:MDDR_ADDR_0[4]
+p:MDDR_ADDR_0[5]
+p:MDDR_ADDR_0[6]
+p:MDDR_ADDR_0[7]
+p:MDDR_ADDR_0[8]
+p:MDDR_ADDR_0[9]
+p:MDDR_ADDR_0[10]
+p:MDDR_ADDR_0[11]
+p:MDDR_ADDR_0[12]
+p:MDDR_ADDR_0[13]
+p:MDDR_ADDR_0[14]
+p:MDDR_ADDR_0[15]
+p:MDDR_BA_0[0]
+p:MDDR_BA_0[1]
+p:MDDR_BA_0[2]
+p:MDDR_CAS_N_0
+p:MDDR_CKE_0
+p:MDDR_CLK_0
+p:MDDR_CLK_N_0
+p:MDDR_CS_N_0
+p:MDDR_DM_RDQS_0[0] (bidir end point)
+p:MDDR_DM_RDQS_0[0] (bidir start point)
+p:MDDR_DQS_0[0] (bidir end point)
+p:MDDR_DQS_0[0] (bidir start point)
+p:MDDR_DQS_N_0[0] (bidir end point)
+p:MDDR_DQS_N_0[0] (bidir start point)
+p:MDDR_DQS_TMATCH_0_IN_0
+p:MDDR_DQS_TMATCH_0_OUT_0
+p:MDDR_DQ_0[0] (bidir end point)
+p:MDDR_DQ_0[0] (bidir start point)
+p:MDDR_DQ_0[1] (bidir end point)
+p:MDDR_DQ_0[1] (bidir start point)
+p:MDDR_DQ_0[2] (bidir end point)
+p:MDDR_DQ_0[2] (bidir start point)
+p:MDDR_DQ_0[3] (bidir end point)
+p:MDDR_DQ_0[3] (bidir start point)
+p:MDDR_DQ_0[4] (bidir end point)
+p:MDDR_DQ_0[4] (bidir start point)
+p:MDDR_DQ_0[5] (bidir end point)
+p:MDDR_DQ_0[5] (bidir start point)
+p:MDDR_DQ_0[6] (bidir end point)
+p:MDDR_DQ_0[6] (bidir start point)
+p:MDDR_DQ_0[7] (bidir end point)
+p:MDDR_DQ_0[7] (bidir start point)
+p:MDDR_ODT_0
+p:MDDR_RAS_N_0
+p:MDDR_RESET_N_0
+p:MDDR_WE_N_0
+p:MMUART_0_RXD_F2M
+p:MMUART_0_TXD_M2F
+p:RX_LED
+p:TX_LED
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

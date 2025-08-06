@@ -1,0 +1,23 @@
+
+########			REPORT FOR HIGH FANOUT NETS			########
+
+CLOCK GLOBAL THRESHOLD - 2
+ASYNC GLOBAL THRESHOLD - 12
+GLOBAL THRESHOLD - 5000
+
+NET NAME                                                                     CLOCK LOADS     ASYNC RST LOADS     DATA LOADS     TOTAL FANOUT     GLOBAL BUFFER PRESENT
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+WR_MDDR_MSS_DDR_FIC_SUBSYSTEM_CLK                                            440             0                   0              440              YES                  
+WR_MDDR.MDDR_Demo_sb_sb_0.CORECONFIGP_0_APB_S_PCLK                           75              0                   0              75               YES                  
+WR_MDDR_FIC_0_CLK                                                            61              0                   0              61               YES                  
+MANEJO_SOLICITUDES.DATA_HANDLE_FSM_V2_0.un1_fsm_4_inferred_clock_RNI2F03     32              0                   0              32               YES                  
+MANEJO_SOLICITUDES.DATA_HANDLE_FSM_V2_0.un1_fsm_3_inferred_clock_RNI10N8     32              0                   0              32               YES                  
+MANEJO_SOLICITUDES.DATA_HANDLE_FSM_V2_0.un1_fsm_2_inferred_clock_RNI0HDE     32              0                   0              32               YES                  
+WR_MDDR.MDDR_Demo_sb_sb_0.FABOSC_0_RCOSC_25_50MHZ_O2F                        23              0                   0              23               YES                  
+MANEJO_SOLICITUDES.DATA_HANDLE_FSM_V2_0.un1_fsm_1_inferred_clock_RNIV144     8               0                   0              8                YES                  
+INIT_DONE_int_arst                                                           0               300                 0              300              YES                  
+MANEJO_SOLICITUDES.DATA_HANDLE_FSM_V2_0.fsm_arst[4]                          0               104                 0              104              YES                  
+WR_MDDR.MDDR_Demo_sb_sb_0.FIC_2_APB_M_PRESET_N_arst                          0               76                  0              76               YES                  
+WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.sm0_areset_n_clk_base                 0               27                  0              27               YES                  
+WR_MDDR.MDDR_Demo_sb_sb_0.CORERESETP_0.sdif0_areset_n_rcosc_arst             0               21                  0              21               YES                  
+======================================================================================================================================================================
