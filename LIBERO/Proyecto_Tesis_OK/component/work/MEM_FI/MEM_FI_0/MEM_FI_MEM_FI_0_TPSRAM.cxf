@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component> 
+<vendor></vendor>
+<library></library>
+<name>MEM_FI_MEM_FI_0_TPSRAM</name>
+<version></version>
+<hwModel>
+<views>
+<view>
+<name>HDL</name>
+<fileSetRef>HDL_FILESET</fileSetRef>
+</view>
+<view>
+<name>SIMULATION</name>
+<fileSetRef>ANY_SIMULATION_FILESET</fileSetRef>
+</view>
+<view>
+<name>OTHER</name>
+<fileSetRef>OTHER_FILESET</fileSetRef>
+</view>
+</views>
+</hwModel>
+<fileSets>
+<fileSet fileSetId="HDL_FILESET">
+<file>
+<name>MEM_FI_MEM_FI_0_TPSRAM.vhd</name>
+<userFileType>vhdlSource</userFileType>
+</file>
+</fileSet>
+<fileSet fileSetId="ANY_SIMULATION_FILESET">
+</fileSet>
+<fileSet fileSetId="OTHER_FILESET">
+</fileSet>
+</fileSets>
+</component>

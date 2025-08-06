@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>MEMORY_TMR</header>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2023.2\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin COMPARADOR_0:A_in[7:0]</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/MEMORY_TMR/pins/COMPARADOR_0:A_in</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2023.2\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin COMPARADOR_0:B_in[7:0]</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/MEMORY_TMR/pins/COMPARADOR_0:B_in</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2023.2\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>Undriven Pin</message>
+    <detail>Unconnected input pin COMPARADOR_0:C_in[7:0]</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/MEMORY_TMR/pins/COMPARADOR_0:C_in</crossprobe>
+  </drc>
+</drcreport>

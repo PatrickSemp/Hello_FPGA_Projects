@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>AUTO_PROCESS</header>
+  <drc>
+    <status>C:\Microchip\Libero_SoC_v2023.2\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin AUTO_PROCESS:RCLK</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/AUTO_PROCESS/pins/AUTO_PROCESS:RCLK</crossprobe>
+  </drc>
+</drcreport>

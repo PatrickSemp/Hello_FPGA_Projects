@@ -1,0 +1,39 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2023.2 (Version 2023.2.0.8)
+
+Date      :  Thu Feb  1 10:18:04 2024
+Project   :  D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR03
+Component :  MDDR_Demo_sb_sb_MSS
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/work/MDDR_Demo_sb_sb_MSS/MDDR_Demo_sb_sb_MSS.vhd
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/work/MDDR_Demo_sb_sb_MSS/MDDR_Demo_sb_sb_MSS_syn.vhd
+
+HDL source files for Mentor Precision Synthesis tool:
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/work/MDDR_Demo_sb_sb_MSS/MDDR_Demo_sb_sb_MSS_pre.vhd
+
+Stimulus files for all Simulation tools:
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/work/MDDR_Demo_sb_sb_MSS/CM3_compile_bfm.tcl
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/work/MDDR_Demo_sb_sb_MSS/user.bfm
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/work/MDDR_Demo_sb_sb_MSS/test.bfm
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/Actel/SmartFusion2MSS/MSS/1.1.500/peripheral_init.bfm
+
+Firmware files for all Software IDE tools:
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/work/MDDR_Demo_sb_sb_MSS/sys_config_mss_clocks.h
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/work/MDDR_Demo_sb_sb_MSS/sys_config_mddr_define.h
+
+Configuration files to be used for Programming:
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/work/MDDR_Demo_sb_sb_MSS/ENVM.cfg
+
+Configuration files to be used for all Simulation tools:
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/work/MDDR_Demo_sb_sb_MSS/MDDR_init.bfm
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/work/MDDR_Demo_sb_sb_MSS/ENVM.cfg
+
+Configuration files to be used for Power Analysis:
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/work/MDDR_Demo_sb_sb_MSS/MDDR_init.reg
+
+Constraint files:
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/work/MDDR_Demo_sb_sb_MSS\MDDR_Demo_sb_sb_MSS.sdc

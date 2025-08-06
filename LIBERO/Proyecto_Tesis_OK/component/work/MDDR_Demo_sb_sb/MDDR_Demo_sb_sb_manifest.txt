@@ -1,0 +1,83 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2023.2 (Version 2023.2.0.8)
+
+Date      :  Thu Feb  1 10:18:16 2024
+Project   :  D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR03
+Component :  MDDR_Demo_sb_sb
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/work/MDDR_Demo_sb_sb/MDDR_Demo_sb_sb.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/work/MDDR_Demo_sb_sb/MDDR_Demo_sb_sb.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/work/MDDR_Demo_sb_sb/CCC_0/MDDR_Demo_sb_sb_CCC_0_FCCC.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/components.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3_muxptob3.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vhdl/core/coreapb3_iaddr_reg.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_pkg.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_feedthrough.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_interconnect_ntom.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_master_stage.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_matrix_m.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_matrix_s.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_ra_arbiter.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_ra_channel.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_rd_channel.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_rdmatrix_4Mto1S.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_rdmatrix_4Mto1S_hgs_high.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_rdmatrix_4Mto1S_hgs_low.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_rdmatrix_16Sto1M.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_slave_stage.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_wa_arbiter.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_wa_channel.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_wd_channel.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_wresp_channel.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_wrmatrix_4Mto1S.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_wrmatrix_4Mto1S_hgs_high.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/axi_wrmatrix_4Mto1S_hgs_low.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/XHDL_misc.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/core/XHDL_std_logic.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/work/MDDR_Demo_sb_sb/COREAXI_0/rtl/vhdl/core/coreaxi.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/Actel/DirectCore/CoreConfigP/7.1.100/rtl/vhdl/core/coreconfigp.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vhdl/core/coreresetp_pcie_hotreset.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/work/MDDR_Demo_sb_sb/FABOSC_0/MDDR_Demo_sb_sb_FABOSC_0_OSC.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/work/MDDR_Demo_sb_sb/MDDR_Demo_sb_sb.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/work/MDDR_Demo_sb_sb_MSS/MDDR_Demo_sb_sb_MSS.vhd
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/Actel/SgCore/OSC/2.0.101/osc_comps.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/work/MDDR_Demo_sb_sb_MSS/MDDR_Demo_sb_sb_MSS_syn.vhd
+
+HDL source files for Mentor Precision Synthesis tool:
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/Actel/SgCore/OSC/2.0.101/osc_comps_pre.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/work/MDDR_Demo_sb_sb_MSS/MDDR_Demo_sb_sb_MSS_pre.vhd
+
+Stimulus files for all Simulation tools:
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/work/MDDR_Demo_sb_sb_MSS/CM3_compile_bfm.tcl
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/work/MDDR_Demo_sb_sb_MSS/user.bfm
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/work/MDDR_Demo_sb_sb_MSS/test.bfm
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/Actel/SmartFusion2MSS/MSS/1.1.500/peripheral_init.bfm
+
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/Actel/DirectCore/COREAXI/3.1.100/coreparameters.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/test/user/axi_master.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/Actel/DirectCore/COREAXI/3.1.100/rtl/vhdl/test/user/axi_slave.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/work/MDDR_Demo_sb_sb/COREAXI_0/rtl/vhdl/test/user/testbench.vhd
+
+Firmware files for all Software IDE tools:
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/work/MDDR_Demo_sb_sb_MSS/sys_config_mss_clocks.h
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/work/MDDR_Demo_sb_sb_MSS/sys_config_mddr_define.h
+
+Configuration files to be used for Programming:
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/work/MDDR_Demo_sb_sb_MSS/ENVM.cfg
+
+Configuration files to be used for all Simulation tools:
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/work/MDDR_Demo_sb_sb_MSS/ENVM.cfg
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/work/MDDR_Demo_sb_sb_MSS/MDDR_init.bfm
+
+Configuration files to be used for Power Analysis:
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/work/MDDR_Demo_sb_sb_MSS/MDDR_init.reg
+
+Constraint files:
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/work/MDDR_Demo_sb_sb\CCC_0\MDDR_Demo_sb_sb_CCC_0_FCCC.sdc
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR03/component/work/MDDR_Demo_sb_sb\FABOSC_0\MDDR_Demo_sb_sb_FABOSC_0_OSC.sdc

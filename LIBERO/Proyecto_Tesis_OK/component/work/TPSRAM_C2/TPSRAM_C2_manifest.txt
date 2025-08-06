@@ -1,0 +1,12 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2023.2 (Version 2023.2.0.8)
+
+Date      :  Fri Mar  1 14:11:48 2024
+Project   :  D:\ESPE\TESIS\SW_LIBERO\PROGRAMAS\B_PRUEBAS\Prueba37_16KB_TMR04
+Component :  TPSRAM_C2
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR04/component/work/TPSRAM_C2/TPSRAM_C2_0/TPSRAM_C2_TPSRAM_C2_0_TPSRAM.vhd
+    D:/ESPE/TESIS/SW_LIBERO/PROGRAMAS/B_PRUEBAS/Prueba37_16KB_TMR04/component/work/TPSRAM_C2/TPSRAM_C2.vhd
+
